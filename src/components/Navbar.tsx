@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import {
   ShieldCheck,
   ChevronDown,
@@ -17,7 +16,11 @@ import {
   Building2,
   Image as ImageIcon,
   CheckCircle2,
-  FileCheck2
+  FileCheck2,
+  Sparkles,
+  Zap,
+  HelpCircle,
+  FileText
 } from 'lucide-react';
 import Logo from '@/components/Logo';
 
@@ -28,7 +31,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
+      setIsScrolled(window.scrollY > 15);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -36,56 +39,63 @@ export default function Navbar() {
 
   return (
     <>
-      {/* ─── Top Trust Announcement Bar ────────────────────────────── */}
-      <div className="bg-slate-900 text-slate-200 text-xs py-2 px-4 border-b border-slate-800">
+      {/* ─── Executive Top Trust & Response Bar ────────────────────────────── */}
+      <div className="bg-slate-950 text-slate-300 text-xs py-2 px-4 border-b border-slate-850">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
-          <div className="flex items-center gap-3 text-[11px] sm:text-xs">
+          <div className="flex items-center gap-2.5 text-[11px] sm:text-xs">
             <span className="flex items-center gap-1.5 font-bold text-emerald-400">
-              <CheckCircle2 className="w-3.5 h-3.5" />
-              PJK3 Resmi SKP KEMNAKER RI & BNSP
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+              </span>
+              PJK3 Resmi SKP KEMNAKER RI • LSP BNSP
             </span>
-            <span className="hidden md:inline text-slate-500">|</span>
-            <span className="hidden md:inline text-slate-300">
+            <span className="hidden md:inline text-slate-600">|</span>
+            <span className="hidden md:inline text-slate-400">
               Mitra Terdaftar PaDi UMKM (BUMN) & LPSE RI
             </span>
           </div>
 
           <div className="flex items-center gap-4 text-[11px] sm:text-xs text-slate-300">
-            <Link href="/verifikasi" className="hover:text-emerald-400 font-semibold transition-colors flex items-center gap-1">
+            <Link
+              href="/verifikasi"
+              className="hover:text-emerald-400 font-semibold transition-colors flex items-center gap-1 text-slate-300"
+            >
               <FileCheck2 className="w-3.5 h-3.5 text-emerald-400" />
               Verifikasi Sertifikat
             </Link>
-            <span className="text-slate-600">|</span>
+            <span className="text-slate-700">|</span>
             <a
-              href="https://wa.me/6287759151278"
+              href="https://wa.me/6287759151278?text=Halo%20Wahana%20Totalita%2C%20saya%20ingin%20konsultasi%20pelatihan%20K3"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-emerald-400 font-bold text-white transition-colors"
+              className="text-emerald-400 hover:text-emerald-300 font-bold transition-colors flex items-center gap-1"
             >
-              📞 Hotline: 0877-5915-1278
+              <Phone className="w-3 h-3 fill-current" />
+              Hotline: 0877-5915-1278
             </a>
           </div>
         </div>
       </div>
 
-      {/* ─── Main Navigation Header ───────────────────────────────── */}
+      {/* ─── Main Executive Header ───────────────────────────────── */}
       <header
-        className={`sticky top-0 z-50 transition-all duration-200 ${
+        className={`sticky top-0 z-50 transition-all duration-300 ${
           isScrolled
-            ? 'bg-white/95 backdrop-blur-md shadow-md border-b border-slate-200'
-            : 'bg-white border-b border-slate-100'
+            ? 'bg-slate-950/95 backdrop-blur-md shadow-xl border-b border-slate-800'
+            : 'bg-slate-950 border-b border-slate-900'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             {/* Real Brand Logo Lockup */}
-            <Logo variant="dark" size="md" />
+            <Logo variant="light" size="md" />
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-1 xl:gap-2">
               <Link
                 href="/"
-                className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-emerald-700 hover:bg-slate-50 rounded-lg transition-colors"
+                className="px-3.5 py-2 text-sm font-semibold text-slate-200 hover:text-emerald-400 hover:bg-slate-900 rounded-xl transition-colors"
               >
                 Beranda
               </Link>
@@ -96,155 +106,126 @@ export default function Navbar() {
                 onMouseEnter={() => setActiveDropdown('pelatihan')}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <button className="flex items-center gap-1 px-3 py-2 text-sm font-semibold text-slate-700 hover:text-emerald-700 hover:bg-slate-50 rounded-lg transition-colors">
+                <button className="flex items-center gap-1 px-3.5 py-2 text-sm font-semibold text-slate-200 hover:text-emerald-400 hover:bg-slate-900 rounded-xl transition-colors">
                   <span>Pelatihan & Sertifikasi</span>
-                  <ChevronDown className="w-4 h-4 text-slate-400 group-hover:text-emerald-600" />
+                  <ChevronDown className="w-4 h-4 text-slate-400" />
                 </button>
 
                 {activeDropdown === 'pelatihan' && (
-                  <div className="absolute top-full left-0 w-80 bg-white rounded-2xl shadow-2xl border border-slate-200 p-3 grid grid-cols-1 gap-1 z-50 animate-in fade-in-50 duration-150">
+                  <div className="absolute top-full left-0 w-84 bg-slate-900 rounded-2xl shadow-2xl border border-slate-750 p-3 grid grid-cols-1 gap-1 z-50 animate-in fade-in-50 duration-150">
                     <Link
                       href="/pelatihan"
-                      className="p-2.5 rounded-xl hover:bg-slate-50 transition-colors flex items-start gap-3"
+                      className="p-2.5 rounded-xl hover:bg-slate-800 transition-colors flex items-start gap-3"
                     >
-                      <Award className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                      <Award className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                       <div>
-                        <div className="text-xs font-bold text-slate-900">Katalog Semua Pelatihan (147 Program)</div>
-                        <div className="text-[11px] text-slate-500">Sertifikasi Kemnaker RI & BNSP</div>
+                        <div className="text-xs font-bold text-white">Katalog Semua Pelatihan (147 Program)</div>
+                        <div className="text-[11px] text-slate-400">Sertifikasi Kemnaker RI & BNSP</div>
                       </div>
                     </Link>
                     <Link
                       href="/jadwal"
-                      className="p-2.5 rounded-xl hover:bg-slate-50 transition-colors flex items-start gap-3"
+                      className="p-2.5 rounded-xl hover:bg-slate-800 transition-colors flex items-start gap-3"
                     >
-                      <Calendar className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                      <Calendar className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                       <div>
-                        <div className="text-xs font-bold text-slate-900">Jadwal Pelatihan 2026</div>
-                        <div className="text-[11px] text-slate-500">Kelas Online Zoom & Tatap Muka</div>
+                        <div className="text-xs font-bold text-white">Jadwal Pelatihan 2026</div>
+                        <div className="text-[11px] text-slate-400">Kelas Online Zoom & Tatap Muka</div>
                       </div>
                     </Link>
                     <Link
                       href="/perusahaan"
-                      className="p-2.5 rounded-xl hover:bg-slate-50 transition-colors flex items-start gap-3"
+                      className="p-2.5 rounded-xl hover:bg-slate-800 transition-colors flex items-start gap-3"
                     >
-                      <Building2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                      <Building2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                       <div>
-                        <div className="text-xs font-bold text-slate-900">In-House Training Perusahaan</div>
-                        <div className="text-[11px] text-slate-500">Pelatihan khusus di lokasi perusahaan</div>
+                        <div className="text-xs font-bold text-white">In-House Training Perusahaan</div>
+                        <div className="text-[11px] text-slate-400">Pelatihan khusus di lokasi perusahaan</div>
                       </div>
                     </Link>
                   </div>
                 )}
               </div>
 
-              {/* Layanan & CSMS Dropdown */}
+              {/* Layanan & Perpanjangan Dropdown */}
               <div
                 className="relative"
                 onMouseEnter={() => setActiveDropdown('layanan')}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <button className="flex items-center gap-1 px-3 py-2 text-sm font-semibold text-slate-700 hover:text-emerald-700 hover:bg-slate-50 rounded-lg transition-colors">
+                <button className="flex items-center gap-1 px-3.5 py-2 text-sm font-semibold text-slate-200 hover:text-emerald-400 hover:bg-slate-900 rounded-xl transition-colors">
                   <span>Layanan Korporat</span>
                   <ChevronDown className="w-4 h-4 text-slate-400" />
                 </button>
 
                 {activeDropdown === 'layanan' && (
-                  <div className="absolute top-full left-0 w-80 bg-white rounded-2xl shadow-2xl border border-slate-200 p-3 grid grid-cols-1 gap-1 z-50 animate-in fade-in-50 duration-150">
-                    <Link
-                      href="/csms"
-                      className="p-2.5 rounded-xl hover:bg-emerald-50/50 transition-colors flex items-start gap-3"
-                    >
-                      <ShieldCheck className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
-                      <div>
-                        <div className="text-xs font-bold text-slate-900">Konsultasi CSMS & Tender</div>
-                        <div className="text-[11px] text-slate-500">Penyusunan dokumen lolos kualifikasi BUMN/Migas</div>
-                      </div>
-                    </Link>
-                    <Link
-                      href="/smk3"
-                      className="p-2.5 rounded-xl hover:bg-slate-50 transition-colors flex items-start gap-3"
-                    >
-                      <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
-                      <div>
-                        <div className="text-xs font-bold text-slate-900">Audit & Sertifikasi SMK3 PP 50/2012</div>
-                        <div className="text-[11px] text-slate-500">Pendampingan sertifikasi bendera emas/perak</div>
-                      </div>
-                    </Link>
+                  <div className="absolute top-full left-0 w-84 bg-slate-900 rounded-2xl shadow-2xl border border-slate-750 p-3 grid grid-cols-1 gap-1 z-50 animate-in fade-in-50 duration-150">
                     <Link
                       href="/perpanjangan-skp"
-                      className="p-2.5 rounded-xl hover:bg-slate-50 transition-colors flex items-start gap-3"
+                      className="p-2.5 rounded-xl hover:bg-slate-800 transition-colors flex items-start gap-3"
                     >
-                      <FileCheck2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                      <ShieldCheck className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                       <div>
-                        <div className="text-xs font-bold text-slate-900">Perpanjangan SKP & Lisensi K3</div>
-                        <div className="text-[11px] text-slate-500">Proses resmi Kemnaker RI cepat & bergaransi</div>
+                        <div className="text-xs font-bold text-white">Perpanjangan SKP & Lisensi K3</div>
+                        <div className="text-[11px] text-slate-400">Kemnaker RI tanpa pelatihan ulang</div>
+                      </div>
+                    </Link>
+                    <Link
+                      href="/csms"
+                      className="p-2.5 rounded-xl hover:bg-slate-800 transition-colors flex items-start gap-3"
+                    >
+                      <Building2 className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
+                      <div>
+                        <div className="text-xs font-bold text-white">Konsultasi CSMS & SMK3</div>
+                        <div className="text-[11px] text-slate-400">Dokumen tender & prakualifikasi HSE</div>
                       </div>
                     </Link>
                     <Link
                       href="/layanan-pemerintah"
-                      className="p-2.5 rounded-xl hover:bg-slate-50 transition-colors flex items-start gap-3"
+                      className="p-2.5 rounded-xl hover:bg-slate-800 transition-colors flex items-start gap-3"
                     >
-                      <Building2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                      <Award className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                       <div>
-                        <div className="text-xs font-bold text-slate-900">Pengadaan Instansi Pemerintah</div>
-                        <div className="text-[11px] text-slate-500">Jalur resmi LPSE, E-Katalog & PaDi UMKM</div>
+                        <div className="text-xs font-bold text-white">Layanan Instansi Pemerintah</div>
+                        <div className="text-[11px] text-slate-400">Pengadaan via LPSE & PaDi UMKM</div>
                       </div>
                     </Link>
                   </div>
                 )}
               </div>
 
-              {/* Tools K3 Dropdown */}
+              {/* Tools & Safety Talk Dropdown */}
               <div
                 className="relative"
                 onMouseEnter={() => setActiveDropdown('tools')}
                 onMouseLeave={() => setActiveDropdown(null)}
               >
-                <button className="flex items-center gap-1 px-3 py-2 text-sm font-semibold text-slate-700 hover:text-emerald-700 hover:bg-slate-50 rounded-lg transition-colors">
-                  <span>Tools K3</span>
-                  <span className="bg-emerald-100 text-emerald-800 text-[10px] font-extrabold px-1.5 py-0.5 rounded">
-                    Gratis
-                  </span>
+                <button className="flex items-center gap-1 px-3.5 py-2 text-sm font-semibold text-slate-200 hover:text-emerald-400 hover:bg-slate-900 rounded-xl transition-colors">
+                  <span>Tools HSE</span>
                   <ChevronDown className="w-4 h-4 text-slate-400" />
                 </button>
 
                 {activeDropdown === 'tools' && (
-                  <div className="absolute top-full left-0 w-80 bg-white rounded-2xl shadow-2xl border border-slate-200 p-3 grid grid-cols-1 gap-1 z-50 animate-in fade-in-50 duration-150">
+                  <div className="absolute top-full left-0 w-80 bg-slate-900 rounded-2xl shadow-2xl border border-slate-750 p-3 grid grid-cols-1 gap-1 z-50 animate-in fade-in-50 duration-150">
                     <Link
                       href="/tools/safety-talk"
-                      className="p-2.5 rounded-xl hover:bg-emerald-50/50 transition-colors flex items-start gap-3"
+                      className="p-2.5 rounded-xl hover:bg-slate-800 transition-colors flex items-start gap-3"
                     >
-                      <span className="text-lg">📢</span>
+                      <BookOpen className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
                       <div>
-                        <div className="text-xs font-bold text-slate-900">100 Materi Safety Talk (TBM)</div>
-                        <div className="text-[11px] text-slate-500">Lengkap dengan lembar absensi cetak</div>
-                      </div>
-                    </Link>
-                    <Link
-                      href="/tools/kalkulator-k3"
-                      className="p-2.5 rounded-xl hover:bg-slate-50 transition-colors flex items-start gap-3"
-                    >
-                      <span className="text-lg">🧮</span>
-                      <div>
-                        <div className="text-xs font-bold text-slate-900">Kalkulator FR & SR K3</div>
-                        <div className="text-[11px] text-slate-500">Hitung Frequency & Severity Rate</div>
-                      </div>
-                    </Link>
-                    <Link
-                      href="/tools/risk-matrix"
-                      className="p-2.5 rounded-xl hover:bg-slate-50 transition-colors flex items-start gap-3"
-                    >
-                      <span className="text-lg">📊</span>
-                      <div>
-                        <div className="text-xs font-bold text-slate-900">Risk Matrix 5x5 Online</div>
-                        <div className="text-[11px] text-slate-500">Penilaian risiko HIRADC / IBPR</div>
+                        <div className="text-xs font-bold text-white">100 Materi Safety Talk</div>
+                        <div className="text-[11px] text-slate-400">Toolbox meeting & lembar presensi</div>
                       </div>
                     </Link>
                     <Link
                       href="/tools"
-                      className="p-2.5 rounded-xl bg-slate-50 hover:bg-slate-100 transition-colors text-center text-xs font-bold text-emerald-700 block mt-1"
+                      className="p-2.5 rounded-xl hover:bg-slate-800 transition-colors flex items-start gap-3"
                     >
-                      Lihat Semua 13 Tools K3 →
+                      <Wrench className="w-5 h-5 text-emerald-400 shrink-0 mt-0.5" />
+                      <div>
+                        <div className="text-xs font-bold text-white">10 Kalkulator & Builder K3</div>
+                        <div className="text-[11px] text-slate-400">JSA, IBPR, Noise, Risk Matrix</div>
+                      </div>
                     </Link>
                   </div>
                 )}
@@ -252,44 +233,39 @@ export default function Navbar() {
 
               <Link
                 href="/galeri"
-                className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-emerald-700 hover:bg-slate-50 rounded-lg transition-colors flex items-center gap-1.5"
+                className="px-3.5 py-2 text-sm font-semibold text-slate-200 hover:text-emerald-400 hover:bg-slate-900 rounded-xl transition-colors flex items-center gap-1.5"
               >
-                <ImageIcon className="w-4 h-4 text-emerald-600" />
-                Galeri Foto
+                <ImageIcon className="w-4 h-4 text-emerald-400" />
+                <span>Galeri (67 Foto)</span>
               </Link>
 
               <Link
                 href="/artikel"
-                className="px-3 py-2 text-sm font-semibold text-slate-700 hover:text-emerald-700 hover:bg-slate-50 rounded-lg transition-colors"
+                className="px-3.5 py-2 text-sm font-semibold text-slate-200 hover:text-emerald-400 hover:bg-slate-900 rounded-xl transition-colors"
               >
-                Artikel & Edukasi
+                Artikel & Berita
               </Link>
             </nav>
 
-            {/* Right CTA Button */}
+            {/* Desktop Lead Hunter CTA Button */}
             <div className="hidden lg:flex items-center gap-3">
               <a
-                href="https://wa.me/6287759151278?text=Halo%20Wahana%20Totalita%2C%20saya%20ingin%20konsultasi%20pelatihan%20K3"
+                href="https://wa.me/6287759151278?text=Halo%20Wahana%20Totalita%2C%20saya%20ingin%20minta%20proposal%20penawaran%20dan%20jadwal%20pelatihan%20K3"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs xl:text-sm px-5 py-3 rounded-xl shadow-md hover:shadow-lg shadow-emerald-600/20 transition-all flex items-center gap-2"
+                className="bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white font-extrabold text-xs sm:text-sm px-5 py-3 rounded-xl shadow-lg shadow-emerald-950/60 flex items-center gap-2 transition-all transform hover:scale-[1.02] active:scale-[0.98]"
               >
-                <Phone className="w-4 h-4 fill-current" />
-                Konsultasi WhatsApp
+                <Sparkles className="w-4 h-4 text-amber-300 animate-pulse" />
+                <span>Minta Proposal Kilat</span>
               </a>
             </div>
 
-            {/* Mobile Hamburger Toggle */}
-            <div className="flex lg:hidden items-center gap-2">
-              <a
-                href="https://wa.me/6287759151278"
-                className="bg-emerald-600 text-white p-2.5 rounded-xl"
-              >
-                <Phone className="w-4 h-4 fill-current" />
-              </a>
+            {/* Mobile Menu Toggle Button */}
+            <div className="flex items-center gap-2 lg:hidden">
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="p-2 rounded-xl text-slate-700 hover:bg-slate-100 focus:outline-none"
+                className="p-2.5 rounded-xl text-slate-300 hover:text-white hover:bg-slate-900 focus:outline-none"
+                aria-label="Toggle Menu"
               >
                 {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
               </button>
@@ -297,81 +273,86 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* ─── Mobile Menu Drawer ─────────────────────────────────── */}
+        {/* ─── Mobile Slideout Navigation ─────────────────────────────── */}
         {mobileMenuOpen && (
-          <div className="lg:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-3">
-            <Link
-              href="/"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block py-2 text-sm font-bold text-slate-800 border-b border-slate-100"
-            >
-              Beranda
-            </Link>
-            <Link
-              href="/pelatihan"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block py-2 text-sm font-bold text-slate-800 border-b border-slate-100"
-            >
-              Katalog Pelatihan (147 Program)
-            </Link>
-            <Link
-              href="/jadwal"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block py-2 text-sm font-bold text-slate-800 border-b border-slate-100"
-            >
-              Jadwal Pelatihan 2026
-            </Link>
-            <Link
-              href="/csms"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block py-2 text-sm font-bold text-slate-800 border-b border-slate-100"
-            >
-              Konsultasi CSMS & Tender
-            </Link>
-            <Link
-              href="/tools/safety-talk"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block py-2 text-sm font-bold text-slate-800 border-b border-slate-100"
-            >
-              100 Materi Safety Talk (TBM)
-            </Link>
-            <Link
-              href="/tools"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block py-2 text-sm font-bold text-slate-800 border-b border-slate-100"
-            >
-              Tools & Kalkulator K3
-            </Link>
-            <Link
-              href="/galeri"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block py-2 text-sm font-bold text-slate-800 border-b border-slate-100"
-            >
-              Galeri Dokumentasi Foto
-            </Link>
-            <Link
-              href="/artikel"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block py-2 text-sm font-bold text-slate-800 border-b border-slate-100"
-            >
-              Artikel & Edukasi K3
-            </Link>
-            <Link
-              href="/verifikasi"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block py-2 text-sm font-bold text-slate-800"
-            >
-              Verifikasi Sertifikat
-            </Link>
+          <div className="lg:hidden bg-slate-950 border-b border-slate-850 px-4 pt-3 pb-8 space-y-4 shadow-2xl">
+            <nav className="space-y-1">
+              <Link
+                href="/"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-2.5 text-sm font-semibold text-slate-200 hover:bg-slate-900 rounded-xl"
+              >
+                Beranda
+              </Link>
+              <Link
+                href="/pelatihan"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-2.5 text-sm font-semibold text-slate-200 hover:bg-slate-900 rounded-xl"
+              >
+                Semua Pelatihan (147 Program)
+              </Link>
+              <Link
+                href="/perpanjangan-skp"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-2.5 text-sm font-semibold text-emerald-400 hover:bg-slate-900 rounded-xl"
+              >
+                Perpanjangan SKP & Lisensi K3
+              </Link>
+              <Link
+                href="/jadwal"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-2.5 text-sm font-semibold text-slate-200 hover:bg-slate-900 rounded-xl"
+              >
+                Jadwal Pelatihan 2026
+              </Link>
+              <Link
+                href="/galeri"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-2.5 text-sm font-semibold text-slate-200 hover:bg-slate-900 rounded-xl"
+              >
+                Dokumentasi Pelatihan (67 Foto)
+              </Link>
+              <Link
+                href="/tools/safety-talk"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-2.5 text-sm font-semibold text-slate-200 hover:bg-slate-900 rounded-xl"
+              >
+                100 Safety Talks
+              </Link>
+              <Link
+                href="/tools"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-2.5 text-sm font-semibold text-slate-200 hover:bg-slate-900 rounded-xl"
+              >
+                Tools & Kalkulator K3
+              </Link>
+              <Link
+                href="/artikel"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-2.5 text-sm font-semibold text-slate-200 hover:bg-slate-900 rounded-xl"
+              >
+                Artikel & Wawasan K3
+              </Link>
+              <Link
+                href="/verifikasi"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block px-4 py-2.5 text-sm font-semibold text-slate-200 hover:bg-slate-900 rounded-xl"
+              >
+                Verifikasi Sertifikat Online
+              </Link>
+            </nav>
 
-            <a
-              href="https://wa.me/6287759151278?text=Halo%20Wahana%20Totalita%2C%20saya%20ingin%20konsultasi%20pelatihan%20K3"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full bg-emerald-600 text-white font-bold text-center py-3 rounded-xl block text-sm shadow-md"
-            >
-              Hubungi CS via WhatsApp
-            </a>
+            <div className="pt-2">
+              <a
+                href="https://wa.me/6287759151278?text=Halo%20Wahana%20Totalita%2C%20saya%20ingin%20minta%20proposal%20penawaran%20dan%20jadwal%20pelatihan%20K3"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-sm py-3.5 rounded-xl shadow-lg flex items-center justify-center gap-2"
+              >
+                <Phone className="w-4 h-4 fill-current" />
+                Konsultasi WhatsApp Sekarang
+              </a>
+            </div>
           </div>
         )}
       </header>
