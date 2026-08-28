@@ -1,156 +1,162 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { Phone, FileText, Sparkles, X, ChevronRight, ShieldCheck, Clock } from 'lucide-react';
+import React, { useState } from 'react';
+import { Phone, X, Sparkles, Send, ShieldCheck, CheckCircle2, Award } from 'lucide-react';
 
 export default function LeadHunterBar() {
-  const [isVisible, setIsVisible] = useState(false);
-  const [showQuickForm, setShowQuickForm] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedProgram, setSelectedProgram] = useState('Ahli K3 Umum KEMNAKER');
+  const [fullName, setFullName] = useState('');
   const [companyName, setCompanyName] = useState('');
-  const [selectedProgram, setSelectedProgram] = useState('Ahli K3 Umum');
+  const [phone, setPhone] = useState('');
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsVisible(true);
-    }, 2000);
-    return () => clearTimeout(timer);
-  }, []);
+  const programs = [
+    'Ahli K3 Umum (AK3U) KEMNAKER RI',
+    'Perpanjangan SKP & Lisensi K3',
+    'Penyusunan Dokumen CSMS',
+    'In-House Training Perusahaan',
+    'Petugas Peran Kebakaran (Damkar)',
+    'K3 Ketinggian & TKBT II',
+    'Petugas P3K di Tempat Kerja',
+    'Operator Forklift & Alat Berat',
+    'Sertifikasi Personel BNSP',
+  ];
 
-  const handleQuickInquiry = (e: React.FormEvent) => {
+  const handleSendWhatsApp = (e: React.FormEvent) => {
     e.preventDefault();
-    const msg = `Halo Tim Sales Wahana Totalita, saya dari ${companyName || 'Perusahaan'} ingin meminta penawaran harga & silabus resmi untuk program ${selectedProgram}.`;
-    window.open(`https://wa.me/6287759151278?text=${encodeURIComponent(msg)}`, '_blank');
-    setShowQuickForm(false);
+    const text = `Halo Admin Wahana Totalita,%0A%0ASaya ingin konsultasi / minta penawaran:%0A- *Program:* ${selectedProgram}%0A- *Nama:* ${fullName || '-'}${companyName ? `%0A- *Perusahaan:* ${companyName}` : ''}${phone ? `%0A- *No WA:* ${phone}` : ''}%0A%0AMohon info jadwal & biaya terbarunya. Terima kasih.`;
+    window.open(`https://wa.me/6287759151278?text=${text}`, '_blank');
+    setIsOpen(false);
   };
-
-  if (!isVisible) return null;
 
   return (
     <>
-      {/* ─── Floating Lead Hunter Trigger (Desktop Bottom-Right & Mobile Bottom Bar) ──────────────── */}
-      <div className="fixed bottom-5 right-5 z-40 flex flex-col items-end gap-3 pointer-events-auto">
-        {/* Floating Quick Action Pill */}
-        <div className="hidden sm:flex items-center gap-3 bg-slate-950/95 text-white border border-emerald-500/40 p-2.5 pl-4 rounded-full shadow-2xl backdrop-blur-md transition-all hover:scale-105">
-          <div className="flex items-center gap-2 text-xs">
-            <span className="relative flex h-2.5 w-2.5">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+      {/* ─── Single Unified Sexy 2026 Floating Action Button ───────────────── */}
+      <div className="fixed bottom-6 right-6 z-50 flex items-center">
+        <button
+          onClick={() => setIsOpen(true)}
+          className="group relative flex items-center gap-2.5 bg-slate-900/90 hover:bg-emerald-700 text-white pl-3.5 pr-4 py-2.5 rounded-full shadow-2xl border border-slate-700/60 backdrop-blur-xl transition-all duration-300 hover:scale-105 hover:shadow-glow"
+          aria-label="Konsultasi K3 Cepat"
+        >
+          {/* Live Pulsing Dot */}
+          <span className="relative flex h-3 w-3">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+            <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+          </span>
+
+          <div className="flex flex-col text-left">
+            <span className="text-[10px] text-emerald-400 font-bold uppercase tracking-wider leading-none">
+              CS Online
             </span>
-            <span className="font-bold text-emerald-400">CS Online</span>
-            <span className="text-slate-400 text-[11px]">• Respon &lt; 3 Menit</span>
+            <span className="text-xs font-extrabold text-white leading-tight">
+              Konsultasi & Silabus
+            </span>
           </div>
 
-          <button
-            onClick={() => setShowQuickForm(true)}
-            className="bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white font-bold text-xs px-4 py-2 rounded-full flex items-center gap-1.5 shadow-md shadow-emerald-950/50"
-          >
-            <Sparkles className="w-3.5 h-3.5 text-amber-300" />
-            <span>Minta Penawaran / Silabus</span>
-          </button>
-        </div>
-
-        {/* Sticky Mobile Conversion Bar */}
-        <div className="sm:hidden fixed bottom-0 left-0 right-0 bg-slate-950/95 border-t border-slate-800 p-2.5 px-4 flex items-center justify-between gap-2 z-50 backdrop-blur-md shadow-2xl">
-          <div className="flex flex-col">
-            <div className="flex items-center gap-1.5 text-[10px] text-emerald-400 font-bold">
-              <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-              PJK3 Resmi Kemnaker RI
-            </div>
-            <div className="text-xs font-extrabold text-white">Konsultasi K3 2026</div>
+          <div className="w-8 h-8 rounded-full bg-emerald-600 flex items-center justify-center text-white ml-1 shadow-sm">
+            <Phone className="w-4 h-4 fill-current" />
           </div>
-
-          <div className="flex items-center gap-2">
-            <button
-              onClick={() => setShowQuickForm(true)}
-              className="bg-slate-800 text-slate-200 border border-slate-700 text-xs font-bold px-3 py-2 rounded-lg"
-            >
-              Proposal
-            </button>
-            <a
-              href="https://wa.me/6287759151278?text=Halo%20Wahana%20Totalita%2C%20saya%20ingin%20konsultasi%20pelatihan%20K3"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-emerald-600 text-white text-xs font-bold px-3.5 py-2 rounded-lg flex items-center gap-1 shadow-lg shadow-emerald-950"
-            >
-              <Phone className="w-3.5 h-3.5 fill-current" />
-              Chat WA
-            </a>
-          </div>
-        </div>
+        </button>
       </div>
 
-      {/* ─── Fast Proposal & Lead Modal ────────────────────────────── */}
-      {showQuickForm && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm animate-in fade-in duration-200">
-          <div className="relative w-full max-w-md bg-slate-900 border border-slate-700 rounded-3xl p-6 sm:p-8 text-white shadow-2xl space-y-6">
+      {/* ─── Instant RFQ / Proposal Modal ─────────────────────────────────────── */}
+      {isOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/70 backdrop-blur-sm animate-in fade-in duration-200">
+          <div className="relative w-full max-w-lg bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-slate-200 animate-in zoom-in-95 duration-200">
+            {/* Close Button */}
             <button
-              onClick={() => setShowQuickForm(false)}
-              className="absolute top-5 right-5 text-slate-400 hover:text-white transition-colors"
+              onClick={() => setIsOpen(false)}
+              className="absolute top-5 right-5 p-2 rounded-full text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-colors"
             >
               <X className="w-5 h-5" />
             </button>
 
-            <div className="space-y-2">
-              <div className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-400 bg-emerald-950/80 border border-emerald-500/30 px-3 py-1 rounded-full">
-                <ShieldCheck className="w-3.5 h-3.5" />
-                Resmi PJK3 KEMNAKER RI & BNSP
+            {/* Header */}
+            <div className="space-y-2 mb-6">
+              <div className="inline-flex items-center gap-1.5 bg-emerald-50 text-emerald-700 text-xs font-bold px-3 py-1 rounded-full border border-emerald-200">
+                <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+                Respon Kilat &lt; 3 Menit
               </div>
-              <h3 className="text-xl sm:text-2xl font-extrabold text-white font-display">
-                Minta Penawaran & Silabus Resmi
+              <h3 className="text-xl sm:text-2xl font-extrabold text-slate-900 font-display">
+                Minta Silabus & Penawaran K3
               </h3>
-              <p className="text-xs text-slate-300">
-                Dapatkan proposal penawaran resmi, silabus lengkap, dan jadwal pelatihan batch terdekat dalam hitungan menit via WhatsApp.
+              <p className="text-xs text-slate-500">
+                Pilih program kebutuhan Anda. Tim konsultan kami akan langsung mengirimkan jadwal dan proposal via WhatsApp.
               </p>
             </div>
 
-            <form onSubmit={handleQuickInquiry} className="space-y-4 text-xs">
+            {/* Form */}
+            <form onSubmit={handleSendWhatsApp} className="space-y-4 text-xs">
               <div>
-                <label className="block text-slate-300 font-semibold mb-1">
-                  Nama Perusahaan / Instansi (Opsional)
-                </label>
-                <input
-                  type="text"
-                  placeholder="Contoh: PT Bangun Nusantara Jaya"
-                  value={companyName}
-                  onChange={(e) => setCompanyName(e.target.value)}
-                  className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500"
-                />
-              </div>
-
-              <div>
-                <label className="block text-slate-300 font-semibold mb-1">
-                  Pilih Program yang Diminati
-                </label>
+                <label className="block text-slate-700 font-bold mb-1">Pilih Program / Layanan:</label>
                 <select
                   value={selectedProgram}
                   onChange={(e) => setSelectedProgram(e.target.value)}
-                  className="w-full bg-slate-800 border border-slate-700 rounded-xl px-3.5 py-2.5 text-white focus:outline-none focus:border-emerald-500"
+                  className="w-full bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 text-slate-900 font-medium focus:ring-2 focus:ring-emerald-500 focus:outline-none"
                 >
-                  <option value="Ahli K3 Umum (KEMNAKER RI)">Ahli K3 Umum (KEMNAKER RI)</option>
-                  <option value="Ahli K3 Konstruksi (KEMNAKER RI)">Ahli K3 Konstruksi (KEMNAKER RI)</option>
-                  <option value="Petugas & Regu Damkar K3 (Kelas D/C/B/A)">Petugas & Regu Damkar K3 (Kelas D/C/B/A)</option>
-                  <option value="Pelatihan K3 Ketinggian & Scaffolding">Pelatihan K3 Ketinggian & Scaffolding</option>
-                  <option value="Petugas P3K di Tempat Kerja">Petugas P3K di Tempat Kerja</option>
-                  <option value="Perpanjangan SKP & Lisensi K3">Perpanjangan SKP & Lisensi K3</option>
-                  <option value="Penyusunan Dokumen CSMS">Penyusunan Dokumen CSMS</option>
-                  <option value="In-House Training Perusahaan">In-House Training Khusus Perusahaan</option>
-                  <option value="Program Sertifikasi BNSP Lainnya">Program Sertifikasi BNSP Lainnya</option>
+                  {programs.map((p, idx) => (
+                    <option key={idx} value={p}>
+                      {p}
+                    </option>
+                  ))}
                 </select>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div>
+                  <label className="block text-slate-700 font-bold mb-1">Nama Lengkap:</label>
+                  <input
+                    type="text"
+                    required
+                    placeholder="Contoh: Budi Santoso"
+                    value={fullName}
+                    onChange={(e) => setFullName(e.target.value)}
+                    className="w-full bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 text-slate-900 font-medium focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                  />
+                </div>
+                <div>
+                  <label className="block text-slate-700 font-bold mb-1">Nama Perusahaan (Opsional):</label>
+                  <input
+                    type="text"
+                    placeholder="Contoh: PT Bangun Bersama"
+                    value={companyName}
+                    onChange={(e) => setCompanyName(e.target.value)}
+                    className="w-full bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 text-slate-900 font-medium focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-slate-700 font-bold mb-1">Nomor WhatsApp Aktif:</label>
+                <input
+                  type="tel"
+                  placeholder="Contoh: 081234567890"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  className="w-full bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2.5 text-slate-900 font-medium focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                />
               </div>
 
               <div className="pt-2">
                 <button
                   type="submit"
-                  className="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-sm py-3.5 rounded-xl shadow-lg shadow-emerald-500/25 flex items-center justify-center gap-2 transition-transform active:scale-95"
+                  className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm py-3.5 rounded-xl shadow-lg shadow-emerald-600/30 flex items-center justify-center gap-2 transition-all hover:scale-[1.01]"
                 >
-                  <Phone className="w-4 h-4 fill-current" />
-                  Kirim via WhatsApp Sekarang
+                  <Send className="w-4 h-4" />
+                  <span>Kirim ke WhatsApp Konsultan</span>
                 </button>
               </div>
 
-              <div className="flex items-center justify-center gap-2 text-[11px] text-slate-400 pt-1">
-                <Clock className="w-3.5 h-3.5 text-emerald-400" />
-                <span>Konsultan kami standby dan membalas dalam 1–5 menit</span>
+              <div className="flex items-center justify-center gap-3 pt-2 text-[11px] text-slate-400">
+                <span className="flex items-center gap-1">
+                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
+                  Kerahasiaan Data Terjamin
+                </span>
+                <span>•</span>
+                <span className="flex items-center gap-1">
+                  <Award className="w-3.5 h-3.5 text-amber-500" />
+                  Garansi Kelulusan 100%
+                </span>
               </div>
             </form>
           </div>

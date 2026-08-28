@@ -3,7 +3,6 @@ import { Inter, Outfit } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import WhatsAppButton from '@/components/WhatsAppButton';
 import LeadHunterBar from '@/components/LeadHunterBar';
 
 const inter = Inter({
@@ -124,7 +123,6 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-grow">{children}</main>
         <Footer />
-        <WhatsAppButton />
         <LeadHunterBar />
       </body>
     </html>

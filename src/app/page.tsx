@@ -61,38 +61,41 @@ export default function HomePage() {
   ];
 
   return (
-    <div className="space-y-20 pb-20 bg-slate-50">
-      {/* ─── Hero Section: Executive Business Authority ────────────────────────── */}
-      <section className="relative bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white pt-16 pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden border-b border-slate-850">
-        {/* Subtle Ambient Glow */}
-        <div className="absolute top-0 right-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-amber-500/5 rounded-full blur-3xl pointer-events-none" />
+    <div className="space-y-24 pb-24 bg-[#fafaf9]">
+      {/* ─── Hero Section: 2026 Sexy Modern Luminous Authority ────────────────────────── */}
+      <section className="relative overflow-hidden pt-12 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-[#f8faf8] to-[#fafaf9] border-b border-slate-200/60">
+        {/* Subtle Ambient Mesh Blobs */}
+        <div className="absolute top-12 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-emerald-100/40 rounded-full blur-3xl pointer-events-none -z-10" />
+        <div className="absolute top-32 right-10 w-[400px] h-[300px] bg-amber-100/30 rounded-full blur-3xl pointer-events-none -z-10" />
 
-        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          {/* Left Column: Core Value Proposition */}
+        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          {/* Left Column: Headline & Value Proposition */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             {/* Live Authority Pill */}
-            <div className="inline-flex items-center gap-2 bg-slate-900 border border-emerald-500/40 text-emerald-300 px-4 py-1.5 rounded-full text-xs font-bold shadow-lg">
+            <div className="inline-flex items-center gap-2 bg-emerald-50/90 border border-emerald-200 text-emerald-800 px-4 py-1.5 rounded-full text-xs font-bold shadow-sm">
               <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-600"></span>
               </span>
               <span>PJK3 RESMI KEMNAKER RI • LSP BNSP TERLISENSI</span>
             </div>
 
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.15] font-display">
-              Solusi Sertifikasi K3 & Konsultasi HSE Terpercaya untuk <span className="text-emerald-400">Industri Nasional</span>
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.12] font-display">
+              Sertifikasi K3 & Konsultasi HSE Terpercaya untuk{' '}
+              <span className="bg-gradient-to-r from-emerald-700 via-teal-600 to-emerald-800 bg-clip-text text-transparent">
+                Industri Nasional
+              </span>
             </h1>
 
-            <p className="text-slate-300 text-sm sm:text-base lg:text-lg leading-relaxed max-w-2xl">
-              Lembaga pembinaan K3 resmi penunjukan <strong>Kementerian Ketenagakerjaan RI</strong> dan <strong>Badan Nasional Sertifikasi Profesi (BNSP)</strong>. Membantu lebih dari <strong>1.500+ perusahaan</strong> memenuhi regulasi wajib, lolos audit SMK3, dan memenangkan tender CSMS.
+            <p className="text-slate-600 text-sm sm:text-base lg:text-lg leading-relaxed max-w-2xl">
+              Lembaga pembinaan K3 resmi penunjukan <strong>Kementerian Ketenagakerjaan RI</strong> dan <strong>Badan Nasional Sertifikasi Profesi (BNSP)</strong>. Membantu lebih dari <strong>1.500+ perusahaan</strong> memenuhi regulasi wajib, audit SMK3, dan prakualifikasi CSMS.
             </p>
 
             {/* Direct Conversion Action Buttons */}
             <div className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               <Link
                 href="/pelatihan"
-                className="w-full sm:w-auto bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white font-extrabold px-8 py-4 rounded-xl shadow-xl shadow-emerald-950/60 transition-all flex items-center justify-center gap-2 text-sm sm:text-base group"
+                className="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-8 py-3.5 rounded-full shadow-lg shadow-emerald-600/25 hover:shadow-emerald-600/35 transition-all flex items-center justify-center gap-2 text-sm sm:text-base group"
               >
                 <span>Lihat 147 Program Pelatihan</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -102,79 +105,79 @@ export default function HomePage() {
                 href="https://wa.me/6287759151278?text=Halo%20Wahana%20Totalita%2C%20saya%20ingin%20minta%20proposal%20penawaran%20dan%20silabus%20pelatihan%20K3"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto bg-slate-900 hover:bg-slate-850 text-white border border-slate-700 hover:border-emerald-500/50 font-bold px-7 py-4 rounded-xl transition-all flex items-center justify-center gap-2 text-sm sm:text-base shadow-lg"
+                className="w-full sm:w-auto bg-white hover:bg-slate-50 text-slate-800 border border-slate-200/90 font-bold px-7 py-3.5 rounded-full transition-all flex items-center justify-center gap-2 text-sm sm:text-base shadow-sm hover:border-emerald-500/40"
               >
-                <Phone className="w-4 h-4 text-emerald-400 fill-current" />
+                <Phone className="w-4 h-4 text-emerald-600 fill-current" />
                 <span>Konsultasi CS WhatsApp</span>
               </a>
             </div>
 
             {/* Trust Metric Counters */}
-            <div className="pt-6 grid grid-cols-3 gap-4 border-t border-slate-800 text-left">
+            <div className="pt-6 grid grid-cols-3 gap-4 border-t border-slate-200/80 text-left">
               <div>
-                <div className="text-2xl sm:text-3xl font-extrabold text-white">147+</div>
-                <div className="text-xs text-slate-400">Skema & Program K3</div>
+                <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">147+</div>
+                <div className="text-xs text-slate-500 font-medium">Skema & Program K3</div>
               </div>
               <div>
-                <div className="text-2xl sm:text-3xl font-extrabold text-emerald-400">1,500+</div>
-                <div className="text-xs text-slate-400">Klien BUMN & Swasta</div>
+                <div className="text-2xl sm:text-3xl font-extrabold text-emerald-700">1,500+</div>
+                <div className="text-xs text-slate-500 font-medium">Klien BUMN & Swasta</div>
               </div>
               <div>
-                <div className="text-2xl sm:text-3xl font-extrabold text-amber-400">100%</div>
-                <div className="text-xs text-slate-400">Garansi Kelulusan</div>
+                <div className="text-2xl sm:text-3xl font-extrabold text-amber-600">100%</div>
+                <div className="text-xs text-slate-500 font-medium">Garansi Kelulusan</div>
               </div>
             </div>
           </div>
 
-          {/* Right Column: Instant Lead Hunter Proposal Box */}
-          <div className="lg:col-span-5 bg-slate-900/95 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl space-y-6">
-            <div className="flex items-center justify-between border-b border-slate-800 pb-4">
+          {/* Right Column: 2026 Frosted Glass Interactive Fast Proposal Box */}
+          <div className="lg:col-span-5 bg-white/90 backdrop-blur-xl border border-slate-200/80 rounded-3xl p-6 sm:p-8 shadow-premium space-y-6">
+            <div className="flex items-center justify-between border-b border-slate-100 pb-4">
               <div>
-                <div className="text-xs text-emerald-400 font-bold uppercase tracking-wider">Layanan Cepat 2026</div>
-                <h3 className="font-extrabold text-white text-lg sm:text-xl font-display">
-                  Minta Proposal & Silabus Kilat
+                <div className="text-xs text-emerald-700 font-bold uppercase tracking-wider">Layanan Prioritas 2026</div>
+                <h3 className="font-extrabold text-slate-900 text-lg sm:text-xl font-display">
+                  Pendaftaran & Silabus Kilat
                 </h3>
               </div>
-              <span className="bg-emerald-500/20 text-emerald-300 text-xs font-bold px-3 py-1 rounded-full border border-emerald-500/30">
-                Respon &lt; 5 Mnt
+              <span className="bg-emerald-50 text-emerald-700 text-xs font-bold px-3 py-1 rounded-full border border-emerald-200">
+                Respon &lt; 3 Mnt
               </span>
             </div>
 
             <div className="space-y-3 text-xs">
-              <div className="bg-slate-950/80 border border-slate-800 p-3.5 rounded-2xl flex items-center justify-between hover:border-emerald-500/40 transition-colors">
+              <div className="bg-slate-50 border border-slate-200/70 p-3.5 rounded-2xl flex items-center justify-between hover:bg-white hover:border-emerald-500/40 hover:shadow-sm transition-all">
                 <div>
-                  <div className="font-bold text-white text-sm">Ahli K3 Umum (AK3U)</div>
-                  <div className="text-slate-400 text-[11px]">Sertifikasi KEMNAKER RI • Blended Zoom</div>
+                  <div className="font-bold text-slate-900 text-sm">Ahli K3 Umum (AK3U)</div>
+                  <div className="text-slate-500 text-[11px]">Sertifikasi KEMNAKER RI • Blended Zoom</div>
                 </div>
                 <Link
                   href="/pelatihan/pelatihan-ahli-k3-umum-sertifikasi-kemnaker-ri"
-                  className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs"
+                  className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs transition-colors"
                 >
                   Detail →
                 </Link>
               </div>
 
-              <div className="bg-slate-950/80 border border-slate-800 p-3.5 rounded-2xl flex items-center justify-between hover:border-emerald-500/40 transition-colors">
+              <div className="bg-slate-50 border border-slate-200/70 p-3.5 rounded-2xl flex items-center justify-between hover:bg-white hover:border-emerald-500/40 hover:shadow-sm transition-all">
                 <div>
-                  <div className="font-bold text-white text-sm">Perpanjangan SKP & Lisensi K3</div>
-                  <div className="text-slate-400 text-[11px]">Proses administratif tanpa ulang pelatihan</div>
+                  <div className="font-bold text-slate-900 text-sm">Perpanjangan SKP & Lisensi K3</div>
+                  <div className="text-slate-500 text-[11px]">Proses administratif tanpa ulang pelatihan</div>
                 </div>
                 <Link
                   href="/perpanjangan-skp"
-                  className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs"
+                  className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs transition-colors"
                 >
                   Syarat →
                 </Link>
               </div>
 
-              <div className="bg-slate-950/80 border border-slate-800 p-3.5 rounded-2xl flex items-center justify-between hover:border-emerald-500/40 transition-colors">
+              <div className="bg-slate-50 border border-slate-200/70 p-3.5 rounded-2xl flex items-center justify-between hover:bg-white hover:border-emerald-500/40 hover:shadow-sm transition-all">
                 <div>
-                  <div className="font-bold text-white text-sm">Penyusunan Dokumen CSMS</div>
-                  <div className="text-slate-400 text-[11px]">Prakualifikasi tender migas & BUMN</div>
+                  <div className="font-bold text-slate-900 text-sm">Penyusunan Dokumen CSMS</div>
+                  <div className="text-slate-500 text-[11px]">Prakualifikasi tender migas & BUMN</div>
                 </div>
                 <Link
                   href="/csms"
-                  className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs"
+                  className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs transition-colors"
                 >
                   Konsul →
                 </Link>
@@ -187,7 +190,7 @@ export default function HomePage() {
                 href="https://wa.me/6287759151278?text=Halo%20Wahana%20Totalita%2C%20saya%20ingin%20minta%20penawaran%20harga%20dan%20proposal%20In-House%20Training%20perusahaan%20kami"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white font-extrabold text-sm py-3.5 rounded-xl shadow-lg flex items-center justify-center gap-2 transition-transform active:scale-95"
+                className="w-full bg-slate-900 hover:bg-slate-850 text-white font-extrabold text-sm py-3.5 rounded-xl shadow-sm flex items-center justify-center gap-2 transition-all hover:scale-[1.01]"
               >
                 <Sparkles className="w-4 h-4 text-amber-300" />
                 <span>Minta Penawaran In-House / Corporate</span>
@@ -199,7 +202,7 @@ export default function HomePage() {
 
       {/* ─── Enterprise Client Showcase Wall: 1,500+ Corporate Trust ─────────── */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-white border border-slate-200 rounded-3xl p-8 sm:p-12 shadow-sm space-y-8">
+        <div className="bg-white border border-slate-200/80 rounded-3xl p-8 sm:p-12 shadow-sm space-y-8">
           <div className="text-center space-y-2 max-w-2xl mx-auto">
             <span className="text-xs font-bold text-emerald-700 uppercase tracking-wider bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full">
               Dipercaya 1,500+ Perusahaan
@@ -208,7 +211,7 @@ export default function HomePage() {
               Mitra K3 Terpilih Sektor Energi, Konstruksi & BUMN
             </h2>
             <p className="text-xs sm:text-sm text-slate-600">
-              Mulai dari BUMN strategis, perusahaan migas multinasional, hingga perguruan tinggi terkemuka mempercayakan sertifikasi dan kepatuhan K3 kepada Wahana Totalita.
+              Mulai dari BUMN strategis, kontraktor migas multinasional, hingga perguruan tinggi terkemuka mempercayakan sertifikasi dan kepatuhan K3 kepada Wahana Totalita.
             </p>
           </div>
 
@@ -216,7 +219,7 @@ export default function HomePage() {
             {realClientLogos.map((client, idx) => (
               <div
                 key={idx}
-                className="bg-slate-50 border border-slate-200/80 rounded-2xl p-4 flex flex-col items-center justify-center h-24 hover:bg-white hover:border-emerald-500/40 hover:shadow-md transition-all group"
+                className="bg-slate-50/70 border border-slate-200/60 rounded-2xl p-4 flex flex-col items-center justify-center h-24 hover:bg-white hover:border-emerald-500/40 hover:shadow-md transition-all group"
                 title={client.name}
               >
                 <div className="relative w-full h-12 flex items-center justify-center">
@@ -247,7 +250,7 @@ export default function HomePage() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Card 1: Perorangan & Fresh Graduate */}
-          <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm hover:shadow-xl hover:border-emerald-500/40 transition-all flex flex-col justify-between space-y-6">
+          <div className="bg-white border border-slate-200/80 rounded-3xl p-6 sm:p-8 shadow-sm hover:shadow-xl hover:border-emerald-500/40 transition-all flex flex-col justify-between space-y-6">
             <div className="space-y-4">
               <div className="w-12 h-12 rounded-2xl bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-700 font-bold">
                 <Users className="w-6 h-6" />
@@ -273,7 +276,7 @@ export default function HomePage() {
 
             <Link
               href="/pelatihan/pelatihan-ahli-k3-umum-sertifikasi-kemnaker-ri"
-              className="w-full bg-slate-900 hover:bg-emerald-700 text-white font-bold text-xs py-3 rounded-xl flex items-center justify-center gap-2 transition-colors"
+              className="w-full bg-slate-900 hover:bg-emerald-700 text-white font-bold text-xs py-3.5 rounded-xl flex items-center justify-center gap-2 transition-colors shadow-sm"
             >
               <span>Daftar Ahli K3 Umum</span>
               <ArrowRight className="w-3.5 h-3.5" />
@@ -281,7 +284,7 @@ export default function HomePage() {
           </div>
 
           {/* Card 2: In-House Training Perusahaan */}
-          <div className="bg-gradient-to-b from-slate-950 to-slate-900 text-white border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl relative flex flex-col justify-between space-y-6">
+          <div className="bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl relative flex flex-col justify-between space-y-6">
             <div className="absolute top-4 right-4 bg-emerald-500/20 text-emerald-300 text-[10px] font-bold px-2.5 py-1 rounded-full border border-emerald-500/30">
               Paling Populer
             </div>
@@ -311,7 +314,7 @@ export default function HomePage() {
 
             <Link
               href="/perusahaan"
-              className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs py-3 rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-emerald-950"
+              className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs py-3.5 rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-emerald-950"
             >
               <span>Minta Proposal In-House</span>
               <ArrowRight className="w-3.5 h-3.5" />
@@ -319,7 +322,7 @@ export default function HomePage() {
           </div>
 
           {/* Card 3: Konsultasi CSMS & Perpanjangan SKP */}
-          <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm hover:shadow-xl hover:border-emerald-500/40 transition-all flex flex-col justify-between space-y-6">
+          <div className="bg-white border border-slate-200/80 rounded-3xl p-6 sm:p-8 shadow-sm hover:shadow-xl hover:border-emerald-500/40 transition-all flex flex-col justify-between space-y-6">
             <div className="space-y-4">
               <div className="w-12 h-12 rounded-2xl bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-700 font-bold">
                 <ShieldCheck className="w-6 h-6" />
@@ -345,7 +348,7 @@ export default function HomePage() {
 
             <Link
               href="/perpanjangan-skp"
-              className="w-full bg-slate-900 hover:bg-emerald-700 text-white font-bold text-xs py-3 rounded-xl flex items-center justify-center gap-2 transition-colors"
+              className="w-full bg-slate-900 hover:bg-emerald-700 text-white font-bold text-xs py-3.5 rounded-xl flex items-center justify-center gap-2 transition-colors shadow-sm"
             >
               <span>Layanan Perpanjangan SKP</span>
               <ArrowRight className="w-3.5 h-3.5" />
@@ -384,7 +387,7 @@ export default function HomePage() {
             return (
               <div
                 key={c.id}
-                className="bg-white border border-slate-200 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:border-emerald-500/40 transition-all flex flex-col justify-between group"
+                className="bg-white border border-slate-200/80 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:border-emerald-500/40 transition-all flex flex-col justify-between group"
               >
                 <div>
                   {/* Dedicated Program Photo / Flyer Banner */}
@@ -427,7 +430,7 @@ export default function HomePage() {
 
                   <Link
                     href={`/pelatihan/${c.slug}`}
-                    className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-4 py-2 rounded-xl transition-all"
+                    className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs px-4 py-2 rounded-xl transition-all shadow-sm"
                   >
                     Daftar Sekarang
                   </Link>
@@ -463,7 +466,7 @@ export default function HomePage() {
             <Link
               key={idx}
               href="/galeri"
-              className="group relative h-56 rounded-3xl overflow-hidden shadow-sm border border-slate-200 block"
+              className="group relative h-56 rounded-3xl overflow-hidden shadow-sm border border-slate-200/80 block"
             >
               <Image
                 src={g.src}
@@ -539,8 +542,8 @@ export default function HomePage() {
 
       {/* ─── Final Conversion CTA ────────────────────────────────────────────── */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-gradient-to-b from-emerald-900 via-slate-900 to-slate-950 text-white border border-emerald-500/30 rounded-3xl p-8 sm:p-14 text-center space-y-6 shadow-2xl">
-          <span className="text-xs font-bold text-amber-300 uppercase tracking-wider bg-amber-400/10 border border-amber-400/20 px-3 py-1 rounded-full">
+        <div className="bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white border border-slate-800 rounded-3xl p-8 sm:p-14 text-center space-y-6 shadow-2xl">
+          <span className="text-xs font-bold text-amber-400 uppercase tracking-wider bg-amber-400/10 border border-amber-400/20 px-3 py-1 rounded-full">
             Konsultasi K3 Gratis 24/7
           </span>
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white max-w-3xl mx-auto font-display">
@@ -554,14 +557,14 @@ export default function HomePage() {
               href="https://wa.me/6287759151278?text=Halo%20Wahana%20Totalita%2C%20saya%20ingin%20konsultasi%20pelatihan%20K3"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-extrabold text-sm px-8 py-4 rounded-xl shadow-xl shadow-emerald-500/20 flex items-center justify-center gap-2"
+              className="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-full shadow-lg shadow-emerald-600/30 flex items-center justify-center gap-2"
             >
               <Phone className="w-4 h-4 fill-current" />
               <span>Chat WhatsApp Konsultan (0877-5915-1278)</span>
             </a>
             <Link
               href="/pelatihan"
-              className="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-white font-bold text-sm px-8 py-4 rounded-xl border border-slate-700"
+              className="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-white font-bold text-sm px-8 py-4 rounded-full border border-slate-700"
             >
               Lihat Semua Program
             </Link>
