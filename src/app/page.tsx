@@ -147,7 +147,7 @@ export default function HomePage() {
                   <div className="text-slate-400 text-[11px]">Sertifikasi KEMNAKER RI • Blended Zoom</div>
                 </div>
                 <Link
-                  href="/pelatihan/ahli-k3-umum-sertifikasi-kemnaker-ri"
+                  href="/pelatihan/pelatihan-ahli-k3-umum-sertifikasi-kemnaker-ri"
                   className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3.5 py-1.5 rounded-lg text-xs"
                 >
                   Detail →
@@ -272,7 +272,7 @@ export default function HomePage() {
             </div>
 
             <Link
-              href="/pelatihan/ahli-k3-umum-sertifikasi-kemnaker-ri"
+              href="/pelatihan/pelatihan-ahli-k3-umum-sertifikasi-kemnaker-ri"
               className="w-full bg-slate-900 hover:bg-emerald-700 text-white font-bold text-xs py-3 rounded-xl flex items-center justify-center gap-2 transition-colors"
             >
               <span>Daftar Ahli K3 Umum</span>

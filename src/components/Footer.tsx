@@ -106,12 +106,12 @@ export default function Footer() {
             <h3 className="font-bold text-white text-sm tracking-wide">Program Populer</h3>
             <ul className="space-y-2 text-xs text-slate-400">
               <li>
-                <Link href="/pelatihan/ahli-k3-umum-sertifikasi-kemnaker-ri" className="hover:text-emerald-400 transition-colors">
+                <Link href="/pelatihan/pelatihan-ahli-k3-umum-sertifikasi-kemnaker-ri" className="hover:text-emerald-400 transition-colors">
                   Ahli K3 Umum KEMNAKER
                 </Link>
               </li>
               <li>
-                <Link href="/pelatihan/ahli-k3-konstruksi-sertifikasi-kemnaker-ri" className="hover:text-emerald-400 transition-colors">
+                <Link href="/pelatihan/pelatihan-ahli-muda-k3-konstruksi-sertifikasi-kemnaker-ri" className="hover:text-emerald-400 transition-colors">
                   Ahli K3 Konstruksi
                 </Link>
               </li>
