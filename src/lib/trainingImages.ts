@@ -15,7 +15,7 @@ function simpleHash(str: string): number {
 }
 
 export function getTrainingPhoto(slugOrId: string | number, imagePath?: string | null): string {
-  if (imagePath && imagePath.startsWith('/images/')) {
+  if (imagePath && (imagePath.startsWith('/assets/uploads/') || imagePath.startsWith('/images/'))) {
     return imagePath;
   }
 
@@ -24,3 +24,4 @@ export function getTrainingPhoto(slugOrId: string | number, imagePath?: string |
   const padIndex = String(index).padStart(3, '0');
   return `/images/pelatihan-${padIndex}.webp`;
 }
+
