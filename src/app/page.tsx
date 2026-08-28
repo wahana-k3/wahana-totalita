@@ -30,7 +30,13 @@ import safetyTalksData from '@/data/safety_talks.json';
 import { getTrainingPhoto } from '@/lib/trainingImages';
 
 export default function HomePage() {
-  const featuredTrainings = trainingsData.slice(0, 6);
+  // Select 6 flagship popular programs with high-impact verified flyer images
+  const flagshipIds = [74, 25, 33, 34, 82, 43];
+  const featuredTrainings = trainingsData
+    .filter((t) => flagshipIds.includes(t.id))
+    .concat(trainingsData.filter((t) => !flagshipIds.includes(t.id)))
+    .slice(0, 6);
+
   const latestArticles = articlesData.slice(0, 3);
   const totalSafetyTalks = safetyTalksData.length;
 
@@ -64,14 +70,13 @@ export default function HomePage() {
     <div className="space-y-24 pb-24 bg-[#fafaf9]">
       {/* ─── Hero Section: 2026 Sexy Modern Luminous Authority ────────────────────────── */}
       <section className="relative overflow-hidden pt-12 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white via-[#f8faf8] to-[#fafaf9] border-b border-slate-200/60">
-        {/* Subtle Ambient Mesh Blobs */}
+        {/* Ambient Glows */}
         <div className="absolute top-12 left-1/2 -translate-x-1/2 w-[700px] h-[350px] bg-emerald-100/40 rounded-full blur-3xl pointer-events-none -z-10" />
         <div className="absolute top-32 right-10 w-[400px] h-[300px] bg-amber-100/30 rounded-full blur-3xl pointer-events-none -z-10" />
 
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Left Column: Headline & Value Proposition */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
-            {/* Live Authority Pill */}
             <div className="inline-flex items-center gap-2 bg-emerald-50/90 border border-emerald-200 text-emerald-800 px-4 py-1.5 rounded-full text-xs font-bold shadow-sm">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-75"></span>
@@ -91,7 +96,6 @@ export default function HomePage() {
               Lembaga pembinaan K3 resmi penunjukan <strong>Kementerian Ketenagakerjaan RI</strong> dan <strong>Badan Nasional Sertifikasi Profesi (BNSP)</strong>. Membantu lebih dari <strong>1.500+ perusahaan</strong> memenuhi regulasi wajib, audit SMK3, dan prakualifikasi CSMS.
             </p>
 
-            {/* Direct Conversion Action Buttons */}
             <div className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               <Link
                 href="/pelatihan"
@@ -112,7 +116,6 @@ export default function HomePage() {
               </a>
             </div>
 
-            {/* Trust Metric Counters */}
             <div className="pt-6 grid grid-cols-3 gap-4 border-t border-slate-200/80 text-left">
               <div>
                 <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">147+</div>
@@ -129,7 +132,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Right Column: 2026 Frosted Glass Interactive Fast Proposal Box */}
+          {/* Right Column: 2026 Frosted Glass Fast Proposal Box */}
           <div className="lg:col-span-5 bg-white/90 backdrop-blur-xl border border-slate-200/80 rounded-3xl p-6 sm:p-8 shadow-premium space-y-6">
             <div className="flex items-center justify-between border-b border-slate-100 pb-4">
               <div>
@@ -184,7 +187,6 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Direct RFQ Action Button */}
             <div className="pt-2">
               <a
                 href="https://wa.me/6287759151278?text=Halo%20Wahana%20Totalita%2C%20saya%20ingin%20minta%20penawaran%20harga%20dan%20proposal%20In-House%20Training%20perusahaan%20kami"
@@ -249,7 +251,7 @@ export default function HomePage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Card 1: Perorangan & Fresh Graduate */}
+          {/* Card 1 */}
           <div className="bg-white border border-slate-200/80 rounded-3xl p-6 sm:p-8 shadow-sm hover:shadow-xl hover:border-emerald-500/40 transition-all flex flex-col justify-between space-y-6">
             <div className="space-y-4">
               <div className="w-12 h-12 rounded-2xl bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-700 font-bold">
@@ -283,7 +285,7 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* Card 2: In-House Training Perusahaan */}
+          {/* Card 2 */}
           <div className="bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-xl relative flex flex-col justify-between space-y-6">
             <div className="absolute top-4 right-4 bg-emerald-500/20 text-emerald-300 text-[10px] font-bold px-2.5 py-1 rounded-full border border-emerald-500/30">
               Paling Populer
@@ -321,7 +323,7 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* Card 3: Konsultasi CSMS & Perpanjangan SKP */}
+          {/* Card 3 */}
           <div className="bg-white border border-slate-200/80 rounded-3xl p-6 sm:p-8 shadow-sm hover:shadow-xl hover:border-emerald-500/40 transition-all flex flex-col justify-between space-y-6">
             <div className="space-y-4">
               <div className="w-12 h-12 rounded-2xl bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-700 font-bold">
@@ -391,19 +393,19 @@ export default function HomePage() {
               >
                 <div>
                   {/* Dedicated Program Photo / Flyer Banner */}
-                  <div className="relative w-full h-48 bg-slate-900 overflow-hidden">
+                  <div className="relative w-full h-56 bg-slate-100 overflow-hidden">
                     <Image
                       src={photoSrc}
                       alt={c.name}
                       fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
                       sizes="(max-width: 768px) 100vw, 33vw"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
-                    <span className="absolute top-3 left-3 bg-slate-900/90 backdrop-blur-md text-emerald-400 border border-emerald-500/30 text-[10px] font-bold px-2.5 py-1 rounded-full">
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent pointer-events-none" />
+                    <span className="absolute top-3 left-3 bg-slate-900/90 backdrop-blur-md text-emerald-400 border border-emerald-500/30 text-[10px] font-bold px-2.5 py-1 rounded-full shadow-sm">
                       {c.certification}
                     </span>
-                    <span className="absolute bottom-3 right-3 bg-slate-950/80 text-white text-[11px] font-semibold px-2.5 py-0.5 rounded-lg border border-slate-700">
+                    <span className="absolute bottom-3 right-3 bg-slate-950/85 text-white text-[11px] font-semibold px-2.5 py-0.5 rounded-lg border border-slate-700 shadow-sm">
                       {c.duration_days ? `${c.duration_days} Hari` : 'Jadwal Rutin'}
                     </span>
                   </div>
@@ -485,7 +487,7 @@ export default function HomePage() {
 
       {/* ─── HSE Tools & 100 Safety Talks Showcase ────────────────────────────── */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-slate-900 text-white border border-slate-800 rounded-3xl p-8 sm:p-12 shadow-xl grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        <div className="bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 text-white border border-slate-800 rounded-3xl p-8 sm:p-12 shadow-xl grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-7 space-y-4">
             <span className="text-xs font-bold text-amber-400 uppercase tracking-wider bg-amber-500/10 border border-amber-500/20 px-3 py-1 rounded-full">
               Free HSE Resources & Tools
@@ -499,14 +501,14 @@ export default function HomePage() {
             <div className="pt-2 flex flex-wrap gap-3">
               <Link
                 href="/tools/safety-talk"
-                className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl flex items-center gap-2 shadow-lg"
+                className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl flex items-center gap-2 shadow-lg transition-all"
               >
                 <BookOpen className="w-4 h-4" />
                 <span>Buka 100 Safety Talks</span>
               </Link>
               <Link
                 href="/tools"
-                className="bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl flex items-center gap-2"
+                className="bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl flex items-center gap-2 transition-all"
               >
                 <Wrench className="w-4 h-4" />
                 <span>Buka Semua Tools K3</span>
@@ -542,7 +544,7 @@ export default function HomePage() {
 
       {/* ─── Final Conversion CTA ────────────────────────────────────────────── */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white border border-slate-800 rounded-3xl p-8 sm:p-14 text-center space-y-6 shadow-2xl">
+        <div className="bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 text-white border border-slate-800 rounded-3xl p-8 sm:p-14 text-center space-y-6 shadow-2xl">
           <span className="text-xs font-bold text-amber-400 uppercase tracking-wider bg-amber-400/10 border border-amber-400/20 px-3 py-1 rounded-full">
             Konsultasi K3 Gratis 24/7
           </span>
@@ -557,14 +559,14 @@ export default function HomePage() {
               href="https://wa.me/6287759151278?text=Halo%20Wahana%20Totalita%2C%20saya%20ingin%20konsultasi%20pelatihan%20K3"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-full shadow-lg shadow-emerald-600/30 flex items-center justify-center gap-2"
+              className="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm px-8 py-4 rounded-full shadow-lg shadow-emerald-600/30 flex items-center justify-center gap-2 transition-all hover:scale-105"
             >
               <Phone className="w-4 h-4 fill-current" />
               <span>Chat WhatsApp Konsultan (0877-5915-1278)</span>
             </a>
             <Link
               href="/pelatihan"
-              className="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-white font-bold text-sm px-8 py-4 rounded-full border border-slate-700"
+              className="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-white font-bold text-sm px-8 py-4 rounded-full border border-slate-700 transition-all"
             >
               Lihat Semua Program
             </Link>
