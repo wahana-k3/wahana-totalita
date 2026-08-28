@@ -11,6 +11,10 @@ const nextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'origen.wahanatotalita.com',
+      },
+      {
+        protocol: 'https',
         hostname: 'origin.wahanatotalita.com',
       },
       {
@@ -67,17 +71,6 @@ const nextConfig = {
         permanent: true,
       }
     ];
-  },
-  async rewrites() {
-    return {
-      // Any route NOT built in Next.js falls back to Hostinger origin transparently (200 OK):
-      fallback: [
-        {
-          source: '/:path*',
-          destination: 'https://origin.wahanatotalita.com/:path*',
-        },
-      ],
-    };
   },
 };
 
