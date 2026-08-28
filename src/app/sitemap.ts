@@ -15,6 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/pelatihan',
     '/artikel',
     '/jadwal',
+    '/csms',
+    '/galeri',
     '/tools',
     '/tools/safety-talk',
     '/tools/kalkulator-k3',

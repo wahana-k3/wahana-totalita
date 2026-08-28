@@ -1,20 +1,24 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   ShieldCheck,
   Award,
-  Calendar,
   Users,
-  CheckCircle,
-  ArrowRight,
-  Sparkles,
+  CheckCircle2,
   Phone,
-  FileText,
+  ArrowRight,
   Search,
-  Wrench,
-  BookOpen,
+  Calendar,
+  Clock,
+  Sparkles,
   Building2,
-  Briefcase
+  FileCheck2,
+  Star,
+  Check,
+  Zap,
+  HelpCircle,
+  Camera
 } from 'lucide-react';
 import trainingsData from '@/data/trainings.json';
 import articlesData from '@/data/articles.json';
@@ -22,230 +26,254 @@ import safetyTalksData from '@/data/safety_talks.json';
 
 export default function HomePage() {
   const featuredTrainings = trainingsData.slice(0, 6);
-  const recentArticles = articlesData.slice(0, 3);
-  const popularSafetyTalks = safetyTalksData.slice(0, 4);
+  const latestArticles = articlesData.slice(0, 3);
+  const totalSafetyTalks = safetyTalksData.length;
 
-  const categories = [
-    {
-      name: "Keselamatan Kerja (K3)",
-      slug: "k3",
-      count: "50+ Program",
-      desc: "Ahli K3 Umum, Konstruksi, Listrik, Kimia, Kebakaran, P3K & Ketinggian.",
-      icon: "🦺"
-    },
-    {
-      name: "Sistem Manajemen & ISO",
-      slug: "system-management",
-      count: "20+ Program",
-      desc: "SMK3 PP 50/2012, ISO 45001, ISO 9001, ISO 14001, CSMS & TOT Instruktur.",
-      icon: "📜"
-    },
-    {
-      name: "Lingkungan & B3",
-      slug: "lingkungan",
-      count: "15+ Program",
-      desc: "Pengelolaan Limbah B3, AMDAL, POPAL, POPDA & Higiene Industri.",
-      icon: "🌱"
-    },
-    {
-      name: "Pertambangan (Mining)",
-      slug: "mining",
-      count: "10+ Program",
-      desc: "Pengawas Operasional Pertama (POP), POM, POU & Keselamatan Tambang.",
-      icon: "⛏️"
-    }
+  const realClientLogos = [
+    { name: 'Samsung C&T Corporation', src: '/images/clients/d23da-samsung-cnt.png' },
+    { name: 'PetroChina International', src: '/images/clients/d9f47-petrochina.jpg' },
+    { name: 'PT Adaro Energy Indonesia', src: '/images/clients/c306e-adaro.png' },
+    { name: 'PT Pamapersada Nusantara', src: '/images/clients/9c87b-pamapersada-1-.jpg' },
+    { name: 'PT Telkomsel', src: '/images/clients/b5c3d-telkomsel-logo-capi.png' },
+    { name: 'PT Sumber Alfaria Trijaya (Alfamart)', src: '/images/clients/76c17-logo-alfamart.png' },
+    { name: 'Universitas Brawijaya', src: '/images/clients/3de95-universitas-brawijaya-logo.jpg' },
+    { name: 'Universitas Negeri Yogyakarta', src: '/images/clients/6c096-logo-uny.png' },
+    { name: 'Nasmoco Toyota Group', src: '/images/clients/ed703-nasmoco.png' },
+  ];
+
+  const galleryPreviews = [
+    { src: '/images/galeri/PELATIHAN DAMKAR.JPG', title: 'Simulasi Pemadaman Kebakaran (Damkar K3)' },
+    { src: '/images/galeri/IMG_1945.JPG', title: 'Praktek Bekerja di Ketinggian & Full Body Harness' },
+    { src: '/images/galeri/DSC_0100.JPG', title: 'Pelatihan Sertifikasi Ahli K3 Umum Batch Yogyakarta' },
+    { src: '/images/galeri/FOTO BARENG ada ibu sopian nor.jpg', title: 'Uji Kompetensi Asesor BNSP & Kelulusan Peserta' },
   ];
 
   return (
-    <div className="space-y-16 lg:space-y-24 pb-20">
+    <div className="space-y-20 pb-20">
       {/* ─── Hero Section ────────────────────────────────────────── */}
-      <section className="relative bg-gradient-to-b from-navy-950 via-navy-900 to-navy-950 text-white pt-12 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-        {/* Glow decoration */}
-        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 bg-brand-500/10 blur-3xl rounded-full pointer-events-none" />
+      <section className="relative bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white pt-16 pb-24 px-4 sm:px-6 lg:px-8 overflow-hidden border-b border-slate-800">
+        <div className="absolute inset-0 bg-[radial-gradient(#059669_1px,transparent_1px)] [background-size:24px_24px] opacity-15" />
 
-        <div className="max-w-7xl mx-auto relative z-10">
-          <div className="text-center max-w-4xl mx-auto space-y-6">
-            {/* Accreditation Chip */}
-            <div className="inline-flex items-center gap-2 bg-slate-800/90 border border-brand-500/30 text-brand-300 px-4 py-1.5 rounded-full text-xs font-semibold shadow-inner">
-              <ShieldCheck className="w-4 h-4 text-brand-400" />
-              <span>PJK3 KEMNAKER RI • BNSP • PaDi UMKM • Vendor LPSE</span>
+        <div className="relative max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
+            {/* Trust Pill */}
+            <div className="inline-flex items-center gap-2 bg-emerald-950/80 border border-emerald-500/30 text-emerald-300 px-4 py-1.5 rounded-full text-xs font-semibold shadow-inner">
+              <ShieldCheck className="w-4 h-4 text-emerald-400" />
+              <span>PJK3 Resmi KEMNAKER RI • LSP BNSP Terlisensi</span>
             </div>
 
-            {/* Main Headline */}
-            <h1 className="font-display text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.15] text-white">
-              Pelatihan K3 & Sertifikasi BNSP <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 via-emerald-300 to-brand-500">
-                Terakreditasi Resmi di Indonesia
-              </span>
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight font-display">
+              Tingkatkan Karir & Standar Keselamatan Perusahaan Bersama <span className="text-emerald-400">Wahana Totalita</span>
             </h1>
 
-            {/* Subheading */}
-            <p className="text-slate-300 text-base sm:text-xl leading-relaxed max-w-3xl mx-auto">
-              Tingkatkan kompetensi HSE dan raih lisensi resmi KEMNAKER RI & BNSP. Tersedia kelas Online interaktif via Zoom maupun Tatap Muka di Yogyakarta & In-House seluruh Indonesia.
+            <p className="text-slate-300 text-sm sm:text-base lg:text-lg leading-relaxed max-w-2xl">
+              Lembaga pembinaan K3 resmi terakreditasi penunjukan <strong>Kementerian Ketenagakerjaan RI</strong> dan <strong>Badan Nasional Sertifikasi Profesi (BNSP)</strong>. Melayani lebih dari 1.500+ perusahaan di seluruh Indonesia.
             </p>
 
-            {/* CTA Action Buttons */}
-            <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
+            {/* CTA Buttons */}
+            <div className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+              <Link
+                href="/pelatihan"
+                className="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-7 py-4 rounded-xl shadow-lg shadow-emerald-600/30 transition-all flex items-center justify-center gap-2 text-sm sm:text-base group"
+              >
+                <span>Lihat 147 Program Pelatihan</span>
+                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+              </Link>
+
               <a
                 href="https://wa.me/6287759151278?text=Halo%20Wahana%20Totalita%2C%20saya%20ingin%20konsultasi%20program%20pelatihan%20K3"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-brand-500 hover:bg-brand-400 text-navy-950 font-bold px-8 py-4 rounded-xl shadow-xl shadow-brand-500/25 flex items-center gap-2.5 transition-all transform hover:-translate-y-0.5 text-base"
+                className="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 font-bold px-6 py-4 rounded-xl transition-all flex items-center justify-center gap-2 text-sm sm:text-base"
               >
-                <Phone className="w-5 h-5 fill-current" />
-                Konsultasi Jadwal & Biaya via WA
+                <Phone className="w-4 h-4 text-emerald-400 fill-current" />
+                <span>Konsultasi CS WhatsApp</span>
               </a>
+            </div>
 
+            {/* Micro Trust Stats */}
+            <div className="pt-6 grid grid-cols-3 gap-4 border-t border-slate-800/80 text-left">
+              <div>
+                <div className="text-2xl sm:text-3xl font-extrabold text-white">147+</div>
+                <div className="text-xs text-slate-400">Skema & Program K3</div>
+              </div>
+              <div>
+                <div className="text-2xl sm:text-3xl font-extrabold text-emerald-400">1,500+</div>
+                <div className="text-xs text-slate-400">Klien Korporat</div>
+              </div>
+              <div>
+                <div className="text-2xl sm:text-3xl font-extrabold text-amber-400">100%</div>
+                <div className="text-xs text-slate-400">Garansi Kelulusan</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Quick Schedule / Action Card */}
+          <div className="lg:col-span-5 bg-slate-900/90 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl space-y-6">
+            <div className="flex items-center justify-between border-b border-slate-800 pb-4">
+              <div>
+                <div className="text-xs text-emerald-400 font-bold uppercase tracking-wider">Jadwal Batch Terdekat</div>
+                <h3 className="font-extrabold text-white text-lg sm:text-xl">Pendaftaran Dibuka</h3>
+              </div>
+              <span className="bg-emerald-500/20 text-emerald-300 text-xs font-bold px-3 py-1 rounded-full border border-emerald-500/30">
+                Tahun 2026
+              </span>
+            </div>
+
+            <div className="space-y-3 text-xs">
+              <div className="bg-slate-800/70 border border-slate-700/60 p-3.5 rounded-2xl flex items-center justify-between">
+                <div>
+                  <div className="font-bold text-white text-sm">Ahli K3 Umum (AK3U)</div>
+                  <div className="text-slate-400 text-[11px]">Sertifikasi KEMNAKER RI • Blended Zoom</div>
+                </div>
+                <Link
+                  href="/pelatihan/ahli-k3-umum-sertifikasi-kemnaker-ri"
+                  className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3 py-1.5 rounded-lg text-xs"
+                >
+                  Daftar
+                </Link>
+              </div>
+
+              <div className="bg-slate-800/70 border border-slate-700/60 p-3.5 rounded-2xl flex items-center justify-between">
+                <div>
+                  <div className="font-bold text-white text-sm">Training of Trainer (TOT)</div>
+                  <div className="text-slate-400 text-[11px]">Instruktur Level 4 BNSP • Online</div>
+                </div>
+                <Link
+                  href="/pelatihan/pelatihan-dan-sertifikasi-training-of-trainer-tot-level-4-sertifikasi-bnsp"
+                  className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3 py-1.5 rounded-lg text-xs"
+                >
+                  Daftar
+                </Link>
+              </div>
+
+              <div className="bg-slate-800/70 border border-slate-700/60 p-3.5 rounded-2xl flex items-center justify-between">
+                <div>
+                  <div className="font-bold text-white text-sm">POP Pertambangan</div>
+                  <div className="text-slate-400 text-[11px]">Pengawas Operasional Pertama BNSP</div>
+                </div>
+                <Link
+                  href="/pelatihan/pengawas-operasional-pertama-pop-pertambangan-sertifikasi-bnsp"
+                  className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-3 py-1.5 rounded-lg text-xs"
+                >
+                  Daftar
+                </Link>
+              </div>
+            </div>
+
+            <div className="pt-2">
               <Link
                 href="/jadwal"
-                className="bg-slate-800/90 hover:bg-slate-800 border border-slate-700 text-white font-semibold px-7 py-4 rounded-xl flex items-center gap-2 transition-all hover:border-slate-600 text-base"
+                className="w-full bg-slate-800 hover:bg-slate-700 text-white font-bold text-xs py-3 rounded-xl block text-center border border-slate-700 transition-colors"
               >
-                <Calendar className="w-5 h-5 text-brand-400" />
-                Lihat Jadwal 2026
+                Lihat Kalender Lengkap Jadwal 2026 →
               </Link>
-            </div>
-
-            {/* Key Trust Stats */}
-            <div className="pt-12 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto border-t border-slate-800/80">
-              <div className="p-3">
-                <div className="text-2xl sm:text-3xl font-extrabold text-white">100+</div>
-                <div className="text-xs text-slate-400 mt-1">Program Sertifikasi</div>
-              </div>
-              <div className="p-3">
-                <div className="text-2xl sm:text-3xl font-extrabold text-brand-400">1,500+</div>
-                <div className="text-xs text-slate-400 mt-1">Klien Perusahaan & BUMN</div>
-              </div>
-              <div className="p-3">
-                <div className="text-2xl sm:text-3xl font-extrabold text-white">99.8%</div>
-                <div className="text-xs text-slate-400 mt-1">Tingkat Kelulusan</div>
-              </div>
-              <div className="p-3">
-                <div className="text-2xl sm:text-3xl font-extrabold text-brand-400">100%</div>
-                <div className="text-xs text-slate-400 mt-1">Sertifikat Resmi Terverifikasi</div>
-              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ─── High-Impact Banner: 100 Materi Safety Talk Spotlight ── */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-gradient-to-r from-brand-900 via-navy-900 to-navy-950 border border-brand-500/30 rounded-3xl p-6 sm:p-10 shadow-2xl text-white relative overflow-hidden">
-          <div className="absolute right-0 top-0 translate-x-1/4 -translate-y-1/4 w-80 h-80 bg-brand-500/20 blur-3xl rounded-full pointer-events-none" />
-
-          <div className="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
-            <div className="space-y-3 max-w-2xl">
-              <div className="inline-flex items-center gap-2 bg-brand-500/20 border border-brand-400/30 text-brand-300 px-3 py-1 rounded-lg text-xs font-bold uppercase tracking-wider">
-                📢 Fitur Unggulan HSE
-              </div>
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
-                100 Materi Safety Talk (TBM) Harian K3 2026
-              </h2>
-              <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-                Koleksi terlengkap materi Toolbox Meeting harian: fakta statistik, poin diskusi interaktif, langkah pencegahan, hingga lembar cetak daftar hadir siap pakai untuk supervisor & HSE officer.
-              </p>
-            </div>
-
-            <div className="flex flex-col sm:flex-row items-center gap-3 w-full lg:w-auto">
-              <Link
-                href="/tools/safety-talk"
-                className="w-full sm:w-auto bg-brand-500 hover:bg-brand-400 text-navy-950 font-bold px-7 py-3.5 rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-brand-500/30 transition-all text-sm whitespace-nowrap"
-              >
-                Buka 100 Materi Gratis →
-              </Link>
-              <Link
-                href="/tools"
-                className="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold px-5 py-3.5 rounded-xl flex items-center justify-center gap-2 text-sm border border-slate-700 whitespace-nowrap"
-              >
-                Lihat 13 Tools K3 Lainnya
-              </Link>
-            </div>
-          </div>
-
-          {/* Quick Preview Cards */}
-          <div className="mt-8 pt-6 border-t border-slate-800 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {popularSafetyTalks.map((talk) => (
-              <Link
-                key={talk.id}
-                href="/tools/safety-talk"
-                className="bg-navy-950/80 border border-slate-800 hover:border-brand-500/50 p-4 rounded-xl transition-all group"
-              >
-                <div className="flex items-center justify-between text-xs text-brand-400 font-medium mb-1">
-                  <span>Topik #{talk.id}</span>
-                  <span className="capitalize bg-slate-800 px-2 py-0.5 rounded text-[10px] text-slate-300">{talk.category}</span>
-                </div>
-                <h4 className="font-semibold text-white text-sm group-hover:text-brand-300 line-clamp-1 transition-colors">
-                  {talk.title}
-                </h4>
-                <p className="text-xs text-slate-400 mt-1 line-clamp-2">
-                  {talk.description}
-                </p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ─── Training Categories ─────────────────────────────────── */}
+      {/* ─── Real Client Logos Section (1,500+ Klien) ────────────── */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-        <div className="text-center max-w-2xl mx-auto space-y-2">
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-            Bidang Pelatihan & Sertifikasi
+        <div className="text-center space-y-2 max-w-2xl mx-auto">
+          <span className="text-xs text-emerald-700 font-bold uppercase tracking-wider bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full">
+            Dipercaya 1,500+ Perusahaan & Lembaga
+          </span>
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
+            Klien Korporat, BUMN & Institusi Pendidikan
           </h2>
-          <p className="text-slate-600 text-sm sm:text-base">
-            Pilih kategori spesialisasi sesuai kebutuhan profesi dan kepatuhan regulasi perusahaan Anda.
+          <p className="text-slate-600 text-xs sm:text-sm">
+            Telah dipercaya oleh berbagai BUMN terkemuka, kontraktor multinasional, industri tambang, migas, dan universitas negeri di Indonesia.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {categories.map((cat) => (
-            <Link
-              key={cat.slug}
-              href={`/pelatihan/${cat.slug}`}
-              className="bg-white border border-slate-200 hover:border-brand-500 rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all group flex flex-col justify-between"
+        {/* Real Client Logos Grid */}
+        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-4 items-center">
+          {realClientLogos.map((client, idx) => (
+            <div
+              key={idx}
+              className="bg-white border border-slate-200 rounded-2xl p-4 h-24 flex items-center justify-center shadow-sm hover:shadow-md hover:border-emerald-500 transition-all group"
+              title={client.name}
             >
-              <div className="space-y-4">
-                <div className="w-14 h-14 rounded-2xl bg-brand-50 flex items-center justify-center text-3xl group-hover:scale-110 transition-transform">
-                  {cat.icon}
-                </div>
-                <div>
-                  <div className="text-xs font-bold text-brand-600 uppercase tracking-wider mb-1">
-                    {cat.count}
-                  </div>
-                  <h3 className="text-lg font-bold text-slate-900 group-hover:text-brand-600 transition-colors">
-                    {cat.name}
-                  </h3>
-                </div>
-                <p className="text-xs text-slate-500 leading-relaxed">
-                  {cat.desc}
-                </p>
-              </div>
-
-              <div className="mt-6 pt-4 border-t border-slate-100 flex items-center text-xs font-bold text-brand-600 group-hover:translate-x-1 transition-transform">
-                Jelajahi Program →
-              </div>
-            </Link>
+              <img
+                src={client.src}
+                alt={client.name}
+                className="max-h-12 max-w-full object-contain grayscale group-hover:grayscale-0 transition-all transform group-hover:scale-105"
+              />
+            </div>
           ))}
         </div>
       </section>
 
-      {/* ─── Featured Programs Grid ──────────────────────────────── */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
-          <div className="space-y-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-              Program Sertifikasi Paling Diminati
-            </h2>
-            <p className="text-slate-600 text-sm">
-              Sertifikat resmi KEMNAKER RI & BNSP dengan jadwal batch terdekat setiap bulan.
-            </p>
-          </div>
+      {/* ─── 100 Safety Talk Spotlight Tool ──────────────────────── */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-gradient-to-r from-slate-900 via-slate-950 to-slate-900 text-white rounded-3xl p-8 sm:p-12 shadow-2xl border border-slate-800 relative overflow-hidden">
+          <div className="absolute right-0 top-0 translate-x-10 -translate-y-10 w-96 h-96 bg-emerald-600/10 rounded-full blur-3xl pointer-events-none" />
 
+          <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div className="lg:col-span-8 space-y-4">
+              <div className="inline-flex items-center gap-2 bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 px-3.5 py-1 rounded-full text-xs font-bold">
+                <Sparkles className="w-3.5 h-3.5 text-emerald-400" />
+                Tool HSE Terpopuler #1
+              </div>
+
+              <h2 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+                Database 100 Materi Safety Talk (TBM) & Lembar Absensi
+              </h2>
+
+              <p className="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-2xl">
+                Tersedia <strong>{totalSafetyTalks} topik materi briefing K3 harian</strong> lengkap dengan poin diskusi teknis, langkah aksi pencegahan, statistik kecelakaan kerja nyata, dan fitur cetak lembar daftar hadir (attendance sheet) format A4.
+              </p>
+
+              <div className="pt-2 flex flex-wrap gap-3">
+                <Link
+                  href="/tools/safety-talk"
+                  className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold px-6 py-3.5 rounded-xl shadow-lg flex items-center gap-2 text-xs sm:text-sm"
+                >
+                  <span>Buka 100 Topik Safety Talk Gratis</span>
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link
+                  href="/tools"
+                  className="bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 font-semibold px-5 py-3.5 rounded-xl text-xs sm:text-sm"
+                >
+                  Lihat Semua Tools K3
+                </Link>
+              </div>
+            </div>
+
+            <div className="lg:col-span-4 bg-slate-800/80 border border-slate-700/80 rounded-2xl p-5 space-y-3 text-xs">
+              <div className="font-bold text-white text-sm">Topik Populer Safety Talk:</div>
+              <div className="space-y-2">
+                <div className="bg-slate-900 p-2.5 rounded-xl border border-slate-800">
+                  <span className="text-emerald-400 font-bold">#01</span> 3 Detik yang Menyelamatkan Nyawa (Take 5)
+                </div>
+                <div className="bg-slate-900 p-2.5 rounded-xl border border-slate-800">
+                  <span className="text-emerald-400 font-bold">#04</span> Inspeksi Full Body Harness Sebelum Dipakai
+                </div>
+                <div className="bg-slate-900 p-2.5 rounded-xl border border-slate-800">
+                  <span className="text-emerald-400 font-bold">#07</span> Lockout / Tagout (LOTO) Keselamatan Listrik
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── Popular Training Programs Grid ──────────────────────── */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-slate-200 pb-4">
+          <div className="space-y-1">
+            <span className="text-xs text-emerald-700 font-bold uppercase tracking-wider">Program Unggulan</span>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
+              Pelatihan & Sertifikasi K3 Terpopuler
+            </h2>
+          </div>
           <Link
             href="/pelatihan"
-            className="inline-flex items-center gap-1.5 text-sm font-bold text-brand-600 hover:text-brand-700"
+            className="text-xs sm:text-sm font-bold text-emerald-700 hover:text-emerald-800 flex items-center gap-1"
           >
-            Lihat Semua 105 Program <ArrowRight className="w-4 h-4" />
+            Lihat Semua 147 Pelatihan →
           </Link>
         </div>
 
@@ -253,11 +281,11 @@ export default function HomePage() {
           {featuredTrainings.map((item) => (
             <div
               key={item.id}
-              className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between"
+              className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:border-emerald-500 transition-all flex flex-col justify-between group"
             >
               <div className="space-y-4">
                 <div className="flex items-center justify-between gap-2">
-                  <span className="inline-flex items-center gap-1 bg-brand-50 text-brand-700 border border-brand-200 text-[11px] font-bold px-2.5 py-1 rounded-md">
+                  <span className="inline-flex items-center gap-1 bg-emerald-50 text-emerald-700 border border-emerald-200 text-[11px] font-bold px-2.5 py-1 rounded-md">
                     <ShieldCheck className="w-3.5 h-3.5" />
                     {item.certification}
                   </span>
@@ -267,13 +295,13 @@ export default function HomePage() {
                 </div>
 
                 <Link href={`/pelatihan/${item.slug}`}>
-                  <h3 className="font-bold text-base sm:text-lg text-slate-900 hover:text-brand-600 transition-colors line-clamp-2">
+                  <h3 className="font-bold text-base sm:text-lg text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2">
                     {item.name}
                   </h3>
                 </Link>
 
                 <p className="text-xs text-slate-500 line-clamp-3 leading-relaxed">
-                  {item.description || 'Program pembinaan dan sertifikasi kompetensi resmi untuk meningkatkan standar keselamatan kerja perusahaan.'}
+                  {item.description || 'Program sertifikasi resmi terakreditasi untuk meningkatkan kompetensi dan kepatuhan K3 perusahaan.'}
                 </p>
 
                 <div className="flex items-center gap-4 text-xs text-slate-600 pt-1">
@@ -290,121 +318,169 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                <a
-                  href={`https://wa.me/6287759151278?text=${encodeURIComponent(item.wa_text || `Halo Wahana Totalita, saya tertarik daftar ${item.name}`)}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-brand-600 hover:bg-brand-500 text-white font-bold text-xs px-4 py-2.5 rounded-xl shadow-sm transition-colors"
-                >
-                  Daftar via WA
-                </a>
+                <div className="flex items-center gap-2">
+                  <Link
+                    href={`/pelatihan/${item.slug}`}
+                    className="p-2.5 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-50 text-xs font-semibold"
+                  >
+                    Detail
+                  </Link>
+                  <a
+                    href={`https://wa.me/6287759151278?text=${encodeURIComponent(item.wa_text || `Halo Wahana Totalita, saya tertarik daftar ${item.name}`)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-3.5 py-2.5 rounded-xl shadow-sm transition-colors flex items-center gap-1.5"
+                  >
+                    <Phone className="w-3.5 h-3.5" />
+                    Daftar
+                  </a>
+                </div>
               </div>
             </div>
           ))}
         </div>
       </section>
 
-      {/* ─── Layanan Khusus Perusahaan & CSMS ─────────────────────── */}
-      <section className="bg-slate-900 text-white py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <div className="space-y-4">
-            <span className="text-brand-400 font-bold text-xs uppercase tracking-wider">Solusi Korporat</span>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-white">
-              Konsultasi CSMS, SMK3 & Pendampingan Sertifikasi
+      {/* ─── CSMS & SMK3 Corporate Service Banner ────────────────── */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 border border-slate-800 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div className="lg:col-span-8 space-y-4">
+            <span className="text-xs text-emerald-400 font-bold uppercase tracking-wider bg-slate-800 border border-slate-700 px-3 py-1 rounded-full">
+              Layanan Konsultasi Korporat
+            </span>
+            <h2 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+              Butuh Dokumen CSMS untuk Lolos Tender BUMN & Migas?
             </h2>
-            <p className="text-slate-400 text-sm leading-relaxed">
-              Kami mendampingi ratusan kontraktor dan perusahaan meraih sertifikat kelayakan CSMS Pertamina/PLN/Mining, audit SMK3 PP 50/2012, dan pengadaan instansi pemerintah.
+            <p className="text-slate-300 text-xs sm:text-sm leading-relaxed max-w-2xl">
+              Kami mendampingi kontraktor dan vendor dalam penyusunan sistem Contractor Safety Management System (CSMS) dan audit SMK3 PP 50/2012 agar siap lolos prakualifikasi Pertamina, PLN, Adaro, dan instansi pemerintah.
             </p>
-            <div className="pt-2">
+            <div className="pt-2 flex flex-wrap gap-4">
               <Link
                 href="/csms"
-                className="inline-flex items-center gap-2 bg-brand-500 hover:bg-brand-400 text-navy-950 font-bold px-6 py-3 rounded-xl text-sm transition-all"
+                className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-6 py-3 rounded-xl text-xs sm:text-sm shadow-md"
               >
                 Pelajari Layanan CSMS →
+              </Link>
+              <Link
+                href="/smk3"
+                className="bg-slate-800 hover:bg-slate-700 text-white border border-slate-700 font-bold px-6 py-3 rounded-xl text-xs sm:text-sm"
+              >
+                Sertifikasi SMK3 PP 50/2012
               </Link>
             </div>
           </div>
 
-          <div className="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <Link href="/csms" className="bg-slate-800/80 border border-slate-700 hover:border-brand-500 p-6 rounded-2xl transition-all">
-              <Building2 className="w-8 h-8 text-brand-400 mb-3" />
-              <h3 className="font-bold text-white text-base mb-1">Penyusunan Dokumen CSMS</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Pembuatan dokumen HSE plan, risk assessment, dan audit pra-kualifikasi tender migas & pertambangan.
-              </p>
-            </Link>
-
-            <Link href="/perpanjangan-skp" className="bg-slate-800/80 border border-slate-700 hover:border-brand-500 p-6 rounded-2xl transition-all">
-              <FileText className="w-8 h-8 text-brand-400 mb-3" />
-              <h3 className="font-bold text-white text-base mb-1">Perpanjangan SKP KEMNAKER</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Pengurusan renewal SKP dan Lisensi K3 sebelum masa berlaku 3 tahun habis secara resmi dan cepat.
-              </p>
-            </Link>
-
-            <Link href="/layanan-pemerintah" className="bg-slate-800/80 border border-slate-700 hover:border-brand-500 p-6 rounded-2xl transition-all">
-              <Award className="w-8 h-8 text-brand-400 mb-3" />
-              <h3 className="font-bold text-white text-base mb-1">Pengadaan Instansi & BUMN</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Tersedia di PaDi UMKM dan e-Katalog LPSE dengan faktur pajak dan administrasi lengkap.
-              </p>
-            </Link>
-
-            <Link href="/smk3" className="bg-slate-800/80 border border-slate-700 hover:border-brand-500 p-6 rounded-2xl transition-all">
-              <ShieldCheck className="w-8 h-8 text-brand-400 mb-3" />
-              <h3 className="font-bold text-white text-base mb-1">Pendampingan Audit SMK3</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Persiapan audit 64, 122, atau 166 kriteria untuk meraih Bendera Emas / Perak SMK3 Kemnaker.
-              </p>
-            </Link>
+          <div className="lg:col-span-4 bg-slate-950/80 border border-slate-800 rounded-2xl p-6 space-y-3 text-xs">
+            <div className="font-bold text-white text-sm">Paket Pendampingan CSMS:</div>
+            <div className="space-y-2 text-slate-300">
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                <span>Penyusunan HSE Plan & HIRADC</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                <span>Pemenuhan 6 Tahap Kriteria CSMS</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                <span>Simulasi Pertanyaan Audit CSMS</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                <span>Garansi Lolos Pra-Kualifikasi Tender</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* ─── Latest Articles & K3 Guides ─────────────────────────── */}
+      {/* ─── Real Documentation & Photo Gallery ──────────────────── */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
-          <div className="space-y-2">
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-slate-200 pb-4">
+          <div className="space-y-1">
+            <span className="text-xs text-emerald-700 font-bold uppercase tracking-wider">Dokumentasi Nyata</span>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 flex items-center gap-2">
+              <Camera className="w-7 h-7 text-emerald-600" />
+              Galeri Kegiatan & Praktek Lapangan K3
+            </h2>
+          </div>
+          <Link
+            href="/galeri"
+            className="text-xs sm:text-sm font-bold text-emerald-700 hover:text-emerald-800 flex items-center gap-1"
+          >
+            Buka Semua Galeri Foto →
+          </Link>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {galleryPreviews.map((g, idx) => (
+            <div
+              key={idx}
+              className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all group"
+            >
+              <div className="h-48 overflow-hidden relative">
+                <img
+                  src={g.src}
+                  alt={g.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-4 space-y-1">
+                <h4 className="font-bold text-xs sm:text-sm text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2">
+                  {g.title}
+                </h4>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ─── Latest Articles & Guides ────────────────────────────── */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-slate-200 pb-4">
+          <div className="space-y-1">
+            <span className="text-xs text-emerald-700 font-bold uppercase tracking-wider">Pusat Edukasi</span>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
               Artikel & Panduan Regulasi K3 Terbaru
             </h2>
-            <p className="text-slate-600 text-sm">
-              Edukasi mendalam seputar perundang-undangan, tips keselamatan kerja, dan standar BNSP.
-            </p>
           </div>
-
           <Link
             href="/artikel"
-            className="inline-flex items-center gap-1.5 text-sm font-bold text-brand-600 hover:text-brand-700"
+            className="text-xs sm:text-sm font-bold text-emerald-700 hover:text-emerald-800 flex items-center gap-1"
           >
-            Lihat Semua 94 Artikel <ArrowRight className="w-4 h-4" />
+            Lihat Semua 146 Artikel →
           </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {recentArticles.map((art) => (
+          {latestArticles.map((art) => (
             <article
               key={art.id}
-              className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between"
+              className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm hover:shadow-xl hover:border-emerald-500 transition-all flex flex-col justify-between group"
             >
               <div className="space-y-3">
-                <span className="inline-block bg-slate-100 text-slate-700 text-[11px] font-bold px-2.5 py-1 rounded-md">
+                <span className="inline-block bg-emerald-50 text-emerald-700 border border-emerald-200 text-[11px] font-bold px-2.5 py-1 rounded-md">
                   {art.category || 'K3'}
                 </span>
+
                 <Link href={`/artikel/${art.slug}`}>
-                  <h3 className="font-bold text-base sm:text-lg text-slate-900 hover:text-brand-600 transition-colors line-clamp-2">
+                  <h3 className="font-bold text-base text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2">
                     {art.title}
                   </h3>
                 </Link>
+
                 <p className="text-xs text-slate-500 line-clamp-3 leading-relaxed">
-                  {art.meta_desc || 'Panduan lengkap keselamatan dan kesehatan kerja menurut regulasi Kementerian Ketenagakerjaan RI.'}
+                  {art.meta_desc || 'Panduan lengkap dan informasi regulasi K3 di Indonesia oleh tim konsultan Wahana Totalita.'}
                 </p>
               </div>
 
               <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-xs text-slate-400">
-                <span>Wahana Totalita</span>
-                <Link href={`/artikel/${art.slug}`} className="font-bold text-brand-600 hover:underline">
-                  Baca Selengkapnya →
+                <span>{art.author || 'Wahana Totalita'}</span>
+                <Link
+                  href={`/artikel/${art.slug}`}
+                  className="font-bold text-emerald-700 group-hover:translate-x-1 transition-transform flex items-center gap-1"
+                >
+                  Baca Panduan →
                 </Link>
               </div>
             </article>
@@ -412,45 +488,43 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── Frequently Asked Questions (FAQ) ─────────────────────── */}
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
+      {/* ─── Frequently Asked Questions (FAQ) ────────────────────── */}
+      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
         <div className="text-center space-y-2">
+          <span className="text-xs text-emerald-700 font-bold uppercase tracking-wider">Tanya Jawab</span>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
-            Pertanyaan yang Sering Diajukan (FAQ)
+            Pertanyaan yang Sering Diajukan
           </h2>
-          <p className="text-slate-600 text-sm">
-            Jawaban lengkap seputar pelatihan, sertifikasi, dan legalitas Wahana Totalita.
-          </p>
         </div>
 
-        <div className="space-y-4">
-          <details className="bg-white border border-slate-200 rounded-2xl p-5 group open:border-brand-500 transition-all shadow-sm">
-            <summary className="font-bold text-slate-900 cursor-pointer list-none flex items-center justify-between">
-              <span>Apakah sertifikat yang diterbitkan resmi dari KEMNAKER RI & BNSP?</span>
-              <span className="text-brand-600 font-bold group-open:rotate-180 transition-transform">▼</span>
+        <div className="space-y-3">
+          <details className="bg-white border border-slate-200 rounded-2xl p-5 group open:border-emerald-500 transition-all">
+            <summary className="font-bold text-slate-900 text-sm sm:text-base cursor-pointer list-none flex items-center justify-between">
+              <span>Apakah sertifikat yang diterbitkan resmi terdaftar di KEMNAKER RI / BNSP?</span>
+              <span className="text-emerald-700 font-bold group-open:rotate-180 transition-transform">▼</span>
             </summary>
             <p className="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
-              Ya, seluruh sertifikat pelatihan yang kami selenggarakan diterbitkan secara resmi oleh Kementerian Ketenagakerjaan RI (KEMNAKER RI) atau Badan Nasional Sertifikasi Profesi (BNSP) dan dapat diverifikasi keasliannya di portal resmi kementerian maupun menu Verifikasi Sertifikat di website kami.
+              Ya, seluruh sertifikasi yang diselenggarakan melalui jalur Kemnaker RI diterbitkan langsung oleh Kementerian Ketenagakerjaan RI lengkap dengan SKP dan Lisensi K3 (Kartu Kewenangan). Untuk jalur BNSP, sertifikat berlogo Garuda Nasional dengan nomor registrasi BNSP resmi yang berlaku secara nasional.
             </p>
           </details>
 
-          <details className="bg-white border border-slate-200 rounded-2xl p-5 group open:border-brand-500 transition-all shadow-sm">
-            <summary className="font-bold text-slate-900 cursor-pointer list-none flex items-center justify-between">
-              <span>Apakah pelatihan bisa diikuti secara Online via Zoom?</span>
-              <span className="text-brand-600 font-bold group-open:rotate-180 transition-transform">▼</span>
+          <details className="bg-white border border-slate-200 rounded-2xl p-5 group open:border-emerald-500 transition-all">
+            <summary className="font-bold text-slate-900 text-sm sm:text-base cursor-pointer list-none flex items-center justify-between">
+              <span>Bagaimana jika peserta tidak lulus ujian kompetensi?</span>
+              <span className="text-emerald-700 font-bold group-open:rotate-180 transition-transform">▼</span>
             </summary>
             <p className="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
-              Ya, kami menyediakan kelas Online interaktif via Zoom untuk sebagian besar program pelatihan sertifikasi K3, TOT Instruktur, dan Auditor. Sertifikat yang didapatkan sama persis dan memiliki legalitas penuh yang berlaku di seluruh Indonesia.
+              Wahana Totalita memberikan <strong>Garansi Ujian Ulang Gratis (Remedial)</strong> sampai peserta dinyatakan kompeten dan berhak mendapatkan sertifikat tanpa dikenakan biaya pelatihan ulang.
             </p>
           </details>
 
-          <details className="bg-white border border-slate-200 rounded-2xl p-5 group open:border-brand-500 transition-all shadow-sm">
-            <summary className="font-bold text-slate-900 cursor-pointer list-none flex items-center justify-between">
-              <span>Bagaimana cara mendaftar pelatihan di Wahana Totalita?</span>
-              <span className="text-brand-600 font-bold group-open:rotate-180 transition-transform">▼</span>
+          <details className="bg-white border border-slate-200 rounded-2xl p-5 group open:border-emerald-500 transition-all">
+            <summary className="font-bold text-slate-900 text-sm sm:text-base cursor-pointer list-none flex items-center justify-between">
+              <span>Apakah tersedia program In-House Training untuk perusahaan di luar Yogyakarta?</span>
+              <span className="text-emerald-700 font-bold group-open:rotate-180 transition-transform">▼</span>
             </summary>
             <p className="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
-              Anda cukup memilih program yang diinginkan dan klik tombol Konsultasi via WhatsApp. Tim CS kami akan mengirimkan jadwal terdekat, silabus materi lengkap, dan formulir pendaftaran.
+              Tentu. Kami melayani In-House Training di seluruh wilayah Indonesia (Jakarta, Surabaya, Balikpapan, Medan, Makassar, dll.) dengan jadwal dan silabus materi yang dapat disesuaikan dengan kebutuhan operasional perusahaan Anda.
             </p>
           </details>
         </div>

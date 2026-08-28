@@ -94,7 +94,7 @@ export default function PelatihanCatalogPage() {
                   onClick={() => setSelectedCategory(cat.id)}
                   className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all ${
                     selectedCategory === cat.id
-                      ? 'bg-brand-600 text-white shadow-sm'
+                      ? 'bg-emerald-600 text-white shadow-sm'
                       : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
                   }`}
                 >
@@ -135,7 +135,7 @@ export default function PelatihanCatalogPage() {
             >
               <div className="space-y-4">
                 <div className="flex items-center justify-between gap-2">
-                  <span className="inline-flex items-center gap-1 bg-brand-50 text-brand-700 border border-brand-200 text-[11px] font-bold px-2.5 py-1 rounded-md">
+                  <span className="inline-flex items-center gap-1 bg-emerald-50 text-emerald-700 border border-emerald-200 text-[11px] font-bold px-2.5 py-1 rounded-md">
                     <ShieldCheck className="w-3.5 h-3.5" />
                     {item.certification}
                   </span>
@@ -145,7 +145,7 @@ export default function PelatihanCatalogPage() {
                 </div>
 
                 <Link href={`/pelatihan/${item.slug}`}>
-                  <h2 className="font-bold text-base sm:text-lg text-slate-900 group-hover:text-brand-600 transition-colors line-clamp-2">
+                  <h2 className="font-bold text-base sm:text-lg text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2">
                     {item.name}
                   </h2>
                 </Link>
@@ -179,7 +179,7 @@ export default function PelatihanCatalogPage() {
                     href={`https://wa.me/6287759151278?text=${encodeURIComponent(item.wa_text || `Halo Wahana Totalita, saya tertarik daftar ${item.name}`)}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-brand-600 hover:bg-brand-500 text-white font-bold text-xs px-3.5 py-2.5 rounded-xl shadow-sm transition-colors flex items-center gap-1.5"
+                    className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-3.5 py-2.5 rounded-xl shadow-sm transition-colors flex items-center gap-1.5"
                   >
                     <Phone className="w-3.5 h-3.5" />
                     Daftar

@@ -108,8 +108,8 @@ export default function PelatihanDetailPage({ params }: Props) {
           <div className="flex flex-col lg:flex-row lg:items-start justify-between gap-8">
             <div className="space-y-4 max-w-4xl">
               <div className="flex flex-wrap items-center gap-2">
-                <span className="inline-flex items-center gap-1.5 bg-brand-50 border border-brand-200 text-brand-700 text-xs font-bold px-3 py-1 rounded-full">
-                  <ShieldCheck className="w-4 h-4 text-brand-600" />
+                <span className="inline-flex items-center gap-1.5 bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-bold px-3 py-1 rounded-full">
+                  <ShieldCheck className="w-4 h-4 text-emerald-600" />
                   {training.certification}
                 </span>
                 <span className="capitalize text-xs font-semibold text-slate-600 bg-slate-100 px-2.5 py-1 rounded-full">
@@ -132,7 +132,7 @@ export default function PelatihanDetailPage({ params }: Props) {
             {/* Quick Pricing Card Desktop */}
             <div className="lg:w-80 bg-navy-950 text-white rounded-3xl p-6 shadow-2xl border border-slate-800 space-y-6 shrink-0">
               <div className="space-y-1">
-                <span className="text-xs text-brand-400 font-semibold uppercase tracking-wider">Investasi Pelatihan</span>
+                <span className="text-xs text-emerald-400 font-semibold uppercase tracking-wider">Investasi Pelatihan</span>
                 <div className="text-2xl sm:text-3xl font-extrabold text-white">
                   {training.price > 0 ? `Rp ${Number(training.price).toLocaleString('id-ID')}` : 'Hubungi CS'}
                 </div>
@@ -141,19 +141,19 @@ export default function PelatihanDetailPage({ params }: Props) {
 
               <div className="space-y-2.5 text-xs text-slate-300 border-t border-slate-800 pt-4">
                 <div className="flex items-center gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-brand-400 shrink-0" />
+                  <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
                   <span>Sertifikat Resmi {training.certification}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-brand-400 shrink-0" />
+                  <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
                   <span>Modul, Regulasi & Softcopy Materi</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-brand-400 shrink-0" />
+                  <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
                   <span>Ujian & Evaluasi Kelulusan</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-brand-400 shrink-0" />
+                  <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
                   <span>Konsultasi Pasca-Pelatihan</span>
                 </div>
               </div>
@@ -162,7 +162,7 @@ export default function PelatihanDetailPage({ params }: Props) {
                 href={`https://wa.me/6287759151278?text=${encodeURIComponent(training.wa_text || `Halo Wahana Totalita, saya ingin daftar ${training.name}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full bg-brand-500 hover:bg-brand-400 text-navy-950 font-bold py-3.5 px-4 rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-brand-500/25 transition-all text-sm"
+                className="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold py-3.5 px-4 rounded-xl flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/25 transition-all text-sm"
               >
                 <Phone className="w-4 h-4 fill-current" />
                 Daftar via WhatsApp
