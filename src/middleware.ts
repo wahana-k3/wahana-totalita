@@ -4,33 +4,59 @@ import pageRoutesData from './data/page_routes.json';
 
 const HOSTINGER_ORIGIN = 'https://origen.wahanatotalita.com';
 
-interface PageRoutesConfig {
-  routes: Record<string, string>;
-  default: string;
-}
+// Build a fast lookup set of all Vercel/Next.js paths
+const vercelRoutesSet = new Set(
+  Object.entries(pageRoutesData.routes || {})
+    .filter(([_, dest]) => dest === 'vercel')
+    .map(([path]) => path.toLowerCase())
+);
 
-const pageRoutes = pageRoutesData as PageRoutesConfig;
+// Explicit core paths that MUST always be handled by Next.js
+const CORE_NEXTJS_PREFIXES = [
+  '/tools',
+  '/artikel',
+  '/jadwal',
+  '/csms',
+  '/galeri',
+  '/perusahaan',
+  '/perpanjangan-skp',
+  '/layanan-pemerintah',
+  '/glosarium',
+  '/insiden',
+  '/verifikasi',
+  '/lowongan',
+  '/resources',
+  '/forum',
+  '/pelatihan-k3-'
+];
 
 export function middleware(request: NextRequest) {
   const { pathname, search } = request.nextUrl;
+  const lowerPath = pathname.toLowerCase();
 
-  // Normalize path variations (with and without trailing slash)
-  const pathWithSlash = pathname.endsWith('/') ? pathname : `${pathname}/`;
-  const pathWithoutSlash = pathname.endsWith('/') && pathname.length > 1 ? pathname.slice(0, -1) : pathname;
-
-  // Look up destination in routes mapping
-  const destination =
-    pageRoutes.routes[pathWithSlash] ||
-    pageRoutes.routes[pathWithoutSlash] ||
-    pageRoutes.routes[pathname] ||
-    pageRoutes.default;
-
-  // 1. If destination is 'vercel', let Next.js handle it normally
-  if (destination === 'vercel') {
+  // 1. Homepage MUST always be handled by Next.js
+  if (lowerPath === '/' || lowerPath === '') {
     return NextResponse.next();
   }
 
-  // 2. If destination is 'hostinger' (or default), transparently proxy/rewrite to Hostinger origin
+  // 2. Exact match in page-routes.json mapping
+  const pathWithSlash = lowerPath.endsWith('/') ? lowerPath : `${lowerPath}/`;
+  const pathWithoutSlash = lowerPath.endsWith('/') && lowerPath.length > 1 ? lowerPath.slice(0, -1) : lowerPath;
+
+  if (
+    vercelRoutesSet.has(lowerPath) ||
+    vercelRoutesSet.has(pathWithSlash) ||
+    vercelRoutesSet.has(pathWithoutSlash)
+  ) {
+    return NextResponse.next();
+  }
+
+  // 3. Core Next.js feature prefixes
+  if (CORE_NEXTJS_PREFIXES.some(prefix => lowerPath.startsWith(prefix))) {
+    return NextResponse.next();
+  }
+
+  // 4. Any unmapped / legacy / 404 routes fall through to Hostinger origin transparently
   const targetUrl = new URL(`${pathname}${search}`, HOSTINGER_ORIGIN);
   return NextResponse.rewrite(targetUrl);
 }
