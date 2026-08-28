@@ -76,8 +76,63 @@ body {
   text-decoration: underline;
   font-weight: 500;
 }
-.prose-k3 a:hover {
-  color: #047857;
+.prose-k3 svg {
+  max-width: 24px !important;
+  max-height: 24px !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+.prose-k3 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  border: 1px solid #e4e4e7;
+}
+
+.prose-k3 th, .prose-k3 td {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e4e4e7;
+  text-align: left;
+  font-size: 0.875rem;
+}
+
+.prose-k3 th {
+  background-color: #f4f4f5;
+  font-weight: 700;
+  color: #121214;
+}
+
+.prose-k3 details {
+  background-color: #fafaf9;
+  border: 1px solid #e4e4e7;
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  transition: all 0.2s;
+}
+
+.prose-k3 details[open] {
+  background-color: #ffffff;
+  border-color: #10b981;
+  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+}
+
+.prose-k3 summary {
+  font-weight: 700;
+  color: #121214;
+  cursor: pointer;
+  outline: none;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.prose-k3 summary::-webkit-details-marker {
+  display: none;
 }
 
 /* Print styles for Safety Talk attendance sheet */

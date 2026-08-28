@@ -81,15 +81,15 @@ export default function GenericServiceOrCityPage({ params }: Props) {
           />
 
           {/* WhatsApp Direct CTA Footer Bar */}
-          <div className="mt-10 bg-slate-900 text-white rounded-3xl p-8 sm:p-10 border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+          <div className="mt-10 bg-gradient-to-br from-emerald-700 via-emerald-800 to-teal-900 text-white rounded-3xl p-8 sm:p-10 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="space-y-2 text-center md:text-left">
-              <span className="text-xs text-emerald-400 font-bold uppercase tracking-wider">
+              <span className="text-xs text-amber-300 font-bold uppercase tracking-wider bg-white/10 backdrop-blur-md px-3 py-1 rounded-full border border-white/20">
                 Konsultasi Layanan Resmi Kemnaker RI & BNSP
               </span>
               <h2 className="text-xl sm:text-2xl font-extrabold text-white">
                 Butuh Bantuan Layanan {servicePage.title}?
               </h2>
-              <p className="text-xs sm:text-sm text-slate-300 max-w-xl">
+              <p className="text-xs sm:text-sm text-emerald-100 max-w-xl leading-relaxed">
                 Hubungi konsultan kami sekarang untuk pemeriksaan dokumen, syarat administrasi, dan estimasi waktu proses.
               </p>
             </div>
@@ -98,9 +98,9 @@ export default function GenericServiceOrCityPage({ params }: Props) {
               href={`https://wa.me/6287759151278?text=${encodeURIComponent(`Halo Wahana Totalita, saya ingin konsultasi mengenai layanan ${servicePage.title}`)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl flex items-center gap-2 shadow-lg shadow-emerald-500/30 whitespace-nowrap"
+              className="bg-white hover:bg-slate-50 text-emerald-800 font-extrabold text-xs sm:text-sm px-7 py-3.5 rounded-full flex items-center gap-2 shadow-lg transition-all hover:scale-105 whitespace-nowrap"
             >
-              <Phone className="w-4 h-4 fill-current" />
+              <Phone className="w-4 h-4 text-emerald-700 fill-current" />
               Chat WhatsApp Konsultan
             </a>
           </div>
