@@ -19,6 +19,7 @@ import {
   CheckCircle2,
   FileCheck2
 } from 'lucide-react';
+import Logo from '@/components/Logo';
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -77,14 +78,8 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
-            {/* Real Logo */}
-            <Link href="/" className="flex items-center gap-3 group">
-              <img
-                src="/images/logo.png"
-                alt="Wahana Totalita Konsultan"
-                className="h-11 sm:h-13 w-auto object-contain transition-transform group-hover:scale-102"
-              />
-            </Link>
+            {/* Real Brand Logo Lockup */}
+            <Logo variant="dark" size="md" />
 
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-1 xl:gap-2">

@@ -10,6 +10,7 @@ import {
   CheckCircle2,
   ExternalLink
 } from 'lucide-react';
+import Logo from '@/components/Logo';
 
 export default function Footer() {
   return (
@@ -62,13 +63,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Company Info */}
           <div className="lg:col-span-2 space-y-4">
-            <Link href="/" className="inline-block">
-              <img
-                src="/images/logo.png"
-                alt="Wahana Totalita Konsultan"
-                className="h-12 w-auto object-contain brightness-105"
-              />
-            </Link>
+            <Logo variant="light" size="lg" />
 
             <p className="text-slate-400 text-xs sm:text-sm leading-relaxed max-w-sm">
               <strong>PT Wahana Totalita Konsultan</strong> adalah Perusahaan Jasa Keselamatan dan Kesehatan Kerja (PJK3) resmi penunjukan Kementerian Ketenagakerjaan RI dan Lembaga Sertifikasi Profesi BNSP di Indonesia.

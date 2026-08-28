@@ -30,15 +30,22 @@ export default function HomePage() {
   const totalSafetyTalks = safetyTalksData.length;
 
   const realClientLogos = [
+    { name: 'PT Pertamina (Persero)', src: '/images/clients/78a55-pertamina.png' },
+    { name: 'PT PLN (Persero)', src: '/images/clients/58303-pln-persero.png' },
+    { name: 'PT Wijaya Karya (WIKA)', src: '/images/clients/1bbc3-wika.png' },
+    { name: 'PT Waskita Karya (Persero)', src: '/images/clients/5147b-waskita.png' },
+    { name: 'PT Total Bangun Persada', src: '/images/clients/1c571-total-bangun-persada.png' },
     { name: 'Samsung C&T Corporation', src: '/images/clients/d23da-samsung-cnt.png' },
     { name: 'PetroChina International', src: '/images/clients/d9f47-petrochina.jpg' },
     { name: 'PT Adaro Energy Indonesia', src: '/images/clients/c306e-adaro.png' },
     { name: 'PT Pamapersada Nusantara', src: '/images/clients/9c87b-pamapersada-1-.jpg' },
     { name: 'PT Telkomsel', src: '/images/clients/b5c3d-telkomsel-logo-capi.png' },
     { name: 'PT Sumber Alfaria Trijaya (Alfamart)', src: '/images/clients/76c17-logo-alfamart.png' },
+    { name: 'PT Kereta Api Indonesia (KAI)', src: '/images/clients/48046-kai.png' },
+    { name: 'PT ANTAM Tbk', src: '/images/clients/78168-pt-antam.png' },
+    { name: 'PT Petrokimia Gresik', src: '/images/clients/46e2f-petrokimia.png' },
+    { name: 'Universitas Gadjah Mada (UGM)', src: '/images/clients/8e764-ugm-clien.jpg' },
     { name: 'Universitas Brawijaya', src: '/images/clients/3de95-universitas-brawijaya-logo.jpg' },
-    { name: 'Universitas Negeri Yogyakarta', src: '/images/clients/6c096-logo-uny.png' },
-    { name: 'Nasmoco Toyota Group', src: '/images/clients/ed703-nasmoco.png' },
   ];
 
   const galleryPreviews = [
@@ -188,17 +195,17 @@ export default function HomePage() {
         </div>
 
         {/* Real Client Logos Grid */}
-        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-4 items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-3 sm:gap-4 items-center">
           {realClientLogos.map((client, idx) => (
             <div
               key={idx}
-              className="bg-white border border-slate-200 rounded-2xl p-4 h-24 flex items-center justify-center shadow-sm hover:shadow-md hover:border-emerald-500 transition-all group"
+              className="bg-white border border-slate-200 rounded-2xl p-3 sm:p-4 h-20 sm:h-24 flex items-center justify-center shadow-sm hover:shadow-md hover:border-emerald-500 transition-all group"
               title={client.name}
             >
               <img
                 src={client.src}
                 alt={client.name}
-                className="max-h-12 max-w-full object-contain grayscale group-hover:grayscale-0 transition-all transform group-hover:scale-105"
+                className="max-h-12 max-w-[90%] object-contain grayscale group-hover:grayscale-0 transition-all transform group-hover:scale-110"
               />
             </div>
           ))}
