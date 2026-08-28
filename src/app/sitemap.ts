@@ -4,6 +4,7 @@ import articlesData from '@/data/articles.json';
 import glossaryData from '@/data/glossary.json';
 import incidentsData from '@/data/incidents.json';
 import pagesRegistry from '@/data/pages_registry.json';
+import servicePagesData from '@/data/service_pages.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://wahanatotalita.com';
@@ -17,6 +18,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/jadwal',
     '/csms',
     '/galeri',
+    '/perusahaan',
+    '/perpanjangan-skp',
     '/tools',
     '/tools/safety-talk',
     '/tools/kalkulator-k3',
@@ -40,18 +43,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}${route}`,
     lastModified: now,
     changeFrequency: 'weekly' as const,
-    priority: route === '' ? 1.0 : 0.8,
+    priority: route === '' ? 1.0 : 0.9,
   }));
 
-  // Dedicated Service & City Pages
-  const serviceRoutes = Object.keys(pagesRegistry).map((slug) => ({
+  // All 72 Dedicated Service & City Doorway Pages
+  const allServiceAndCitySlugs = Array.from(
+    new Set([...Object.keys(pagesRegistry), ...Object.keys(servicePagesData)])
+  );
+
+  const serviceRoutes = allServiceAndCitySlugs.map((slug) => ({
     url: `${baseUrl}/${slug}/`,
     lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.8,
+    changeFrequency: 'weekly' as const,
+    priority: 0.85,
   }));
 
-  // 114 Trainings
+  // All 147 Training Courses
   const trainingRoutes = trainingsData.map((t) => ({
     url: `${baseUrl}/pelatihan/${t.slug}/`,
     lastModified: now,
@@ -59,12 +66,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  // 126 Articles
+  // 146 Knowledge Articles
   const articleRoutes = articlesData.map((a) => ({
     url: `${baseUrl}/artikel/${a.slug}/`,
     lastModified: now,
     changeFrequency: 'weekly' as const,
-    priority: 0.7,
+    priority: 0.75,
   }));
 
   // 184 Glossary Terms
@@ -72,7 +79,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}/glosarium/${g.slug}/`,
     lastModified: now,
     changeFrequency: 'monthly' as const,
-    priority: 0.5,
+    priority: 0.6,
   }));
 
   // 104 Incident Reports
