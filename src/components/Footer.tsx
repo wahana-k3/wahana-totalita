@@ -20,8 +20,8 @@ export default function Footer() {
     <footer className="bg-slate-950 text-slate-300 pt-16 pb-12 border-t border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         {/* ─── Trust Badges Ribbon ─────────────────────────────── */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pb-12 border-b border-slate-850">
-          <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex items-center gap-3.5 shadow-lg">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pb-12 border-b border-slate-800">
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex items-center gap-3.5 shadow-sm hover:border-emerald-500/40 transition-colors">
             <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center shrink-0">
               <ShieldCheck className="w-5 h-5 text-emerald-400" />
             </div>
@@ -31,7 +31,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex items-center gap-3.5 shadow-lg">
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex items-center gap-3.5 shadow-sm hover:border-emerald-500/40 transition-colors">
             <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center shrink-0">
               <Award className="w-5 h-5 text-emerald-400" />
             </div>
@@ -41,23 +41,23 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex items-center gap-3.5 shadow-lg">
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex items-center gap-3.5 shadow-sm hover:border-emerald-500/40 transition-colors">
             <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center shrink-0">
               <CheckCircle2 className="w-5 h-5 text-emerald-400" />
             </div>
             <div>
               <div className="font-bold text-white text-xs sm:text-sm">PaDi UMKM & LPSE</div>
-              <div className="text-[11px] text-slate-400">Mitra Pengadaan BUMN/Pemerintah</div>
+              <div className="text-[11px] text-slate-400">Mitra Pengadaan BUMN</div>
             </div>
           </div>
 
-          <div className="bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex items-center gap-3.5 shadow-lg">
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl p-4 flex items-center gap-3.5 shadow-sm hover:border-amber-500/40 transition-colors">
             <div className="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center shrink-0">
               <Sparkles className="w-5 h-5 text-amber-400" />
             </div>
             <div>
               <div className="font-bold text-white text-xs sm:text-sm">Garansi Kelulusan</div>
-              <div className="text-[11px] text-slate-400">Ujian Ulang Gratis Sampai Kompeten</div>
+              <div className="text-[11px] text-slate-400">Ujian Ulang Gratis</div>
             </div>
           </div>
         </div>
