@@ -53,6 +53,9 @@ export async function middleware(request: NextRequest) {
 
     const responseHeaders = new Headers(upstreamResponse.headers);
 
+    // Remove PHP session cookie on public GET responses so Vercel CDN can cache the response
+    responseHeaders.delete('set-cookie');
+
     // Cache at Vercel Edge for 5 minutes (300s), background refresh within 10 minutes (600s)
     responseHeaders.set('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=600');
 
