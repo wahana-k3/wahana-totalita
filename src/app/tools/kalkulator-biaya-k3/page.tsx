@@ -62,7 +62,7 @@ export default function KalkulatorBiayaK3Page() {
           </div>
         </div>
 
-        <div className="bg-navy-950 text-white rounded-3xl p-6 sm:p-8 shadow-xl border border-slate-800 space-y-6">
+        <div className="bg-slate-950 text-white rounded-3xl p-6 sm:p-8 shadow-xl border border-slate-800 space-y-6">
           <h2 className="text-base font-bold text-brand-400">Total Kerugian Nyata</h2>
 
           <div className="space-y-4">

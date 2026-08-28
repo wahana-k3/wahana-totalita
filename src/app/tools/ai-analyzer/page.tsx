@@ -73,10 +73,10 @@ export default function AIAnalyzerPage() {
         </div>
 
         {result && (
-          <div className="bg-navy-950 text-white rounded-3xl p-6 sm:p-8 shadow-xl border border-slate-800 space-y-6 animate-in fade-in duration-300">
+          <div className="bg-slate-950 text-white rounded-3xl p-6 sm:p-8 shadow-xl border border-slate-800 space-y-6 animate-in fade-in duration-300">
             <div className="flex items-center justify-between border-b border-slate-800 pb-4">
               <span className="text-xs text-brand-400 font-bold uppercase tracking-wider">Hasil Analisis AI K3</span>
-              <span className="bg-brand-500 text-navy-950 text-xs font-extrabold px-3 py-1 rounded-full">
+              <span className="bg-brand-500 text-slate-950 text-xs font-extrabold px-3 py-1 rounded-full">
                 Skor: {result.score}
               </span>
             </div>
