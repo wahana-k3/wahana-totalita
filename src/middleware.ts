@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import pageRoutesData from '../page-routes.json';
+import pageRoutesData from './data/page_routes.json';
 
 const HOSTINGER_ORIGIN = 'https://origen.wahanatotalita.com';
 
