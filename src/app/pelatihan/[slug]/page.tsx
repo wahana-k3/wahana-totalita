@@ -12,10 +12,13 @@ import {
   ArrowRight,
   BookOpen,
   Share2,
-  FileText
+  FileText,
+  HelpCircle,
+  Sparkles
 } from 'lucide-react';
 import trainingsData from '@/data/trainings.json';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { getTrainingPhoto } from '@/lib/trainingImages';
 
 interface Props {
   params: {
@@ -35,6 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = training.meta_title || `${training.name} | Wahana Totalita`;
   const description = training.meta_desc || training.description?.slice(0, 160) || `Pelatihan dan sertifikasi resmi ${training.name}.`;
+  const photo = getTrainingPhoto(training.slug, (training as any).image_path);
 
   return {
     title,
@@ -46,6 +50,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: 'Wahana Totalita Konsultan',
       locale: 'id_ID',
       type: 'article',
+      images: [
+        {
+          url: `https://wahanatotalita.com${photo}`,
+          width: 1200,
+          height: 630,
+          alt: training.name,
+        },
+      ],
     },
     alternates: {
       canonical: `https://wahanatotalita.com/pelatihan/${training.slug}/`,
@@ -59,9 +71,55 @@ export default function PelatihanDetailPage({ params }: Props) {
     notFound();
   }
 
+  const photoUrl = getTrainingPhoto(training.slug, (training as any).image_path);
+
   const relatedTrainings = trainingsData
     .filter((t) => t.category === training.category && t.slug !== training.slug)
     .slice(0, 3);
+
+  // Universal and Topic FAQs matching original PHP logic
+  const haystack = `${training.slug} ${training.name}`.toLowerCase();
+  const universalFaqs = [
+    {
+      q: 'Apa perbedaan sertifikasi K3 BNSP dan Kemnaker?',
+      a: 'Sertifikasi Kemnaker diterbitkan melalui lembaga pelatihan yang ditunjuk Kementerian Ketenagakerjaan RI, umumnya berupa Sertifikat Kompetensi K3 disertai SKP (Surat Keputusan Penunjukan) untuk profesi tertentu seperti Ahli K3 Umum. Sertifikasi BNSP diterbitkan oleh Lembaga Sertifikasi Profesi (LSP) berlisensi Badan Nasional Sertifikasi Profesi, mengacu pada skema SKKNI. Keduanya sah dan diakui secara nasional.',
+    },
+    {
+      q: 'Berapa lama masa berlaku SKP dan sertifikat K3?',
+      a: 'SKP (Surat Keputusan Penunjukan) dan sertifikat kompetensi K3 dari Kemnaker umumnya berlaku 3 tahun sejak tanggal diterbitkan, dan dapat diperpanjang sebelum masa berlaku habis. Sertifikat BNSP mengikuti masa berlaku skema sertifikasi terkait, pada umumnya juga 3 tahun.',
+    },
+    {
+      q: 'Bagaimana cara mengecek keaslian sertifikat K3 secara online?',
+      a: 'Sertifikat Kemnaker dapat dicek melalui sistem informasi resmi Kementerian Ketenagakerjaan (TemanK3), sedangkan sertifikat BNSP diverifikasi melalui portal resmi LSP penerbit. Wahana Totalita juga menyediakan verifikasi sertifikat di /verifikasi/ khusus untuk alumni pelatihan kami.',
+    },
+    {
+      q: 'Apakah sertifikat ini berlaku untuk tender pemerintah dan proyek BUMN?',
+      a: 'Ya. Sertifikat Kemnaker maupun BNSP yang diterbitkan lembaga terakreditasi berlaku secara nasional dan lazim digunakan sebagai syarat teknis dalam tender pemerintah maupun proyek BUMN/swasta di seluruh Indonesia.',
+    },
+  ];
+
+  const topicFaqs = [];
+  if (haystack.includes('confined') || haystack.includes('ruang-terbatas') || haystack.includes('gas-tester')) {
+    topicFaqs.push(
+      {
+        q: 'Berapa kadar oksigen yang aman untuk bekerja di ruang terbatas?',
+        a: 'Kadar oksigen normal di udara sekitar 20,9%. Kondisi umumnya dianggap aman untuk memasuki ruang terbatas pada rentang 19,5%–23,5%. Pengujian wajib dilakukan oleh Authorized Gas Tester (AGT) sebelum izin masuk diberikan.',
+      },
+      {
+        q: 'Apa itu Authorized Gas Tester (AGT)?',
+        a: 'Authorized Gas Tester (AGT) adalah petugas bersertifikat yang berwenang menguji kadar gas dan oksigen sebelum dan selama pekerjaan di ruang terbatas sesuai prosedur permit to work.',
+      }
+    );
+  }
+
+  if (haystack.includes('smk3') || haystack.includes('auditor')) {
+    topicFaqs.push({
+      q: 'Berapa kali audit SMK3 eksternal wajib dilakukan?',
+      a: 'Berdasarkan PP No. 50 Tahun 2012, audit SMK3 eksternal oleh badan audit yang ditunjuk Kemnaker wajib dilakukan sekurang-kurangnya 1 kali dalam 3 tahun.',
+    });
+  }
+
+  const allFaqs = [...topicFaqs, ...universalFaqs];
 
   // Schema.org Course
   const courseSchema = {
@@ -69,6 +127,7 @@ export default function PelatihanDetailPage({ params }: Props) {
     "@type": "Course",
     "name": training.name,
     "description": training.description || training.name,
+    "image": `https://wahanatotalita.com${photoUrl}`,
     "provider": {
       "@type": "Organization",
       "name": "Wahana Totalita Konsultan",
@@ -97,7 +156,7 @@ export default function PelatihanDetailPage({ params }: Props) {
 
       {/* ─── Breadcrumbs & Header ────────────────────────────── */}
       <div className="bg-white border-b border-slate-200 py-8 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto space-y-4">
+        <div className="max-w-7xl mx-auto space-y-6">
           <Breadcrumbs
             items={[
               { name: 'Katalog Pelatihan', url: '/pelatihan' },
@@ -106,7 +165,7 @@ export default function PelatihanDetailPage({ params }: Props) {
           />
 
           <div className="flex flex-col lg:flex-row lg:items-start justify-between gap-8">
-            <div className="space-y-4 max-w-4xl">
+            <div className="space-y-4 max-w-3xl">
               <div className="flex flex-wrap items-center gap-2">
                 <span className="inline-flex items-center gap-1.5 bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-bold px-3 py-1 rounded-full">
                   <ShieldCheck className="w-4 h-4 text-emerald-600" />
@@ -118,9 +177,12 @@ export default function PelatihanDetailPage({ params }: Props) {
                 <span className="text-xs font-semibold text-slate-600 bg-slate-100 px-2.5 py-1 rounded-full">
                   Durasi: {training.duration_days || 3} Hari
                 </span>
+                <span className="text-xs font-semibold text-slate-600 bg-slate-100 px-2.5 py-1 rounded-full">
+                  Masa Berlaku: {training.validity_months || 36} Bulan
+                </span>
               </div>
 
-              <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+              <h1 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight font-display">
                 {training.name}
               </h1>
 
@@ -130,7 +192,7 @@ export default function PelatihanDetailPage({ params }: Props) {
             </div>
 
             {/* Quick Pricing Card Desktop */}
-            <div className="lg:w-80 bg-navy-950 text-white rounded-3xl p-6 shadow-2xl border border-slate-800 space-y-6 shrink-0">
+            <div className="lg:w-80 bg-slate-950 text-white rounded-3xl p-6 shadow-2xl border border-slate-800 space-y-6 shrink-0">
               <div className="space-y-1">
                 <span className="text-xs text-emerald-400 font-semibold uppercase tracking-wider">Investasi Pelatihan</span>
                 <div className="text-2xl sm:text-3xl font-extrabold text-white">
@@ -172,15 +234,31 @@ export default function PelatihanDetailPage({ params }: Props) {
         </div>
       </div>
 
-      {/* ─── Main Content & Syllabus ──────────────────────────── */}
+      {/* ─── Main Content, Photo & Outline ───────────────────── */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 grid grid-cols-1 lg:grid-cols-3 gap-10">
         <div className="lg:col-span-2 space-y-10">
-          {/* Detailed Content / Outline */}
+          {/* Dedicated Program Photo Banner */}
+          <div className="bg-white border border-slate-200 rounded-3xl overflow-hidden shadow-sm">
+            <div className="relative h-72 sm:h-96 w-full bg-slate-900">
+              <img
+                src={photoUrl}
+                alt={`Dokumentasi Pelatihan ${training.name}`}
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
+              <div className="absolute bottom-4 left-4 right-4 text-white">
+                <span className="text-xs font-semibold text-emerald-400 bg-slate-900/80 px-3 py-1 rounded-md backdrop-blur-sm">
+                  Dokumentasi Pembinaan & Asesmen Lapangan
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* Exact Database Long Content */}
           {training.long_content && (
-            <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm space-y-4">
-              <h2 className="text-xl font-bold text-slate-900">Tentang Program</h2>
+            <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-10 shadow-sm space-y-4">
               <div
-                className="prose-k3 text-sm text-slate-700 leading-relaxed"
+                className="prose-k3 text-base text-slate-700 leading-relaxed"
                 dangerouslySetInnerHTML={{ __html: training.long_content }}
               />
             </div>
@@ -190,7 +268,7 @@ export default function PelatihanDetailPage({ params }: Props) {
           {training.curriculum && training.curriculum.length > 0 && (
             <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm space-y-6">
               <div className="flex items-center gap-3">
-                <BookOpen className="w-6 h-6 text-brand-600" />
+                <BookOpen className="w-6 h-6 text-emerald-600" />
                 <h2 className="text-xl font-bold text-slate-900">Materi & Kurikulum Pelatihan</h2>
               </div>
 
@@ -200,7 +278,7 @@ export default function PelatihanDetailPage({ params }: Props) {
                     key={idx}
                     className="bg-slate-50 border border-slate-200 rounded-2xl p-4 flex items-start gap-4"
                   >
-                    <span className="w-7 h-7 rounded-xl bg-brand-600 text-white font-extrabold text-xs flex items-center justify-center shrink-0 mt-0.5">
+                    <span className="w-7 h-7 rounded-xl bg-emerald-600 text-white font-extrabold text-xs flex items-center justify-center shrink-0 mt-0.5">
                       {idx + 1}
                     </span>
                     <div className="space-y-1">
@@ -217,28 +295,32 @@ export default function PelatihanDetailPage({ params }: Props) {
             </div>
           )}
 
-          {/* Requirements & Benefits */}
-          <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm space-y-6">
-            <h2 className="text-xl font-bold text-slate-900">Persyaratan & Dokumen Peserta</h2>
-            <ul className="space-y-3 text-sm text-slate-600">
-              <li className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-brand-600 shrink-0 mt-0.5" />
-                <span>Fotokopi Ijazah Pendidikan Terakhir (sesuai kualifikasi skema)</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-brand-600 shrink-0 mt-0.5" />
-                <span>Fotokopi Kartu Tanda Penduduk (KTP)</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-brand-600 shrink-0 mt-0.5" />
-                <span>Surat Keterangan Kerja / Pengalaman di bidang terkait (jika dipersyaratkan)</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle2 className="w-5 h-5 text-brand-600 shrink-0 mt-0.5" />
-                <span>Pas foto background merah ukuran 3x4 (4 lembar)</span>
-              </li>
-            </ul>
-          </div>
+          {/* FAQ Section */}
+          {allFaqs.length > 0 && (
+            <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-sm space-y-4">
+              <div className="flex items-center gap-3">
+                <HelpCircle className="w-6 h-6 text-emerald-600" />
+                <h2 className="text-xl font-bold text-slate-900">Pertanyaan yang Sering Diajukan (FAQ)</h2>
+              </div>
+
+              <div className="space-y-3 pt-2">
+                {allFaqs.map((faq, idx) => (
+                  <details
+                    key={idx}
+                    className="bg-slate-50 border border-slate-200 rounded-xl p-4 group open:border-emerald-500 transition-all text-sm"
+                  >
+                    <summary className="font-bold text-slate-900 cursor-pointer list-none flex items-center justify-between">
+                      <span>{faq.q}</span>
+                      <span className="text-emerald-700 font-bold group-open:rotate-180 transition-transform">▼</span>
+                    </summary>
+                    <p className="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
+                      {faq.a}
+                    </p>
+                  </details>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
 
         {/* ─── Sidebar ────────────────────────────────────────── */}
@@ -250,31 +332,33 @@ export default function PelatihanDetailPage({ params }: Props) {
               Butuh penawaran harga khusus grup perusahaan atau pelatihan in-house di lokasi Anda? Tim kami siap membantu.
             </p>
             <a
-              href={`https://wa.me/6287759151278?text=${encodeURIComponent(`Halo Wahana Totalita, saya ingin informasi diskon grup / in-house untuk program ${training.name}`)}`}
+              href={`https://wa.me/6287759151278?text=${encodeURIComponent(`Halo Wahana Totalita, saya ingin penawaran in-house/grup untuk ${training.name}`)}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 rounded-xl flex items-center justify-center gap-2 text-xs shadow-sm"
+              className="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 px-4 rounded-xl flex items-center justify-center gap-2 text-xs transition-colors"
             >
-              <Phone className="w-4 h-4" />
-              Tanya Penawaran In-House
+              <Phone className="w-4 h-4 text-emerald-400" />
+              Minta Proposal In-House
             </a>
           </div>
 
-          {/* Related Programs */}
+          {/* Related Trainings */}
           {relatedTrainings.length > 0 && (
             <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-4">
-              <h3 className="font-bold text-slate-900 text-base">Program Terkait</h3>
+              <h3 className="font-bold text-slate-900 text-base">Pelatihan Terkait</h3>
               <div className="space-y-3">
                 {relatedTrainings.map((rel) => (
                   <Link
                     key={rel.id}
                     href={`/pelatihan/${rel.slug}`}
-                    className="block p-3 rounded-xl border border-slate-100 hover:border-brand-400 bg-slate-50/50 hover:bg-white transition-all group"
+                    className="block p-3 rounded-xl border border-slate-100 hover:border-emerald-500 hover:bg-slate-50 transition-all group"
                   >
-                    <div className="text-[10px] text-brand-600 font-bold uppercase">{rel.certification}</div>
-                    <div className="font-semibold text-xs text-slate-800 group-hover:text-brand-600 line-clamp-2">
+                    <span className="text-[10px] text-emerald-700 font-bold bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
+                      {rel.certification}
+                    </span>
+                    <h4 className="font-bold text-xs text-slate-900 group-hover:text-emerald-700 transition-colors mt-1 line-clamp-2">
                       {rel.name}
-                    </div>
+                    </h4>
                   </Link>
                 ))}
               </div>

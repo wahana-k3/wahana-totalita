@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import trainingsData from '@/data/trainings.json';
 import Breadcrumbs from '@/components/Breadcrumbs';
+import { getTrainingPhoto } from '@/lib/trainingImages';
 
 export default function PelatihanCatalogPage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -128,66 +129,80 @@ export default function PelatihanCatalogPage() {
 
         {/* ─── Trainings Grid ──────────────────────────────────── */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredTrainings.map((item) => (
-            <div
-              key={item.id}
-              className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all flex flex-col justify-between group"
-            >
-              <div className="space-y-4">
-                <div className="flex items-center justify-between gap-2">
-                  <span className="inline-flex items-center gap-1 bg-emerald-50 text-emerald-700 border border-emerald-200 text-[11px] font-bold px-2.5 py-1 rounded-md">
-                    <ShieldCheck className="w-3.5 h-3.5" />
-                    {item.certification}
-                  </span>
-                  <span className="text-xs font-semibold text-slate-500 capitalize bg-slate-100 px-2 py-0.5 rounded">
-                    {item.mode}
-                  </span>
-                </div>
-
-                <Link href={`/pelatihan/${item.slug}`}>
-                  <h2 className="font-bold text-base sm:text-lg text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2">
-                    {item.name}
-                  </h2>
-                </Link>
-
-                <p className="text-xs text-slate-500 line-clamp-3 leading-relaxed">
-                  {item.description || 'Program pembinaan dan sertifikasi kompetensi resmi untuk meningkatkan standar keselamatan kerja perusahaan.'}
-                </p>
-
-                <div className="flex items-center gap-4 text-xs text-slate-600 pt-1">
-                  <div>⏱️ <strong>{item.duration_days} Hari</strong></div>
-                  <div>📜 Masa Berlaku <strong>{item.validity_months || 36} Bulan</strong></div>
-                </div>
-              </div>
-
-              <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between gap-2">
+          {filteredTrainings.map((item) => {
+            const photoUrl = getTrainingPhoto(item.slug, (item as any).image_path);
+            return (
+              <div
+                key={item.id}
+                className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:border-emerald-500 transition-all flex flex-col justify-between group"
+              >
                 <div>
-                  <div className="text-[11px] text-slate-400">Investasi Mulai</div>
-                  <div className="font-extrabold text-slate-900 text-base">
-                    {item.price > 0 ? `Rp ${Number(item.price).toLocaleString('id-ID')}` : 'Hubungi CS'}
+                  {/* Dedicated Program Photo */}
+                  <Link href={`/pelatihan/${item.slug}`} className="block relative h-48 w-full overflow-hidden bg-slate-900">
+                    <img
+                      src={photoUrl}
+                      alt={item.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
+                    <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between gap-2">
+                      <span className="inline-flex items-center gap-1 bg-emerald-600/90 text-white text-[11px] font-bold px-2.5 py-1 rounded-md backdrop-blur-sm shadow-sm">
+                        <ShieldCheck className="w-3.5 h-3.5" />
+                        {item.certification}
+                      </span>
+                      <span className="text-[11px] font-semibold text-white capitalize bg-slate-900/80 px-2 py-0.5 rounded backdrop-blur-sm">
+                        {item.mode}
+                      </span>
+                    </div>
+                  </Link>
+
+                  <div className="p-5 space-y-3">
+                    <Link href={`/pelatihan/${item.slug}`}>
+                      <h2 className="font-bold text-base text-slate-900 group-hover:text-emerald-700 transition-colors line-clamp-2">
+                        {item.name}
+                      </h2>
+                    </Link>
+
+                    <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed">
+                      {item.description || 'Program pembinaan dan sertifikasi kompetensi resmi untuk meningkatkan standar keselamatan kerja perusahaan.'}
+                    </p>
+
+                    <div className="flex items-center gap-4 text-xs text-slate-600 pt-1">
+                      <div>⏱️ <strong>{item.duration_days} Hari</strong></div>
+                      <div>📜 Masa Berlaku <strong>{item.validity_months || 36} Bulan</strong></div>
+                    </div>
                   </div>
                 </div>
 
-                <div className="flex items-center gap-2">
-                  <Link
-                    href={`/pelatihan/${item.slug}`}
-                    className="p-2.5 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-50 text-xs font-semibold"
-                  >
-                    Detail
-                  </Link>
-                  <a
-                    href={`https://wa.me/6287759151278?text=${encodeURIComponent(item.wa_text || `Halo Wahana Totalita, saya tertarik daftar ${item.name}`)}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-3.5 py-2.5 rounded-xl shadow-sm transition-colors flex items-center gap-1.5"
-                  >
-                    <Phone className="w-3.5 h-3.5" />
-                    Daftar
-                  </a>
+                <div className="p-5 pt-0 mt-auto border-t border-slate-100 flex items-center justify-between gap-2 pt-4">
+                  <div>
+                    <div className="text-[11px] text-slate-400">Investasi Mulai</div>
+                    <div className="font-extrabold text-slate-900 text-base">
+                      {item.price > 0 ? `Rp ${Number(item.price).toLocaleString('id-ID')}` : 'Hubungi CS'}
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <Link
+                      href={`/pelatihan/${item.slug}`}
+                      className="p-2.5 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-50 text-xs font-semibold"
+                    >
+                      Detail
+                    </Link>
+                    <a
+                      href={`https://wa.me/6287759151278?text=${encodeURIComponent(item.wa_text || `Halo Wahana Totalita, saya tertarik daftar ${item.name}`)}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs px-3.5 py-2.5 rounded-xl shadow-sm transition-colors flex items-center gap-1.5"
+                    >
+                      <Phone className="w-3.5 h-3.5" />
+                      Daftar
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>
