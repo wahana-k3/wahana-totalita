@@ -1,0 +1,856 @@
+{
+  "csms": {
+    "slug": "csms",
+    "title": "Panduan Lengkap CSMS (Contractor Safety Management System) Indonesia <?=$year?> | Wahana Totalita",
+    "meta_title": "Panduan Lengkap CSMS (Contractor Safety Management System) Indonesia <?=$year?> | Wahana Totalita | Wahana Totalita",
+    "meta_desc": "Panduan komprehensif CSMS (Contractor Safety Management System) Indonesia 2026. Pelajari 7 elemen penilaian, matriks risiko, dokumen pre-kualifikasi Pertamina & SKK Migas, HSE Plan, audit lapangan, hingga strategi lolos sertifikasi High Risk.",
+    "heading": "Panduan Komprehensif CSMS(Contractor Safety Management System)",
+    "key_sections": [
+      "1. Pengertian & Peran Strategis CSMS dalam Industri Berisiko Tinggi",
+      "2. Landasan Hukum & Regulasi CSMS di Indonesia",
+      "3. Matriks Perbandingan: CSMS vs SMK3 (PP 50/2012) vs ISO 45001:2018",
+      "4. Siklus Hidup CSMS: 6 Tahapan Utama dari Penilaian Risiko hingga Evaluasi Akhir",
+      "5. 7 Elemen Utama Penilaian CSMS & Bobot Penilaian (Scoring System)",
+      "6. Kategorisasi Risiko Pekerjaan dalam CSMS (Risk Matrix)",
+      "7. Penyusunan Berkas Prakualifikasi CSMS Wajib (Document Checklist)",
+      "8. Penyusunan HSE Plan Tender yang Unggul (Project-Specific HSE Plan)",
+      "9. Pelaksanaan & Pengawasan Lapangan (Work In Progress / WIP)",
+      "10. Evaluasi Akhir & Rating Kontraktor (Close-Out Performance Review)",
+      "11. 10 Kesalahan Fatal Penyebab Gagal Pre-Kualifikasi CSMS & Cara Mengatasinya",
+      "12. Roadmap 30 Hari Persiapan Sertifikasi CSMS dari Nol",
+      "13. Tanya Jawab Terlengkap Seputar CSMS (FAQ)",
+      "14. Layanan Pendampingan CSMS & Sertifikasi K3 Wahana Totalita"
+    ]
+  },
+  "perusahaan": {
+    "slug": "perusahaan",
+    "title": "Training K3 Perusahaan — In House Training & Sertifikasi | Wahana Totalita",
+    "meta_title": "Training K3 Perusahaan — In House Training & Sertifikasi | Wahana Totalita | Wahana Totalita",
+    "meta_desc": "Training K3 perusahaan & In House Training K3 resmi KEMNAKER RI dan BNSP. Corporate HSE training, konsultasi ISO, sertifikasi K3 untuk industri seluruh Indonesia. Proposal dalam 24 jam.",
+    "heading": "Training K3 &amp; Sertifikasi Resmi untuk Perusahaan Anda — di Seluruh Indonesia",
+    "key_sections": [
+      "Berdiri sejak 2001, Wahana Totalita resmi berbadan hukum pada 2006",
+      "Tantangan Ini Sedang Dihadapi Perusahaan Anda?",
+      "Satu Partner untuk Seluruh Kebutuhan Corporate Safety Training",
+      "Dipercaya oleh 70+ Perusahaan Besar",
+      "Instruktur Berpengalaman",
+      "100+ Program Training Kemnaker, BNSP, ISO &amp; Soft Skills",
+      "Standar Layanan yang Dirancang untuk Kebutuhan Korporasi",
+      "Berpengalaman Melayani Berbagai Sektor Industri",
+      "Dari Konsultasi hingga After Sales — Proses yang Jelas",
+      "Pilih Skema yang Sesuai Kebutuhan Perusahaan",
+      "Dampak Nyata bagi Bisnis Klien Kami",
+      "Yang Sering Ditanyakan HRD &amp; Tim HSE",
+      "Siap Meningkatkan Kompetensi Tim HSE Perusahaan Anda?"
+    ]
+  },
+  "layanan-pemerintah": {
+    "slug": "layanan-pemerintah",
+    "title": "Vendor Pelatihan K3 untuk Instansi Pemerintah & BUMN Indonesia",
+    "meta_title": "Vendor Pelatihan K3 untuk Instansi Pemerintah & BUMN Indonesia | Wahana Totalita",
+    "meta_desc": "Vendor pelatihan dan sertifikasi K3 untuk instansi pemerintah, kementerian, BUMN, universitas, dan rumah sakit. Mendukung pengadaan langsung maupun proses LPSE di seluruh Indonesia.",
+    "heading": "Vendor Pelatihan K3 untuk Instansi Pemerintah & BUMN di Indonesia",
+    "key_sections": [
+      "Mengapa Instansi Memilih Wahana Totalita",
+      "Layanan yang Dapat Masuk Pengadaan",
+      "Cara Menggunakan Wahana untuk Pengadaan",
+      "Pertanyaan Seputar Pengadaan",
+      "Rencanakan Pengadaan Pelatihan K3 Instansi Anda"
+    ]
+  },
+  "perpanjangan-skp": {
+    "slug": "perpanjangan-skp",
+    "title": "SKP Berlaku Berapa Lama? Perpanjangan SKP & Lisensi K3 Kemnaker",
+    "meta_title": "SKP Berlaku Berapa Lama? Perpanjangan SKP & Lisensi K3 Kemnaker | Wahana Totalita",
+    "meta_desc": "SKP & Lisensi Ahli K3 berlaku 3 tahun. Sudah kadaluarsa? Masih bisa diperpanjang tanpa pelatihan ulang dalam masa toleransi. Cek syarat, biaya & lama proses. Konsultasi gratis via WhatsApp.",
+    "heading": "Perpanjang SKP & Lisensi K3 dengan Mudah — Resmi Kemnaker & BNSP",
+    "key_sections": [
+      "Apa Itu Perpanjangan SKP & Lisensi K3?",
+      "Masih Bisa Diperpanjang, atau Harus Mengulang?",
+      "Kenapa Perpanjangan SKP Penting?",
+      "Siapa yang Wajib Memperpanjang SKP?",
+      "Masa Berlaku & Regulasi SKP & Lisensi K3",
+      "Biaya Perpanjangan SKP & Lisensi K3",
+      "Syarat & Dokumen Perpanjangan SKP",
+      "Alur Perpanjangan SKP di Wahana Totalita",
+      "Pertanyaan yang Sering Ditanyakan",
+      "Jangan Tunggu Sampai Tanggalnya Lewat"
+    ]
+  },
+  "kebijakan-privasi": {
+    "slug": "kebijakan-privasi",
+    "title": "Kebijakan Privasi",
+    "meta_title": "Kebijakan Privasi | Wahana Totalita",
+    "meta_desc": "Kebijakan Privasi Wahana Totalita Konsultan — bagaimana kami mengumpulkan, menggunakan, dan melindungi data pribadi Anda sesuai UU PDP No. 27 Tahun 2022.",
+    "heading": "Kebijakan Privasi",
+    "key_sections": [
+      "1. Data yang Kami Kumpulkan",
+      "2. Cara Kami Menggunakan Data",
+      "3. Cookie dan Analitik",
+      "4. Perlindungan dan Penyimpanan Data",
+      "5. Pembagian Data kepada Pihak Ketiga",
+      "6. Hak Anda",
+      "7. Hubungi Kami"
+    ]
+  },
+  "sertifikasi-bnsp": {
+    "slug": "sertifikasi-bnsp",
+    "title": "Sertifikasi & Uji Kompetensi BNSP di Wahana Totalita Konsultan Yogyakarta",
+    "meta_title": "Sertifikasi & Uji Kompetensi BNSP di Wahana Totalita Konsultan Yogyakarta | Wahana Totalita",
+    "meta_desc": "Lembaga pelatihan K3 resmi bersertifikat BNSP dan Kemnaker RI. Uji kompetensi dan sertifikasi K3 di Yogyakarta sejak 2006. Konsultasi gratis 0812-2969-435.",
+    "heading": "Sertifikasi BNSP &amp; Uji Kompetensi K3di Wahana Totalita",
+    "key_sections": [
+      "Mengapa Wahana Totalita?",
+      "Skema Sertifikasi yang Kami Selenggarakan",
+      "Proses Sertifikasi",
+      "Pertanyaan yang Sering Ditanyakan",
+      "Siap Bersertifikat BNSP?"
+    ]
+  },
+  "keselamatan-kerja": {
+    "slug": "keselamatan-kerja",
+    "title": "Keselamatan dan Kesehatan Kerja (K3) — Panduan Lengkap & Program Sertifikasi Yogyakarta",
+    "meta_title": "Keselamatan dan Kesehatan Kerja (K3) — Panduan Lengkap & Program Sertifikasi Yogyakarta | Wahana Totalita",
+    "meta_desc": "Panduan lengkap Keselamatan dan Kesehatan Kerja (K3): dasar hukum, program sertifikasi, SMK3, dan pelatihan K3 resmi bersertifikat Kemnaker RI di Yogyakarta.",
+    "heading": "Keselamatan dan Kesehatan Kerja (K3) di Indonesia: Panduan Lengkap",
+    "key_sections": [
+      "Apa itu K3?",
+      "Dasar Hukum K3 di Indonesia",
+      "Sertifikasi K3 yang Diakui di Indonesia",
+      "Program Pelatihan K3 Kami",
+      "SMK3 — Sistem Manajemen Keselamatan dan Kesehatan Kerja",
+      "Kecelakaan Kerja — Angka &amp; Pencegahan",
+      "Pertanyaan yang Sering Ditanyakan",
+      "Butuh Program K3 untuk Perusahaan Anda?"
+    ]
+  },
+  "klien": {
+    "slug": "klien",
+    "title": "Klien & Mitra — 70+ Perusahaan BUMN & Multinasional",
+    "meta_title": "Klien & Mitra — 70+ Perusahaan BUMN & Multinasional | Wahana Totalita",
+    "meta_desc": "Wahana Totalita Konsultan dipercaya oleh 70+ perusahaan BUMN dan multinasional sejak 2006. Freeport, Pertamina, PLN, Bank Mandiri, Chevron, Total E&P, dan banyak lagi.",
+    "heading": "Klien &amp; Mitra Kami",
+    "key_sections": [
+      "Perusahaan yang Telah Bermitra",
+      "Testimoni",
+      "Bergabung dengan Klien Kami"
+    ]
+  },
+  "instruktur": {
+    "slug": "instruktur",
+    "title": "Instruktur K3 Berpengalaman Yogyakarta",
+    "meta_title": "Instruktur K3 Berpengalaman Yogyakarta | Wahana Totalita",
+    "meta_desc": "Wahana Totalita Konsultan didukung oleh instruktur K3 nasional dari Pusdiklat Migas Cepu, akademisi, dan praktisi industri berpengalaman lebih dari 15 tahun.",
+    "heading": "Instruktur &amp; Tenaga Ahli Kami",
+    "key_sections": [
+      "Instruktur &amp; Tenaga Ahli",
+      "Kualifikasi Instruktur Kami",
+      "Bergabung sebagai Instruktur"
+    ]
+  },
+  "ak3u-fresh-graduate": {
+    "slug": "ak3u-fresh-graduate",
+    "title": "Cara Menjadi Ahli K3 Umum untuk Fresh Graduate",
+    "meta_title": "Cara Menjadi Ahli K3 Umum untuk Fresh Graduate | Wahana Totalita",
+    "meta_desc": "Fresh graduate bisa langsung ambil sertifikasi Ahli K3 Umum (AK3U) tanpa pengalaman kerja. Panduan lengkap syarat, proses, dan biaya pelatihan AK3U di Yogyakarta.",
+    "heading": "Ahli K3 Umum untuk Fresh Graduate: Bisa Langsung Ikut?",
+    "key_sections": [
+      "Syarat Mengikuti Pelatihan AK3U",
+      "Proses Sertifikasi AK3U Langkah demi Langkah",
+      "Apa yang Dipelajari dalam Pelatihan AK3U?",
+      "Prospek Karir Setelah AK3U",
+      "Pertanyaan yang Sering Ditanyakan",
+      "Siap Memulai Karier K3 Anda?"
+    ]
+  },
+  "ak3u-gratis": {
+    "slug": "ak3u-gratis",
+    "title": "Belajar K3 Gratis — Panduan & Simulasi Soal Ahli K3 Umum",
+    "meta_title": "Belajar K3 Gratis — Panduan & Simulasi Soal Ahli K3 Umum | Wahana Totalita",
+    "meta_desc": "Akses panduan belajar K3 gratis, kisi-kisi soal AK3U, dan materi dasar Keselamatan dan Kesehatan Kerja. Wahana Totalita Konsultan Yogyakarta.",
+    "heading": "Belajar K3 Gratis: Panduan &amp; Simulasi Soal AK3U",
+    "key_sections": [
+      "Dasar Hukum K3 yang Wajib Dikuasai",
+      "10 Contoh Soal AK3U + Kunci Jawaban",
+      "Istilah Penting dalam K3 yang Sering Muncul di Ujian",
+      "Pertanyaan yang Sering Ditanyakan",
+      "Siap Ikut Pelatihan Resmi?"
+    ]
+  },
+  "k3-konstruksi": {
+    "slug": "k3-konstruksi",
+    "title": "Pelatihan K3 Konstruksi (Ahli K3 Muda, Madya & Supervisor) — Sertifikasi Kemnaker RI",
+    "meta_title": "Pelatihan K3 Konstruksi (Ahli K3 Muda, Madya & Supervisor) — Sertifikasi Kemnaker RI | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 Konstruksi bersertifikat Kemnaker RI & BNSP. Program Ahli K3 Konstruksi Muda, Madya, dan Supervisor K3 Konstruksi. Wajib untuk proyek konstruksi. Yogyakarta & in-house. 0812-2969-435.",
+    "heading": "Pelatihan K3 Konstruksi: Ahli K3 Muda, Madya &amp; Supervisor Bersertifikat Kemnaker RI",
+    "key_sections": [
+      "Apa itu K3 Konstruksi?",
+      "Dasar Hukum K3 Konstruksi",
+      "Tingkatan Sertifikasi K3 Konstruksi",
+      "Siapa yang Wajib Ikut Pelatihan K3 Konstruksi?",
+      "Persyaratan Peserta",
+      "Tujuan Pembelajaran",
+      "Kurikulum &amp; Silabus",
+      "Metode Pelatihan",
+      "Program Pelatihan K3 Konstruksi Kami",
+      "Program K3 Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "k3-listrik": {
+    "slug": "k3-listrik",
+    "title": "Pelatihan K3 Listrik (Teknisi & Ahli K3 Listrik) — Sertifikasi Kemnaker RI",
+    "meta_title": "Pelatihan K3 Listrik (Teknisi & Ahli K3 Listrik) — Sertifikasi Kemnaker RI | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 Listrik resmi bersertifikat Kemnaker RI. Program Teknisi dan Ahli K3 Listrik sesuai Permenaker No. 12 Tahun 2015. Yogyakarta & in-house. Hubungi: 0812-2969-435.",
+    "heading": "Pelatihan K3 Listrik: Teknisi &amp; Ahli K3 Listrik Bersertifikat Kemnaker RI",
+    "key_sections": [
+      "Apa itu K3 Listrik?",
+      "Dasar Hukum — Permenaker No. 12 Tahun 2015",
+      "Teknisi K3 Listrik vs Ahli K3 Listrik",
+      "Siapa yang Wajib Ikut Pelatihan K3 Listrik?",
+      "Persyaratan Peserta",
+      "Tujuan Pembelajaran",
+      "Kurikulum &amp; Silabus",
+      "Metode Pelatihan",
+      "Program Pelatihan K3 Listrik Kami",
+      "Program K3 Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "k3-kimia": {
+    "slug": "k3-kimia",
+    "title": "Pelatihan K3 Kimia (Petugas & Ahli K3 Kimia) — Sertifikasi Kemnaker RI",
+    "meta_title": "Pelatihan K3 Kimia (Petugas & Ahli K3 Kimia) — Sertifikasi Kemnaker RI | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 Kimia resmi bersertifikat Kemnaker RI. Meliputi Petugas K3 Kimia dan Ahli K3 Kimia sesuai Kepmenaker No. 187/MEN/1999. Yogyakarta & online. Konsultasi: 0812-2969-435.",
+    "heading": "Pelatihan K3 Kimia: Petugas &amp; Ahli K3 Kimia Bersertifikat Kemnaker RI",
+    "key_sections": [
+      "Apa itu K3 Kimia?",
+      "Dasar Hukum — Kepmenaker No. 187/MEN/1999",
+      "Petugas K3 Kimia vs Ahli K3 Kimia — Perbedaan dan Siapa yang Membutuhkan",
+      "Siapa yang Wajib Mengikuti Pelatihan K3 Kimia?",
+      "Persyaratan Peserta",
+      "Tujuan Pembelajaran",
+      "Kurikulum &amp; Silabus",
+      "Metode Pelatihan",
+      "Program Pelatihan K3 Kimia Kami",
+      "Program K3 Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "k3-ketinggian": {
+    "slug": "k3-ketinggian",
+    "title": "Pelatihan K3 Bekerja pada Ketinggian (Tingkat 1, 2 & 3) — Sertifikasi Kemnaker RI",
+    "meta_title": "Pelatihan K3 Bekerja pada Ketinggian (Tingkat 1, 2 & 3) — Sertifikasi Kemnaker RI | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 Bekerja pada Ketinggian resmi bersertifikat Kemnaker RI. Program Tingkat 1, 2, dan 3 sesuai Permenaker No. 9 Tahun 2016. Yogyakarta & in-house. Hubungi: 0812-2969-435.",
+    "heading": "Pelatihan K3 Bekerja pada Ketinggian: Sertifikasi Resmi Kemnaker RI (Tingkat 1, 2 &amp; 3)",
+    "key_sections": [
+      "Apa itu K3 Bekerja pada Ketinggian?",
+      "Dasar Hukum — Permenaker No. 9 Tahun 2016",
+      "Tingkatan Sertifikasi K3 Ketinggian",
+      "Siapa yang Wajib Ikut Pelatihan K3 Ketinggian?",
+      "Persyaratan Peserta",
+      "Tujuan Pembelajaran",
+      "Kurikulum &amp; Silabus",
+      "Metode Pelatihan",
+      "Program Pelatihan K3 Ketinggian Kami",
+      "Program K3 Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "k3-pertambangan": {
+    "slug": "k3-pertambangan",
+    "title": "Pelatihan K3 Pertambangan (POP, POM, POU & Juru Ledak) — Sertifikasi BNSP",
+    "meta_title": "Pelatihan K3 Pertambangan (POP, POM, POU & Juru Ledak) — Sertifikasi BNSP | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 Pertambangan bersertifikat BNSP. Program POP, POM, POU, dan Juru Ledak sesuai Kepmen ESDM 1827/2018. Wajib untuk industri tambang. Yogyakarta & in-house. 0812-2969-435.",
+    "heading": "Pelatihan K3 Pertambangan: POP, POM, POU &amp; Juru Ledak Bersertifikat BNSP",
+    "key_sections": [
+      "Apa itu K3 Pertambangan?",
+      "Dasar Hukum K3 Pertambangan",
+      "Tingkatan Sertifikasi K3 Pertambangan",
+      "Siapa yang Wajib Ikut Pelatihan K3 Pertambangan?",
+      "Persyaratan Peserta",
+      "Tujuan Pembelajaran",
+      "Kurikulum &amp; Silabus",
+      "Program Juru Ledak",
+      "Metode Pelatihan",
+      "Program Pelatihan K3 Pertambangan Kami",
+      "Program K3 Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "k3-migas": {
+    "slug": "k3-migas",
+    "title": "Pelatihan K3 Migas (Minyak dan Gas) — Sertifikasi BNSP & Kemnaker RI",
+    "meta_title": "Pelatihan K3 Migas (Minyak dan Gas) — Sertifikasi BNSP & Kemnaker RI | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 Minyak dan Gas bersertifikat BNSP & Kemnaker RI. Program Pengawas K3 Migas dan Penanganan Bahaya Gas H2S. Yogyakarta & in-house. 0812-2969-435.",
+    "heading": "Pelatihan K3 Minyak dan Gas (Migas) — Sertifikasi BNSP &amp; Kemnaker RI",
+    "key_sections": [
+      "Apa itu K3 Migas?",
+      "Dasar Hukum K3 Migas",
+      "Lanskap Sertifikasi K3 Migas di Indonesia",
+      "Siapa yang Wajib Ikut Pelatihan K3 Migas?",
+      "Persyaratan Peserta",
+      "Tujuan Pembelajaran",
+      "Kurikulum &amp; Silabus",
+      "Metode Pelatihan",
+      "Program Pelatihan K3 Migas Kami",
+      "Program K3 Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "smk3": {
+    "slug": "smk3",
+    "title": "SMK3 & ISO 45001: Pengertian, Penerapan, dan Sertifikasi",
+    "meta_title": "SMK3 & ISO 45001: Pengertian, Penerapan, dan Sertifikasi | Wahana Totalita",
+    "meta_desc": "Panduan lengkap SMK3 (PP 50/2012) dan ISO 45001:2018. Pelatihan audit SMK3, konsultasi penerapan, dan sertifikasi resmi. Yogyakarta & seluruh Indonesia. Hubungi: 0812-2969-435.",
+    "heading": "SMK3 dan ISO 45001: Sistem Manajemen K3 yang Wajib Diterapkan Perusahaan",
+    "key_sections": [
+      "Apa itu SMK3?",
+      "Dasar Hukum — PP No. 50 Tahun 2012",
+      "SMK3 vs ISO 45001 — Apa Bedanya?",
+      "5 Prinsip Dasar SMK3",
+      "Cara Melakukan Audit SMK3",
+      "Siapa yang Wajib Ikut Pelatihan SMK3?",
+      "Layanan SMK3 Wahana Totalita",
+      "Program Pelatihan SMK3 &amp; ISO 45001 Kami",
+      "Program K3 Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "k3-lingkungan": {
+    "slug": "k3-lingkungan",
+    "title": "Pelatihan K3 Lingkungan & AMDAL — Sertifikasi Kemnaker RI & KLHK",
+    "meta_title": "Pelatihan K3 Lingkungan & AMDAL — Sertifikasi Kemnaker RI & KLHK | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 Lingkungan, AMDAL Penyusun, Pengelolaan B3, dan Audit Lingkungan bersertifikat resmi. Sesuai UU PPLH No. 32/2009 dan PP 22/2021. Yogyakarta & in-house. 0812-2969-435.",
+    "heading": "Pelatihan K3 Lingkungan dan AMDAL — Sertifikasi Resmi KLHK &amp; Kemnaker RI",
+    "key_sections": [
+      "Apa itu K3 Lingkungan?",
+      "Dasar Hukum K3 Lingkungan",
+      "Jenis Dokumen Lingkungan di Indonesia",
+      "Program Sertifikasi K3 Lingkungan",
+      "Siapa yang Membutuhkan Pelatihan K3 Lingkungan?",
+      "PROPER — Sistem Penilaian Kinerja Lingkungan",
+      "Kurikulum — AMDAL Penyusun",
+      "Kurikulum — Pengelolaan Limbah B3",
+      "Metode Pelatihan",
+      "Program Pelatihan K3 Lingkungan Kami",
+      "Program Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "k3-pesawat-angkat-angkut": {
+    "slug": "k3-pesawat-angkat-angkut",
+    "title": "Pelatihan K3 Pesawat Angkat Angkut (Crane, Forklift, Rigger) — Sertifikasi Kemnaker RI",
+    "meta_title": "Pelatihan K3 Pesawat Angkat Angkut (Crane, Forklift, Rigger) — Sertifikasi Kemnaker RI | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 Pesawat Angkat dan Angkut bersertifikat Kemnaker RI. Program Operator Crane, Forklift, Rigger, Hoist sesuai Permenaker No. 8 Tahun 2020. Yogyakarta & in-house. 0812-2969-435.",
+    "heading": "Pelatihan K3 Pesawat Angkat dan Angkut — Operator Crane, Forklift &amp; Rigger Bersertifikat Kemnaker RI",
+    "key_sections": [
+      "Apa itu Pesawat Angkat dan Angkut?",
+      "Dasar Hukum — Permenaker No. 8 Tahun 2020",
+      "Jenis PAA dan Kelas Sertifikasi",
+      "Siapa yang Wajib Memiliki SIO?",
+      "Persyaratan Peserta",
+      "Tujuan Pembelajaran",
+      "Kurikulum",
+      "Metode Pelatihan",
+      "Program Pelatihan PAA Kami",
+      "Program K3 Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "penanggulangan-kebakaran": {
+    "slug": "penanggulangan-kebakaran",
+    "title": "Pelatihan Penanggulangan Kebakaran (Kelas A, B, C, D) — Sertifikasi Kemnaker RI",
+    "meta_title": "Pelatihan Penanggulangan Kebakaran (Kelas A, B, C, D) — Sertifikasi Kemnaker RI | Wahana Totalita",
+    "meta_desc": "Pelatihan Penanggulangan Kebakaran resmi bersertifikat Kemnaker RI. Program Kelas D hingga Kelas A sesuai Kepmenaker No. 186/MEN/1999. Yogyakarta & in-house. 0812-2969-435.",
+    "heading": "Pelatihan Penanggulangan Kebakaran Kelas A–D Bersertifikat Kemnaker RI",
+    "key_sections": [
+      "Mengapa Penanggulangan Kebakaran Wajib di Tempat Kerja?",
+      "Dasar Hukum — Kepmenaker No. 186/MEN/1999",
+      "Tingkatan Sertifikasi Penanggulangan Kebakaran",
+      "Siapa yang Wajib Ikut Pelatihan Ini?",
+      "Persyaratan Peserta",
+      "Tujuan Pembelajaran",
+      "Kurikulum",
+      "Metode Pelatihan",
+      "Program Pelatihan Penanggulangan Kebakaran Kami",
+      "Program K3 Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "p3k": {
+    "slug": "p3k",
+    "title": "Pelatihan P3K di Tempat Kerja — Petugas P3K Bersertifikat Kemnaker RI",
+    "meta_title": "Pelatihan P3K di Tempat Kerja — Petugas P3K Bersertifikat Kemnaker RI | Wahana Totalita",
+    "meta_desc": "Pelatihan P3K (Pertolongan Pertama pada Kecelakaan) di Tempat Kerja bersertifikat Kemnaker RI. Sesuai Permenaker No. 15 Tahun 2008. Yogyakarta & in-house. 0812-2969-435.",
+    "heading": "Pelatihan P3K di Tempat Kerja — Petugas P3K Bersertifikat Kemnaker RI",
+    "key_sections": [
+      "Apa itu P3K di Tempat Kerja?",
+      "Dasar Hukum — Permenaker No. 15 Tahun 2008",
+      "Dua Tingkat Sertifikasi P3K",
+      "Siapa yang Wajib Ikut Pelatihan P3K?",
+      "Persyaratan Peserta",
+      "Tujuan Pembelajaran",
+      "Kurikulum &amp; Silabus",
+      "Metode Pelatihan",
+      "Program Pelatihan P3K Kami",
+      "Program K3 Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "k3-pesawat-uap": {
+    "slug": "k3-pesawat-uap",
+    "title": "Pelatihan K3 Pesawat Uap & Bejana Tekanan (Operator Boiler) — Sertifikasi Kemnaker RI",
+    "meta_title": "Pelatihan K3 Pesawat Uap & Bejana Tekanan (Operator Boiler) — Sertifikasi Kemnaker RI | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 Pesawat Uap dan Bejana Tekanan bersertifikat Kemnaker RI. Program Operator Boiler Kelas I & II dan Pengawas K3 Pesawat Uap sesuai Undang-Undang Uap 1930 dan Permenaker 37/2016. 0812-2969-435.",
+    "heading": "Pelatihan K3 Pesawat Uap dan Bejana Tekanan — Operator Boiler Bersertifikat Kemnaker RI",
+    "key_sections": [
+      "Apa itu Pesawat Uap dan Bejana Tekanan?",
+      "Dasar Hukum",
+      "Tingkatan Sertifikasi Operator Pesawat Uap",
+      "Siapa yang Wajib Bersertifikat?",
+      "Persyaratan Peserta",
+      "Tujuan Pembelajaran",
+      "Kurikulum",
+      "Metode Pelatihan",
+      "Program Pelatihan K3 Pesawat Uap Kami",
+      "Program K3 Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "operator-alat-berat": {
+    "slug": "operator-alat-berat",
+    "title": "Pelatihan Operator Alat Berat (Excavator, Bulldozer, Grader) — SIO Kemnaker RI",
+    "meta_title": "Pelatihan Operator Alat Berat (Excavator, Bulldozer, Grader) — SIO Kemnaker RI | Wahana Totalita",
+    "meta_desc": "Pelatihan Operator Alat Berat bersertifikat Kemnaker RI. Program SIO Excavator, Bulldozer, Motor Grader, Compactor, dan Wheel Loader. Yogyakarta & in-house. 0812-2969-435.",
+    "heading": "Pelatihan Operator Alat Berat — SIO Excavator, Bulldozer &amp; Grader Bersertifikat Kemnaker RI",
+    "key_sections": [
+      "Apa itu Alat Berat dan Mengapa Operatornya Wajib Bersertifikat?",
+      "Dasar Hukum",
+      "Jenis Alat Berat dan SIO yang Dibutuhkan",
+      "Siapa yang Wajib Memiliki SIO Alat Berat?",
+      "Persyaratan Peserta",
+      "Tujuan Pembelajaran",
+      "Kurikulum",
+      "Metode Pelatihan",
+      "Program Pelatihan Operator Alat Berat Kami",
+      "Program K3 Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "juru-las": {
+    "slug": "juru-las",
+    "title": "Pelatihan Juru Las (Welder Kelas I, II, III) — Sertifikasi Kemnaker RI",
+    "meta_title": "Pelatihan Juru Las (Welder Kelas I, II, III) — Sertifikasi Kemnaker RI | Wahana Totalita",
+    "meta_desc": "Pelatihan Juru Las bersertifikat Kemnaker RI. Program Welder Kelas I, II, III dan Pengawas Las sesuai Permenaker No. 02/1982. Yogyakarta & in-house. 0812-2969-435.",
+    "heading": "Pelatihan Juru Las — Welder Kelas I, II &amp; III Bersertifikat Kemnaker RI",
+    "key_sections": [
+      "Mengapa Juru Las Wajib Bersertifikat?",
+      "Dasar Hukum",
+      "Tiga Kelas Juru Las",
+      "Proses Las yang Dicakup",
+      "Siapa yang Wajib Bersertifikat?",
+      "Persyaratan Peserta",
+      "Tujuan Pembelajaran",
+      "Kurikulum",
+      "Metode Pelatihan",
+      "Program Pelatihan Juru Las Kami",
+      "Jalur Profesi Welding Lanjutan (BNSP)",
+      "Program K3 Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "higiene-industri": {
+    "slug": "higiene-industri",
+    "title": "Pelatihan Higiene Industri & Hiperkes — Pengukuran NAB & Sertifikasi Kemnaker RI",
+    "meta_title": "Pelatihan Higiene Industri & Hiperkes — Pengukuran NAB & Sertifikasi Kemnaker RI | Wahana Totalita",
+    "meta_desc": "Pelatihan Higiene Industri dan Hiperkes bersertifikat Kemnaker RI. Program Ahli Higiene Industri, pengukuran NAB kebisingan, debu, kimia, dan pencahayaan sesuai Permenaker No. 5 Tahun 2018. 0812-2969-435.",
+    "heading": "Pelatihan Higiene Industri dan Hiperkes — Pengukuran NAB Bersertifikat Kemnaker RI",
+    "key_sections": [
+      "Apa itu Higiene Industri?",
+      "Dasar Hukum — Permenaker No. 5 Tahun 2018",
+      "Faktor Bahaya Lingkungan Kerja yang Wajib Diukur",
+      "Program Sertifikasi Higiene Industri",
+      "Siapa yang Membutuhkan Pelatihan Ini?",
+      "Hiperkes untuk Dokter dan Paramedis Perusahaan",
+      "Tujuan Pembelajaran",
+      "Kurikulum — Ahli Higiene Industri (±40 jam)",
+      "Metode Pelatihan",
+      "Program Pelatihan Higiene Industri Kami",
+      "Program K3 Terkait",
+      "FAQ",
+      "Daftar &amp; Konsultasi"
+    ]
+  },
+  "pelatihan-iso": {
+    "slug": "pelatihan-iso",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Pelatihan sertifikasi ISO 9001:2015, ISO 14001:2015, dan ISO 45001:2018 untuk Internal Auditor dan Lead Auditor. Diakui internasional. Yogyakarta & in-house. Hubungi: 0812-2969-435.",
+    "heading": "Pelatihan ISO 9001, ISO 14001 &amp; ISO 45001",
+    "key_sections": [
+      "Mengapa Sertifikasi ISO Penting untuk Perusahaan Indonesia?",
+      "Tiga Standar ISO Utama yang Kami Sediakan",
+      "Internal Auditor vs Lead Auditor — Apa Bedanya?",
+      "Siapa yang Membutuhkan Pelatihan ISO?",
+      "Kurikulum — Internal Auditor ISO (±24 Jam / 3 Hari)",
+      "Metode Pelatihan",
+      "Program Pelatihan ISO yang Tersedia",
+      "Integrasi ISO: Sistem Manajemen Terpadu (IMS)",
+      "Program Terkait",
+      "Pertanyaan yang Sering Diajukan",
+      "Siap Meningkatkan Kompetensi Audit ISO?"
+    ]
+  },
+  "k3-perkantoran": {
+    "slug": "k3-perkantoran",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Panduan lengkap K3 Perkantoran: ergonomi workstation, kualitas udara dalam ruangan, evakuasi darurat, dan sertifikasi K3 untuk lingkungan kantor. Permenaker 5/2018. Yogyakarta.",
+    "heading": "K3 Perkantoran — Keselamatan &amp; Kesehatan Kerja di Lingkungan Kantor",
+    "key_sections": [
+      "Regulasi K3 yang Berlaku untuk Lingkungan Kantor",
+      "5 Bahaya K3 Utama di Lingkungan Kantor",
+      "Checklist Ergonomi Workstation Komputer",
+      "P2K3 — Panitia Pembina K3 untuk Kantor Besar",
+      "Sertifikasi K3 yang Relevan untuk Lingkungan Kantor",
+      "Topik K3 Terkait",
+      "Pertanyaan yang Sering Diajukan",
+      "Tingkatkan Standar K3 Kantor Anda"
+    ]
+  },
+  "selam": {
+    "slug": "selam",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Pelatihan selam profesional dan rekreasional: CMAS, NAUI, Scientific Diving, Commercial Diving. Untuk oil & gas, penyelamatan, riset bawah laut. Yogyakarta. Hubungi: 0812-2969-435.",
+    "heading": "Pelatihan Selam &amp; Scuba Diving — CMAS, NAUI &amp; Commercial Diving",
+    "key_sections": [
+      "Mengapa Pelatihan Selam Bersertifikat Penting?",
+      "Jalur Sertifikasi Selam — Dari Pemula hingga Profesional",
+      "K3 dalam Kegiatan Selam — Protokol Keselamatan Wajib",
+      "Persyaratan Peserta Pelatihan Selam",
+      "Program Pelatihan Selam Wahana Totalita",
+      "Siapa yang Membutuhkan Pelatihan Selam Profesional?",
+      "Program Terkait",
+      "Pertanyaan yang Sering Diajukan",
+      "Siap Memulai Perjalanan Selam Anda?"
+    ]
+  },
+  "outbound": {
+    "slug": "outbound",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Outbound training dan team building profesional di Yogyakarta untuk instansi pemerintah, BUMN, dan korporasi. Program kepemimpinan, team cohesion, dan pengembangan SDM. Hubungi: 0812-2969-435.",
+    "heading": "Outbound Training &amp; Team Building Yogyakarta",
+    "key_sections": [
+      "Mengapa Outbound Training Efektif untuk Pengembangan SDM?",
+      "Tujuan Pengembangan yang Dapat Dicapai",
+      "Format Program — Pilih Sesuai Kebutuhan",
+      "Aktivitas Unggulan",
+      "Khusus untuk Instansi Pemerintah &amp; BUMN",
+      "Pilihan Lokasi di Yogyakarta &amp; Sekitarnya",
+      "Alur Kerja — Dari Konsultasi hingga Laporan",
+      "Program Pengembangan SDM Terkait",
+      "Pertanyaan yang Sering Diajukan",
+      "Siap Membangun Tim yang Lebih Kuat?"
+    ]
+  },
+  "wisata-karyawan": {
+    "slug": "wisata-karyawan",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Paket wisata tahunan karyawan untuk instansi pemerintah, BUMN, dan korporasi. Yogyakarta & destinasi seluruh Indonesia. Terdaftar LPSE & PADI UMKM. Hubungi: 0812-2969-435.",
+    "heading": "Paket Wisata Karyawan &amp; Instansi Pemerintah",
+    "key_sections": [
+      "Mengapa Wisata Tahunan Karyawan Penting?",
+      "Format Paket Wisata Karyawan",
+      "Yang Termasuk dalam Paket",
+      "Program Kombinasi Wisata + Outbound Training",
+      "Kemudahan Pengadaan untuk Instansi Pemerintah",
+      "Alur Pemesanan Paket Wisata Karyawan",
+      "Program Lain untuk Instansi &amp; Korporasi",
+      "Pertanyaan yang Sering Diajukan",
+      "Rencanakan Wisata Karyawan Tahun Ini"
+    ]
+  },
+  "event-organizer": {
+    "slug": "event-organizer",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Jasa event organizer profesional untuk seminar, rapat koordinasi, pelantikan, HUT instansi, dan pameran kedinasan. Terdaftar LPSE & PADI UMKM. Yogyakarta. Hubungi: 0812-2969-435.",
+    "heading": "Event Organizer Instansi Pemerintah, BUMN &amp; Korporasi",
+    "key_sections": [
+      "Jenis Acara yang Kami Kelola",
+      "Layanan Komprehensif — Satu Vendor, Semua Kebutuhan",
+      "Kami Memahami Protokol Kedinasan",
+      "Kemudahan Pengadaan — LPSE &amp; Pengadaan Langsung",
+      "Alur Kerja — Dari Brief hingga Laporan",
+      "Program Terkait untuk Instansi &amp; Korporasi",
+      "Pertanyaan yang Sering Diajukan",
+      "Percayakan Acara Anda kepada Kami"
+    ]
+  },
+  "k3-rumah-sakit": {
+    "slug": "k3-rumah-sakit",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Panduan K3 Rumah Sakit sesuai Permenkes 66/2016: bahaya biologis, radiasi, ergonomi, B3, dan manajemen insiden. Pelatihan K3RS dan sertifikasi untuk tenaga kesehatan. Yogyakarta.",
+    "heading": "K3 Rumah Sakit &amp; Fasilitas Kesehatan",
+    "key_sections": [
+      "Regulasi K3 yang Berlaku di Fasilitas Kesehatan",
+      "5 Kategori Bahaya K3 di Lingkungan Rumah Sakit",
+      "Komite K3RS — Struktur &amp; Kewajiban Permenkes 66/2016",
+      "Pengelolaan Limbah Medis &amp; B3 di Fasilitas Kesehatan",
+      "Program Pelatihan K3 untuk Fasilitas Kesehatan",
+      "Topik K3 Terkait",
+      "Pertanyaan yang Sering Diajukan",
+      "Konsultasikan Kebutuhan K3RS Anda"
+    ]
+  },
+  "pelatihan-manajemen-sdm": {
+    "slug": "pelatihan-manajemen-sdm",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Pelatihan manajemen, kepemimpinan, soft skills, dan pengembangan SDM untuk ASN, BUMN, dan swasta di Yogyakarta. Sesuai PermenpanRB 13/2022 dan UU ASN. Bersertifikat, in-house & publik.",
+    "heading": "Pelatihan Manajemen &amp; Pengembangan SDM",
+    "key_sections": [
+      "Dasar Hukum Pengembangan Kompetensi ASN",
+      "5 Klaster Program Pengembangan Kompetensi",
+      "Format Penyelenggaraan",
+      "Program Unggulan",
+      "Mekanisme Pengadaan untuk Instansi Pemerintah &amp; BUMN",
+      "Alur Kerja — Dari Konsultasi ke Sertifikat",
+      "Program Terkait",
+      "Pertanyaan yang Sering Diajukan",
+      "Siap Meningkatkan Kompetensi Pegawai Anda?"
+    ]
+  },
+  "pelatihan-satpam": {
+    "slug": "pelatihan-satpam",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 untuk petugas satuan pengamanan: bahaya kerja satpam, P3K, pemadam kebakaran, evakuasi darurat, dan keselamatan petugas keamanan. Bersertifikat Kemnaker RI, Yogyakarta.",
+    "heading": "Pelatihan K3 &amp; Keselamatan untuk Satuan Pengamanan (Satpam)",
+    "key_sections": [
+      "Bahaya K3 yang Spesifik untuk Petugas Keamanan",
+      "Program Pelatihan K3 untuk Satuan Pengamanan",
+      "Kewajiban Hukum Pengusaha terhadap K3 Satpam",
+      "Pertanyaan yang Sering Diajukan",
+      "Lindungi Petugas Keamanan Anda"
+    ]
+  },
+  "catering": {
+    "slug": "catering",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Jasa catering, snack box, dan konsumsi rapat untuk instansi pemerintah dan BUMN di Yogyakarta. Halal, lengkap dokumen SPJ, LPSE & PADI terdaftar. Pengadaan langsung < Rp 200 juta.",
+    "heading": "Jasa Catering &amp; Konsumsi untuk Instansi Pemerintah dan BUMN",
+    "key_sections": [
+      "Paket Layanan Catering",
+      "Pilihan Menu",
+      "Pengadaan Catering untuk Instansi Pemerintah",
+      "Keunggulan Wahana Totalita untuk Catering Instansi",
+      "Paket Lengkap Kegiatan Instansi",
+      "Pertanyaan yang Sering Diajukan",
+      "Butuh Konsumsi untuk Kegiatan Instansi Anda?"
+    ]
+  },
+  "pelatihan-kelautan": {
+    "slug": "pelatihan-kelautan",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 dan keselamatan maritim: sea survival, marine firefighting, man overboard, keselamatan pelabuhan, dan K3 di lingkungan laut. Untuk pelaut, port worker, dan industri maritim Indonesia.",
+    "heading": "Pelatihan K3 &amp; Keselamatan Maritim",
+    "key_sections": [
+      "Kerangka Regulasi Keselamatan Maritim",
+      "6 Bahaya Utama K3 di Lingkungan Maritim",
+      "Basic Safety Training (BST) — 4 Modul Wajib STCW",
+      "Siapa yang Membutuhkan Pelatihan Keselamatan Maritim?",
+      "Program Pelatihan Keselamatan Maritim",
+      "Program Terkait",
+      "Pertanyaan yang Sering Diajukan",
+      "Siapkan Tim Anda untuk Keselamatan di Laut"
+    ]
+  },
+  "k3-laboratorium": {
+    "slug": "k3-laboratorium",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Panduan K3 laboratorium: bahaya kimia, biologis, dan radiasi di lab. Regulasi laboratorium Indonesia, pengelolaan B3, biosafety level, dan program pelatihan K3 lab untuk peneliti dan analis.",
+    "heading": "K3 Laboratorium — Keselamatan Kerja di Lab Penelitian, Klinik &amp; Universitas",
+    "key_sections": [
+      "Jenis Laboratorium dan Profil Bahaya K3-nya",
+      "Sistem Biosafety Level (BSL) — Klasifikasi Lab Biologi",
+      "APD Standar Laboratorium — Pilih yang Tepat",
+      "Program Pelatihan K3 Laboratorium",
+      "Topik K3 Terkait",
+      "Pertanyaan yang Sering Diajukan",
+      "Pastikan Laboratorium Anda Aman dan Taat Regulasi"
+    ]
+  },
+  "k3-transportasi": {
+    "slug": "k3-transportasi",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 transportasi: defensive driving, fleet safety management, journey management plan, dan keselamatan pengemudi instansi pemerintah & BUMN. Sesuai UU LLAJ No. 22/2009. Yogyakarta.",
+    "heading": "K3 Transportasi &amp; Keselamatan Berkendara untuk Instansi &amp; BUMN",
+    "key_sections": [
+      "Mengapa K3 Transportasi Kritis?",
+      "Bahaya K3 Utama di Lingkungan Transportasi",
+      "Defensive Driving — 5 Prinsip Smith System",
+      "Program Pelatihan K3 Transportasi",
+      "Topik K3 Terkait",
+      "Pertanyaan yang Sering Diajukan",
+      "Kurangi Risiko Kecelakaan Armada Anda"
+    ]
+  },
+  "akomodasi": {
+    "slug": "akomodasi",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Jasa pemesanan hotel, akomodasi, dan penginapan untuk kegiatan dinas instansi pemerintah dan BUMN di Yogyakarta. Harga terjangkau, lengkap dokumen SPJ, LPSE & PADI terdaftar.",
+    "heading": "Jasa Akomodasi &amp; Hotel Arrangement untuk Instansi Pemerintah &amp; BUMN",
+    "key_sections": [
+      "Layanan Akomodasi yang Kami Sediakan",
+      "Kategori Hotel &amp; Kesesuaian SBM Kemenkeu",
+      "Mekanisme Pengadaan Akomodasi untuk Instansi",
+      "Paket Terpadu — Satu Vendor, Semua Kebutuhan",
+      "Pertanyaan yang Sering Diajukan",
+      "Butuh Akomodasi untuk Kegiatan Dinas di Yogyakarta?"
+    ]
+  },
+  "pelatihan-keuangan-daerah": {
+    "slug": "pelatihan-keuangan-daerah",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Pelatihan keuangan daerah, akuntansi pemerintahan, bendahara instansi, dan pengelolaan APBD untuk ASN dan pegawai pemerintah di Yogyakarta. Bersertifikat, dokumen SPJ lengkap.",
+    "heading": "Pelatihan Keuangan Daerah &amp; Akuntansi Pemerintahan untuk ASN",
+    "key_sections": [
+      "Regulasi Utama Pengelolaan Keuangan Pemerintah",
+      "Topik Pelatihan Keuangan yang Tersedia",
+      "Program Pelatihan Keuangan",
+      "Risiko Hukum Bendahara — Mengapa Pelatihan Ini Penting",
+      "Komponen Laporan Keuangan Pemerintah (SAP PP 71/2010)",
+      "Dokumen Pengadaan — SPJ Pelatihan untuk Instansi",
+      "Pelatihan Terkait untuk Instansi",
+      "Pertanyaan yang Sering Diajukan",
+      "Rencanakan Pelatihan Keuangan untuk Instansi Anda"
+    ]
+  },
+  "pelatihan-pengadaan-barang-jasa": {
+    "slug": "pelatihan-pengadaan-barang-jasa",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Pelatihan pengadaan barang dan jasa pemerintah (PBJP) untuk PPK, PPTK, panitia pengadaan, dan ASN di Yogyakarta. Perpres 16/2018, Perlem LKPP, e-Purchasing, SiRUP, LPSE.",
+    "heading": "Pelatihan Pengadaan Barang/Jasa Pemerintah (PBJP) Yogyakarta",
+    "key_sections": [
+      "Regulasi Utama Pengadaan Barang/Jasa Pemerintah",
+      "Metode Pengadaan (Perpres 16/2018 jo 12/2021)",
+      "Peran &amp; Tanggung Jawab dalam Pengadaan",
+      "⚠ Temuan BPK Paling Sering — Pahami Sebelum Terlambat",
+      "Program Pelatihan PBJP yang Tersedia",
+      "Alur Pengadaan Langsung (Nilai ≤ Rp 200 Juta)",
+      "Pelatihan &amp; Layanan Terkait",
+      "Pertanyaan yang Sering Diajukan",
+      "Siap Meningkatkan Kompetensi Pengadaan Tim Anda?"
+    ]
+  },
+  "k3-manufaktur": {
+    "slug": "k3-manufaktur",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 industri manufaktur dan pabrik: mesin produksi, APD, ergonomi, bahan kimia, kebakaran, dan lockout/tagout. BNSP, Kemnaker RI. Yogyakarta dan DIY.",
+    "heading": "K3 Industri Manufaktur &amp; Pabrik — Keselamatan di Lantai Produksi",
+    "key_sections": [
+      "Regulasi K3 yang Wajib Dipatuhi Industri Manufaktur",
+      "Bahaya K3 Utama di Industri Manufaktur",
+      "Prosedur Lockout/Tagout (LOTO) — Kunci Keselamatan Mesin",
+      "APD Wajib di Lantai Produksi Manufaktur",
+      "Program Pelatihan K3 Manufaktur",
+      "Topik K3 Terkait",
+      "Pertanyaan yang Sering Diajukan",
+      "Jadikan Pabrik Anda Lebih Aman — Konsultasi K3 Sekarang"
+    ]
+  },
+  "k3-psikososial": {
+    "slug": "k3-psikososial",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 psikososial dan kesehatan mental kerja: stres, burnout, bullying, beban kerja. Sesuai Kepmenaker 4/2026 dan Permenaker 5/2018. Yogyakarta, DIY, nasional.",
+    "heading": "K3 Psikososial &amp; Kesehatan Mental di Tempat Kerja",
+    "key_sections": [
+      "Mengapa K3 Psikososial Semakin Mendesak?",
+      "Dasar Hukum K3 Psikososial di Indonesia",
+      "Jenis Bahaya Psikososial di Tempat Kerja",
+      "Memahami Kontinum: Stres → Burnout → Depresi",
+      "Program Pelatihan K3 Psikososial",
+      "Hierarki Pengendalian Risiko Psikososial",
+      "Topik K3 Terkait",
+      "Pertanyaan yang Sering Diajukan",
+      "Jadikan Tempat Kerja Anda Sehat Secara Mental"
+    ]
+  },
+  "k3-pangan": {
+    "slug": "k3-pangan",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Pelatihan K3 industri pangan, food safety, higiene pengolahan makanan, GMP/CPPB, dan HACCP untuk pabrik makanan, katering, dan UMKM pangan di Yogyakarta dan DIY.",
+    "heading": "K3 Industri Pangan &amp; Food Safety Training Yogyakarta",
+    "key_sections": [
+      "Regulasi K3 &amp; Keamanan Pangan di Indonesia",
+      "Bahaya K3 Utama di Industri Pengolahan Pangan",
+      "7 Prinsip HACCP — Sistem Keamanan Pangan Berbasis Risiko",
+      "Jalur Izin Edar Produk Pangan Indonesia",
+      "Program Pelatihan K3 &amp; Food Safety",
+      "Topik Terkait",
+      "Pertanyaan yang Sering Diajukan",
+      "Jadikan Fasilitas Pangan Anda Aman &amp; Siap Audit"
+    ]
+  },
+  "pelatihan-teknologi-informasi": {
+    "slug": "pelatihan-teknologi-informasi",
+    "title": "<?php echo htmlspecialchars($meta_title); ?>",
+    "meta_title": "<?php echo htmlspecialchars($meta_title); ?> | Wahana Totalita",
+    "meta_desc": "Pelatihan IT, komputer, SPBE, transformasi digital, dan keamanan siber untuk ASN dan pegawai pemerintah di Yogyakarta. Sesuai Perpres 95/2018, in-house, dokumen SPJ lengkap.",
+    "heading": "Pelatihan Teknologi Informasi &amp; Transformasi Digital untuk ASN",
+    "key_sections": [
+      "Konteks: Mengapa Pelatihan Digital ASN Mendesak?",
+      "Klaster Kompetensi Digital yang Tersedia",
+      "Program Pelatihan IT yang Tersedia",
+      "⚠ Ancaman Siber Paling Umum di Instansi Pemerintah",
+      "Dokumen Pengadaan untuk Instansi",
+      "Pelatihan Lain untuk ASN",
+      "Pertanyaan yang Sering Diajukan",
+      "Tingkatkan Kompetensi Digital Tim ASN Anda"
+    ]
+  },
+  "k3": {
+    "slug": "k3",
+    "title": "<?= e($title) ?>",
+    "meta_title": "<?= e($title) ?> | Wahana Totalita",
+    "meta_desc": "<?= e($metaDesc) ?>",
+    "heading": "",
+    "key_sections": [
+      "Program terkait \"\"",
+      "Semua yang Anda butuhkan untuk bersertifikat",
+      "Masih ragu? Ini jawabannya",
+      "Cari berdasarkan kebutuhan",
+      "Siap raih sertifikat Anda?"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+# Next.js
+.next/
+out/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env*.local
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large zips & dumps (not needed in git)
+public_html.zip
+*.sql
+public_html/

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Yogyakarta",
+    "slug": "yogyakarta",
+    "province": "DI Yogyakarta"
+  },
+  {
+    "id": 2,
+    "name": "Jakarta Selatan",
+    "slug": "jakarta-selatan",
+    "province": "DKI Jakarta"
+  },
+  {
+    "id": 3,
+    "name": "Jakarta Pusat",
+    "slug": "jakarta-pusat",
+    "province": "DKI Jakarta"
+  },
+  {
+    "id": 4,
+    "name": "Surabaya",
+    "slug": "surabaya",
+    "province": "Jawa Timur"
+  },
+  {
+    "id": 5,
+    "name": "Bandung",
+    "slug": "bandung",
+    "province": "Jawa Barat"
+  },
+  {
+    "id": 6,
+    "name": "Semarang",
+    "slug": "semarang",
+    "province": "Jawa Tengah"
+  },
+  {
+    "id": 7,
+    "name": "Medan",
+    "slug": "medan",
+    "province": "Sumatera Utara"
+  },
+  {
+    "id": 8,
+    "name": "Makassar",
+    "slug": "makassar",
+    "province": "Sulawesi Selatan"
+  },
+  {
+    "id": 9,
+    "name": "Palembang",
+    "slug": "palembang",
+    "province": "Sumatera Selatan"
+  },
+  {
+    "id": 10,
+    "name": "Balikpapan",
+    "slug": "balikpapan",
+    "province": "Kalimantan Timur"
+  },
+  {
+    "id": 11,
+    "name": "Samarinda",
+    "slug": "samarinda",
+    "province": "Kalimantan Timur"
+  },
+  {
+    "id": 12,
+    "name": "Batam",
+    "slug": "batam",
+    "province": "Kepulauan Riau"
+  },
+  {
+    "id": 13,
+    "name": "Pekanbaru",
+    "slug": "pekanbaru",
+    "province": "Riau"
+  },
+  {
+    "id": 14,
+    "name": "Manado",
+    "slug": "manado",
+    "province": "Sulawesi Utara"
+  },
+  {
+    "id": 15,
+    "name": "Denpasar",
+    "slug": "denpasar",
+    "province": "Bali"
+  },
+  {
+    "id": 16,
+    "name": "Bekasi",
+    "slug": "bekasi",
+    "province": "Jawa Barat"
+  },
+  {
+    "id": 17,
+    "name": "Tangerang",
+    "slug": "tangerang",
+    "province": "Banten"
+  },
+  {
+    "id": 18,
+    "name": "Bogor",
+    "slug": "bogor",
+    "province": "Jawa Barat"
+  },
+  {
+    "id": 19,
+    "name": "Depok",
+    "slug": "depok",
+    "province": "Jawa Barat"
+  },
+  {
+    "id": 20,
+    "name": "Malang",
+    "slug": "malang",
+    "province": "Jawa Timur"
+  },
+  {
+    "id": 21,
+    "name": "Solo",
+    "slug": "solo",
+    "province": "Jawa Tengah"
+  },
+  {
+    "id": 22,
+    "name": "Jayapura",
+    "slug": "jayapura",
+    "province": "Papua"
+  },
+  {
+    "id": 23,
+    "name": "Pontianak",
+    "slug": "pontianak",
+    "province": "Kalimantan Barat"
+  },
+  {
+    "id": 24,
+    "name": "Banjarmasin",
+    "slug": "banjarmasin",
+    "province": "Kalimantan Selatan"
+  }
+]

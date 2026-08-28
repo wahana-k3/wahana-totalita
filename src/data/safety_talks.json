@@ -1,0 +1,2302 @@
+[
+  {
+    "id": 1,
+    "category": "umum",
+    "title": "Penggunaan APD yang Benar",
+    "description": "Cara memilih, memakai, melepas, dan merawat Alat Pelindung Diri sesuai standar K3.",
+    "tags": [
+      "APD",
+      "Umum"
+    ],
+    "statistic": "40% kecelakaan kerja dapat dicegah dengan penggunaan APD yang tepat dan disiplin.",
+    "discussion_points": [
+      "Apa saja APD wajib di area kerja ini?",
+      "Apakah APD yang Anda pakai kondisinya masih layak?",
+      "Bagaimana cara membersihkan dan menyimpan APD?",
+      "Kapan APD harus diganti dengan yang baru?"
+    ],
+    "action_steps": [
+      "Periksa kondisi APD sebelum dipakai",
+      "Pastikan ukuran APD sesuai bentuk tubuh",
+      "Gunakan urutan memakai APD yang benar",
+      "Simpan APD di tempat bersih dan kering setelah dipakai"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "ketinggian",
+    "title": "Bekerja di Ketinggian dengan Aman",
+    "description": "Prosedur keselamatan bekerja di atas 1.8 meter: full body harness, scaffolding, dan anchor point.",
+    "tags": [
+      "Ketinggian",
+      "Harness"
+    ],
+    "statistic": "25% kematian akibat kecelakaan kerja disebabkan jatuh dari ketinggian.",
+    "discussion_points": [
+      "Apakah full body harness sudah diinspeksi hari ini?",
+      "Di mana titik anchor point yang dinilai aman?",
+      "Apakah PTW Ketinggian sudah ditandatangani?",
+      "Siapa yang memiliki lisensi bekerja di ketinggian?"
+    ],
+    "action_steps": [
+      "Inspeksi harness dan lanyard sebelum dipakai",
+      "Hookkan lanyard ke anchor point kuat di atas kepala",
+      "Gunakan double lanyard saat berpindah posisi",
+      "Pasang barikade di bawah area kerja ketinggian"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "kebakaran",
+    "title": "Pencegahan Kebakaran & Penggunaan APAR",
+    "description": "Teori segitiga api, kelas kebakaran, teknik P.A.S.S pada APAR, dan jalur evakuasi.",
+    "tags": [
+      "Kebakaran",
+      "APAR"
+    ],
+    "statistic": "Kerugian rata-rata kebakaran pabrik mencapai miliaran rupiah per insiden.",
+    "discussion_points": [
+      "Di mana lokasi APAR terdekat dari area kerja Anda?",
+      "Apakah jarum tekanan APAR masih di area hijau?",
+      "Bagaimana teknik P.A.S.S saat memadamkan api?",
+      "Siapa yang harus dihubungi saat terjadi insiden kebakaran?"
+    ],
+    "action_steps": [
+      "Jaga area kerja bebas dari penumpukan sampah mudah terbakar",
+      "Periksa pin dan segel APAR secara berkala",
+      "Gunakan metode P.A.S.S (Pull, Aim, Squeeze, Sweep)",
+      "Jika api membesar, segera evakuasi dan tekan alarm"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "listrik",
+    "title": "Keselamatan Listrik di Tempat Kerja",
+    "description": "Bahaya sengatan listrik, pengamanan panel, grounding, dan pencegahan korsleting.",
+    "tags": [
+      "Listrik",
+      "Panel"
+    ],
+    "statistic": "Sengatan listrik 220V dapat menyebabkan fibrilasi jantung dalam kurun waktu 0.1 detik.",
+    "discussion_points": [
+      "Apakah kabel alat yang dipakai ada yang terkelupas?",
+      "Apakah panel listrik tertutup dan berlabel jelas?",
+      "Siapa yang berwenang melakukan perbaikan listrik?",
+      "Bagaimana pertolongan pertama korban tersengat listrik?"
+    ],
+    "action_steps": [
+      "Inspeksi kabel dan steker sebelum disambungkan ke sumber listrik",
+      "Jangan menyentuh saklar atau alat listrik dengan tangan basah",
+      "Matikan aliran listrik sebelum membersihkan atau memperbaiki alat",
+      "Gunakan alat listrik bercangkang isolasi ganda (double insulation)"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "kimia",
+    "title": "Penanganan Bahan Kimia Berbahaya (B3)",
+    "description": "Membaca Lembar Data Keselamatan Bahan (LDKB/SDS), piktogram bahaya, dan APD khusus.",
+    "tags": [
+      "B3",
+      "SDS"
+    ],
+    "statistic": "60% kecelakaan bahan kimia terjadi karena pekerja tidak membaca SDS terlebih dahulu.",
+    "discussion_points": [
+      "Di mana dokumen SDS untuk bahan kimia yang Anda pakai?",
+      "Apa piktogram bahaya yang tertera pada kemasan?",
+      "APD apa yang wajib dipakai saat menangani B3 ini?",
+      "Bagaimana tindakan darurat jika bahan terpapar ke mata/kulit?"
+    ],
+    "action_steps": [
+      "Baca dan pahami SDS sebelum membuka kemasan B3",
+      "Gunakan respirator dan sarung tangan tahan kimia yang sesuai",
+      "Pastikan ventilasi area cukup saat menggunakan bahan kimia evaporatif",
+      "Cuci tangan dan bilas kulit segera jika terkena cipratan B3"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "umum",
+    "title": "Housekeeping & Penerapan 5S",
+    "description": "Prinsip Ringkas, Rapi, Resik, Rawat, Rajin (5S) untuk area kerja yang aman dan efisien.",
+    "tags": [
+      "5S",
+      "Housekeeping"
+    ],
+    "statistic": "Housekeeping yang buruk menjadi faktor penyebab 15% insiden terpeleset dan tersandung.",
+    "discussion_points": [
+      "Apakah area kerja Anda bebas dari genangan oli atau air?",
+      "Apakah akses jalan dan tangga terhalang tumpukan barang?",
+      "Di mana tempat penyimpanan alat kerja setelah selesai?",
+      "Apakah sampah dipisah sesuai jenisnya?"
+    ],
+    "action_steps": [
+      "Singkirkan barang yang tidak diperlukan dari lokasi kerja",
+      "Kembalikan peralatan ke tempatnya semula setelah dipakai",
+      "Bersihkan ceceran oli atau cairan segera dengan absorbent",
+      "Pastikan jalur evakuasi tidak tertutup barang apapun"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "umum",
+    "title": "Near Miss — Melaporkan Hampir Celaka",
+    "description": "Pentingnya melaporkan kejadian near miss untuk mencegah kecelakaan berat di masa depan.",
+    "tags": [
+      "Near Miss",
+      "Budaya K3"
+    ],
+    "statistic": "Menurut Piramida Heinrich, di balik 1 kecelakaan fatal terdapat 300 kejadian near miss.",
+    "discussion_points": [
+      "Apakah Anda pernah mengalami hampir celaka di lokasi ini?",
+      "Mengapa sebagian orang enggan melaporkan near miss?",
+      "Bagaimana cara mengisi formulir Laporan Near Miss?",
+      "Apa manfaat laporan near miss bagi keselamatan tim?"
+    ],
+    "action_steps": [
+      "Segera amankan bahaya jika memungkinkan",
+      "Laporkan kejadian near miss kepada supervisor atau HSE",
+      "Tulis kronologi kejadian secara jujur tanpa rasa takut disalahkan",
+      "Diskusikan tindakan pencegahan bersama seluruh anggota tim"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "kesehatan",
+    "title": "Ergonomi & Manual Handling",
+    "description": "Teknik mengangkat beban manual yang benar untuk mencegah cedera tulang belakang (LBP).",
+    "tags": [
+      "Ergonomi",
+      "Manual Handling"
+    ],
+    "statistic": "30% kasus penyakit akibat kerja (PAK) di industri manufaktur adalah cedera otot dan tulang.",
+    "discussion_points": [
+      "Berapa batas beban maksimal yang aman diangkat satu orang?",
+      "Bagaimana posisi punggung dan lutut saat mengangkat?",
+      "Kapan Anda harus menggunakan alat bantu angkat?",
+      "Apakah Anda merasakan nyeri punggung setelah bekerja?"
+    ],
+    "action_steps": [
+      "Nilai berat dan ukuran barang sebelum diangkat",
+      "Posisikan kaki selebar bahu dan dekatkan beban ke tubuh",
+      "Tekuk lutut dan angkat menggunakan kekuatan otot kaki, bukan punggung",
+      "Minta bantuan rekan kerja jika beban melebihi 25 kg"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "kebakaran",
+    "title": "Prosedur Evakuasi Darurat",
+    "description": "Langkah yang harus dilakukan saat alarm darurat berbunyi dan penentuan titik kumpul (muster point).",
+    "tags": [
+      "Evakuasi",
+      "Muster Point"
+    ],
+    "statistic": "Waktu evakuasi aman gedung bertingkat idealnya di bawah 3 menit dari alarm awal.",
+    "discussion_points": [
+      "Di mana titik kumpul aman (muster point) terdekat?",
+      "Siapa petugas fire warden di lantai/area Anda?",
+      "Mengapa dilarang menggunakan lift saat evakuasi kebakaran?",
+      "Apa yang dilakukan jika ada rekan yang tidak berada di titik kumpul?"
+    ],
+    "action_steps": [
+      "Tetap tenang saat alarm sirine berbunyi",
+      "Tinggalkan pekerjaan dan keluar melalui jalur evakuasi",
+      "Jangan kembali mengambil barang pribadi yang tertinggal",
+      "Laporkan diri Anda ke pimpinan assembly point untuk penghitungan jumlah"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "umum",
+    "title": "Investigasi Kecelakaan & Metode 5-Why",
+    "description": "Mencari akar penyebab masalah (root cause) dari suatu insiden tanpa menyalahkan individu.",
+    "tags": [
+      "Investigasi",
+      "5-Why"
+    ],
+    "statistic": "80% insiden disebabkan oleh kelemahan sistem manajemen dan prosedur, bukan human error semata.",
+    "discussion_points": [
+      "Apa perbedaan penyebab langsung dan akar masalah?",
+      "Bagaimana prinsip menanyakan 'Mengapa' sebanyak 5 kali?",
+      "Siapa saja yang wajib terlibat dalam investigasi insiden?",
+      "Mengapa bukti fisik di TKP tidak boleh diubah sebelum difoto?"
+    ],
+    "action_steps": [
+      "Amankan lokasi kejadian kecelakaan segera",
+      "Kumpulkan fakta, foto lokasi, dan data teknis",
+      "Wawancarai saksi mata dengan pendekatan simpatik",
+      "Gunakan metode 5-Why untuk menemukan koreksi sistem"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "ketinggian",
+    "title": "Penggunaan Scaffolding yang Aman",
+    "description": "Inspeksi perancah, tag hijau/merah, beban maksimal, dan akses tangga.",
+    "tags": [
+      "Scaffolding",
+      "Ketinggian"
+    ],
+    "statistic": "4.500 cedera scaffolding terjadi tiap tahun karena modifikasi tidak resmi.",
+    "discussion_points": [
+      "Apakah scaffolding memiliki tag hijau aktif?",
+      "Apakah papan perancah terpasang rapat?",
+      "Apakah outrigger dan baseplate stabil?",
+      "Siapa scaffolder tersertifikasi di site?"
+    ],
+    "action_steps": [
+      "Cek status tag scaffolding sebelum naik",
+      "Gunakan tangga akses khusus, jangan memanjat pipa",
+      "Pastikan handrail dan toeboard terpasang rapat",
+      "Dilarang memindahkan komponen scaffolding sendiri"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "listrik",
+    "title": "Lock Out Tag Out (LOTO) 6 Langkah",
+    "description": "Prosedur mengunci dan menandai sumber energi sebelum perbaikan mesin.",
+    "tags": [
+      "LOTO",
+      "Isolasi"
+    ],
+    "statistic": "LOTO mencegah lebih dari 120 kematian dan 50.000 cedera per tahun.",
+    "discussion_points": [
+      "Siapa pemegang kunci LOTO mesin ini?",
+      "Bagaimana cara melakukan tes verifikasi nol energi?",
+      "Kapan tag merah boleh dilepas?",
+      "Apa risiko jika LOTO diabaikan?"
+    ],
+    "action_steps": [
+      "Identifikasi seluruh sumber energi (listrik, hidrolik, pneumatik)",
+      "Matikan mesin dan putus sumber daya utama",
+      "Pasang pad-lock pribadi dan tag LOTO beridentitas",
+      "Lakukan tes coba nyalakan untuk verifikasi isolasi total"
+    ]
+  },
+  {
+    "id": 13,
+    "category": "kimia",
+    "title": "Respirator & Fit Test Pernapasan",
+    "description": "Jenis filter respirator, uji kerapatan (fit test), dan pemeliharaan alat.",
+    "tags": [
+      "Respirator",
+      "Fit Test"
+    ],
+    "statistic": "Paparan debu dan uap beracun menyebabkan 2 juta kematian industri/tahun.",
+    "discussion_points": [
+      "Filter tipe apa yang cocok untuk gas/debu ini?",
+      "Bagaimana cara uji seal tekanan positif & negatif?",
+      "Kapan cartridge respirator harus diganti?",
+      "Di mana tempat menyimpan respirator yang benar?"
+    ],
+    "action_steps": [
+      "Pilih tipe filter sesuai SDS bahan kimia",
+      "Lakukan fit test sebelum memasuki area terkontaminasi",
+      "Ganti filter jika tarikan napas terasa berat atau tercium bau",
+      "Simpan dalam kantong klip kedap udara setelah dibersihkan"
+    ]
+  },
+  {
+    "id": 14,
+    "category": "kesehatan",
+    "title": "Heat Stress & Pencegahan Dehidrasi",
+    "description": "Bahaya suhu tinggi, gejala heat exhaustion vs heat stroke, dan pola minum.",
+    "tags": [
+      "Heat Stress",
+      "Kesehatan"
+    ],
+    "statistic": "Heat stroke dapat fatal dalam waktu 10-15 menit jika tidak ditangani medis.",
+    "discussion_points": [
+      "Berapa gelas air yang sudah Anda minum hari ini?",
+      "Apa beda keringat dingin berlebih vs kulit kering panas?",
+      "Di mana tempat istirahat teduh terdekat?",
+      "Bagaimana pertolongan pertama korban pingsan kepanasan?"
+    ],
+    "action_steps": [
+      "Minum air putih 200 ml setiap 20 menit saat bekerja di cuaca panas",
+      "Manfaatkan waktu istirahat di area teduh ber-AC atau berangin",
+      "Gunakan pakaian kerja yang menyerap keringat dan berwarna terang",
+      "Segera kompres es dan panggil ambulans jika korban berhenti berkeringat"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "alatberat",
+    "title": "Defensive Driving & Blind Spot Kendaraan",
+    "description": "Mengemudi aman di area proyek/site, batas kecepatan, dan zona titik buta.",
+    "tags": [
+      "Defensive Driving",
+      "Blind Spot"
+    ],
+    "statistic": "25% kecelakaan fatal di lokasi kerja melibatkan kendaraan operasional.",
+    "discussion_points": [
+      "Di mana saja titik blind spot truk atau excavator ini?",
+      "Berapa batas kecepatan maksimal di area lapangan?",
+      "Apakah sabuk pengaman sudah terpasang?",
+      "Bagaimana cara komunikasi driver dengan pejalan kaki?"
+    ],
+    "action_steps": [
+      "Patuhi batas kecepatan area proyek (max 20 km/jam)",
+      "Bunyikan klakson 2 kali sebelum maju dan 3 kali sebelum mundur",
+      "Pastikan kontak mata dengan operator sebelum melintas di sekitar alat berat",
+      "Selalu gunakan sabuk pengaman 3 titik saat mengemudi"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "kesehatan",
+    "title": "Pencegahan Musculoskeletal Disorders (MSDs)",
+    "description": "Penataan posisi duduk, berdiri, dan gerakan repetitive saat bekerja.",
+    "tags": [
+      "MSDs",
+      "Ergonomi"
+    ],
+    "statistic": "50% klaim kesehatan pekerja terkait masalah gangguan otot rangka.",
+    "discussion_points": [
+      "Apakah tinggi layar komputer/meja sudah setinggi mata?",
+      "Sudah berapa lama Anda dalam posisi duduk/berdiri statis?",
+      "Apakah jari/pergelangan tangan terasa kesemutan?",
+      "Gerakan peregangan apa yang paling cocok untuk otot Anda?"
+    ],
+    "action_steps": [
+      "Atur posisi kursi agar paha sejajar lantai dan punggung tertopang",
+      "Lakukan peregangan singkat (stretching) setiap 45 menit",
+      "Variasikan tugas kerja untuk menghindari gerakan berulang yang lama",
+      "Hindari membungkuk saat mengetik atau mengangkat barang"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "kebakaran",
+    "title": "Izin Kerja Panas (Hot Work Permit)",
+    "description": "Bahaya las, gerinda, pemotongan besi, pemantau api (fire watch), dan APAR.",
+    "tags": [
+      "Hot Work",
+      "Las"
+    ],
+    "statistic": "10% kebakaran hebat industri dipicu oleh percikan pekerjaan panas.",
+    "discussion_points": [
+      "Apakah area 10 meter sekitar lokasi las sudah bersih dari B3?",
+      "Apakah ada APAR siap pakai di sebelah juru las?",
+      "Siapa yang bertugas sebagai fire watch?",
+      "Berapa lama pemantauan dilakukan setelah pekerjaan selesai?"
+    ],
+    "action_steps": [
+      "Terbitkan Hot Work Permit dan Lakukan gas test jika di area terbatas",
+      "Tutup celah lantai/dinding dengan terpal tahan api (fire blanket)",
+      "Siapkan fire watch dengan APAR terisi penuh selama kerja berlangsung",
+      "Tetap pantau area kerja minimal 30 menit setelah proses las selesai"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "tambang",
+    "title": "Bekerja di Ruang Terbatas (Confined Space)",
+    "description": "Pengujian kadar oksigen/gas beracun, ventilation fan, dan petugas jaga.",
+    "tags": [
+      "Confined Space",
+      "Ruang Terbatas"
+    ],
+    "statistic": "60% korban jiwa confined space adalah penyelamat tanpa APD pernapasan.",
+    "discussion_points": [
+      "Apakah kadar oksigen berada di rentang aman (19.5% - 23.5%)?",
+      "Apakah alat detektor gas 4-in-1 sudah dikalibrasi?",
+      "Siapa attendant (petugas jaga) yang berada di luar tangki?",
+      "Bagaimana jalur komunikasi dan penarikan darurat?"
+    ],
+    "action_steps": [
+      "Lakukan pengujian gas atmosfer (O2, LEL, H2S, CO) sebelum masuk",
+      "Nyalakan blower ventilasi mekanis secara terus menerus",
+      "Wajib ada 1 petugas attendant standby di luar pintu masuk",
+      "Gunakan harness dan tali penyelamat (retrieval line)"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "kesehatan",
+    "title": "Pertolongan Pertama (P3K) & Prinsip DRABC",
+    "description": "Langkah cepat penanganan korban pingsan, pendarahan, dan cedera.",
+    "tags": [
+      "P3K",
+      "First Aid"
+    ],
+    "statistic": "Penanganan P3K yang tepat dalam 4 menit pertama menyelamatkan 50% nyawa.",
+    "discussion_points": [
+      "Di mana lokasi kotak P3K terdekat di gedung ini?",
+      "Apa arti urutan Danger, Response, Airway, Breathing, Circulation?",
+      "Siapa petugas P3K tersertifikasi di tim kita?",
+      "Nomor darurat medis berapa yang harus dihubungi?"
+    ],
+    "action_steps": [
+      "D - Danger: Amankan lokasi kejadian dari bahaya lanjutan",
+      "R - Response: Cek kesadaran korban dengan menepuk bahu",
+      "A & B: Buka jalan napas dan periksa hembusan napas",
+      "C - Call: Hubungi tim medis internal atau ambulans 119"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "umum",
+    "title": "Safety Observation Card (SOC) & Feedback",
+    "description": "Teknik melakukan observasi perilaku aman dan mengoreksi tindakan berbahaya.",
+    "tags": [
+      "SOC",
+      "Observasi"
+    ],
+    "statistic": "Perusahaan dengan program SOC aktif berhasil menurunkan LTIR hingga 40%.",
+    "discussion_points": [
+      "Berapa target kartu SOC yang ditulis tim Anda bulan ini?",
+      "Bagaimana cara memberi teguran yang sopan tapi tegas?",
+      "Apakah kartu SOC digunakan untuk mengapresiasi hal positif?",
+      "Bagaimana tindak lanjut hasil temuan SOC?"
+    ],
+    "action_steps": [
+      "Amati perilaku kerja rekan tanpa mengganggu konsentrasi mereka",
+      "Beri pujian langsung jika melihat perilaku kerja sangat aman",
+      "Hentikan dan diskusikan risiko jika melihat tindakan tidak aman",
+      "Catat dalam lembar/aplikasi SOC untuk analisis tren keselamatan"
+    ]
+  },
+  {
+    "id": 21,
+    "category": "ketinggian",
+    "title": "Keselamatan Penggunaan Tangga (Ladder Safety)",
+    "description": "Aturan rasio 4:1, 3 titik kontak, inspeksi karet kaki, dan batas beban.",
+    "tags": [
+      "Tangga",
+      "Ketinggian"
+    ],
+    "statistic": "Lebih dari 300 cedera tangga terjadi tiap tahun akibat posisi miring.",
+    "discussion_points": [
+      "Apakah karet dudukan kaki tangga dalam kondisi utuh?",
+      "Apakah sudut kemiringan tangga sudah memenuhi aturan 4:1?",
+      "Apakah Anda selalu menjaga 3 titik kontak saat naik?",
+      "Boleh kah berdiri di anak tangga paling atas?"
+    ],
+    "action_steps": [
+      "Periksa keutuhan struktur tangga aluminum/fibreglass sebelum dipakai",
+      "Posisikan tangga dengan kemiringan 75 derajat (rasio 4:1)",
+      "Pertahankan 3 titik kontak (2 tangan 1 kaki / 1 tangan 2 kaki)",
+      "Dilarang membawa alat berat di tangan saat memanjat tangga"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "kimia",
+    "title": "Penanganan Tumpahan Bahan Kimia (Spill Kit)",
+    "description": "Cara menggunakan absorbent pad, boomer, dan APD saat tumpahan B3.",
+    "tags": [
+      "Spill Kit",
+      "Tumpahan"
+    ],
+    "statistic": "Tumpahan kimia yang terlambat ditangani berisiko mencemari tanah & air.",
+    "discussion_points": [
+      "Di mana lokasi ember/kotak Spill Kit terdekat?",
+      "APD apa yang harus dipakai sebelum menyentuh tumpahan?",
+      "Apakah Anda tahu beda kain absorbent untuk oli vs air?",
+      "Ke mana limbah bekas pembersihan tumpahan dibuang?"
+    ],
+    "action_steps": [
+      "Amankan area tumpahan dan jauhkan sumber nyala api",
+      "Gunakan APD lengkap (sarung tangan B3, kacamata, bot safety)",
+      "Bendung ikatan tumpahan dengan absorbent boom/sausage",
+      "Masukkan absorbent yang terkontaminasi ke dalam kantong limbah B3"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "kesehatan",
+    "title": "Stress, Fatigue & Pola Tidur Pekerja",
+    "description": "Pengaruh kurang tidur terhadap konsentrasi, micro-sleep, dan kelelahan.",
+    "tags": [
+      "Fatigue",
+      "Kesehatan"
+    ],
+    "statistic": "Pekerja yang kurang tidur (< 6 jam) 3 kali lebih berisiko mengalami kecelakaan.",
+    "discussion_points": [
+      "Berapa jam Anda tidur rata-rata dalam semalam?",
+      "Apa tanda-tanda tubuh Anda mengalami micro-sleep?",
+      "Bagaimana prosedur lapor jika merasa sangat mengantuk saat kerja?",
+      "Apakah Anda banyak bergantung pada minuman berkafein tinggi?"
+    ],
+    "action_steps": [
+      "Usahakan tidur berkualitas minimal 7-8 jam sebelum shift kerja",
+      "Jika mengantuk berat saat mengoperasikan mesin, SEGERA lapor supervisor",
+      "Lakukan peregangan ringan dan minum air putih dingin",
+      "Hindari mengonsumsi kafein berlebih mendekati akhir shift"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "umum",
+    "title": "Sistem Izin Kerja (Permit to Work / PTW)",
+    "description": "Jenis izin kerja khusus (ketinggian, panas, confined space, penggalian).",
+    "tags": [
+      "PTW",
+      "Izin Kerja"
+    ],
+    "statistic": "80% insiden pekerjaan berisiko tinggi disebabkan tidak adanya dokumen PTW valid.",
+    "discussion_points": [
+      "Pekerjaan apa saja di lokasi ini yang wajib dokumen PTW?",
+      "Apakah syarat pra-pekerjaan pada PTW sudah diverifikasi?",
+      "Siapa yang berwenang menandatangani persetujuan PTW?",
+      "Kapan izin kerja PTW dinyatakan kedaluwarsa?"
+    ],
+    "action_steps": [
+      "Identifikasi kategori risiko pekerjaan sebelum dimulai",
+      "Lengkapi checklist keselamatan dan lampirkan JSA/IBPR",
+      "Minta verifikasi fisik lokasi dari HSE atau Authorizer",
+      "Tutup dokumen PTW setelah area kerja dibersihkan dan aman"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "umum",
+    "title": "Visible Safety Leadership bagi Supervisor",
+    "description": "Peran pengawas dalam memberi contoh perilaku K3 di lapangan.",
+    "tags": [
+      "Leadership",
+      "Budaya K3"
+    ],
+    "statistic": "Tim dengan pengawas peduli K3 memiliki tingkat insiden 55% lebih rendah.",
+    "discussion_points": [
+      "Apakah supervisor Anda rutin hadir di safety talk harian?",
+      "Bagaimana respons pimpinan saat ada usulan perbaikan K3?",
+      "Apakah pimpinan konsisten memakai APD lengkap di lapangan?",
+      "Apakah keselamatan menjadi agenda utama setiap rapat operasional?"
+    ],
+    "action_steps": [
+      "Jadikan K3 sebagai prioritas pertama sebelum pembicaraan target produksi",
+      "Berikan teladan nyata dengan selalu mematuhi seluruh aturan K3",
+      "Berikan apresiasi terbuka kepada pekerja yang disiplin K3",
+      "Tindak lanjuti setiap temuan bahaya lapangan tanpa menunda"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "lingkungan",
+    "title": "Pengelolaan TPS Limbah B3 & Pemilahan",
+    "description": "Kriteria penyimpanan sementara limbah B3, labeling, dan izin TPS.",
+    "tags": [
+      "TPS B3",
+      "Lingkungan"
+    ],
+    "statistic": "Pelanggaran pembuangan limbah B3 ilegal terancam pidana & denda berat.",
+    "discussion_points": [
+      "Manakah simbol label untuk limbah beracun vs infeksius?",
+      "Berapa lama batas maksimal penyimpanan limbah B3 di TPS?",
+      "Apakah TPS B3 dilengkapi drum penampung tumpahan (spill tray)?",
+      "Siapa transporter resmi penarik limbah B3 perusahaan?"
+    ],
+    "action_steps": [
+      "Pisahkan sampah domestik, daur ulang, dan limbah B3 di tempatnya",
+      "Pastikan drum limbah B3 tertutup rapat dan diberi label jelas",
+      "Catat volume masuk-keluar limbah B3 di buku neraca TPS",
+      "Dilarang membuang sisa cairan B3 ke saluran got umum"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "umum",
+    "title": "Hak Menghentikan Pekerjaan (Stop Work Authority)",
+    "description": "Wewenang setiap pekerja untuk menghentikan tugas jika menemukan bahaya.",
+    "tags": [
+      "SWA",
+      "Budaya K3"
+    ],
+    "statistic": "Perusahaan yang menerapkan SWA aktif memiliki fatalitas mendekati 0.",
+    "discussion_points": [
+      "Apakah Anda tahu bahwa Anda BERHAK menghentikan kerja yang berbahaya?",
+      "Apakah ada sanksi jika Anda menggunakan SWA dengan niat baik?",
+      "Bagaimana cara menyuarakan SWA secara profesional di lapangan?",
+      "Siapa yang mengevaluasi ulang sebelum kerja boleh dilanjutkan?"
+    ],
+    "action_steps": [
+      "Gunakan SWA jika melihat kondisi/tindakan berbahaya mengancam nyawa",
+      "Sampaikan informasi penghentian kerja dengan sopan dan jelas",
+      "Diskusikan solusi pengendalian bahaya bersama supervisor & HSE",
+      "Lanjutkan pekerjaan HANYA setelah lokasi dipastikan aman"
+    ]
+  },
+  {
+    "id": 28,
+    "category": "alatberat",
+    "title": "Operasi Lift Crane & Inspeksi Rigging",
+    "description": "Kapasitas angkut aman (SWL), load chart, kawat seling, dan rigger.",
+    "tags": [
+      "Crane",
+      "Rigging"
+    ],
+    "statistic": "Kecelakaan crane sering berakibat fatal dan kehancuran struktur hebat.",
+    "discussion_points": [
+      "Apakah sertifikat SILO crane masih berlaku?",
+      "Di mana posisi load chart di dalam kabin operator?",
+      "Bagaimana kondisi kawat seling/webbing sling (ada serat putus)?",
+      "Apakah rigger sudah memakai rompi khusus pemberi aba-aba?"
+    ],
+    "action_steps": [
+      "Periksa kondisi fisik kawat seling, shackle, dan hook sebelum lifting",
+      "Pastikan outrigger crane terpasang penuh di atas landasan padat",
+      "Dilarang melintas atau berdiri di bawah beban yang sedang terangkat",
+      "Patuhi instruksi sinyal tangan hanya dari 1 orang rigger yang ditunjuk"
+    ]
+  },
+  {
+    "id": 29,
+    "category": "alatberat",
+    "title": "Keselamatan Operasional Forklift",
+    "description": "Batas kecepatan di dalam gudang, ketinggian garpu, dan bahaya terguling.",
+    "tags": [
+      "Forklift",
+      "Gudang"
+    ],
+    "statistic": "Terguling (tip-over) adalah penyebab kematian terbanyak operator forklift.",
+    "discussion_points": [
+      "Berapa kapasitas beban maksimal pada plat nama forklift?",
+      "Bagaimana posisi tinggi garpu saat membawa beban berjalan?",
+      "Apakah alarm mundur dan lampu rotari (beacon) berfungsi?",
+      "Apa yang dilakukan jika beban menghalangi pandangan ke depan?"
+    ],
+    "action_steps": [
+      "Lakukan P2H (Pemeriksaan Pra-Harian) forklift sebelum shift",
+      "Jalankan forklift dengan garpu berjarak 10-15 cm dari lantai",
+      "Jika beban menutupi pandangan depan, kemudikan forklift mundur",
+      "Kurangi kecepatan dan bunyikan klakson di setiap persimpangan gudang"
+    ]
+  },
+  {
+    "id": 30,
+    "category": "kesehatan",
+    "title": "Keamanan Pangan & Kebersihan Mess/Kantin",
+    "description": "Pencegahan keracunan makanan, sanitasi air, dan kebersihan dapur.",
+    "tags": [
+      "Kesehatan",
+      "Kantin"
+    ],
+    "statistic": "Keracunan makanan dapat melumpuhkan operasional shift kerja sekaligus.",
+    "discussion_points": [
+      "Apakah fasilitas tempat makan di lokasi bersih dan terbebas dari lalat?",
+      "Apakah juru masak kantin sudah melalui tes kesehatan rutin?",
+      "Apakah Anda selalu mencuci tangan sebelum mengambil makanan?",
+      "Bagaimana cara menyimpan sisa makanan agar tidak basi?"
+    ],
+    "action_steps": [
+      "Cuci tangan pakai sabun di air mengalir sebelum dan sesudah makan",
+      "Hindari mengonsumsi makanan yang berbau atau berubah warna",
+      "Jaga kebersihan meja makan dan buang sisa makanan di tempatnya",
+      "Laporkan ke tim medis jika mengalami gejala mual/diare massal"
+    ]
+  },
+  {
+    "id": 31,
+    "category": "kebakaran",
+    "title": "Emergency Response Plan (ERP) & Tim Tanggap Darurat",
+    "description": "Struktur organisasi ERP, peran warden, first aider, dan komunikasi.",
+    "tags": [
+      "ERP",
+      "Tanggap Darurat"
+    ],
+    "statistic": "Respons darurat yang terorganisir menekan korban hingga 80%.",
+    "discussion_points": [
+      "Siapa ketua tim tanggap darurat (Emergency Commander) di site?",
+      "Di mana tombol manual break-glass alarm terdekat?",
+      "Frekuensi radio berapa yang digunakan khusus jalur darurat?",
+      "Berapa kali simulasi tanggap darurat dilakukan dalam setahun?"
+    ],
+    "action_steps": [
+      "Hafalkan nomor telepon darurat internal dan pos komando",
+      "Ikuti petunjuk dari floor warden saat terjadi kondisi darurat",
+      "Jangan menyebarkan berita hoaks/spekulasi saat insiden terjadi",
+      "Ikuti gladi simulasi tanggap darurat dengan serius"
+    ]
+  },
+  {
+    "id": 32,
+    "category": "kesehatan",
+    "title": "Keselamatan Bekerja Shift Malam (Night Shift)",
+    "description": "Menjaga ritme sirkadian, pencahayaan memadai, dan pengawasan ekstra.",
+    "tags": [
+      "Shift Malam",
+      "Fatigue"
+    ],
+    "statistic": "Risiko kesalahan kerja meningkat 30% pada pukul 02.00 - 05.00 pagi.",
+    "discussion_points": [
+      "Apakah penerangan di area kerja malam Anda sudah mencukupi?",
+      "Bagaimana sistem komunikasi check-in berkala untuk pekerja solo?",
+      "Apakah Anda memanfaatkan waktu istirahat malam dengan baik?",
+      "Bagaimana kesiapan tim medis di shift malam?"
+    ],
+    "action_steps": [
+      "Pastikan lampu sorot penerangan menerangi seluruh area kerja",
+      "Tingkatkan frekuensi komunikasi antar rekan kerja di jam rawan kantuk",
+      "Konsumsi makanan ringan tinggi protein dan batasi kopi manis",
+      "Lakukan pergantian tugas berisiko tinggi secara berkala"
+    ]
+  },
+  {
+    "id": 33,
+    "category": "umum",
+    "title": "Keselamatan Cuaca Ekstrem, Petir & Hujan",
+    "description": "Aturan 30-30 untuk petir, angin kencang, dan tempat perlindungan aman.",
+    "tags": [
+      "Petir",
+      "Cuaca Ekstrem"
+    ],
+    "statistic": "Indonesia memiliki intensitas sambaran petir harian tertinggi di dunia.",
+    "discussion_points": [
+      "Bagaimana cara menghitung jarak petir dengan jeda guntur?",
+      "Di mana lokasi shelter petir ber-grounding aman di lapangan?",
+      "Kapan pekerjaan outdoor wajib dihentikan akibat hujan deras?",
+      "Apakah struktur kanopi outdoor aman dari risiko angin kencang?"
+    ],
+    "action_steps": [
+      "Gunakan Aturan 30-30: jika jeda kilat-guntur < 30 detik, stop kerja",
+      "Segera tinggalkan area terbuka, struktur tinggi, dan objek logam",
+      "Berlindung di dalam bangunan tertutup atau dalam kendaraan kabin baja",
+      "Tunggu 30 menit setelah suara guntur terakhir sebelum kembali bekerja"
+    ]
+  },
+  {
+    "id": 34,
+    "category": "umum",
+    "title": "Keselamatan Power Tools & Pelindung (Guarding)",
+    "description": "Inspeksi gerinda, bor tangan, gergaji mesin, dan pelindung mekanis.",
+    "tags": [
+      "Power Tools",
+      "Guarding"
+    ],
+    "statistic": "40% cedera tangan disebabkan gerinda tanpa pelindung (shield/guard).",
+    "discussion_points": [
+      "Apakah pelindung (guard) pada mesin gerinda terpasang sempurna?",
+      "Apakah tombol saklar on/off berfungsi normal dan tidak tersangkut?",
+      "Apakah saklar kabel memakai pengaman RCD/GFCI?",
+      "APD mata/wajah apa yang wajib dipakai saat mengerinda?"
+    ],
+    "action_steps": [
+      "Dilarang melepas guard pelindung bawaan pabrik pada power tools",
+      "Periksa batu gerinda dari retakan sebelum dipasang pada mesin",
+      "Gunakan kacamata safety + face shield saat mengerinda",
+      "Cabut steker dari stopkontak saat mengganti mata bor atau mata gerinda"
+    ]
+  },
+  {
+    "id": 35,
+    "category": "kimia",
+    "title": "Keselamatan Laboratorium & Bahan Biohazard",
+    "description": "Penggunaan lemari asam (fume hood), pembuangan jarum/kaca, dan APD.",
+    "tags": [
+      "Lab",
+      "Biohazard"
+    ],
+    "statistic": "Kecelakaan laboratorium sering kali melibatkan hirupan uap kimia beracun.",
+    "discussion_points": [
+      "Apakah lemari asam (fume hood) menyedot uap dengan baik?",
+      "Di mana tempat pembuangan khusus limbah tajam (sharp container)?",
+      "Apakah eyewash station berfungsi dan airnya jernih?",
+      "Bolehkah membawa makanan/minuman ke dalam laboratorium?"
+    ],
+    "action_steps": [
+      "Dilarang keras makan, minum, atau menyimpan makanan di laboratorium",
+      "Lakukan pencampuran bahan reaktif hanya di dalam lemari asam",
+      "Gunakan jas lab, sarung tangan nitril, dan kacamata safety lab",
+      "Buang jarum suntik dan pecahan kaca ke dalam kotak biohazard khusus"
+    ]
+  },
+  {
+    "id": 36,
+    "category": "listrik",
+    "title": "Keselamatan Ruang Server & Fasilitas IT",
+    "description": "Bahaya sistem pemadam CO2/clean agent, kabel berantakan, & listrik statis.",
+    "tags": [
+      "Server",
+      "IT Safety"
+    ],
+    "statistic": "Kebakaran ruang server berisiko merusak seluruh data penting perusahaan.",
+    "discussion_points": [
+      "Apakah kabel-kabel jaringan di bawah lantai raised floor rapi?",
+      "Bagaimana tanda alarm sebelum gas pemadam CO2 disemprotkan?",
+      "Apakah Anda memakai gelang antistatis saat memegang board elektronik?",
+      "Siapa yang memiliki hak akses memasuki ruangan server?"
+    ],
+    "action_steps": [
+      "Jaga ruang server tetap bersih dari kardus bekas dan bahan mudah terbakar",
+      "Jika alarm pemadam gas berbunyi, SEGERA keluar dan tutup pintu rapat",
+      "Gunakan kabel tray agar tidak ada kabel berserakan di jalan laluan",
+      "Dilarang membawa cairan atau minuman ke dekat rak server"
+    ]
+  },
+  {
+    "id": 37,
+    "category": "umum",
+    "title": "Keselamatan Bengkel / Workshop Manufaktur",
+    "description": "Penataan mesin bubut, skrap, las, pembersihan tatal besi, & APD.",
+    "tags": [
+      "Workshop",
+      "Bengkel"
+    ],
+    "statistic": "Tatal logam berputar pada mesin bubut berpotensi menyabet anggota tubuh.",
+    "discussion_points": [
+      "Apakah tombol emergency stop pada mesin bubut mudah dijangkau?",
+      "Apakah Anda melepas cincin, jam tangan, & baju longgar di bengkel?",
+      "Gunakan kuas atau kail untuk membersihkan tatal, bukan tangan!",
+      "Apakah lantai bengkel bebas dari ceceran oli pelumas?"
+    ],
+    "action_steps": [
+      "Lepas perhiasan, dasi, atau pakaian longgar sebelum mengoperasikan mesin",
+      "Pastikan emergency stop button berfungsi sempurna pada setiap mesin",
+      "Gunakan kaca pelindung transparan pada mesin gerinda duduk",
+      "Bersihkan tatal/beram besi menggunakan tongkat pembersih khusus"
+    ]
+  },
+  {
+    "id": 38,
+    "category": "kesehatan",
+    "title": "Pencegahan Penyakit Menular di Tempat Kerja",
+    "description": "Etika batuk, sanitasi fasilitas umum, imunisasi, dan isolasi mandiri.",
+    "tags": [
+      "Kesehatan",
+      "Penyakit Menular"
+    ],
+    "statistic": "Satu pekerja sakit yang dipaksakan masuk dapat menginfeksi seisi tim.",
+    "discussion_points": [
+      "Apakah Anda merasa demam, batuk, atau flu berat hari ini?",
+      "Apakah ventilasi udara di dalam ruangan kerja berputar baik?",
+      "Bagaimana etika menutup hidung dan mulut saat bersin?",
+      "Apakah Anda sudah melengkapi imunisasi kesehatan harian?"
+    ],
+    "action_steps": [
+      "Jangan memaksakan masuk kerja jika mengalami gejala penyakit menular",
+      "Gunakan masker dan cuci tangan teratur di fasilitas umum",
+      "Tutup mulut menggunakan siku bagian dalam saat batuk atau bersin",
+      "Laporkan ke tim medis perusahaan untuk rekomendasi istirahat"
+    ]
+  },
+  {
+    "id": 39,
+    "category": "alatberat",
+    "title": "Manual Handling & Alat Bantu Hand Truck/Pallet",
+    "description": "Kapasitas angkut hand pallet, posisi dorong vs tarik, dan jalan miring.",
+    "tags": [
+      "Pallet Jack",
+      "Logistik"
+    ],
+    "statistic": "Kecelakaan tergilas roda hand pallet sering mencederai kaki pekerja.",
+    "discussion_points": [
+      "Berapa kapasitas tonase maksimal pada dongkrak hand pallet?",
+      "Apakah lebih aman mendorong atau menarik hand pallet?",
+      "Bagaimana kondisi roda hand pallet (apakah ada ganjalan besi)?",
+      "Apakah jalur lorong gudang cukup lebar untuk berpapasan?"
+    ],
+    "action_steps": [
+      "Posisikan beban seimbang di tengah kedua kaki garpu hand pallet",
+      "Lebih dianjurkan MENDORONG hand pallet daripada menariknya",
+      "Gunakan sepatu safety bertutup baja (steel toe boots)",
+      "Dilarang menumpuk barang terlalu tinggi hingga menghalangi pandangan"
+    ]
+  },
+  {
+    "id": 40,
+    "category": "konstruksi",
+    "title": "Keselamatan Pekerjaan Galian & Excavation",
+    "description": "Shoring (penyangga), sloping (kemiringan), proteksi tanah longsor.",
+    "tags": [
+      "Galian",
+      "Shoring"
+    ],
+    "statistic": "Longsoran 1 meter kubik tanah memiliki berat sekitar 1.5 ton.",
+    "discussion_points": [
+      "Apakah galian dengan kedalaman > 1.2 meter sudah dipasang shoring?",
+      "Apakah ada tangga akses keluar-masuk galian setiap jarak 7.5 meter?",
+      "Berapa jarak aman penumpukan tanah galian dari bibir lubang?",
+      "Apakah sudah dilakukan tes jaringan listrik/pipa bawah tanah?"
+    ],
+    "action_steps": [
+      "Pasang sistem penyangga dinding tanah (shoring) pada galian dalam",
+      "Tempatkan tumpukan tanah galian minimal 1 meter dari tepi galian",
+      "Periksa kestabilan tanah setiap hari terutama setelah hujan turun",
+      "Sediakan tangga akses yang menonjol 1 meter di atas permukaan"
+    ]
+  },
+  {
+    "id": 41,
+    "category": "umum",
+    "title": "Induksi K3 Pekerja Baru & Tamu (Onboarding)",
+    "description": "Pemahaman risiko area, kewajiban APD, jalur evakuasi, dan aturan site.",
+    "tags": [
+      "Induksi",
+      "Visitor"
+    ],
+    "statistic": "70% kecelakaan pekerja baru terjadi dalam 90 hari pertama bekerja.",
+    "discussion_points": [
+      "Apakah semua pekerja baru telah lulus tes induksi K3?",
+      "Apakah tamu/visitor didampingi oleh personel escort terlatih?",
+      "Apakah stiker helm induksi telah terpasang rapi?",
+      "Apakah pekerja baru mengenal supervisor dan kawan kerjanya?"
+    ],
+    "action_steps": [
+      "Wajib ikuti materi induksi K3 sebelum memasuki area operasional",
+      "Pahami seluruh potensi bahaya spesifik di lokasi penugasan",
+      "Tanyakan kepada supervisor senior jika ada prosedur yang membingungkan",
+      "Dampingi tamu (visitor) dan pastikan mereka mengenakan APD wajib"
+    ]
+  },
+  {
+    "id": 42,
+    "category": "lingkungan",
+    "title": "Pencegahan Tumpahan Pelumas & Drip Pan",
+    "description": "Penggunaan nampan penampung oli (drip pan) di bawah generator/alat.",
+    "tags": [
+      "Drip Pan",
+      "Oli"
+    ],
+    "statistic": "Satu liter oli bekas yang bocor dapat merusak 1 juta liter air bersih.",
+    "discussion_points": [
+      "Apakah genset dan kompresor outdoor sudah dialasi drip pan?",
+      "Apakah valve pembuangan drip pan dalam posisi tertutup?",
+      "Di mana penampungan akhir oli bekas di lokasi proyek?",
+      "Bagaimana tindakan jika drip pan terisi air hujan ber-oli?"
+    ],
+    "action_steps": [
+      "Pasang drip pan di bawah setiap titik potensi bocoran pelumas mesin",
+      "Kuras dan pindahkan minyak yang tertampung di drip pan secara berkala",
+      "Gunakan kain absorbent pad untuk menyerap lapisan minyak di atas air",
+      "Buang sisa filter oli dan oli bekas ke dalam drum limbah B3"
+    ]
+  },
+  {
+    "id": 43,
+    "category": "umum",
+    "title": "Keselamatan Pekerjaan Outdoor Malam Hari",
+    "description": "Rompi reflektif (high-vis), penerangan area, dan sistem kawan (buddy).",
+    "tags": [
+      "Outdoor",
+      "Malam"
+    ],
+    "statistic": "Risiko tertabrak kendaraan di malam hari 4 kali lipat dari siang hari.",
+    "discussion_points": [
+      "Apakah rompi Anda memantulkan cahaya (reflective strip) dengan terang?",
+      "Apakah lampu menara penerangan (tower lamp) diarahkan dengan pas?",
+      "Apakah Anda bekerja berpasangan (buddy system)?",
+      "Bagaimana sarana komunikasi radio genggam antar personel?"
+    ],
+    "action_steps": [
+      "Wajib mengenakan rompi reflektif standar Kelas 2 atau Kelas 3",
+      "Pastikan penerangan menara minimal 50 lux di titik area kerja",
+      "Terapkan buddy system, dilarang bekerja seorang diri di area terpencil",
+      "Bawalah senter genggam cadangan untuk keadaan darurat lampu padam"
+    ]
+  },
+  {
+    "id": 44,
+    "category": "kebakaran",
+    "title": "Inspeksi Bulanan APAR & Kartu Gantungan",
+    "description": "Cek tekanan manometer, selang, tabung dari karat, dan lokasi APAR.",
+    "tags": [
+      "APAR",
+      "Inspeksi"
+    ],
+    "statistic": "60% APAR di lapangan terbukti rusak saat dibutuhkan akibat tak diinspeksi.",
+    "discussion_points": [
+      "Apakah segel plastik dan pin pengaman APAR masih utuh?",
+      "Apakah jarum indikator tekanan menunjuk tepat pada zona hijau?",
+      "Apakah selang nozzle retak, tersumbat, atau pecah?",
+      "Apakah kartu gantungan inspeksi bulanan sudah di-paraf?"
+    ],
+    "action_steps": [
+      "Inspeksi seluruh unit APAR secara berkala setiap bulan sekali",
+      "Pastikan posisi APAR tidak terhalang oleh tumpukan barang/meja",
+      "Balikkan tabung APAR powder sesekali agar media tepung tidak menggumpal",
+      "Segera kirim APAR ke bengkel pengisian jika tekanan berkurang"
+    ]
+  },
+  {
+    "id": 45,
+    "category": "listrik",
+    "title": "Keselamatan Bejana Tekan & Safety Valve",
+    "description": "Inspeksi kompresor, tangki angin, safety relief valve, & kran air.",
+    "tags": [
+      "Pressure Vessel",
+      "Kompresor"
+    ],
+    "statistic": "Ledakan tangki angin kompresor dapat menghancurkan dinding bangunan.",
+    "discussion_points": [
+      "Apakah sertifikat izin layak K3 tangki tekan masih berlaku?",
+      "Apakah katup pengaman (safety relief valve) ditest berfungsi?",
+      "Apakah air kondensasi di dasar tangki dikuras setiap hari?",
+      "Berapa batas tekanan kerja maksimum (MAWP) yang tertera?"
+    ],
+    "action_steps": [
+      "Kuras air kondensasi di dalam tangki kompresor setiap akhir shift",
+      "Dilarang mengubah atau mengunci setelan safety relief valve",
+      "Pastikan pengukur tekanan (pressure gauge) berfungsi akurat",
+      "Hentikan pengoperasian jika terdengar getaran abnormal atau kebocoran"
+    ]
+  },
+  {
+    "id": 46,
+    "category": "kimia",
+    "title": "Keselamatan Tabung Gas Bertekanan (Silinder)",
+    "description": "Penyimpanan berantai, penutup valve, pemisahan O2 & asetilen.",
+    "tags": [
+      "Gas Silinder",
+      "Asetilen"
+    ],
+    "statistic": "Tabung gas yang tumbang dan valve-nya patah dapat meluncur seperti roket.",
+    "discussion_points": [
+      "Apakah tabung gas berdiri tegak dan diikat dengan rantai besi?",
+      "Apakah tabung oksigen dipisah minimal 6 meter dari tabung gas mudah terbakar?",
+      "Apakah kap pelindung valve terpasang saat tabung dipindahkan?",
+      "Bagaimana cara mengecek kebocoran gas dengan air sabun?"
+    ],
+    "action_steps": [
+      "Selalu ikat tabung gas dengan rantai atau bracket penahan yang kuat",
+      "Gunakan troli khusus tabung untuk memindahkan silinder, jangan menggelindingkannya",
+      "Pisahkan penyimpanan tabung Oksigen dari Asetilen/LPG",
+      "Tutup rapat valve utama dan pasang kap pengaman jika tak dipakai"
+    ]
+  },
+  {
+    "id": 47,
+    "category": "tambang",
+    "title": "Keselamatan Pekerjaan penyelaman Industri",
+    "description": "Diving permit, tabel dekompresi, standby diver, & sistem komunikasi.",
+    "tags": [
+      "Diving",
+      "Underwater"
+    ],
+    "statistic": "Penyakit dekompresi (the bends) berisiko fatal pada penyelam industri.",
+    "discussion_points": [
+      "Apakah seluruh penyelam memiliki lisensi commercial diver aktif?",
+      "Apakah ada penyelam cadangan (standby diver) di atas kapal?",
+      "Bagaimana keandalan kompresor udara bernapas (breathing air)?",
+      "Di mana lokasi kompresor hiperbarik (decompression chamber) terdekat?"
+    ],
+    "action_steps": [
+      "Lengkapi dokumen Izin Kerja Penyelaman dan riset arus air",
+      "Gunakan sistem komunikasi kabel laut terhubung ke pos pengawas permukaan",
+      "Patuhi batas waktu penyelaman dan kedalaman sesuai tabel dekompresi",
+      "Pastikan ketersediaan pasokan udara darurat (bailout bottle)"
+    ]
+  },
+  {
+    "id": 48,
+    "category": "alatberat",
+    "title": "Pencegahan Fatigue Operator Alat Berat",
+    "description": "Fit to work test, rekam jam kerja, jeda istirahat, & tes reaksi.",
+    "tags": [
+      "Fatigue",
+      "Operator"
+    ],
+    "statistic": "15% kecelakaan fatal di pertambangan dipicu operator ketiduran (micro-sleep).",
+    "discussion_points": [
+      "Berapa jam total operator mengemudi dalam shift ini?",
+      "Apakah tes reaksi/fatigue check pra-shift telah dilakukan?",
+      "Apakah pendingin udara (AC) di kabin berfungsi sejuk?",
+      "Bagaimana respons operator saat dipanggil lewat radio radio?"
+    ],
+    "action_steps": [
+      "Batasi jam kerja mengoperasikan alat berat maksimal 12 jam per shift",
+      "Wajibkan istirahat 15 menit setiap 4 jam mengemudi terus-menerus",
+      "Lakukan fatigue check pra-shift dengan mengukur reaksi mata/otak",
+      "Tarik operator keluar kabin jika menunjukkan tanda-tanda mengantuk"
+    ]
+  },
+  {
+    "id": 49,
+    "category": "umum",
+    "title": "Arti Warna Rambu K3 & Pemasangan Barikade",
+    "description": "Merah (Larangan/Fire), Kuning (Waspada), Biru (Wajib), Hijau (Aman).",
+    "tags": [
+      "Rambu K3",
+      "Barikade"
+    ],
+    "statistic": "30% kecelakaan terjadi karena pekerja mengabaikan rambu peringatan.",
+    "discussion_points": [
+      "Apa beda makna barikade pita merah-putih vs kuning-hitam?",
+      "Apakah lokasi bahaya di area Anda sudah dipasang rambu jelas?",
+      "Siapa yang berwenang melepas barikade keselamatan?",
+      "Apakah arti lambang rambu berbentuk lingkaran biru?"
+    ],
+    "action_steps": [
+      "Merah: Larangan keras / Pemadam Api; Kuning: Peringatan Bahaya",
+      "Biru: Perintah Wajib (misal wajib pakai APD); Hijau: Petunjuk Informasi/Pertolongan",
+      "Barikade Merah = DILARANG masuk tanpa izin khusus pengawas area",
+      "Pasang barikade yang cukup luas mengelilingi potensi bahaya"
+    ]
+  },
+  {
+    "id": 50,
+    "category": "umum",
+    "title": "Pencegahan Cedera Tangan & Jari (Pinch Point)",
+    "description": "Titik jepit (pinch point), roda gigi, pintu hidrolik, & sarung tangan.",
+    "tags": [
+      "Cedera Tangan",
+      "Pinch Point"
+    ],
+    "statistic": "Cedera jari & tangan mendominasi 25% dari total kasus kecelakaan kerja.",
+    "discussion_points": [
+      "Di mana saja letak titik jepit (pinch point) pada mesin ini?",
+      "Apakah sarung tangan yang dipakai sesuai dengan jenis pekerjaan?",
+      "Mengapa dilarang pakai sarung tangan saat mengoperasikan mesin berputar?",
+      "Bagaimana posisi tangan Anda saat menempatkan barang berat?"
+    ],
+    "action_steps": [
+      "Petakan seluruh titik jepit (pinch point) sebelum memulai pekerjaan",
+      "Jauhkan tangan dari area pergerakan engsel, roda gigi, dan silinder",
+      "Gunakan sarung tangan anti-potong (cut-resistant) saat memegang plat tajam",
+      "LEPAS sarung tangan kain/kulit saat bekerja di mesin bubut/bor berputar"
+    ]
+  },
+  {
+    "id": 51,
+    "category": "umum",
+    "title": "Kebijakan Bebas Narkoba & Alkohol (Drug & Alcohol)",
+    "description": "Pemeriksaan acak (random test), zero tolerance, & dampaknya.",
+    "tags": [
+      "Narkoba",
+      "Zero Tolerance"
+    ],
+    "statistic": "Penggunaan obat terlarang meningkatkan risiko kecelakaan kerja 5 kali lipat.",
+    "discussion_points": [
+      "Apakah Anda memahami kebijakan Zero Tolerance perusahaan?",
+      "Bagaimana prosedur tes acak (random D&A test) di lokasi ini?",
+      "Apakah obat resep dokter yang bikin mengantuk harus dilaporkan?",
+      "Apa sanksi jika terbukti positif mengonsumsi alkohol saat shift?"
+    ],
+    "action_steps": [
+      "Patuhi aturan Zero Tolerance: Alkohol & Narkoba dilarang keras",
+      "Laporkan ke klinik perusahaan jika Anda mengonsumsi obat resep pengantuk",
+      "Ikuti prosedur pemeriksaan tes urine/alkohol acak secara kooperatif",
+      "Dukung lingkungan kerja yang bersih dan saling mengingatkan rekan"
+    ]
+  },
+  {
+    "id": 52,
+    "category": "umum",
+    "title": "Review Evaluasi K3 Tahunan & Target KPI",
+    "description": "Menilai pencapaian LTIR, Near Miss, Audit SMK3, dan target baru.",
+    "tags": [
+      "Review K3",
+      "KPI"
+    ],
+    "statistic": "Perusahaan yang melakukan evaluasi K3 tahunan menurunkan kecelakaan 25%.",
+    "discussion_points": [
+      "Berapa jumlah jam kerja selamat yang telah dicapai tim kita?",
+      "Apa tren kecelakaan terbanyak yang terjadi sepanjang tahun lalu?",
+      "Program K3 baru apa yang akan diluncurkan tahun ini?",
+      "Bagaimana peran aktif Anda untuk mencapai target Zero Harm?"
+    ],
+    "action_steps": [
+      "Tinjau kembali pencapaian indikator K3 (Lagging & Leading Indicators)",
+      "Identifikasi kelemahan sistem dari hasil audit dan investigasi insiden",
+      "Susun rencana aksi K3 yang terukur (SMART) untuk tahun mendatang",
+      "Tingkatkan komitmen bersama seluruh elemen pekerja menuju Zero Incident"
+    ]
+  },
+  {
+    "id": 53,
+    "category": "teknologi",
+    "title": "Penerapan AI & Computer Vision untuk Deteksi K3",
+    "description": "Kamera pintar AI untuk deteksi APD, area berbahaya, dan Near Miss otomatis.",
+    "tags": [
+      "AI K3",
+      "Computer Vision"
+    ],
+    "statistic": "Kamera AI mampu mendeteksi pelanggaran APD secara real-time dengan akurasi 98%.",
+    "discussion_points": [
+      "Apakah area ini sudah terpantau oleh sistem kamera pintar AI?",
+      "Bagaimana sistem AI memberi peringatan saat ada pekerja tanpa helm?",
+      "Mengapa teknologi AI membantu tugas pengawasan HSE di lapangan?",
+      "Bagaimana privasi data pekerja dijaga dalam sistem CCTV AI?"
+    ],
+    "action_steps": [
+      "Manfaatkan notifikasi peringatan AI untuk mengoreksi tindakan unsafe",
+      "Pastikan lensa kamera AI tidak terhalang oleh debu atau barang",
+      "Gunakan data analitik AI untuk memetakan lokasi rawan bahaya tinggi",
+      "Jadikan peringatan AI sebagai sarana edukasi positif bagi tim"
+    ]
+  },
+  {
+    "id": 54,
+    "category": "teknologi",
+    "title": "Wearable Technology: Helm Smart & Gelang Fatigue",
+    "description": "Sensor pintar detektor detak jantung, suhu tubuh, benturan, & kelelahan.",
+    "tags": [
+      "Wearable Tech",
+      "Smart Helmet"
+    ],
+    "statistic": "Gelang sensor pintar mengurangi insiden fatigue hingga 60% pada driver tambang.",
+    "discussion_points": [
+      "Bagaimana helm pintar mengirim sinyal darurat saat pekerja terjatuh?",
+      "Apa arti indikator warna pada gelang pemantau tingkat kelelahan?",
+      "Bagaimana sensor suhu pada smartwatch mencegah heat stroke?",
+      "Apakah perangkat wearable K3 Anda sudah terisi daya (charge) penuh?"
+    ],
+    "action_steps": [
+      "Kenakan perangkat wearable pintar sesuai petunjuk penggunaan",
+      "Pastikan baterai perangkat wearable diisi daya penuh sebelum shift",
+      "Segera respon jika gelang pintar bergetar memberi peringatan fatigue",
+      "Laporkan ke bagian IT/HSE jika sensor perangkat mengalami kerusakan"
+    ]
+  },
+  {
+    "id": 55,
+    "category": "teknologi",
+    "title": "Drone Inspection untuk Ketinggian & Confined Space",
+    "description": "Penggunaan drone untuk inspeksi atap, cerobong, tangki, & area berisiko.",
+    "tags": [
+      "Drone K3",
+      "Inspeksi"
+    ],
+    "statistic": "Penggunaan drone mengeliminasi 80% kebutuhan pekerja memanjat area bahaya.",
+    "discussion_points": [
+      "Area tinggi/sempit mana yang kini bisa diinspeksi memakai drone?",
+      "Mengapa inspeksi visual drone lebih aman dibanding man-cage?",
+      "Sertifikasi apa yang wajib dimiliki oleh pilot drone industri?",
+      "Bagaimana cara analisis foto/video hasil rekaman drone?"
+    ],
+    "action_steps": [
+      "Gunakan drone untuk inspeksi awal area ketinggian berisiko ekstrem",
+      "Pastikan pilot drone memiliki lisensi dan izin terbang area proyek",
+      "Jaga jarak aman dari baling-baling drone yang sedang beroperasi",
+      "Gunakan data citra thermal drone untuk mendeteksi kebocoran panas/gas"
+    ]
+  },
+  {
+    "id": 56,
+    "category": "teknologi",
+    "title": "Digital Permit to Work (e-PTW) & Sensor IoT",
+    "description": "Pengajuan izin kerja digital via aplikasi HP dan integrasi sensor gas IoT.",
+    "tags": [
+      "e-PTW",
+      "IoT K3"
+    ],
+    "statistic": "Aplikasi e-PTW mempercepat proses persetujuan izin kerja hingga 70%.",
+    "discussion_points": [
+      "Apakah Anda sudah mengunduh aplikasi e-PTW di HP operasional?",
+      "Bagaimana cara memindai QR-code pada lokasi kerja sebelum mulai?",
+      "Bagaimana sensor gas IoT mengirim data langsung ke dashboard HP?",
+      "Apa kemudahan e-PTW dibanding formulir kertas konvensional?"
+    ],
+    "action_steps": [
+      "Ajukan e-PTW melalui aplikasi minimal 2 jam sebelum pekerjaan dimulai",
+      "Lampirkan foto bukti kondisi lokasi kerja pada sistem e-PTW",
+      "Scan QR-code di lokasi untuk memverifikasi kehadiran personel valid",
+      "Pantau pembaruan status izin kerja secara langsung di layar smartphone"
+    ]
+  },
+  {
+    "id": 57,
+    "category": "teknologi",
+    "title": "AI Predictive Analytics & Analisis Risiko K3",
+    "description": "Memprediksi potensi kecelakaan kerja berdasarkan data historis & cuaca.",
+    "tags": [
+      "Predictive AI",
+      "Risk Analytics"
+    ],
+    "statistic": "Model AI prediksi K3 mampu mengantisipasi 75% insiden sebelum terjadi.",
+    "discussion_points": [
+      "Bagaimana algoritma AI memprediksi hari/jam paling rawan kecelakaan?",
+      "Data apa saja yang diolah AI untuk menghitung skor risiko harian?",
+      "Bagaimana supervisor menggunakan skor AI untuk menyusun safety talk?",
+      "Mengapa pelaporan data near miss yang akurat sangat penting bagi AI?"
+    ],
+    "action_steps": [
+      "Periksa skor tingkat risiko harian yang dihasilkan oleh sistem AI",
+      "Fokuskan pengawasan ekstra pada area yang diberi status risiko tinggi oleh AI",
+      "Input data laporan near miss dan SOC secara jujur untuk melatih AI",
+      "Gunakan rekomendasi tindakan dari AI saat memimpin toolbox meeting"
+    ]
+  },
+  {
+    "id": 58,
+    "category": "kesehatan",
+    "title": "Pencegahan Gangguan Pendengaran (Noise & Ear Protection)",
+    "description": "Desibel batas aman 85 dB, earplug vs earmuff, & audiometri.",
+    "tags": [
+      "Noise",
+      "Earplug"
+    ],
+    "statistic": "Paparan bising > 85 dB selama 8 jam berisiko sebabkan tuli permanen.",
+    "discussion_points": [
+      "Berapa nilai NRR (Noise Reduction Rating) pada sumbat telinga Anda?",
+      "Apakah Anda bisa mendengar suara alarm saat memakai earmuff?",
+      "Bagaimana cara mencuci earplug silikon yang benar?",
+      "Kapan tes audiometri tahunan Anda dijadwalkan?"
+    ],
+    "action_steps": [
+      "Wajib pakai alat pelindung telinga (APT) di area berisiko bising > 85 dB",
+      "Gulung dan masukkan earplug hingga menyumbat saluran telinga dengan pas",
+      "Bersihkan atau ganti earplug secara berkala agar tidak infeksi",
+      "Batasi waktu paparan di area mesin bising tinggi"
+    ]
+  },
+  {
+    "id": 59,
+    "category": "konstruksi",
+    "title": "Keselamatan Bekerja pada Pengecoran Beton",
+    "description": "Tekanan pompa beton, pipa tremie, sepatu boots, & perancah bekisting.",
+    "tags": [
+      "Pengecoran",
+      "Beton"
+    ],
+    "statistic": "Kecelakaan patahnya pipa boom beton berpotensi fatal pada pekerja di bawah.",
+    "discussion_points": [
+      "Apakah perancah penyangga bekisting beton sudah diinspeksi insinyur?",
+      "Di mana zona bahaya kibasan selang pompa beton (concrete pump)?",
+      "APD apa yang wajib untuk mencegah iritasi kulit dari semen basah?",
+      "Bagaimana cara aman membersihkan pipa sisa coran?"
+    ],
+    "action_steps": [
+      "Periksa kekuatan struktur penopang bekisting sebelum penuangan beton",
+      "Gunakan kacamata safety dan sepatu boots karet tahan air semen",
+      "Jauhi zona jangkauan kibasan ujung selang pompa beton",
+      "Gunakan sarung tangan karet tipis berlapis saat meratakan coran"
+    ]
+  },
+  {
+    "id": 60,
+    "category": "konstruksi",
+    "title": "Keselamatan Bekerja pada Pembongkaran Bekisting",
+    "description": "Risiko tertimpa kayu/besi bekisting, kuku tancap, & proteksi jatuh.",
+    "tags": [
+      "Bekisting",
+      "Konstruksi"
+    ],
+    "statistic": "Tertimpa reruntuhan bekisting adalah penyebab cedera konstruksi tersering.",
+    "discussion_points": [
+      "Apakah beton sudah mencapai umur matang (curing) yang cukup?",
+      "Apakah area di bawah lokasi pelepasan bekisting sudah dibarikade?",
+      "Bagaimana cara menangani kayu bekisting yang penuh paku menancap?",
+      "Apakah pekerja pembongkaran memakai harness terikat?"
+    ],
+    "action_steps": [
+      "Dapatkan persetujuan struktur sebelum memulai pembongkaran bekisting",
+      "Pasang barikade dan rambu larangan melintas di area bawah bongkaran",
+      "Cabut atau bengkokkan paku yang menonjol dari kayu bekisting",
+      "Gunakan full body harness saat melepas bekisting di sisi tepi luar"
+    ]
+  },
+  {
+    "id": 61,
+    "category": "listrik",
+    "title": "Grounding Sistem Listrik & Penyalur Petir",
+    "description": "Fungsi pembumian (grounding), batasan nilai ohm, dan kawat tembaga.",
+    "tags": [
+      "Grounding",
+      "Listrik"
+    ],
+    "statistic": "Sistem grounding yang baik (< 5 Ohm) menetralisir arus bocor berbahaya.",
+    "discussion_points": [
+      "Berapa nilai resistansi tanah grounding di lokasi ini (max 5 Ohm)?",
+      "Apakah kawat grounding terhubung erat ke bodi mesin baja?",
+      "Bagaimana cara mengecek koneksi kawat pembumian yang korosi?",
+      "Mengapa grounding penting saat pengisian BBM/kimia cair?"
+    ],
+    "action_steps": [
+      "Pastikan kawat kabel grounding terpasang kuat pada rangka mesin",
+      "Lakukan pengukuran rutin nilai tahanan tanah pembumian dengan Earth Tester",
+      "Sambungkan kawat bonding grounding sebelum memindahkan cairan FLammable",
+      "Jangan memotong atau melepas kabel pembumian yang terpasang"
+    ]
+  },
+  {
+    "id": 62,
+    "category": "listrik",
+    "title": "Bekerja Dekat Saluran Listrik Tegangan Tinggi (SUTET)",
+    "description": "Jarak aman minimum (MAD), bahaya loncatan listrik (arc-over).",
+    "tags": [
+      "SUTET",
+      "High Voltage"
+    ],
+    "statistic": "Listrik tegangan tinggi dapat melompat tanpa perlu kontak fisik langsung.",
+    "discussion_points": [
+      "Berapa jarak aman minimum (MAD) dari kabel SUTET 150kV?",
+      "Apakah boom crane dipasang pembatas tinggi (height limiter)?",
+      "Siapa penanggung jawab koordinasi dengan pihak PLN?",
+      "Apa yang harus dilakukan jika kendaraan menyentuh kabel bertegangan?"
+    ],
+    "action_steps": [
+      "Pertahankan jarak aman minimum (minimal 5 meter dari SUTET)",
+      "Gunakan pemandu jalan (spotter) saat mengemudikan alat tinggi di bawah kabel",
+      "Jika kendaraan menyentuh kabel: TETAP DI DALAM KABIN dan panggil bantuan",
+      "Dilarang mendirikan perancah atau menumpuk material di bawah SUTET"
+    ]
+  },
+  {
+    "id": 63,
+    "category": "kebakaran",
+    "title": "Sistem Proteksi Kebakaran Hydrant & Sprinkler",
+    "description": "Tekanan pompa hydrant, selang (hose), nozel, dan jaringan sprinkler.",
+    "tags": [
+      "Hydrant",
+      "Sprinkler"
+    ],
+    "statistic": "Sistem sprinkler otomatis memadamkan 95% kebakaran awal gedung.",
+    "discussion_points": [
+      "Di mana titik hydrant box dan hydrant pilar terdekat?",
+      "Apakah kunci pembuka valve pilar hydrant tersedia di kotak?",
+      "Apakah kepala sprinkler terhalang oleh tumpukan barang gudang?",
+      "Bagaimana cara menggelar selang hydrant yang tidak melilit?"
+    ],
+    "action_steps": [
+      "Jaga jarak tumpukan barang minimal 45 cm dari kepala sprinkler",
+      "Pastikan akses menuju pilar dan box hydrant bebas dari halangan",
+      "Lakukan tes jalan (running test) pompa pemadam kebakaran tiap minggu",
+      "Gulung dan keringkan selang hydrant setelah digunakan latihan"
+    ]
+  },
+  {
+    "id": 64,
+    "category": "kimia",
+    "title": "Matriks Kompatibilitas Penyimpanan Bahan B3",
+    "description": "Bahaya reaksi bahan kimia (oksidator, mudah terbakar, korosif).",
+    "tags": [
+      "Kompatibilitas",
+      "Storage B3"
+    ],
+    "statistic": "Campuran bahan kimia inkompatibel dapat memicu ledakan spontan.",
+    "discussion_points": [
+      "Bolehkah bahan kimia asam disimpan sejajar dengan bahan basa kuat?",
+      "Manakah simbol untuk bahan kimia oksidator penggalak api?",
+      "Bagaimana syarat ventilasi dan penerangan di gudang B3?",
+      "Apakah gudang B3 memiliki bak penampung tumpahan sekunder?"
+    ],
+    "action_steps": [
+      "Acuan penyimpanan wajib sesuai Matriks Kompatibilitas Bahan Kimia",
+      "Pisahkan bahan oksidator dari bahan cair mudah terbakar minimal 6 meter",
+      "Pastikan gudang B3 memiliki ventilasi udara tahan ledakan (explosion proof)",
+      "Sediakan eyewash dan drench shower darurat di luar pintu gudang"
+    ]
+  },
+  {
+    "id": 65,
+    "category": "tambang",
+    "title": "Deteksi Gas Beracun H2S & CO di Pertambangan",
+    "description": "Karakteristik gas asam H2S, bau telur busuk, & gas monoksida.",
+    "tags": [
+      "H2S",
+      "Gas Beracun"
+    ],
+    "statistic": "Gas H2S pada konsentrasi 100 ppm melumpuhkan indra penciuman seketika.",
+    "discussion_points": [
+      "Berapa batas ambang paparan (TLA) gas H2S (max 10 ppm)?",
+      "Mengapa gas H2S yang sangat pekat justru TIDAK tercium bau?",
+      "Di mana posisi angin (wind sock) saat terjadi kebocoran gas?",
+      "Bagaimana prosedur evakuasi saat alarm personal gas detector berbunyi?"
+    ],
+    "action_steps": [
+      "Selalu bawa personal gas detector 4-way saat masuk area rawan gas",
+      "Jika alarm H2S berbunyi: SEGERA lari menyilang arah angin (crosswind)",
+      "Perhatikan arah bendera/wind sock untuk menentukan jalur evakuasi",
+      "Dilarang menolong korban gas tanpa memakai alat bantu napas SCBA"
+    ]
+  },
+  {
+    "id": 66,
+    "category": "tambang",
+    "title": "Keselamatan Sabuk Conveyor (Belt Conveyor)",
+    "description": "Pull cord emergency stop, nip point roller, & pelindung sisi.",
+    "tags": [
+      "Conveyor",
+      "Tambang"
+    ],
+    "statistic": "Kecelakaan conveyor umumnya terjadi saat pekerja membersihkan material jalan.",
+    "discussion_points": [
+      "Apakah tali pemutus darurat (pull cord wire) berfungsi di sepanjang belt?",
+      "Apakah penutup pelindung (guard) roda drum conveyor terpasang?",
+      "Bolehkah menyeberangi belt conveyor tanpa melalui jembatan penyeberangan?",
+      "Bagaimana prosedur LOTO sebelum perbaikan belt conveyor?"
+    ],
+    "action_steps": [
+      "Dilarang melompati atau merayap di atas belt conveyor yang beroperasi",
+      "Gunakan jembatan penyeberangan resmi (overpass) yang dilengkapi handrail",
+      "Pasang LOTO sebelum melakukan pembersihan lumpur pada drum roller",
+      "Uji fungsi kabel emergency pull-wire secara berkala per minggu"
+    ]
+  },
+  {
+    "id": 67,
+    "category": "tambang",
+    "title": "Keselamatan Dinding Tambang & Slope Stability",
+    "description": "Bahaya kelongsoran dinding pit, crack detector, & pemantauan radar.",
+    "tags": [
+      "Slope Stability",
+      "Tambang"
+    ],
+    "statistic": "Kelongsoran lereng pit tambang berpotensi menimbun unit alat berat besar.",
+    "discussion_points": [
+      "Apakah ada retakan baru (cracking) di tepi permukaan jenjang/crest?",
+      "Bagaimana pembacaan radar pemantau lereng (slope monitoring radar)?",
+      "Di mana batas jarak aman parkir alat dari tepi tebing pit?",
+      "Apa sinyal sirine darurat jika terjadi rekahan lereng masif?"
+    ],
+    "action_steps": [
+      "Inspeksi kondisi fisik crest dan toe lereng pit sebelum memulai shift",
+      "Laporkan segera jika menemukan rekahan tanah atau tumposan air baru",
+      "Patuhi batas jarak aman operasional unit dari tepi tebing pit",
+      "Evakuasi seluruh armada keluar pit jika radar mendeteksi pergerakan kritis"
+    ]
+  },
+  {
+    "id": 68,
+    "category": "tambang",
+    "title": "Jalan Angkut Tambang (Haul Road Safety)",
+    "description": "Tanggul jalan (safety berm), lebar jalan, & kendaraan tambang.",
+    "tags": [
+      "Haul Road",
+      "Tambang"
+    ],
+    "statistic": "Tanggul jalan (berm) berfungsi menahan unit komatsu terlempar keluar.",
+    "discussion_points": [
+      "Berapa syarat tinggi minimal tanggul aman (minimal 3/4 diameter roda)?",
+      "Berapa lebar jalan angkut ideal untuk dua jalur lalu lintas?",
+      "Bagaimana aturan prioritas jalan antara HD truck vs light vehicle?",
+      "Bagaimana jarak aman mengiringi (following distance) di jalan debu?"
+    ],
+    "action_steps": [
+      "Jaga jarak aman mengiringi truk HD minimal 50 meter saat berdebu",
+      "Gunakan bendera stik tinggi (buggy whip) dan lampu strobo pada mobil LV",
+      "Berikan hak utama jalan kepada unit muatan besar HD di jalan menanjak",
+      "Pastikan tinggi tanggul pengaman jalan memenuhi kriteria keselamatan"
+    ]
+  },
+  {
+    "id": 69,
+    "category": "tambang",
+    "title": "Keselamatan Peledakan (Blasting Operations)",
+    "description": "Sirine peringatan peledakan, radius aman, & clearance area.",
+    "tags": [
+      "Blasting",
+      "Peledakan"
+    ],
+    "statistic": "Batu terbang (flyrock) peledakan dapat meluncur sejauh 500+ meter.",
+    "discussion_points": [
+      "Berapa radius batas aman clearance manusia dari lokasi peledakan?",
+      "Apa arti bunyi sirine peledakan pola 1, pola 2, dan pola 3?",
+      "Siapa juru ledak (blaster) bersertifikat yang berwenang?",
+      "Bagaimana prosedur penanganan jika terjadi misfire (gagal ledak)?"
+    ],
+    "action_steps": [
+      "Kosongkan seluruh radius area bahaya peledakan sebelum sirine pertama",
+      "Blokir seluruh jalan akses menuju lokasi blasting dengan barikade petugas",
+      "Tunggu sinyal kode aman (all clear) dari juru ledak sebelum kembali",
+      "Dilarang menyentuh sisa bahan peledak atau kabel detonator di lapangan"
+    ]
+  },
+  {
+    "id": 70,
+    "category": "alatberat",
+    "title": "Blind Spot & Proximity Sensor Alat Berat",
+    "description": "Titik buta penglihatan operator HD, excavator, & sensor radio.",
+    "tags": [
+      "Blind Spot",
+      "Proximity"
+    ],
+    "statistic": "70% kasus tertabrak di tambang akibat LV berada di blind spot HD.",
+    "discussion_points": [
+      "Di sisi mana titik buta terluas pada komatsu dump truck?",
+      "Apakah sistem proximity alarm (peringatan jarak) di unit berfungsi?",
+      "Bagaimana cara memarkir mobil LV agar terlihat jelas dari kabin HD?",
+      "Berapa jarak kontak komunikasi radio yang diwajibkan?"
+    ],
+    "action_steps": [
+      "Dilarang parkir atau berhenti di area blind spot samping/belakang HD",
+      "Gunakan komunikasi radio dua arah sebelum mendekati unit alat berat",
+      "Pastikan layar kamera mundur dan proximity sensor unit dalam kondisi bersih",
+      "Jika kontak radio gagal, pertahankan jarak diam minimal 30 meter"
+    ]
+  },
+  {
+    "id": 71,
+    "category": "alatberat",
+    "title": "Pencegahan Terguling saat Tipping Dump Truck",
+    "description": "Landasan padat, dump stopper, garis pemandu, & muatan lengket.",
+    "tags": [
+      "Dump Truck",
+      "Tipping"
+    ],
+    "statistic": "Dump truck rawan terguling jika tipping di tanah lembek/miring.",
+    "discussion_points": [
+      "Apakah posisi tanah lokasi dumping rata dan sudah dipadatkan?",
+      "Apakah ban belakang truk sudah menempel pada tanggul stopper?",
+      "Bagaimana kondisi muatan tanah (apakah basah lengket di bak)?",
+      "Mengapa dilarang menggerakkan truk maju saat bak masih terangkat tinggi?"
+    ],
+    "action_steps": [
+      "Pastikan unit berhenti di permukaan tanah yang keras dan rata sebelum tipping",
+      "Ganjal roda belakang pada tanggul penahan sebelum menaikkan bak vessel",
+      "Jika vessel tersangkut tanah lengket, turunkan perlahan dan jangan dihentak",
+      "Turunkan bak vessel hingga rapat sempurna sebelum truk bergerak maju"
+    ]
+  },
+  {
+    "id": 72,
+    "category": "alatberat",
+    "title": "Batas Operasi Excavator & Swing Radius",
+    "description": "Radius putaran counterweight excavator, pendorong, & garis batas.",
+    "tags": [
+      "Excavator",
+      "Swing Radius"
+    ],
+    "statistic": "Terjepit di antara counterweight excavator dan dinding adalah fatal.",
+    "discussion_points": [
+      "Berapa meter radius ayunan (swing) belakang bak excavator ini?",
+      "Apakah barikade pita batas swing telah dipasang di sekitar excavator?",
+      "Siapa spotter yang mengawasi pergerakan bucket excavator?",
+      "Bolehkah berdiri di bawah jangkauan bucket excavator yang terangkat?"
+    ],
+    "action_steps": [
+      "Pasang barikade di sekeliling radius putaran (swing radius) excavator",
+      "Dilarang melintas di celah antara bagian belakang excavator dan dinding",
+      "Jauhi jangkauan swing bucket minimal 5 meter saat operasi penimbunan",
+      "Operator wajib mematikan mesin saat mekanik mendekati bagian bucket"
+    ]
+  },
+  {
+    "id": 73,
+    "category": "alatberat",
+    "title": "Pemasangan Outrigger Mobile Crane & Pad Landasan",
+    "description": "Landasan outrigger, dunnage papan kayu, & tanah lembek.",
+    "tags": [
+      "Outrigger",
+      "Crane"
+    ],
+    "statistic": "Crane terguling akibat outrigger amblas ke dalam tanah lembek.",
+    "discussion_points": [
+      "Apakah outrigger crane telah terentang penuh 100%?",
+      "Apakah pad/dunnage kayu terpasang di bawah sepatu outrigger?",
+      "Bagaimana cara mengecek tingkat kerebahan waterpass (bubble level)?",
+      "Apakah di bawah pad outrigger terdapat pipa/drainase kosong?"
+    ],
+    "action_steps": [
+      "Bentangkan seluruh lengan outrigger secara penuh tanpa kompromi",
+      "Gunakan dunnage pad kayu/plat baja berukuran cukup tebal di dasar tanah",
+      "Pastikan posisi indikator waterpass gelembung berada tepat di tengah",
+      "Dilarang mengoperasikan crane jika outrigger amblas atau miring"
+    ]
+  },
+  {
+    "id": 74,
+    "category": "alatberat",
+    "title": "Inspeksi Kawat Seling, Webbing Sling & Shackle",
+    "description": "Kriteria afkir kawat seling putus, aus, kinking, & pengunci pin.",
+    "tags": [
+      "Rigging",
+      "Sling"
+    ],
+    "statistic": "Sling putus saat pengangkatan beban berisiko menimpa pekerja.",
+    "discussion_points": [
+      "Berapa jumlah kawat putus (wire break) yang mewajibkan seling diafkir?",
+      "Apakah webbing sling kain memiliki jahitan terkelupas atau robek?",
+      "Apakah pin shackle dikunci rapat dengan safety pin pengaman?",
+      "Di mana tag kapasitas SWL tertera pada sling?"
+    ],
+    "action_steps": [
+      "Inspeksi fisik seling secara menyeluruh sebelum digunakan lifting",
+      "Afkir seling kawat jika terdapat tekukan patah (kink) atau aus > 10%",
+      "Gunakan pelindung sudut (corner protector) agar sling kain tidak tersayat plat",
+      "Pastikan pen pengunci shackle terpasang penuh sampai ulir habis"
+    ]
+  },
+  {
+    "id": 75,
+    "category": "kesehatan",
+    "title": "Ergonomi Workstation Pengguna Komputer / Laptop",
+    "description": "Tinggi kursi, jarak pandang monitor, posisi keyboard, & sudut siku.",
+    "tags": [
+      "Ergonomi",
+      "Komputer"
+    ],
+    "statistic": "Penggunaan laptop tanpa dudukan tambahan memicu nyeri leher kronis.",
+    "discussion_points": [
+      "Apakah bagian atas layar monitor sejajar dengan mata Anda?",
+      "Apakah pergelangan tangan Anda lurus saat mengetik di keyboard?",
+      "Apakah telapak kaki Anda menapak rata di lantai atau footrest?",
+      "Berapa menit sekali Anda mengistirahatkan mata dari layar?"
+    ],
+    "action_steps": [
+      "Gunakan dudukan laptop (laptop stand) dan keyboard eksternal tambahan",
+      "Posisikan monitor berjarak sepanjang jangkauan lengan dari mata (45-70 cm)",
+      "Terapkan aturan 20-20-20: setiap 20 menit, tatap objek sejauh 20 kaki selama 20 detik",
+      "Atur sandaran kursi agar menopang lengkungan tulang punggung bawah"
+    ]
+  },
+  {
+    "id": 76,
+    "category": "kesehatan",
+    "title": "Kesehatan Mental & Manajemen Stres Pekerja",
+    "description": "Dampak stres kerja pada fokus, burn-out, & konseling EAP.",
+    "tags": [
+      "Mental Health",
+      "Stres"
+    ],
+    "statistic": "Pekerja stres 2.5 kali lebih mudah mengalami kehilangan fokus fatal.",
+    "discussion_points": [
+      "Apakah Anda merasa kewalahan dengan beban kerja saat ini?",
+      "Bagaimana suasana komunikasi dan rasa saling menghargai di tim?",
+      "Apakah ada fasilitas layanan konseling (EAP) di perusahaan?",
+      "Bagaimana cara Anda menyeimbangkan waktu kerja dan keluarga?"
+    ],
+    "action_steps": [
+      "Bicarakan kendala beban kerja secara terbuka dengan pimpinan",
+      "Manfaatkan waktu istirahat secara berkualitas untuk menyegarkan pikiran",
+      "Saling mendukung dan hindari tindakan perundungan (bullying) di tempat kerja",
+      "Manfaatkan fasilitas konseling Employee Assistance Program jika membutuhkan"
+    ]
+  },
+  {
+    "id": 77,
+    "category": "kesehatan",
+    "title": "Pentingnya Asupan Elektrolit & Mineral Lapangan",
+    "description": "Beda air putih biasa vs larutan elektrolit saat kerja fisik berat.",
+    "tags": [
+      "Elektrolit",
+      "Kesehatan"
+    ],
+    "statistic": "Keram otot hebat saat kerja outdoor dipicu hilangnya sodium lewat keringat.",
+    "discussion_points": [
+      "Apakah Anda sering mengalami keram otot saat bekerja di lapangan?",
+      "Kapan waktu terbaik mengonsumsi minuman mengandung elektrolit?",
+      "Mengapa minum air gula berlebih saat panas justru bikin lemas?",
+      "Apakah warna urine Anda jernih transparan atau kuning pekat?"
+    ],
+    "action_steps": [
+      "Konsumsi cairan elektrolit tambahan saat bekerja berat di bawah terik matahari",
+      "Gunakan grafik warna urine untuk memantau kecukupan dehidrasi tubuh",
+      "Hindari minuman beralkohol dan kafein tinggi yang memicu buang air kecil",
+      "Sediakan stok tablet garam/elektrolit di pos kesehatan lapangan"
+    ]
+  },
+  {
+    "id": 78,
+    "category": "kesehatan",
+    "title": "Pencegahan Bahaya Debu Silika & Silikosis",
+    "description": "Debu pemotongan beton, batu, pasir, respirator N95/P100.",
+    "tags": [
+      "Silika",
+      "Silikosis"
+    ],
+    "statistic": "Penyakit silikosis tidak dapat disembuhkan dan merusak jaringan paru.",
+    "discussion_points": [
+      "Apakah proses pemotongan beton memakai metode basah (wet cutting)?",
+      "Apakah respirator yang dipakai berkategori N95 / P100 khusus silika?",
+      "Bagaimana cara pembersihan debu pasir tanpa mengibaskannya?",
+      "Apakah tes rontgen paru dilakukan rutin setiap tahun?"
+    ],
+    "action_steps": [
+      "Gunakan metode pemotongan basah (wet method) untuk menekan penyebaran debu",
+      "Gunakan penyedot debu khusus berfilter HEPA pada mesin gerinda beton",
+      "Wajib mengenakan respirator elastomerik berfilter P100 di area tinggi debu",
+      "Dilarang menyapu debu kering dengan sapu biasa, gunakan semprotan air"
+    ]
+  },
+  {
+    "id": 79,
+    "category": "kesehatan",
+    "title": "Cara Pakai & Rating NRR Alat Pelindung Telinga",
+    "description": "Perhitungan desibel efektif yang diredam earplug / earmuff.",
+    "tags": [
+      "NRR",
+      "Ear Protection"
+    ],
+    "statistic": "Penggunaan earplug yang longgar hanya meredam 20% dari kapasitas aslinya.",
+    "discussion_points": [
+      "Berapa nilai rating NRR yang tertera pada kemasan earplug?",
+      "Apakah Anda menarik daun telinga ke atas-belakang saat memasukkan earplug?",
+      "Apakah kombinasi earplug + earmuff diperlukan di kebisingan > 100 dB?",
+      "Bagaimana cara menguji kerapatan earplug dengan suara sendiri?"
+    ],
+    "action_steps": [
+      "Tarik daun telinga ke atas dan belakang agar saluran telinga lurus",
+      "Gulung earplug busa hingga mengecil sebelum dimasukkan ke telinga",
+      "Tahan earplug selama 20 detik sampai busa mengembang sempurna",
+      "Gunakan kombinasi earplug + earmuff jika kebisingan melebihi 100 dB"
+    ]
+  },
+  {
+    "id": 80,
+    "category": "kesehatan",
+    "title": "Pencegahan Cedera Mata & Eyewash Station",
+    "description": "Benda asing masuk mata, percikan asam, & pengoperasian eyewash.",
+    "tags": [
+      "Eye Safety",
+      "Eyewash"
+    ],
+    "statistic": "2.000 cedera mata kerja terjadi setiap hari akibat tidak memakai kacamata.",
+    "discussion_points": [
+      "Apakah kacamata safety Anda memiliki perlindungan samping (side shield)?",
+      "Di mana lokasi stasiun pembilas mata (eyewash station) terdekat?",
+      "Berapa lama waktu minimal membilas mata jika terkena asam (15 menit)?",
+      "Mengapa dilarang mengucek mata saat kemasukan gram besi?"
+    ],
+    "action_steps": [
+      "Gunakan kacamata safety yang sesuai dengan jenis bahaya (debu/cipratan B3)",
+      "Jika mata terkena cairan kimia, SEGERA bilas di eyewash minimal 15 menit",
+      "Dilarang mengucek mata yang kemasukan benda asing/gram besi",
+      "Buka kelopak mata lebar-lebar saat proses pembilasan di eyewash"
+    ]
+  },
+  {
+    "id": 81,
+    "category": "konstruksi",
+    "title": "Keselamatan Pekerjaan Pembongkaran (Demolition)",
+    "description": "Struktur roboh spontan, pemutusan listrik/gas, & zona barikade.",
+    "tags": [
+      "Demolition",
+      "Konstruksi"
+    ],
+    "statistic": "Pembongkaran gedung berisiko tinggi bahaya struktur rubuh tak terduga.",
+    "discussion_points": [
+      "Apakah seluruh instalasi listrik, gas, dan air sudah diputus total?",
+      "Apakah penilai ahli telah mensurvei kestabilan bangunan?",
+      "Berapa meter zona aman barikade pembongkaran dari dinding?",
+      "APD pernapasan apa yang wajib saat pembongkaran gedung tua?"
+    ],
+    "action_steps": [
+      "Pastikan pemutusan total seluruh sumber energi sebelum pembongkaran",
+      "Mulai pembongkaran dari tingkat atas secara bertahap ke bawah",
+      "Pasang jaring penahan debu dan barikade luas di sekeliling area",
+      "Wajibkan penggunaan respirator dust mask dan helm industri ketat"
+    ]
+  },
+  {
+    "id": 82,
+    "category": "konstruksi",
+    "title": "Keselamatan Pengangkatan Beton Precast",
+    "description": "Lifting lug, kawat balok cor, sudut seling, & sling pengikat.",
+    "tags": [
+      "Precast",
+      "Konstruksi"
+    ],
+    "statistic": "Kegagalan pengangkatan beton precast berakibat kehancuran fatal.",
+    "discussion_points": [
+      "Apakah pin lifting lug pada beton precast diinspeksi retak?",
+      "Berapa sudut bentangan seling crane yang aman (max 60 derajat)?",
+      "Apakah penopang sementara (temporary bracing) sudah terpasang stabil?",
+      "Di mana posisi tag line penuntun arah gerak precast?"
+    ],
+    "action_steps": [
+      "Periksa keutuhan besi jangkar (lifting lug) beton precast sebelum diangkat",
+      "Gunakan tali pemandu (tagline) untuk mengontrol arah ayunan beton precast",
+      "Dilarang melepaskan kait crane sebelum temporary bracing terikat kuat",
+      "Pastikan sudut antara seling pengangkat tidak melebihi 60 derajat"
+    ]
+  },
+  {
+    "id": 83,
+    "category": "konstruksi",
+    "title": "Keselamatan Bekerja pada Konstruksi Baja",
+    "description": "Ereksi rangka baja, lifelines kawat baja, harness, & angin kencang.",
+    "tags": [
+      "Steel Erection",
+      "Konstruksi"
+    ],
+    "statistic": "Pekerja ereksi baja memiliki tingkat risiko jatuh dari ketinggian terbesar.",
+    "discussion_points": [
+      "Apakah lifeline kawat baja terpasang di sepanjang balok I-beam?",
+      "Apakah bolt baut pengikat rangka baja sudah dikencangkan sesuai torsi?",
+      "Kapan batas kecepatan angin yang mengharuskan ereksi baja dihentikan?",
+      "Apakah alat kerja terikat dengan lanyard tali pengaman tool tether?"
+    ],
+    "action_steps": [
+      "Pasang sistem lifeline kawat baja di sepanjang balok rangka sebelum dipanjat",
+      "Wajib kaitkan double lanyard harness ke lifeline secara kontinu",
+      "Ikat seluruh peralatan kerja tangan dengan tali pengaman (tool tether)",
+      "Hentikan pekerjaan pengangkatan rangka baja jika kecepatan angin > 20 knot"
+    ]
+  },
+  {
+    "id": 84,
+    "category": "konstruksi",
+    "title": "Deteksi Pipa Bawah Tanah & Galian Trenches",
+    "description": "Peta kabel bawah tanah (utility map), alat kabel locator, & penanda.",
+    "tags": [
+      "Underground Utility",
+      "Trenching"
+    ],
+    "statistic": "Mengenai kabel listrik bertekanan tinggi bawah tanah memicu ledakan hebat.",
+    "discussion_points": [
+      "Apakah survei utilitas bawah tanah (cable locator) sudah dilakukan?",
+      "Apa arti kode warna cat penanda di atas tanah (merah=listrik, kuning=gas)?",
+      "Berapa jarak manual digging yang diwajibkan dekat titik pipa gas?",
+      "Siapa yang memberi izin pengotakan titik galian baru?"
+    ],
+    "action_steps": [
+      "Periksa peta jaringan utilitas bawah tanah sebelum menggali tanah",
+      "Gunakan alat detector kabel/pipa untuk memetakan jalur utilitas hidden",
+      "Gunakan sekop tangan (manual digging) saat mendekati jarak 1 meter dari pipa gas",
+      "Beri penanda cat dan tiang pancang pada titik jalur kabel listrik"
+    ]
+  },
+  {
+    "id": 85,
+    "category": "listrik",
+    "title": "Keselamatan Gardu Induk & Switchgear",
+    "description": "Bahaya busbar tegangan tinggi, sepatu isolasi, & alat ukur.",
+    "tags": [
+      "Switchgear",
+      "Gardu Induk"
+    ],
+    "statistic": "Sentuhan tak sengaja pada busbar switchgear berakibat fatal seketika.",
+    "discussion_points": [
+      "Apakah karpet karet isolasi listrik tergelar di depan panel switchgear?",
+      "Apakah pintu ruangan gardu induk terkunci dan berlabel peringatan?",
+      "Apakah tongkat penguji tegangan (hot stick) telah teruji kalibrasi?",
+      "APD khusus arc flash apa yang wajib dipakai saat pengoperasian?"
+    ],
+    "action_steps": [
+      "Gunakan sepatu safety beralas isolator listrik (dielectric boots)",
+      "Dilarang membawa objek logam panjang saat memasuki gardu listrik",
+      "Pastikan karpet karet pengaman tergelar sempurna di depan area panel",
+      "Gunakan tongkat hot stick berisolasi saat mengoperasikan saklar tegangan tinggi"
+    ]
+  },
+  {
+    "id": 86,
+    "category": "listrik",
+    "title": "Pencegahan Busur Listrik (Arc Flash Hazard)",
+    "description": "Suhu loncatan arc flash 20.000 °C, pakaian arc-rated, & batas bahaya.",
+    "tags": [
+      "Arc Flash",
+      "Listrik"
+    ],
+    "statistic": "Suhu ledakan arc flash dapat melelehkan pakaian sintesis ke dalam kulit.",
+    "discussion_points": [
+      "Berapa batas jarak bahaya arc flash (arc flash boundary) pada panel ini?",
+      "Apakah pakaian kerja Anda berkategori tahan api (Flame Resistant / FR)?",
+      "Apakah pelindung wajah (arc flash face shield) terpasang sempurna?",
+      "Bagaimana prosedur mematikan breaker dengan posisi berdiri di samping?"
+    ],
+    "action_steps": [
+      "Kenakan pakaian khusus tahan api (FR suit) berkategori NFPA 70E yang sesuai",
+      "Berdirilah di samping pintu panel saat memutar saklar saklar breaker",
+      "Gunakan pelindung wajah dan sarung tangan tahan panas ledakan busur",
+      "Pastikan panel tertutup rapat sebelum menaikkan tegangan utama"
+    ]
+  },
+  {
+    "id": 87,
+    "category": "listrik",
+    "title": "Penggunaan Generator Portable & Kabel Sambungan",
+    "description": "Grounding generator, bahaya gas CO exhaust, RCD/GFCI, & kabel.",
+    "tags": [
+      "Generator",
+      "Kabel Sambungan"
+    ],
+    "statistic": "Pengoperasian generator di ruang tertutup menyebar gas racun CO fatal.",
+    "discussion_points": [
+      "Apakah generator diletakkan di luar ruangan berudara segar?",
+      "Apakah kabel sambungan (extension cord) dilengkapi saklar RCD?",
+      "Apakah steker dan stopkontak berada di atas tanah yang kering?",
+      "Bolehkah menyambung kabel dengan selotip biasa tanpa konektor?"
+    ],
+    "action_steps": [
+      "Dilarang keras mengoperasikan generator portable di dalam ruangan tertutup",
+      "Pasang pembumian kawat grounding pada bodi rangka generator",
+      "Gunakan sambungan kabel outdoor bermerek tahan air yang teruji",
+      "Pastikan beban watt peralatan tidak melebihi kapasitas watt generator"
+    ]
+  },
+  {
+    "id": 88,
+    "category": "umum",
+    "title": "Keselamatan Penggunaan Udara Bertekanan (Air Gun)",
+    "description": "Bahaya emboli udara di pembuluh darah, kacamata, & pelindung.",
+    "tags": [
+      "Air Gun",
+      "Udara Tekan"
+    ],
+    "statistic": "Menyemprotkan udara tekan ke kulit dapat menyusupkan gelembung udara ke darah.",
+    "discussion_points": [
+      "Mengapa dilarang menggunakan air gun untuk membersihkan debu di pakaian?",
+      "Berapa tekanan maksimum udara semprot safety nozzle (max 30 psi)?",
+      "APD mata apa yang wajib saat memakai alat pembersih angin tekan?",
+      "Apakah selang angin dilengkapi penahan cambukan (whip check)?"
+    ],
+    "action_steps": [
+      "Dilarang mengarahkan semprotan air gun ke bagian tubuh sendiri/orang lain",
+      "Gunakan safety nozzle yang membatasi tekanan udara keluar maksimal 30 psi",
+      "Wajib pakai kacamata safety goggle saat menyemprot bersih komponen",
+      "Pasang tali pengaman whip check pada setiap sambungan selang angin"
+    ]
+  },
+  {
+    "id": 89,
+    "category": "umum",
+    "title": "Pencegahan Benda Tajam & Sarung Tangan Anti-Potong",
+    "description": "Cutter pisau otomatis, penanganan pecahan kaca, & Level Cut.",
+    "tags": [
+      "Sharps",
+      "Cut Resistant"
+    ],
+    "statistic": "20% cedera tangan disebabkan pisau cutter yang tergelincir.",
+    "discussion_points": [
+      "Apakah pisau cutter Anda memiliki fitur pisau tarik otomatis (auto-retract)?",
+      "Berapa level ketahanan potong (Cut Level 1-5) pada sarung tangan Anda?",
+      "Ke arah mana gerak pisau saat Anda memotong kardus/tali?",
+      "Di mana kotak pembuangan khusus mata pisau tumpul?"
+    ],
+    "action_steps": [
+      "Gunakan pisau utility dengan mekanisme bilah ditarik otomatis (safety cutter)",
+      "Arahkan potongan pisau menjauhi posisi badan dan tangan penahan",
+      "Gunakan sarung tangan rajut berlapis anti-potong (Cut Level 3-5)",
+      "Buang sisa mata pisau tumpul ke dalam wadah kaleng tertutup khusus"
+    ]
+  },
+  {
+    "id": 90,
+    "category": "umum",
+    "title": "Keselamatan Pejalan Kaki di Area Pabrik (Pedestrian Safety)",
+    "description": "Jalur hijau pejalan kaki, pintu penyeberangan, & cermin cembung.",
+    "tags": [
+      "Pedestrian",
+      "Jalur Hijau"
+    ],
+    "statistic": "Pejalan kaki di area pabrik rentan tertabrak alat angkut forklift.",
+    "discussion_points": [
+      "Apakah Anda selalu berjalan di dalam garis jalur hijau pejalan kaki?",
+      "Apakah cermin cembung tikungan jalan berfungsi membantu pandangan?",
+      "Bolehkah berjalan sambil mengetik pesan di telepon genggam?",
+      "Bagaimana prosedur menyeberang di jalur lintasan forklift?"
+    ],
+    "action_steps": [
+      "Selalu berjalan di dalam marka jalur hijau khusus pejalan kaki (walkway)",
+      "Berhenti dan tengok kanan-kiri sebelum menyeberangi lintasan kendaraan",
+      "Dilarang menggunakan HP atau earphone musik saat berjalan di area operasional",
+      "Manfaatkan cermin cembung di tikungan blind spot lorong pabrik"
+    ]
+  },
+  {
+    "id": 91,
+    "category": "umum",
+    "title": "Keselamatan Kerja di Area Perkantoran (Office Safety)",
+    "description": "Kabel malang di lantai, laci lemari besi terbuka, & tangga kantor.",
+    "tags": [
+      "Office Safety",
+      "Kantor"
+    ],
+    "statistic": "Terpeleset dan tersandung di kantor menyumbang 10% kasus kecelakaan.",
+    "discussion_points": [
+      "Apakah ada kabel komputer yang melintang di lantai laluan kantor?",
+      "Apakah laci lemari arsip bawah dibiarkan terbuka menonjol?",
+      "Bagaimana cara aman mengambil barang di rak tinggi kantor?",
+      "Apakah tangga darurat gedung kantor bersih dari tumpukan kardus?"
+    ],
+    "action_steps": [
+      "Tutup dan rapikan kabel listrik kantor menggunakan ducting penutup lantai",
+      "Tutup kembali laci lemari arsip segera setelah mengambil dokumen",
+      "Gunakan bangku bertingkat (step stool) aman untuk meraih rak tinggi",
+      "Jaga kebersihan lantai dari tumpahan ceceran air minum atau kopi"
+    ]
+  },
+  {
+    "id": 92,
+    "category": "umum",
+    "title": "Manajemen K3 Kontraktor & Sub-Kontraktor",
+    "description": "CSMS (Contractor Safety Management System), verifikasi alat, & APD.",
+    "tags": [
+      "CSMS",
+      "Kontraktor"
+    ],
+    "statistic": "70% insiden berat di kawasan industri melibatkan pekerja pihak ketiga.",
+    "discussion_points": [
+      "Apakah kontraktor telah lulus evaluasi dokumen CSMS perusahaan?",
+      "Apakah seluruh peralatan milik kontraktor telah diinspeksi sticker K3?",
+      "Siapa supervisor penanggung jawab pengawas pekerjaan kontraktor?",
+      "Apakah pekerja sub-kontraktor mengikuti safety talk harian?"
+    ],
+    "action_steps": [
+      "Pastikan kontraktor telah memiliki dokumen CSMS yang terverifikasi aktif",
+      "Lakukan inspeksi pra-pekerjaan terhadap seluruh mesin/alat bawaan kontraktor",
+      "Wajibkan seluruh personel kontraktor mengikuti safety briefing harian",
+      "Hentikan pekerjaan kontraktor jika ditemukan pelanggaran aturan K3"
+    ]
+  },
+  {
+    "id": 93,
+    "category": "kimia",
+    "title": "Pemeliharaan & Pengisian Ulang Isi Spill Kit",
+    "description": "Checklist isi spill kit pad, sos, plastik disposal, & segel.",
+    "tags": [
+      "Spill Kit",
+      "Refill B3"
+    ],
+    "statistic": "Spill kit yang kosong saat insiden tumpahan berakibat pencemaran parah.",
+    "discussion_points": [
+      "Apakah ember/box Spill Kit di area Anda dalam kondisi tersegel?",
+      "Apakah jumlah ketersediaan pad dan sausage di dalamnya lengkap?",
+      "Siapa yang bertanggung jawab memesan ulang komponen isi spill kit?",
+      "Berapa bulan sekali checklist fisik spill kit diinspeksi?"
+    ],
+    "action_steps": [
+      "Inspeksi kecukupan komponen isi spill kit minimal seminggu sekali",
+      "Segera laporkan dan order ulang pad/absorbent yang telah terpakai",
+      "Pastikan kantong plastik kuning khusus limbah B3 tersedia di dalam box",
+      "Jaga lokasi tempat spill kit tetap bersih dan tidak tertutup barang"
+    ]
+  },
+  {
+    "id": 94,
+    "category": "kimia",
+    "title": "Penanganan Bahaya Asbes & Isolasi Berbahaya",
+    "description": "Inhalasi serat asbes, penyakit mesothelioma, & APD khusus.",
+    "tags": [
+      "Asbes",
+      "Mesothelioma"
+    ],
+    "statistic": "Serat asbes mikro yang terhirup mengendap permanen di jaringan paru.",
+    "discussion_points": [
+      "Apakah ada atap atau isolasi pipa di area ini yang mengandung asbes?",
+      "Mengapa dilarang mengamplas atau memotong atap asbes dalam kondisi kering?",
+      "Respirator tipe apa yang diwajibkan saat pembongkaran material asbes?",
+      "Bagaimana prosedur membasahi asbes sebelum dibongkar?"
+    ],
+    "action_steps": [
+      "Basahi material asbes dengan larutan sabun sebelum dibongkar",
+      "Wajib kenakan respirator full-face berfilter P100 dan baju hazmat disposable",
+      "Bungkus limbah asbes dalam 2 lapis plastik tebal berlabel Asbestos Waste",
+      "Mandi dan bersihkan diri secara menyeluruh setelah selesai penanganan"
+    ]
+  },
+  {
+    "id": 95,
+    "category": "lingkungan",
+    "title": "Pencegahan Pencemaran Air Limbah Operasional",
+    "description": "Batas pH air limbah, oil catcher, grease trap, & sampling.",
+    "tags": [
+      "Air Limbah",
+      "Lingkungan"
+    ],
+    "statistic": "Pencemaran air limbah berisiko menutup izin operasional perusahaan.",
+    "discussion_points": [
+      "Apakah bak pemisah oli (oil catcher) dibersihkan dari lapisan minyak?",
+      "Berapa nilai pH aman air buangan yang diperbolehkan (pH 6-9)?",
+      "Apakah ada saluran limbah beracun yang bocor ke parit umum?",
+      "Di mana titik tempat pengisian sampel air limbah berkala?"
+    ],
+    "action_steps": [
+      "Pastikan oli dan minyak tertangkap sempurna di bak oil catcher",
+      "Dilarang membuang sisa cairan kimia atau pelarut ke saluran air hujan",
+      "Lakukan pengujian rutin indikator fisik pH dan kejernihan air limbah",
+      "Bersihkan endapan lumpur bak kontrol lingkungan secara teratur"
+    ]
+  },
+  {
+    "id": 96,
+    "category": "lingkungan",
+    "title": "Pemilahan Sampah Padat & Daur Ulang Industri",
+    "description": "Sampah organik, anorganik, limbah B3, & konsep circular economy.",
+    "tags": [
+      "Sampah",
+      "Daur Ulang"
+    ],
+    "statistic": "Pemilahan sampah yang benar mengurangi volume sampah TPS hingga 50%.",
+    "discussion_points": [
+      "Apakah Anda membuang botol plastik ke tempat sampah yang benar?",
+      "Manakah tempat sampah warna hijau, kuning, dan merah di lokasi?",
+      "Apa dampak positif pemilahan sampah bagi lingkungan hidup?",
+      "Bagaimana cara pengurangan penggunaan plastik sekali pakai di site?"
+    ],
+    "action_steps": [
+      "Buang sampah sesuai kode warna wadah (Hijau: Organik, Kuning: Anorganik, Merah: B3)",
+      "Daur ulang limbah kayu bekas kemasan palet menjadi barang guna",
+      "Gunakan botol minum (tumbler) pribadi untuk menghemat wadah plastik",
+      "Pastikan sampah medis/infeksius dibuang terpisah dari sampah umum"
+    ]
+  },
+  {
+    "id": 97,
+    "category": "teknologi",
+    "title": "Keselamatan Bekerja pada Instalasi Panel Surya (Solar)",
+    "description": "Risiko sengatan listrik DC tegangan tinggi, posisi atap, & isolasi.",
+    "tags": [
+      "Solar Panel",
+      "Listrik DC"
+    ],
+    "statistic": "Arus searah (DC) dari solar panel tidak memiliki titik nol cross-over.",
+    "discussion_points": [
+      "Apakah sistem pemutus arus DC (DC isolator) sudah dimatikan?",
+      "Bagaimana mengamankan diri dari bahaya jatuh saat pasang solar atap?",
+      "Mengapa modul solar tetap bertegangan saat terkena sinar matahari?",
+      "APD isolasi listrik apa yang wajib dipakai saat menyambung kabel solar?"
+    ],
+    "action_steps": [
+      "Gunakan harness terikat lifeline saat memasang panel surya di atas atap",
+      "Tutup permukaan modul solar panel dengan terpal gelap saat proses wiring",
+      "Matikan saklar DC isolator sebelum menyentuh kabel sambungan modul",
+      "Gunakan sarung tangan tahan isolasi listrik berkategori voltase DC"
+    ]
+  },
+  {
+    "id": 98,
+    "category": "teknologi",
+    "title": "Sistem Gembok Pintar Smart LOTO & RFID Tagging",
+    "description": "Penggunaan gembok elektronik RFID, log akuntabilitas digital.",
+    "tags": [
+      "Smart LOTO",
+      "RFID"
+    ],
+    "statistic": "Smart LOTO mencatat riwayat penguncian mesin secara real-time di server.",
+    "discussion_points": [
+      "Bagaimana cara melacak siapa saja yang sedang memasang gembok LOTO?",
+      "Apa keunggulan gembok RFID dibanding kunci gembok manual biasa?",
+      "Bagaimana sistem memberi notifikasi jika ada LOTO yang belum dilepas?",
+      "Apa yang dilakukan jika kartu identitas RFID penanggung jawab hilang?"
+    ],
+    "action_steps": [
+      "Scan kartu identitas RFID Anda pada smart lockbox sebelum mulai isolasi",
+      "Pastikan nama dan status penguncian terdaftar pada server e-LOTO",
+      "Dilarang meminjamkan kartu RFID LOTO pribadi kepada orang lain",
+      "Laporkan ke admin sistem jika terjadi kegagalan pembacaan sensor RFID"
+    ]
+  },
+  {
+    "id": 99,
+    "category": "teknologi",
+    "title": "Simulasi Pelatihan VR (Virtual Reality) Safety",
+    "description": "Simulasi kondisi darurat kebakaran, height, & hazard identification.",
+    "tags": [
+      "VR Safety",
+      "Training"
+    ],
+    "statistic": "Pelatihan VR meningkatkan memori refleks keselamatan pekerja hingga 80%.",
+    "discussion_points": [
+      "Bagaimana rasanya mengalami simulasi bahaya kebakaran via headset VR?",
+      "Mengapa VR aman untuk melatih penanganan situasi krisis ekstrem?",
+      "Skenario keselamatan apa saja yang tersedia di dalam modul VR K3?",
+      "Bagaimana skor evaluasi VR digunakan untuk menilai kesiapan pekerja?"
+    ],
+    "action_steps": [
+      "Ikuti pelatihan simulasi VR K3 dengan serius seolah berada di lapangan nyata",
+      "Gunakan instruksi dalam VR untuk melatih refleks tindakan darurat",
+      "Evaluasi hasil skor ketepatan langkah Anda dari laporan grafik VR",
+      "Terapkan pemahaman navigasi bahaya VR saat bekerja secara fisik"
+    ]
+  },
+  {
+    "id": 100,
+    "category": "umum",
+    "title": "Budaya K3 Kaizen & Perbaikan Berkelanjutan",
+    "description": "Continuous improvement K3, saran pekerja, & komitmen Zero Harm.",
+    "tags": [
+      "Kaizen K3",
+      "Improvement"
+    ],
+    "statistic": "Budaya K3 terbaik dibangun dari ribuan perbaikan kecil yang konsisten.",
+    "discussion_points": [
+      "Ide perbaikan K3 apa yang ingin Anda usulkan untuk area ini?",
+      "Bagaimana cara berpartisipasi dalam program Kotak Saran K3?",
+      "Apa arti filosofi Kaizen dalam konteks keselamatan kerja?",
+      "Bagaimana kita saling menjaga satu sama lain agar pulang selamat?"
+    ],
+    "action_steps": [
+      "Usulkan ide perbaikan K3 sederhana namun efektif melalui kotak saran",
+      "Lakukan perbaikan kecil (Kaizen) di area kerja Anda setiap hari",
+      "Tingkatkan rasa kepedulian antar sesama rekan kerja (Caring Culture)",
+      "Jadikan keselamatan kerja sebagai nilai hidup mendasar, bukan sekadar beban aturan"
+    ]
+  }
+]

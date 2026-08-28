@@ -1,0 +1,103 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+:root {
+  --primary: #059669;
+  --primary-dark: #064e3b;
+  --navy: #0f172a;
+}
+
+body {
+  color: #1e293b;
+  background: #f8fafc;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Prose formatting for articles & training content */
+.prose-k3 {
+  color: #334155;
+  line-height: 1.8;
+}
+.prose-k3 h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+.prose-k3 h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.prose-k3 p {
+  margin-bottom: 1.25rem;
+}
+.prose-k3 ul, .prose-k3 ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.prose-k3 ul {
+  list-style-type: disc;
+}
+.prose-k3 ol {
+  list-style-type: decimal;
+}
+.prose-k3 li {
+  margin-bottom: 0.35rem;
+}
+.prose-k3 strong {
+  color: #0f172a;
+  font-weight: 600;
+}
+.prose-k3 a {
+  color: #059669;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.prose-k3 a:hover {
+  color: #047857;
+}
+
+/* Print styles for Safety Talk attendance sheet */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-sheet, #printable-sheet * {
+    visibility: visible;
+  }
+  #printable-sheet {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background: white;
+    color: black;
+  }
+  .no-print {
+    display: none !important;
+  }
+}
