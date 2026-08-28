@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ShieldCheck, CheckCircle2, Award, Phone, Calendar, ArrowRight, Building2, MapPin } from 'lucide-react';
 import pagesRegistry from '@/data/pages_registry.json';
+import servicePagesData from '@/data/service_pages.json';
 import trainingsData from '@/data/trainings.json';
 import Breadcrumbs from '@/components/Breadcrumbs';
 
@@ -14,13 +15,19 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return Object.keys(pagesRegistry).map((slug) => ({
+  const serviceKeys = Object.keys(servicePagesData);
+  const registryKeys = Object.keys(pagesRegistry);
+  const allKeys = Array.from(new Set([...serviceKeys, ...registryKeys]));
+  return allKeys.map((slug) => ({
     service: slug,
   }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const page = (pagesRegistry as any)[params.service];
+  const servicePage = (servicePagesData as any)[params.service];
+  const registryPage = (pagesRegistry as any)[params.service];
+  const page = servicePage || registryPage;
+
   if (!page) return {};
 
   const title = page.meta_title || `${page.title} | Wahana Totalita`;
@@ -44,28 +51,79 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default function GenericServiceOrCityPage({ params }: Props) {
-  const page = (pagesRegistry as any)[params.service];
+  const servicePage = (servicePagesData as any)[params.service];
+  const registryPage = (pagesRegistry as any)[params.service];
+  const page = servicePage || registryPage;
+
   if (!page) {
     notFound();
   }
 
-  const isCity = page.type === 'city';
+  const isCity = registryPage?.type === 'city';
   const relatedCourses = trainingsData.slice(0, 6);
 
+  // If this service has full original HTML content, render it directly!
+  if (servicePage && servicePage.html && servicePage.html.length > 200) {
+    return (
+      <div className="bg-slate-50 min-h-screen pb-24">
+        {/* Breadcrumb Bar */}
+        <div className="bg-white border-b border-slate-200 py-4 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto">
+            <Breadcrumbs items={[{ name: servicePage.title }]} />
+          </div>
+        </div>
+
+        {/* Exact Original Rich Landing Content */}
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
+          <div
+            className="prose-k3 bg-white border border-slate-200 rounded-3xl p-6 sm:p-12 shadow-sm"
+            dangerouslySetInnerHTML={{ __html: servicePage.html }}
+          />
+
+          {/* WhatsApp Direct CTA Footer Bar */}
+          <div className="mt-10 bg-slate-900 text-white rounded-3xl p-8 sm:p-10 border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+            <div className="space-y-2 text-center md:text-left">
+              <span className="text-xs text-emerald-400 font-bold uppercase tracking-wider">
+                Konsultasi Layanan Resmi Kemnaker RI & BNSP
+              </span>
+              <h2 className="text-xl sm:text-2xl font-extrabold text-white">
+                Butuh Bantuan Layanan {servicePage.title}?
+              </h2>
+              <p className="text-xs sm:text-sm text-slate-300 max-w-xl">
+                Hubungi konsultan kami sekarang untuk pemeriksaan dokumen, syarat administrasi, dan estimasi waktu proses.
+              </p>
+            </div>
+
+            <a
+              href={`https://wa.me/6287759151278?text=${encodeURIComponent(`Halo Wahana Totalita, saya ingin konsultasi mengenai layanan ${servicePage.title}`)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs sm:text-sm px-6 py-3.5 rounded-xl flex items-center gap-2 shadow-lg shadow-emerald-500/30 whitespace-nowrap"
+            >
+              <Phone className="w-4 h-4 fill-current" />
+              Chat WhatsApp Konsultan
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Fallback for city doorway pages
   return (
     <div className="bg-slate-50 min-h-screen pb-24">
       {/* ─── Hero Banner ─────────────────────────────────────────── */}
-      <div className="bg-gradient-to-b from-navy-950 via-navy-900 to-navy-950 text-white py-12 px-4 sm:px-6 lg:px-8">
+      <div className="bg-slate-950 text-white py-12 px-4 sm:px-6 lg:px-8 border-b border-slate-800">
         <div className="max-w-5xl mx-auto space-y-4">
           <Breadcrumbs items={[{ name: page.title }]} />
 
           <div className="space-y-4">
-            <div className="inline-flex items-center gap-2 bg-brand-500/20 border border-brand-400/30 text-brand-300 px-3.5 py-1 rounded-full text-xs font-semibold">
-              <ShieldCheck className="w-4 h-4 text-brand-400" />
+            <div className="inline-flex items-center gap-2 bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 px-3.5 py-1 rounded-full text-xs font-semibold">
+              <ShieldCheck className="w-4 h-4 text-emerald-400" />
               {isCity ? `Layanan K3 Wilayah ${page.city_name}` : 'Layanan Resmi PJK3 KEMNAKER RI & BNSP'}
             </div>
 
-            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight">
+            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight font-display">
               {page.heading || page.title}
             </h1>
 
@@ -78,7 +136,7 @@ export default function GenericServiceOrCityPage({ params }: Props) {
                 href={`https://wa.me/6287759151278?text=${encodeURIComponent(`Halo Wahana Totalita, saya ingin informasi mengenai ${page.title}`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-brand-500 hover:bg-brand-400 text-navy-950 font-bold px-6 py-3.5 rounded-xl shadow-lg shadow-brand-500/25 flex items-center gap-2 text-sm"
+                className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-6 py-3.5 rounded-xl shadow-lg shadow-emerald-600/25 flex items-center gap-2 text-sm"
               >
                 <Phone className="w-4 h-4 fill-current" />
                 Konsultasi WhatsApp Sekarang
@@ -108,7 +166,7 @@ export default function GenericServiceOrCityPage({ params }: Props) {
               page.sections.map((sec: string, idx: number) => (
                 <div key={idx} className="bg-slate-50 border border-slate-200 rounded-2xl p-5 space-y-2">
                   <div className="flex items-center gap-2.5 font-bold text-slate-900 text-sm">
-                    <CheckCircle2 className="w-5 h-5 text-brand-600 shrink-0" />
+                    <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
                     <span>{sec}</span>
                   </div>
                   <p className="text-xs text-slate-500 leading-relaxed pl-7">
@@ -124,14 +182,14 @@ export default function GenericServiceOrCityPage({ params }: Props) {
           </div>
         </div>
 
-        {/* Popular Courses in This Category / City */}
+        {/* Popular Courses */}
         <div className="space-y-6">
           <div className="flex items-center justify-between">
             <h2 className="text-xl sm:text-2xl font-bold text-slate-900">
               {isCity ? `Program Pelatihan Populer di ${page.city_name}` : 'Program Pelatihan & Sertifikasi Terkait'}
             </h2>
-            <Link href="/pelatihan" className="text-xs font-bold text-brand-600 hover:underline">
-              Semua 105 Program →
+            <Link href="/pelatihan" className="text-xs font-bold text-emerald-700 hover:underline">
+              Semua 147 Pelatihan →
             </Link>
           </div>
 
@@ -142,50 +200,33 @@ export default function GenericServiceOrCityPage({ params }: Props) {
                 className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:shadow-lg transition-all flex flex-col justify-between"
               >
                 <div className="space-y-2">
-                  <span className="text-[10px] font-bold text-brand-700 bg-brand-50 border border-brand-200 px-2 py-0.5 rounded">
+                  <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded">
                     {c.certification}
                   </span>
                   <Link href={`/pelatihan/${c.slug}`}>
-                    <h3 className="font-bold text-sm text-slate-900 hover:text-brand-600 line-clamp-2">
+                    <h3 className="font-bold text-sm text-slate-900 hover:text-emerald-700 line-clamp-2">
                       {c.name}
                     </h3>
                   </Link>
-                  <p className="text-xs text-slate-500 line-clamp-2">{c.description}</p>
+                  <p className="text-xs text-slate-500 line-clamp-2">
+                    {c.description}
+                  </p>
                 </div>
 
                 <div className="pt-4 mt-4 border-t border-slate-100 flex items-center justify-between">
                   <span className="text-xs font-bold text-slate-900">
                     {c.price > 0 ? `Rp ${Number(c.price).toLocaleString('id-ID')}` : 'Hubungi CS'}
                   </span>
-                  <Link href={`/pelatihan/${c.slug}`} className="text-xs font-bold text-brand-600 hover:underline">
-                    Detail →
+                  <Link
+                    href={`/pelatihan/${c.slug}`}
+                    className="text-xs font-bold text-emerald-700 hover:underline flex items-center gap-1"
+                  >
+                    Daftar →
                   </Link>
                 </div>
               </div>
             ))}
           </div>
-        </div>
-
-        {/* WhatsApp Consultation Banner */}
-        <div className="bg-gradient-to-r from-brand-900 to-navy-950 text-white rounded-3xl p-8 sm:p-10 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
-          <div className="space-y-2 text-center md:text-left">
-            <h3 className="text-xl sm:text-2xl font-extrabold text-white">
-              Konsultasikan Kebutuhan {page.title}
-            </h3>
-            <p className="text-xs sm:text-sm text-slate-300 max-w-xl">
-              Dapatkan proposal penawaran resmi, silabus pelatihan, atau jadwal in-house training khusus instansi/perusahaan Anda.
-            </p>
-          </div>
-
-          <a
-            href={`https://wa.me/6287759151278?text=${encodeURIComponent(`Halo Wahana Totalita, saya ingin proposal & penawaran terkait ${page.title}`)}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-brand-500 hover:bg-brand-400 text-navy-950 font-bold px-7 py-3.5 rounded-xl flex items-center gap-2 shadow-lg text-sm shrink-0 whitespace-nowrap"
-          >
-            <Phone className="w-4 h-4 fill-current" />
-            Hubungi Tim Konsultan
-          </a>
         </div>
       </div>
     </div>
