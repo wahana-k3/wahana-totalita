@@ -4,11 +4,12 @@ import type { NextRequest } from 'next/server';
 export async function middleware(request: NextRequest) {
   const response = NextResponse.next();
 
-  // Add Security & Performance Headers
+  // Add Security, Performance & Noindex Headers
   response.headers.set('X-DNS-Prefetch-Control', 'on');
   response.headers.set('X-Frame-Options', 'SAMEORIGIN');
   response.headers.set('X-Content-Type-Options', 'nosniff');
   response.headers.set('Referrer-Policy', 'origin-when-cross-origin');
+  response.headers.set('X-Robots-Tag', 'noindex, nofollow, noarchive, nosnippet');
 
   return response;
 }

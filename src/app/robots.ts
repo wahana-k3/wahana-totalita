@@ -4,9 +4,7 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: '*',
-      allow: '/',
-      disallow: ['/admin/', '/api/', '/_next/'],
+      disallow: ['/'],
     },
-    sitemap: 'https://www.wahanatotalita.com/sitemap.xml',
   };
 }
