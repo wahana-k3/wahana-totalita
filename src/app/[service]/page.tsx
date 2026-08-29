@@ -61,13 +61,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title,
       description,
-      url: `https://wahanatotalita.com/${page.slug}/`,
+      url: `https://www.wahanatotalita.com/${page.slug}/`,
       siteName: 'Wahana Totalita Konsultan',
       locale: 'id_ID',
       type: 'website',
     },
     alternates: {
-      canonical: `https://wahanatotalita.com/${page.slug}/`,
+      canonical: `https://www.wahanatotalita.com/${page.slug}/`,
     },
   };
 }

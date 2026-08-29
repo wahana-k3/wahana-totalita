@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://www.wahanatotalita.com'),
   title: {
     default: 'Wahana Totalita Konsultan | PJK3 Resmi KEMNAKER RI & Sertifikasi BNSP',
-    template: '%s | Wahana Totalita',
+    template: '%s',
   },
   description:
     'Lembaga PJK3 Resmi KEMNAKER RI dan Tempat Uji Kompetensi BNSP terpercaya di Indonesia. Menyediakan 140+ pelatihan K3, sertifikasi profesi, dan konsultasi SMK3 / CSMS corporate.',

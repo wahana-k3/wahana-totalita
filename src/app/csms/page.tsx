@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title: 'Jasa Konsultasi CSMS & Pendampingan Lolos Tender BUMN / Migas | Wahana Totalita',
   description: 'Jasa pembuatan dokumen CSMS (Contractor Safety Management System) profesional bergaransi lolos pra-kualifikasi tender Pertamina, PLN, Migas, dan BUMN.',
   alternates: {
-    canonical: 'https://wahanatotalita.com/csms/',
+    canonical: 'https://www.wahanatotalita.com/csms/',
   },
 };
 

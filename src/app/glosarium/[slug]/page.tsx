@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: {
-      canonical: `https://wahanatotalita.com/glosarium/${item.slug}/`,
+      canonical: `https://www.wahanatotalita.com/glosarium/${item.slug}/`,
     },
   };
 }

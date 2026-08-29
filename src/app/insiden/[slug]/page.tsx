@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${inc.title} - Analisis Kasus K3 | Wahana Totalita`,
     description: inc.summary?.slice(0, 160) || `Analisis kronologi dan investigasi kasus ${inc.title}.`,
     alternates: {
-      canonical: `https://wahanatotalita.com/insiden/${inc.slug}/`,
+      canonical: `https://www.wahanatotalita.com/insiden/${inc.slug}/`,
     },
   };
 }
