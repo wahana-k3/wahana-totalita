@@ -18,7 +18,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://wahanatotalita.com'),
+  metadataBase: new URL('https://www.wahanatotalita.com'),
   title: {
     default: 'Wahana Totalita Konsultan | PJK3 Resmi KEMNAKER RI & Sertifikasi BNSP',
     template: '%s | Wahana Totalita',

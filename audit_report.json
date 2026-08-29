@@ -1,0 +1,3270 @@
+{
+  "summary": {
+    "trainings_total": 147,
+    "trainings_rich": 147,
+    "trainings_adequate": 0,
+    "trainings_thin": 0,
+    "articles_total": 146,
+    "articles_rich": 50,
+    "articles_adequate": 86,
+    "articles_thin": 10,
+    "services_total": 48,
+    "services_rich": 5,
+    "services_adequate": 33,
+    "services_thin": 10,
+    "cities_total": 374,
+    "cities_rich": 374,
+    "cities_adequate": 0,
+    "cities_thin": 0,
+    "total_thin_alerts": 20
+  },
+  "trainings": [
+    {
+      "slug": "pelatihan-operator-k3-sertifikasi-bnsp",
+      "name": "Pelatihan Operator K3 | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 252,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-authorized-gas-tester-agt-online",
+      "name": "Pelatihan Authorized Gas Tester | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 15,
+      "word_count": 206,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-penanganan-bahaya-gas-h2s-sertifikasi-bnsp",
+      "name": "Pelatihan Penanganan Bahaya Gas H2S | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 170,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pengawas-k3-fasyankes-sertifikasi-bnsp",
+      "name": "Pelatihan Pengawas K3 & Fasyankes | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 7,
+      "word_count": 164,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-petugas-k3-sertifikasi-bnsp",
+      "name": "Pelatihan Petugas K3 | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 14,
+      "word_count": 150,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-petugas-p3k-sertifikasi-bnsp",
+      "name": "Pelatihan Petugas P3K | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikat BNSP",
+      "curriculum_modules": 12,
+      "word_count": 228,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-investigasi-kecelakaan-sertifikasi-bnsp",
+      "name": "Pelatihan Investigasi Kecelakaan | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 193,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-paramedis-k3-muda-sertifikasi-bnsp",
+      "name": "Pelatihan Paramedis K3 Muda | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 15,
+      "word_count": 209,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-teknisi-k3-listrik-sertifikasi-bnsp",
+      "name": "Pelatihan Teknisi K3 Listrik | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 11,
+      "word_count": 256,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pengawas-k3-laboratorium-sertifikasi-bnsp",
+      "name": "Pelatihan Pengawas K3 Laboratorium | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 320,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-paramedis-k3-madya-sertifikasi-bnsp",
+      "name": "Pelatihan Paramedis K3 Madya | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 13,
+      "word_count": 435,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-auditor-sistem-manajemen-k3-sertifikasi-bnsp",
+      "name": "Pelatihan Auditor Sistem Manajemen K3 | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 4,
+      "word_count": 170,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pengawas-k3-industri-migas-sertifikasi-bnsp",
+      "name": "Pelatihan Pengawas K3 Industri Migas | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 238,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-teknisi-ruang-terbatas-sertifikasi-bnsp",
+      "name": "Pelatihan Teknisi Ruang Terbatas | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 12,
+      "word_count": 224,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pengkaji-teknis-proteksi-kebakaran-sertifikasi-bnsp",
+      "name": "Pelatihan Pengkaji Teknis Proteksi Kebakaran | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 249,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-muda-ruang-terbatas-sertifikasi-bnsp",
+      "name": "Pelatihan Ahli Muda Ruang Terbatas | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 12,
+      "word_count": 261,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-madya-ruang-terbatas-sertifikasi-bnsp",
+      "name": "Pelatihan Ahli Madya Ruang Terbatas | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 12,
+      "word_count": 302,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-paramedis-k3-utama-sertifikasi-bnsp",
+      "name": "Pelatihan Paramedis K3 Utama | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 13,
+      "word_count": 247,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-k3-listrik-sertifikasi-bnsp",
+      "name": "Pelatihan Ahli K3 Listrik | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 19,
+      "word_count": 371,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-utama-ruang-terbatas-sertifikasi-bnsp",
+      "name": "Pelatihan Ahli Utama Ruang Terbatas | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 7,
+      "word_count": 228,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-hazard-dan-operability-studies-hazops-sertifikasi-bnsp",
+      "name": "Pelatihan Hazard dan Operability Studies (HAZOPS) | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 4,
+      "word_count": 197,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-higiene-industri-muda-sertifikasi-bnsp",
+      "name": "Pelatihan Ahli Higiene Industri Muda | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 292,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-higiene-industri-madya-sertifikasi-bnsp",
+      "name": "Pelatihan Ahli Higiene Industri Madya | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 337,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-higiene-industri-utama-sertifikasi-bnsp",
+      "name": "Pelatihan Ahli Higiene Industri Utama | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 12,
+      "word_count": 289,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-k3-operator-forklift-kelas-2-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan K3 Operator Forklift Kelas 2 | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 12,
+      "word_count": 116,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-petugas-peran-kebakaran-kelas-d-kemnaker-ri",
+      "name": "Pelatihan Petugas Peran Kebakaran Kelas D | KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 10,
+      "word_count": 172,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-petugas-p3k-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan Petugas P3K | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 14,
+      "word_count": 166,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-k3-operator-lift-barang-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan K3 Operator Lift Barang | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 15,
+      "word_count": 169,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-k3-operator-crane-kelas-3-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan K3 Operator Crane Kelas 3 | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 14,
+      "word_count": 204,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-k3-operator-scaffolding-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan K3 Operator Scaffolding | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 19,
+      "word_count": 240,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-operator-pesawat-tenaga-produksi-ptp",
+      "name": "Pelatihan Operator Pesawat Tenaga Produksi (PTP)",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 7,
+      "word_count": 178,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-k3-operator-alat-berat-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan K3 Operator Alat Berat | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 15,
+      "word_count": 162,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-k3-operator-boiler-kelas-2-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan K3 Operator Boiler Kelas 2 | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 15,
+      "word_count": 214,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-auditor-sistem-manajemen-k3-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan Auditor Sistem Manajemen K3 | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 10,
+      "word_count": 185,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-tkbt-ii-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan TKBT II | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 11,
+      "word_count": 187,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-k3-operator-motor-diesel-genset-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan K3 Operator Motor Diesel / Genset | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 15,
+      "word_count": 215,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-k3-umum-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan Ahli K3 Umum | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 15,
+      "word_count": 185,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-muda-k3-konstruksi-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan Ahli Muda K3 Konstruksi | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 16,
+      "word_count": 147,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-regu-penanggulangan-kebakaran-kelas-c-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan Regu Penanggulangan Kebakaran Kelas C | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 18,
+      "word_count": 203,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-muda-lingkungan-kerja-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan Ahli Muda Lingkungan Kerja | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 8,
+      "word_count": 211,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-petugas-k3-kimia-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan Petugas K3 Kimia | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 26,
+      "word_count": 241,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-teknisi-confined-space-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan Teknisi Confined Space | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 13,
+      "word_count": 209,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-koordinator-unit-p-keb-kelas-b-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan Koordinator Unit P. Keb Kelas B | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 16,
+      "word_count": 154,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-k3-teknisi-listrik-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan K3 Teknisi Listrik | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 16,
+      "word_count": 257,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-k3-penanggulangan-keb-kelas-a-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan Ahli K3 Penanggulangan Keb Kelas A | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 13,
+      "word_count": 195,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-teknisi-bejana-tekan-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan Teknisi Bejana Tekan | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 29,
+      "word_count": 238,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-k3-kimia-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan Ahli K3 Kimia | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 26,
+      "word_count": 233,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-k3-operator-welder-kelas-3-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan K3 Operator Welder Kelas 3 | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 11,
+      "word_count": 167,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-k3-listrik-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan Ahli K3 Listrik | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 24,
+      "word_count": 269,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-k3-operator-welder-kelas-1-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan K3 Operator Welder Kelas 1 | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 17,
+      "word_count": 179,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-damkar-paralel-kelas-dcba-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan Damkar Paralel Kelas DCBA | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 35,
+      "word_count": 221,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-teknis-pertek-limbah-b3-dan-emisi-udara-sertifikasi-bnsp",
+      "name": "Pelatihan Teknis (PERTEK) Limbah B3 dan Emisi Udara | Sertifikasi BNSP",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 16,
+      "word_count": 231,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-penanggung-jawab-operasional-pengolahan-air-limbah-popal-sertifikasi-bnsp",
+      "name": "Pelatihan Penanggung Jawab Operasional Pengolahan Air Limbah (POPAL) | Online",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 5,
+      "word_count": 208,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pengambilan-contoh-uji-air-pcua-sertifikasi-bnsp",
+      "name": "Pelatihan Pengambilan Contoh Uji Air (PCUA) | Sertifikasi BNSP",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 204,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-operator-pengumpulan-limbah-b3-jenjang-kualifikasi-3-level-pelaksana-oplb3-sertifikasi-bnsp",
+      "name": "Pelatihan Operator Pengumpulan Limbah B3 Jenjang Kualifikasi 3 Level Pelaksana (OPLB3) | Sertifikasi BNSP",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 346,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-penanggung-jawab-operasional-instalasi-pengendalian-pencemaran-udara-poippu-sertifikasi-bnsp",
+      "name": "Pelatihan Penanggung Jawab Operasional Instalasi Pengendalian Pencemaran Udara (POIPPU) | Online",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 5,
+      "word_count": 234,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pemantauan-pengelolaan-limbah-bahan-berbahaya-dan-beracun-level-pengawas-pplb3-sertifikasi-bnsp",
+      "name": "Pelatihan Pemantauan Pengelolaan Limbah Bahan Berbahaya dan Beracun Level Pengawas (PPLB3) | Sertifikasi BNSP",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 10,
+      "word_count": 347,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-penanggung-jawab-pengendalian-pencemaran-air-pppa-sertifikasi-bnsp",
+      "name": "Pelatihan Penanggung Jawab Pengendalian Pencemaran Air (PPPA) | Online",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 10,
+      "word_count": 210,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-penanggung-jawab-pengendalian-pencemaran-udara-pppu-sertifikasi-bnsp",
+      "name": "Pelatihan Penanggung Jawab Pengendalian Pencemaran Udara (PPPU) | Online",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 10,
+      "word_count": 173,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-manajer-pengolahan-limbah-b3-jenjang-kualifikasi-6-level-pengawas-mplb3-sertifikasi-bnsp",
+      "name": "Pelatihan Manajer Pengolahan Limbah B3 Jenjang Kualifikasi 6 Level Pengawas (MPLB3) | Sertifikasi BNSP",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 9,
+      "word_count": 316,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-operator-penyimpanan-limbah-b3-jenjang-kualifikasi-3-level-pelaksana-sertifikasi-bnsp-1",
+      "name": "Pelatihan Operator Penyimpanan Limbah B3 Jenjang Kualifikasi 3 Level Pelaksana | Sertifikasi BNSP",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 10,
+      "word_count": 218,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-fillet-plate-welder-sertifikasi-bnsp",
+      "name": "Pelatihan dan Sertifikasi Fillet & Plate Welder | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 4,
+      "word_count": 190,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-pipe-group-welder-welding-inspector-basic-sertifikasi-bnsp",
+      "name": "Pelatihan dan Sertifikasi Pipe, Group Welder, Welding Inspector Basic | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 5,
+      "word_count": 128,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-welding-foreman-sertifikasi-bnsp",
+      "name": "Pelatihan dan Sertifikasi Welding Foreman | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 189,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-welding-inspector-standard-sertifikasi-bnsp",
+      "name": "Pelatihan dan Sertifikasi Welding Inspector Standard | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 145,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-welding-practitioner-welding-instructur-sertifikasi-bnsp",
+      "name": "Pelatihan dan Sertifikasi Welding Practitioner & Welding Instructur | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 144,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-pipe-fitter-sertifikasi-bnsp",
+      "name": "Pelatihan dan Sertifikasi Pipe Fitter | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 10,
+      "word_count": 162,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-welding-specialistsupervisor",
+      "name": "Pelatihan dan Sertifikasi Welding Specialist/Supervisor",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 16,
+      "word_count": 282,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-welding-inspector-comprehensive-sertifikasi-bnsp",
+      "name": "Pelatihan dan Sertifikasi Welding Inspector Comprehensive | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 9,
+      "word_count": 137,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-welding-technologistsuperintendent-sertifikasi-bnsp",
+      "name": "Pelatihan dan Sertifikasi Welding Technologist/Superintendent | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 5,
+      "word_count": 134,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-welding-engineer-sertifikasi-bns",
+      "name": "Pelatihan dan Sertifikasi Welding Engineer | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 4,
+      "word_count": 104,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-sertifikasi-migas-cepu",
+      "name": "Pelatihan & Sertifikasi Migas Cepu",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 115,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-k3-umum-sertifikasi-bnsp-online",
+      "name": "Pelatihan Ahli K3 Umum",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 152,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pengawas-k3-rumah-sakit-sertifikasi-bnsp-online",
+      "name": "Pelatihan Pengawas K3 Rumah Sakit",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 104,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-petugas-k3-rumah-sakit-sertifikasi-bnsp-online",
+      "name": "Pelatihan Petugas K3 Rumah Sakit",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 104,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-tkbt-1-bangunan-tinggi-online",
+      "name": "Pelatihan TKBT 1 (Tenaga Kerja Bangunan Tinggi)",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 142,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-tkbt-2-bangunan-tinggi-online",
+      "name": "Pelatihan TKBT 2 (Tenaga Kerja Bangunan Tinggi)",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 108,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-csms-pengawas-smk3-kontraktor-online",
+      "name": "Pelatihan CSMS Pengawas SMK3 Kontraktor",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 102,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pengawas-k3-migas-online",
+      "name": "Pelatihan Pengawas K3 Minyak dan Gas Bumi",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 150,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-incident-commander-ic-online",
+      "name": "Pelatihan Incident Commander (IC)",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 102,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-muda-k3-konstruksi-online",
+      "name": "Pelatihan Ahli Muda K3 Konstruksi",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 104,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-k3-confined-space-online",
+      "name": "Pelatihan K3 Ruang Terbatas (Confined Space)",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 161,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-safety-inspector-online",
+      "name": "Pelatihan Safety Inspector",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 129,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-accident-investigation-online",
+      "name": "Pelatihan Accident Investigation",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 100,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pplb3-online",
+      "name": "Pelatihan PPLB3 (Pengawas Pengelolaan Limbah B3)",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 108,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-qhse-awareness-terintegrasi-iso-online",
+      "name": "Pelatihan QHSE Awareness Terintegrasi (ISO 9001, 14001, 45001)",
+      "category": "system-management",
+      "certification": "Sertifikat Kompetensi",
+      "curriculum_modules": 6,
+      "word_count": 109,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-internal-auditor-iso-9001-online",
+      "name": "Pelatihan Internal Auditor ISO 9001:2015",
+      "category": "system-management",
+      "certification": "Sertifikat Kompetensi",
+      "curriculum_modules": 6,
+      "word_count": 103,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-internal-auditor-iso-14001-online",
+      "name": "Pelatihan Internal Auditor ISO 14001:2015",
+      "category": "system-management",
+      "certification": "Sertifikat Kompetensi",
+      "curriculum_modules": 6,
+      "word_count": 103,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-internal-auditor-iso-45001-online",
+      "name": "Pelatihan Internal Auditor ISO 45001:2018",
+      "category": "system-management",
+      "certification": "Sertifikat Kompetensi",
+      "curriculum_modules": 6,
+      "word_count": 103,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-lead-auditor-iso-45001-online",
+      "name": "Pelatihan Lead Auditor ISO 45001:2018",
+      "category": "system-management",
+      "certification": "Sertifikat Kompetensi",
+      "curriculum_modules": 8,
+      "word_count": 138,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pop-pertambangan-sertifikasi-bnsp-online",
+      "name": "Pelatihan POP (Pengawas Operasional Pertama) | Online",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 103,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pom-pertambangan-sertifikasi-bnsp-online",
+      "name": "Pelatihan POM (Pengawas Operasional Madya) | Online",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 103,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pou-pertambangan-sertifikasi-bnsp-online",
+      "name": "Pelatihan POU (Pengawas Operasional Utama) | Onlline",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 103,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-k3-umum-fresh-graduate-kemnaker-online",
+      "name": "Pelatihan Ahli K3 Umum Fresh Graduate | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 9,
+      "word_count": 160,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-qhse-awareness-iso-online",
+      "name": "Pelatihan QHSE Awareness ISO 9001, 14001 & 45001",
+      "category": "system-management",
+      "certification": "Sertifikat Kompetensi",
+      "curriculum_modules": 6,
+      "word_count": 118,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-training-of-trainer-tot-instruktur-bnsp",
+      "name": "Pelatihan dan Sertifikasi Training of Trainer (T.O.T) Instruktur | BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 10,
+      "word_count": 126,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "manajemen-hutang-usaha-sertifikasi-reguler",
+      "name": "Manajemen Hutang Usaha | Sertifikasi Reguler",
+      "category": "system-management",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 6,
+      "word_count": 106,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-scuba-diving-sertifikasi-reguler",
+      "name": "Pelatihan Scuba Diving | Sertifikasi Reguler",
+      "category": "system-management",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 6,
+      "word_count": 106,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "financial-accounting-training-reguler",
+      "name": "Financial Accounting | Training Reguler",
+      "category": "system-management",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 6,
+      "word_count": 104,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "fiber-optic-fundamental-training-reguler",
+      "name": "Fiber Optic Fundamental | Training Reguler",
+      "category": "system-management",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 6,
+      "word_count": 106,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "project-cost-management-training-reguler",
+      "name": "Project Cost Management | Training Reguler",
+      "category": "system-management",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 6,
+      "word_count": 106,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "hydraulic-and-pneumatic-operation-and-maintenance-training-reguler",
+      "name": "Hydraulic and Pneumatic Operation and Maintenance | Training Reguler",
+      "category": "system-management",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 6,
+      "word_count": 112,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pengadaan-barang-dan-jasa-training-reguler",
+      "name": "Pengadaan Barang dan Jasa | Training Reguler",
+      "category": "system-management",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 6,
+      "word_count": 108,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "system-management-vendor-training-reguler",
+      "name": "System Management Vendor | Training Reguler",
+      "category": "system-management",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 6,
+      "word_count": 106,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "communication-skills-training-reguler",
+      "name": "Communication Skills | Training Reguler",
+      "category": "system-management",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 6,
+      "word_count": 104,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "logistic-transportation-distribution-training-reguler",
+      "name": "Logistic, Transportation & Distribution | Training Reguler",
+      "category": "system-management",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 6,
+      "word_count": 108,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "contract-drafting-and-negotiation-skill-training-training-reguler",
+      "name": "Contract Drafting and Negotiation Skill Training | Training Reguler",
+      "category": "system-management",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 6,
+      "word_count": 112,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "cash-flow-management-training-reguler",
+      "name": "Cash Flow Management | Training Reguler",
+      "category": "system-management",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 6,
+      "word_count": 106,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "digital-marketing-specialist-training-reguler",
+      "name": "Digital Marketing Specialist | Training Reguler",
+      "category": "system-management",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 6,
+      "word_count": 106,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-sertifikasi-human-resources-manajer-sertifikasi-bnsp",
+      "name": "Pelatihan & Sertifikasi Human Resources Manajer | Sertifikasi BNSP",
+      "category": "system-management",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 112,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "online-training-fire-watcher",
+      "name": "Online Training Fire Watcher",
+      "category": "k3",
+      "certification": "KEMNAKER RI",
+      "curriculum_modules": 6,
+      "word_count": 89,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-sertifikasi-operator-hydraulic-drilling-rig-kelas-1-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan & Sertifikasi Operator Hydraulic Drilling Rig Kelas 1 | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 6,
+      "word_count": 110,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-penggerak-mula-kompressor-kelas-1-sertifikasi-kemnaker",
+      "name": "Pelatihan dan Sertifikasi Penggerak Mula (Kompressor) Kelas 1 | Sertifikasi KEMNAKER",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 6,
+      "word_count": 117,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-sertifikasi-rotating-equipment-kompressor-sertifikasi-bnsp",
+      "name": "Pelatihan & Sertifikasi Rotating Equipment Kompressor | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 112,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "perpanjangan-sertifikasi-bnsp-online",
+      "name": "Perpanjangan Sertifikasi BNSP (Online)",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 112,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "training-public-speaking-and-communication-skill",
+      "name": "Training Public Speaking and Communication Skill",
+      "category": "system-management",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 6,
+      "word_count": 106,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "ahli-k3-konstruksi-sertifikasi-bnsp",
+      "name": "Ahli K3 Konstruksi | Sertifikasi BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 10,
+      "word_count": 110,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "sosial-media-marketing-training-reguler",
+      "name": "Sosial Media Marketing | Training Reguler",
+      "category": "k3",
+      "certification": "Sertifikasi Reguler",
+      "curriculum_modules": 10,
+      "word_count": 144,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-pengambil-contoh-uji-emisi-sumber-tidak-bergerak-jenjang-kualifikasi-3",
+      "name": "Pelatihan dan Sertifikasi Pengambil Contoh Uji Emisi Sumber Tidak Bergerak Jenjang Kualifikasi 3",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 120,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-pelaksana-pascatambang-pada-kegiatan-pertambangan-mineral-dan-batubara-sertifikasi-bnsp",
+      "name": "Pelatihan dan Sertifikasi Pelaksana Pascatambang Pada Kegiatan Pertambangan Mineral dan Batubara | Sertifikasi BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 89,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-perencana-pascatambang-mineral-dan-batubara-sertifikasi-bnsp",
+      "name": "Pelatihan dan Sertifikasi Perencana Pascatambang Mineral dan Batubara | Sertifikasi BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 90,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-perencanaan-reklamasi-pada-kegiatan-pertambangan-mineral-dan-batubara-sertifikasi-bnsp",
+      "name": "Pelatihan dan Sertifikasi Perencanaan Reklamasi pada Kegiatan Pertambangan Mineral dan Batubara | Sertifikasi BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 4,
+      "word_count": 61,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-pelaksana-pemantauan-hasil-pascatambang-pada-kegiatan-pertambangan-mineral-dan-batubara-sertifikasi-bnsp",
+      "name": "Pelatihan dan Sertifikasi Pelaksana Pemantauan Hasil Pascatambang Pada Kegiatan Pertambangan Mineral dan Batubara | Sertifikasi BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 5,
+      "word_count": 112,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-pelaksanaan-reklamasi-pada-kegiatan-petambangan-mineral-dan-batubara-sertifikasi-bnsp",
+      "name": "{Pelatihan dan Sertifikasi Pelaksanaan Reklamasi Pada Kegiatan Petambangan Mineral dan Batubara | Sertifikasi BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 4,
+      "word_count": 114,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-pengoperasian-alat-gali-muat-excavator-back-hoe-sertifikasi-bnsp",
+      "name": "Pelatihan dan Sertifikasi Pengoperasian Alat Gali Muat (Excavator Back Hoe) | Sertifikasi BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 5,
+      "word_count": 84,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-pengoperasian-alat-gali-muat-excavator-front-shovel-sertifikat-bnsp",
+      "name": "Pelatihan dan Sertifikasi Pengoperasian Alat Gali Muat (Excavator Front Shovel) | Sertifikat BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 96,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-perencanaan-operasional-tambang-terbuka-jangka-pendek-sertifikat-bnsp",
+      "name": "Pelatihan dan Sertifikasi Perencanaan Operasional Tambang Terbuka Jangka Pendek | Sertifikat BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 9,
+      "word_count": 140,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-sertifikasi-pengoperasian-alat-angkat-tele-handler-sertifikasi-bnsp",
+      "name": "Pelatihan & Sertifikasi Pengoperasian Alat Angkat (Tele Handler) | Sertifikasi BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 115,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-sertifikasi-peralatan-pendukung-bulldozer-sertifikasi-bnsp",
+      "name": "Pelatihan & Sertifikasi Peralatan Pendukung (Bulldozer) | Sertifikasi BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 105,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-sertifikasi-peralatan-pendukung-motor-grader-sertifikasi-bnsp",
+      "name": "Pelatihan & Sertifikasi Peralatan Pendukung (Motor Grader) | Sertifikasi BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 8,
+      "word_count": 107,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-sertifikasi-peralatan-pendukung-water-truck-sertifikasi-bnsp",
+      "name": "Pelatihan & Sertifikasi Peralatan Pendukung (Water Truck) | Sertifikasi BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 5,
+      "word_count": 101,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-sertifikasi-peralatan-pendukung-compactor-sertifikasi-bnsp",
+      "name": "Pelatihan & Sertifikasi Peralatan Pendukung (Compactor) | Sertifikasi BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 5,
+      "word_count": 98,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-sertifikasi-peralatan-pendukung-service-truck-sertifikasi-bnsp",
+      "name": "Pelatihan & Sertifikasi Peralatan Pendukung (Service Truck) | Sertifikasi BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 12,
+      "word_count": 136,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-sertifikasi-peralatan-pendukung-fuel-truck-sertifikasi-bnsp",
+      "name": "Pelatihan & Sertifikasi Peralatan Pendukung (Fuel Truck) | Sertifikasi BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 5,
+      "word_count": 96,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-sertifikasi-pengoperasian-alat-angkut-underground-truck-sertifikasi-bnsp",
+      "name": "Pelatihan & Sertifikasi Pengoperasian Alat Angkut (Underground Truck) | Sertifikasi BNSP",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 5,
+      "word_count": 101,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-data-scientist-sertifikasi-bnsp",
+      "name": "Pelatihan dan Sertifikasi Data Scientist | Sertifikasi BNSP",
+      "category": "system-management",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 110,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pop-pengawas-operasional-pertama-offline",
+      "name": "Pelatihan POP (Pengawas Operasional Pertama) | Offline",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 103,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pom-pengawas-operasional-madya",
+      "name": "Pelatihan POM (Pengawas Operasional Madya) | Offline",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 103,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-pou-pengawas-operasional-utama-offline",
+      "name": "Pelatihan POU (Pengawas Operasional Utama) | Offline",
+      "category": "mining",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 103,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-penanggung-jawab-operasional-instalasi-pengendalian-pencemaran-udara-poippu-offline",
+      "name": "Pelatihan Penanggung Jawab Operasional Instalasi Pengendalian Pencemaran Udara (POIPPU) | Offline",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 116,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-penanggung-jawab-pengendalian-pencemaran-udara-pppu-offline",
+      "name": "Pelatihan Penanggung Jawab Pengendalian Pencemaran Udara (PPPU) | Offline",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 112,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-penanggung-jawab-operasional-pengolahan-air-limbah-popal-offline",
+      "name": "Pelatihan Penanggung Jawab Operasional Pengolahan Air Limbah (POPAL) | Offline",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 116,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-penanggung-jawab-pengendalian-pencemaran-air-pppa-oflline",
+      "name": "Pelatihan Penanggung Jawab Pengendalian Pencemaran Air (PPPA) | Oflline",
+      "category": "lingkungan",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 114,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "ak3-bnsp",
+      "name": "PELATIHAN AHLI K3 UMUM (AK3U)  BNSP",
+      "category": "k3",
+      "certification": "Sertifikasi BNSP",
+      "curriculum_modules": 6,
+      "word_count": 106,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-operator-angkat-angkut-overhead-crane-kelas-iii",
+      "name": "Pelatihan dan Sertifikasi Operator Angkat Angkut (Overhead Crane) Kelas III | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 14,
+      "word_count": 130,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-k3-operator-batching-plant-sertifikasi-kemnaker",
+      "name": "Pelatihan dan Sertifikasi K3 Operator Batching Plant | Sertifikasi KEMNAKER",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 12,
+      "word_count": 124,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-dan-sertifikasi-operator-conveyor-sertifikasi-kemnaker-ri",
+      "name": "Pelatihan dan Sertifikasi Operator Conveyor | Sertifikasi KEMNAKER RI",
+      "category": "k3",
+      "certification": "Sertifikasi KEMNAKER RI",
+      "curriculum_modules": 6,
+      "word_count": 113,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    }
+  ],
+  "articles": [
+    {
+      "slug": "apa-itu-smk3-pp-50-2012",
+      "title": "Apa Itu SMK3 PP 50 Tahun 2012? Panduan Lengkap Sistem Manajemen K3%mOC",
+      "category": "K3",
+      "word_count": 803,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "cara-mendapatkan-sertifikat-ahli-k3-umum",
+      "title": "Cara Mendapatkan Sertifikat Ahli K3 Umum KEMNAKER RI 2025",
+      "category": "K3",
+      "word_count": 923,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-sertifikasi-k3-yogyakarta",
+      "title": "Pelatihan Sertifikasi K3 Yogyakarta — Online & Offline Terpercaya",
+      "category": "K3",
+      "word_count": 499,
+      "has_faqs": false,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "cara-mendapatkan-sertifikat-ahli-k3-umum-kemnaker-2026",
+      "title": "Syarat dan Cara Mendapatkan Sertifikat Ahli K3 Umum KEMNAKER RI 2026",
+      "category": "K3",
+      "word_count": 507,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "perbedaan-k3-bnsp-vs-kemnaker-ri",
+      "title": "Perbedaan Sertifikasi K3 BNSP vs KEMNAKER RI — Mana yang Tepat untuk Anda?",
+      "category": "K3",
+      "word_count": 411,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "cara-perpanjang-skp-ahli-k3-umum",
+      "title": "Cara Perpanjang SKP Ahli K3 Umum Sebelum Kadaluarsa — Panduan 2026",
+      "category": "K3",
+      "word_count": 433,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "sertifikasi-operator-forklift-kemnaker-2026",
+      "title": "Sertifikasi Operator Forklift KEMNAKER — Syarat, Biaya & Cara Daftar 2026",
+      "category": "K3",
+      "word_count": 316,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-k3-konstruksi-sertifikasi",
+      "title": "Pelatihan K3 Konstruksi — Sertifikasi Ahli K3 Konstruksi KEMNAKER & BNSP",
+      "category": "K3",
+      "word_count": 437,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-pengelolaan-limbah-b3-sertifikasi",
+      "title": "Pelatihan Pengelolaan Limbah B3 — Sertifikasi Resmi untuk Industri",
+      "category": "Lingkungan",
+      "word_count": 309,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-pop-pertambangan-pengawas-operasional",
+      "title": "Pelatihan Pengawas Operasional Pertama (POP) Tambang — Panduan Lengkap",
+      "category": "Mining",
+      "word_count": 287,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "sertifikasi-k3-kebakaran-kemnaker",
+      "title": "K3 Kebakaran — Sertifikasi Ahli K3 Kebakaran KEMNAKER RI",
+      "category": "K3",
+      "word_count": 318,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-p3k-tempat-kerja-kemnaker",
+      "title": "Pelatihan P3K Tempat Kerja — Sertifikasi Petugas P3K KEMNAKER RI",
+      "category": "K3",
+      "word_count": 284,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "pelatihan-higiene-industri-bnsp",
+      "title": "Pelatihan Higiene Industri BNSP — Panduan Lengkap Sertifikasi",
+      "category": "K3",
+      "word_count": 235,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "pelatihan-iso-45001-sistem-manajemen-k3",
+      "title": "Pelatihan ISO 45001 — Sistem Manajemen K3 Internasional",
+      "category": "QHSE",
+      "word_count": 214,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "pelatihan-amdal-penyusun-bersertifikat",
+      "title": "Pelatihan AMDAL — Cara Menjadi Penyusun AMDAL Bersertifikat",
+      "category": "Lingkungan",
+      "word_count": 219,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "profesi-k3-bergaji-tinggi-indonesia-2026",
+      "title": "10 Profesi K3 Bergaji Tinggi di Indonesia 2026",
+      "category": "K3",
+      "word_count": 275,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "pelatihan-k3-online-vs-offline-perbandingan",
+      "title": "Pelatihan K3 Online vs Offline — Mana yang Lebih Baik?",
+      "category": "K3",
+      "word_count": 257,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "syarat-k3-tender-pemerintah-lpse",
+      "title": "Syarat Wajib K3 untuk Perusahaan yang Ikut Tender Pemerintah",
+      "category": "K3",
+      "word_count": 612,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-k3-listrik-sertifikasi-kemnaker",
+      "title": "Pelatihan K3 Listrik — Sertifikasi Ahli K3 Listrik KEMNAKER RI",
+      "category": "K3",
+      "word_count": 265,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "pelatihan-k3-confined-space-ruang-terbatas",
+      "title": "Pelatihan Confined Space — K3 Ruang Terbatas Bersertifikat",
+      "category": "K3",
+      "word_count": 245,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "pelatihan-pengelolaan-lingkungan-hidup-untuk-perusahaan-ukl-upl-dan-proper",
+      "title": "Pelatihan Pengelolaan Lingkungan Hidup untuk Perusahaan — UKL-UPL dan PROPER",
+      "category": "Lingkungan",
+      "word_count": 718,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "syarat-k3-tender-pemerintah-lpse-2026",
+      "title": "Syarat K3 untuk Ikut Tender Pemerintah LPSE — Panduan Lengkap 2026",
+      "category": "K3",
+      "word_count": 579,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-yogyakarta-pelatihan-sertifikasi-lokal",
+      "title": "Pelatihan K3 Yogyakarta — Vendor Lokal Terpercaya untuk Sertifikasi Resmi",
+      "category": "K3",
+      "word_count": 811,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "biaya-pelatihan-k3-yogyakarta",
+      "title": "Biaya Pelatihan K3 di Yogyakarta: Rincian per Program dan Cara Hemat",
+      "category": "Sertifikasi",
+      "word_count": 827,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "syarat-menjadi-ahli-k3-umum",
+      "title": "Syarat Menjadi Ahli K3 Umum: Pendidikan, Pengalaman, dan Proses Sertifikasi",
+      "category": "Sertifikasi",
+      "word_count": 661,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-k3-untuk-instansi-pemerintah",
+      "title": "Panduan Pengadaan Pelatihan K3 untuk Instansi Pemerintah dan BUMN",
+      "category": "Regulasi",
+      "word_count": 939,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "perbedaan-pop-pom-pou-pertambangan",
+      "title": "Perbedaan POP, POM, dan POU di Pertambangan: Jenjang dan Syaratnya",
+      "category": "K3",
+      "word_count": 871,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "cara-membuat-jsa-job-safety-analysis",
+      "title": "Cara Membuat JSA (Job Safety Analysis) Langkah demi Langkah",
+      "category": "K3",
+      "word_count": 804,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "checklist-audit-smk3-pp-50-2012",
+      "title": "Checklist Audit SMK3 PP 50/2012: 166 Kriteria dan Cara Mempersiapkannya",
+      "category": "Sertifikasi",
+      "word_count": 414,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "tugas-dan-tanggung-jawab-safety-officer",
+      "title": "Tugas dan Tanggung Jawab Safety Officer di Perusahaan",
+      "category": "K3",
+      "word_count": 795,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "sertifikasi-petugas-p3k-kemnaker",
+      "title": "Sertifikasi Petugas P3K Kemnaker: Syarat, Biaya, dan Masa Berlaku",
+      "category": "Sertifikasi",
+      "word_count": 794,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "prosedur-izin-kerja-confined-space",
+      "title": "Prosedur Izin Kerja di Ruang Terbatas (Confined Space) Sesuai Regulasi",
+      "category": "K3",
+      "word_count": 3097,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "hierarki-pengendalian-bahaya-k3",
+      "title": "Hierarki Pengendalian Bahaya K3: Dari Eliminasi hingga APD",
+      "category": "K3",
+      "word_count": 781,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "cara-mendapatkan-sio-forklift",
+      "title": "Cara Mendapatkan SIO Forklift: Syarat, Biaya, dan Proses Ujian",
+      "category": "Sertifikasi",
+      "word_count": 729,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "perbedaan-ukl-upl-dan-amdal",
+      "title": "Perbedaan UKL-UPL dan AMDAL: Mana yang Wajib untuk Usaha Anda?",
+      "category": "Regulasi",
+      "word_count": 1049,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-ahli-k3-umum-2026-syarat-biaya-jadwal",
+      "title": "Pelatihan Ahli K3 Umum 2026: Syarat, Biaya, Materi, dan Jadwal Lengkap",
+      "category": "K3",
+      "word_count": 738,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "sertifikat-bnsp-k3-manfaat-cara-mendapatkan",
+      "title": "Sertifikat BNSP K3: Pengertian, Manfaat, dan Cara Mendapatkannya 2026",
+      "category": "Sertifikasi",
+      "word_count": 635,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-k3-online-bersertifikat-tips-memilih",
+      "title": "Pelatihan K3 Online Bersertifikat: Cara Kerja, Keunggulan, dan Tips Memilih",
+      "category": "K3",
+      "word_count": 583,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "perbedaan-sertifikasi-kemnaker-dan-bnsp",
+      "title": "Perbedaan Sertifikasi Kemnaker dan BNSP: Mana yang Anda Butuhkan?",
+      "category": "K3",
+      "word_count": 945,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-petugas-p3k-di-tempat-kerja",
+      "title": "Pelatihan Petugas P3K di Tempat Kerja: Dasar Hukum, Syarat, dan Materi Lengkap",
+      "category": "K3",
+      "word_count": 509,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-operator-forklift-sio-syarat-durasi",
+      "title": "Pelatihan Operator Forklift dan SIO: Syarat, Durasi, Biaya, dan Kewajiban Hukum",
+      "category": "K3",
+      "word_count": 512,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "ahli-k3-konstruksi-tugas-jenjang-pelatihan",
+      "title": "Ahli K3 Konstruksi: Tugas, Jenjang, Dasar Hukum, dan Pelatihan Sertifikasi",
+      "category": "K3",
+      "word_count": 5804,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-scaffolding-perancah-sertifikasi",
+      "title": "Pelatihan Scaffolding (Perancah): Pentingnya Sertifikasi bagi Pekerja Ketinggian",
+      "category": "K3",
+      "word_count": 474,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-petugas-kebakaran-kelas-d",
+      "title": "Pelatihan Petugas Kebakaran Kelas D: Garda Depan Tanggap Darurat Kebakaran",
+      "category": "K3",
+      "word_count": 519,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-confined-space-ruang-terbatas",
+      "title": "Pelatihan Confined Space (Ruang Terbatas): Bahaya, Prosedur, dan Sertifikasi",
+      "category": "K3",
+      "word_count": 534,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-teknisi-k3-listrik",
+      "title": "Pelatihan Teknisi K3 Listrik: Dasar Hukum, Tugas, Materi, dan Sertifikasi",
+      "category": "K3",
+      "word_count": 522,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "ahli-k3-migas-kompetensi-industri-minyak-gas",
+      "title": "Ahli K3 Migas: Kompetensi Wajib di Industri Minyak dan Gas",
+      "category": "K3",
+      "word_count": 424,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "smk3-auditor-pp-50-2012",
+      "title": "SMK3 dan Auditor SMK3: Penerapan PP No. 50 Tahun 2012 Secara Lengkap",
+      "category": "Regulasi",
+      "word_count": 449,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "higiene-industri-pengendalian-bahaya-lingkungan-kerja",
+      "title": "Higiene Industri: Mengukur dan Mengendalikan Bahaya Lingkungan Kerja",
+      "category": "K3",
+      "word_count": 399,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "amdal-dokumen-lingkungan-wajib-usaha",
+      "title": "AMDAL: Dokumen Lingkungan Wajib untuk Usaha Berisiko",
+      "category": "Lingkungan",
+      "word_count": 490,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "operator-pengolahan-air-limbah-popal",
+      "title": "Operator Pengolahan Air Limbah (POPAL): Kompetensi Wajib Industri",
+      "category": "Lingkungan",
+      "word_count": 509,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-operator-crane-pesawat-angkat",
+      "title": "Pelatihan Operator Crane: Aman Mengoperasikan Pesawat Angkat",
+      "category": "K3",
+      "word_count": 474,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-rigger-juru-ikat-beban",
+      "title": "Pelatihan Rigger (Juru Ikat Beban): Kunci Keselamatan Pengangkatan",
+      "category": "K3",
+      "word_count": 392,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "working-at-height-tkbt-tkpk-bekerja-di-ketinggian",
+      "title": "Working at Height (TKBT & TKPK): Bekerja Aman di Ketinggian",
+      "category": "K3",
+      "word_count": 475,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "hiperkes-dokter-paramedis-kesehatan-kerja",
+      "title": "Hiperkes untuk Dokter dan Paramedis: Kesehatan Kerja di Perusahaan",
+      "category": "K3",
+      "word_count": 473,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "syarat-menjadi-ahli-k3-umum-panduan-pemula",
+      "title": "Syarat Menjadi Ahli K3 Umum: Panduan Lengkap untuk Pemula 2026",
+      "category": "K3",
+      "word_count": 702,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "gaji-ahli-k3-umum-di-indonesia-estimasi-dan-faktor-yang-memengaruhi",
+      "title": "Gaji Ahli K3 Umum di Indonesia: Estimasi dan Faktor yang Memengaruhi",
+      "category": "K3",
+      "word_count": 936,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "cara-memperpanjang-sertifikat-k3-skp",
+      "title": "Cara Memperpanjang Sertifikat K3 dan SKP Sebelum Kedaluwarsa",
+      "category": "Sertifikasi",
+      "word_count": 490,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "perbedaan-sio-dan-silo-k3",
+      "title": "Perbedaan SIO dan SILO dalam K3 Pesawat Angkat-Angkut",
+      "category": "Regulasi",
+      "word_count": 369,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "jenjang-karier-hse-safety-officer-hse-manager",
+      "title": "Jenjang Karier HSE: Dari Safety Officer hingga HSE Manager",
+      "category": "K3",
+      "word_count": 474,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "mengenal-hiradc-ibpr-identifikasi-bahaya-penilaian-risiko",
+      "title": "Mengenal HIRADC / IBPR: Identifikasi Bahaya dan Penilaian Risiko",
+      "category": "K3",
+      "word_count": 375,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "nab-kebisingan-tempat-kerja-batas-aman",
+      "title": "NAB Kebisingan di Tempat Kerja: Batas Aman dan Cara Pengendaliannya",
+      "category": "Regulasi",
+      "word_count": 461,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "kewajiban-p3k-tempat-kerja-permenaker-15-2008",
+      "title": "Kewajiban P3K di Tempat Kerja Menurut Permenaker No. 15 Tahun 2008",
+      "category": "Regulasi",
+      "word_count": 484,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "prospek-kerja-peluang-karier-k3-hse",
+      "title": "Prospek Kerja dan Peluang Karier di Bidang K3/HSE 2026",
+      "category": "K3",
+      "word_count": 462,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "iso-45001-sistem-manajemen-k3-internasional",
+      "title": "ISO 45001: Standar Internasional Sistem Manajemen K3",
+      "category": "Regulasi",
+      "word_count": 432,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "iso-14001-sistem-manajemen-lingkungan",
+      "title": "ISO 14001: Sistem Manajemen Lingkungan untuk Perusahaan",
+      "category": "Lingkungan",
+      "word_count": 378,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "petugas-ahli-k3-kimia-bahan-kimia-berbahaya",
+      "title": "Petugas dan Ahli K3 Kimia: Mengelola Bahaya Bahan Kimia di Tempat Kerja",
+      "category": "K3",
+      "word_count": 393,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "operator-boiler-pesawat-uap-sertifikasi",
+      "title": "Operator Boiler / Pesawat Uap: Sertifikasi Wajib, Kelas, dan Materinya",
+      "category": "K3",
+      "word_count": 511,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "ahli-k3-kebakaran-kelas-a-b-koordinator",
+      "title": "Ahli K3 Kebakaran Kelas A dan B: Koordinator Penanggulangan Kebakaran",
+      "category": "K3",
+      "word_count": 481,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-auditor-internal-iso",
+      "title": "Pelatihan Auditor Internal ISO: Bekal Menjaga Sistem Manajemen",
+      "category": "Regulasi",
+      "word_count": 474,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "behavior-based-safety-bbs-budaya-keselamatan",
+      "title": "Behavior Based Safety (BBS): Membangun Budaya Keselamatan Kerja",
+      "category": "K3",
+      "word_count": 481,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "investigasi-kecelakaan-kerja-metode-langkah-dan-analisis-akar-masalah",
+      "title": "Investigasi Kecelakaan Kerja: Metode, Langkah, dan Analisis Akar Masalah",
+      "category": "K3",
+      "word_count": 1022,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pengelolaan-limbah-b3-kewajiban-tata-cara",
+      "title": "Pengelolaan Limbah B3: Kewajiban, Tahapan, dan Tata Cara yang Benar",
+      "category": "Lingkungan",
+      "word_count": 479,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "petugas-kebakaran-kelas-c-regu",
+      "title": "Petugas Kebakaran Kelas C: Memimpin Regu Penanggulangan Kebakaran",
+      "category": "K3",
+      "word_count": 474,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "alat-pelindung-diri-apd-jenis-fungsi",
+      "title": "Alat Pelindung Diri (APD): Jenis, Fungsi, dan Kewajiban Pemakaian",
+      "category": "K3",
+      "word_count": 495,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "loto-lock-out-tag-out-isolasi-energi",
+      "title": "LOTO (Lock Out Tag Out): Prosedur Isolasi Energi yang Aman",
+      "category": "K3",
+      "word_count": 469,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "izin-kerja-aman-permit-to-work",
+      "title": "Izin Kerja Aman (Permit to Work): Pengendalian Pekerjaan Berisiko Tinggi",
+      "category": "K3",
+      "word_count": 489,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "ergonomi-tempat-kerja-mencegah-cedera",
+      "title": "Ergonomi di Tempat Kerja: Mencegah Cedera dan Meningkatkan Produktivitas",
+      "category": "K3",
+      "word_count": 452,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "safety-induction-pengenalan-k3-pekerja-baru",
+      "title": "Safety Induction: Pengenalan K3 untuk Pekerja dan Tamu Baru",
+      "category": "K3",
+      "word_count": 465,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "zero-accident-award-penghargaan-nihil-kecelakaan",
+      "title": "Zero Accident Award: Penghargaan Nihil Kecelakaan Kerja",
+      "category": "K3",
+      "word_count": 454,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "cara-menghitung-ltir-trir-statistik-kecelakaan",
+      "title": "Cara Menghitung LTIR dan TRIR: Statistik Kinerja Kecelakaan Kerja",
+      "category": "K3",
+      "word_count": 380,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "rencana-tanggap-darurat-emergency-response-plan",
+      "title": "Rencana Tanggap Darurat (Emergency Response Plan) di Tempat Kerja",
+      "category": "K3",
+      "word_count": 467,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-perkantoran-risiko-dan-pengelolaan",
+      "title": "K3 Perkantoran: Risiko Tersembunyi dan Cara Mengelolanya",
+      "category": "K3",
+      "word_count": 450,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "penyakit-akibat-kerja-pak-pencegahan",
+      "title": "Penyakit Akibat Kerja (PAK): Jenis, Penyebab, dan Pencegahan",
+      "category": "K3",
+      "word_count": 453,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "operator-excavator-alat-berat-sio",
+      "title": "Pelatihan Operator Excavator dan Alat Berat: SIO, Syarat, dan Materi Lengkap",
+      "category": "K3",
+      "word_count": 994,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "k3-rumah-sakit-k3rs",
+      "title": "K3 Rumah Sakit (K3RS): Penerapan, Bahaya, dan Pembentukan Komite",
+      "category": "K3",
+      "word_count": 913,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pengawas-operasional-pertama-pop-pertambangan",
+      "title": "Pengawas Operasional Pertama (POP) Pertambangan: Tugas, Syarat, dan Sertifikasi",
+      "category": "K3",
+      "word_count": 885,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "teknisi-lift-dan-eskalator",
+      "title": "Pelatihan Teknisi Lift dan Eskalator: Dasar Hukum, Tugas, dan Sertifikasi",
+      "category": "K3",
+      "word_count": 864,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "juru-las-welder-sertifikasi-pengelasan",
+      "title": "Pelatihan Juru Las (Welder): Sertifikasi, Jenis Pengelasan, dan Keselamatan",
+      "category": "K3",
+      "word_count": 907,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "ahli-k3-lingkungan-kerja",
+      "title": "Ahli K3 Lingkungan Kerja: Mengukur dan Mengendalikan Faktor Bahaya",
+      "category": "K3",
+      "word_count": 825,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "defensive-driving-mengemudi-aman",
+      "title": "Defensive Driving: Pelatihan Mengemudi Aman untuk Pekerja dan Perusahaan",
+      "category": "K3",
+      "word_count": 790,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "operator-gondola",
+      "title": "Pelatihan Operator Gondola: Bekerja Aman di Ketinggian dengan Platform Gantung",
+      "category": "K3",
+      "word_count": 786,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "emergency-response-team-ert",
+      "title": "Emergency Response Team (ERT): Membentuk Tim Tanggap Darurat yang Tangguh",
+      "category": "K3",
+      "word_count": 811,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "manajemen-kelelahan-kerja-fatigue",
+      "title": "Manajemen Kelelahan Kerja (Fatigue): Bahaya Tersembunyi di Tempat Kerja",
+      "category": "K3",
+      "word_count": 831,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "kewajiban-p2k3-di-perusahaan",
+      "title": "P2K3 di Perusahaan: Kewajiban, Struktur, dan Cara Membentuknya",
+      "category": "K3",
+      "word_count": 828,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "nilai-ambang-batas-kebisingan",
+      "title": "Nilai Ambang Batas Kebisingan di Tempat Kerja Menurut Permenaker 5/2018",
+      "category": "K3",
+      "word_count": 818,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "prosedur-lockout-tagout-loto",
+      "title": "Prosedur Lockout Tagout (LOTO): Melindungi Pekerja dari Energi Berbahaya",
+      "category": "K3",
+      "word_count": 947,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "inspeksi-k3-rutin-checklist",
+      "title": "Inspeksi K3 Rutin: Checklist Harian, Mingguan, dan Bulanan",
+      "category": "K3",
+      "word_count": 840,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "izin-kerja-panas-hot-work-permit",
+      "title": "Izin Kerja Panas (Hot Work Permit): Kapan Wajib dan Cara Mengurusnya",
+      "category": "K3",
+      "word_count": 983,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "k3-bekerja-di-ketinggian-tkbt",
+      "title": "K3 Bekerja di Ketinggian: Sertifikasi TKBT dan Peralatan Wajib",
+      "category": "Sertifikasi",
+      "word_count": 367,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "metode-investigasi-kecelakaan-kerja",
+      "title": "Metode Investigasi Kecelakaan Kerja: Dari 5 Why hingga Fishbone",
+      "category": "K3",
+      "word_count": 799,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "cara-membangun-budaya-k3",
+      "title": "Cara Membangun Budaya K3 yang Kuat di Perusahaan",
+      "category": "K3",
+      "word_count": 918,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "emergency-response-plan-perusahaan",
+      "title": "Menyusun Emergency Response Plan (ERP) Perusahaan dari Nol",
+      "category": "K3",
+      "word_count": 854,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "ahli-k3-kimia-tugas-sertifikasi",
+      "title": "Ahli K3 Kimia: Tugas, Syarat, dan Jalur Sertifikasinya",
+      "category": "Sertifikasi",
+      "word_count": 559,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "sertifikat-k3-untuk-fresh-graduate",
+      "title": "Sertifikat K3 untuk Fresh Graduate: Mana yang Paling Dicari HRD?",
+      "category": "Sertifikasi",
+      "word_count": 790,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "k3-listrik-kewajiban-perusahaan",
+      "title": "K3 Listrik: Kewajiban Perusahaan Menurut Permenaker 12/2015",
+      "category": "Regulasi",
+      "word_count": 609,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "dasar-hukum-keselamatan-dan-kesehatan-kerja",
+      "title": "Dasar Hukum Keselamatan dan Kesehatan Kerja di Indonesia",
+      "category": "K3",
+      "word_count": 845,
+      "has_faqs": false,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pentingnya-k3-di-tempat-kerja",
+      "title": "Pentingnya K3 di Tempat Kerja: Manfaat dan Implementasi",
+      "category": "K3",
+      "word_count": 662,
+      "has_faqs": false,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "perbedaan-sertifikasi-bnsp-dan-kemnaker-k3",
+      "title": "Perbedaan Sertifikasi K3 BNSP dan Kemnaker RI: Mana yang Harus Dipilih?",
+      "category": "K3",
+      "word_count": 427,
+      "has_faqs": false,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "permenaker-13-2025-p2k3-aturan-baru",
+      "title": "Permenaker 13/2025: Aturan Baru Panitia Pembina K3 (P2K3) yang Wajib Diketahui",
+      "category": "K3",
+      "word_count": 474,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "permenaker-7-2026-aturan-outsourcing-terbaru",
+      "title": "Permenaker 7/2026: Aturan Outsourcing Terbaru dan Dampaknya bagi Perusahaan",
+      "category": "K3",
+      "word_count": 480,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "permenaker-8-2025-program-magang-bersubsidi",
+      "title": "Permenaker 8/2025: Program Magang Bersubsidi dan Kaitannya dengan Pelatihan K3",
+      "category": "K3",
+      "word_count": 471,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "cara-audit-smk3-pp-50-2012",
+      "title": "Cara Melakukan Audit SMK3 Sesuai PP 50 Tahun 2012",
+      "category": "K3",
+      "word_count": 427,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "5-prinsip-dasar-smk3",
+      "title": "5 Prinsip Dasar SMK3 yang Wajib Dipahami Pengusaha dan Ahli K3",
+      "category": "K3",
+      "word_count": 460,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-psikososial-kesehatan-mental-di-tempat-kerja",
+      "title": "K3 Psikososial: Mengapa Kesehatan Mental Masuk dalam Standar Keselamatan Kerja",
+      "category": "K3",
+      "word_count": 379,
+      "has_faqs": false,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "alat-pelindung-diri-apd-k3-standar-indonesia",
+      "title": "Alat Pelindung Diri (APD) K3: Jenis, Standar SNI, dan Kewajiban Penggunaan",
+      "category": "K3",
+      "word_count": 399,
+      "has_faqs": false,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "perbedaan-amdal-ukl-upl-dan-persetujuan-lingkungan",
+      "title": "Perbedaan AMDAL, UKL-UPL, dan Persetujuan Lingkungan: Mana yang Dibutuhkan Proyek Anda?",
+      "category": "Lingkungan",
+      "word_count": 517,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "syarat-petugas-k3-kimia-kemnaker",
+      "title": "Syarat dan Cara Menjadi Petugas K3 Kimia Bersertifikat Kemnaker RI",
+      "category": "K3",
+      "word_count": 553,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "tugas-petugas-k3-kimia",
+      "title": "Tugas dan Tanggung Jawab Petugas K3 Kimia di Tempat Kerja",
+      "category": "K3",
+      "word_count": 492,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "tugas-ahli-k3-kimia",
+      "title": "Tugas Ahli K3 Kimia: Kewajiban, Wewenang, dan Peran di Industri",
+      "category": "K3",
+      "word_count": 395,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "kepmenaker-187-1999-penjelasan",
+      "title": "Kepmenaker No. 187/MEN/1999: Penjelasan Lengkap dan Kewajiban Perusahaan",
+      "category": "K3",
+      "word_count": 480,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "identifikasi-bahaya-kimia-di-tempat-kerja",
+      "title": "Cara Mengidentifikasi Bahaya Kimia di Tempat Kerja (Metode GHS)",
+      "category": "K3",
+      "word_count": 421,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "panduan-msds-sds-bahan-kimia",
+      "title": "Panduan Membaca MSDS/SDS Bahan Kimia: 16 Bagian yang Wajib Dipahami",
+      "category": "K3",
+      "word_count": 501,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "penilaian-risiko-kimia-hirarc",
+      "title": "Cara Melakukan Penilaian Risiko Kimia dengan Metode HIRARC",
+      "category": "K3",
+      "word_count": 429,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "penanganan-darurat-tumpahan-kimia",
+      "title": "Prosedur Penanganan Darurat Tumpahan Bahan Kimia di Tempat Kerja",
+      "category": "K3",
+      "word_count": 470,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "permenaker-9-2016-k3-ketinggian-penjelasan",
+      "title": "Permenaker No. 9 Tahun 2016: Penjelasan dan Kewajiban Perusahaan",
+      "category": "K3",
+      "word_count": 495,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "jenis-alat-pelindung-jatuh-harness-k3",
+      "title": "Jenis-Jenis Alat Pelindung Jatuh: Harness, Lanyard, dan Anchor Point",
+      "category": "K3",
+      "word_count": 391,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "cara-inspeksi-harness-sebelum-digunakan",
+      "title": "Cara Inspeksi Harness dan Lanyard Sebelum Bekerja di Ketinggian",
+      "category": "K3",
+      "word_count": 453,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "bahaya-kerja-di-ketinggian-konstruksi",
+      "title": "5 Bahaya Utama Kerja di Ketinggian dan Cara Mengendalikannya",
+      "category": "K3",
+      "word_count": 440,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "rescue-plan-penyelamatan-darurat-ketinggian",
+      "title": "Rescue Plan: Prosedur Penyelamatan Darurat Pekerja di Ketinggian",
+      "category": "K3",
+      "word_count": 478,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "jsa-pekerjaan-ketinggian-contoh",
+      "title": "Contoh Job Safety Analysis (JSA) untuk Pekerjaan pada Ketinggian",
+      "category": "K3",
+      "word_count": 394,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "permenaker-12-2015-k3-listrik-penjelasan",
+      "title": "Permenaker No. 12 Tahun 2015: Kewajiban K3 Listrik di Tempat Kerja",
+      "category": "K3",
+      "word_count": 434,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "bahaya-listrik-di-tempat-kerja",
+      "title": "5 Bahaya Listrik di Tempat Kerja dan Cara Mengendalikannya",
+      "category": "K3",
+      "word_count": 394,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "prosedur-lockout-tagout-loto-k3",
+      "title": "Prosedur Lockout/Tagout (LOTO): Panduan Lengkap untuk Keselamatan Listrik",
+      "category": "K3",
+      "word_count": 447,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "arc-flash-bahaya-dan-pencegahan",
+      "title": "Arc Flash: Pengertian, Bahaya, dan Cara Pencegahannya di Industri",
+      "category": "K3",
+      "word_count": 432,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "cara-inspeksi-instalasi-listrik-tempat-kerja",
+      "title": "Cara Melakukan Inspeksi Instalasi Listrik di Tempat Kerja",
+      "category": "K3",
+      "word_count": 424,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "puil-2011-panduan-singkat-k3-listrik",
+      "title": "Mengenal PUIL 2011: Standar Instalasi Listrik yang Wajib Dipahami K3",
+      "category": "K3",
+      "word_count": 447,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "permen-pu-05-2014-smk3-konstruksi",
+      "title": "Permen PU No. 05/2014: Kewajiban SMK3 Konstruksi untuk Proyek Pemerintah",
+      "category": "K3",
+      "word_count": 424,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "syarat-ahli-k3-konstruksi-tender-lpse",
+      "title": "Syarat Ahli K3 Konstruksi untuk Lolos Tender LPSE Pemerintah",
+      "category": "K3",
+      "word_count": 442,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "rk3k-rencana-k3-kontrak-panduan",
+      "title": "RK3K: Panduan Membuat Rencana K3 Kontrak untuk Proyek Konstruksi",
+      "category": "K3",
+      "word_count": 254,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "bahaya-utama-proyek-konstruksi-indonesia",
+      "title": "6 Bahaya Utama di Proyek Konstruksi dan Cara Pengendaliannya",
+      "category": "K3",
+      "word_count": 893,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "keselamatan-scaffolding-konstruksi",
+      "title": "Standar Keselamatan Scaffolding di Proyek Konstruksi Indonesia",
+      "category": "K3",
+      "word_count": 709,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "investigasi-kecelakaan-konstruksi-langkah",
+      "title": "Cara Melakukan Investigasi Kecelakaan Kerja di Proyek Konstruksi",
+      "category": "K3",
+      "word_count": 754,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "lisensi-k3-operator-forklift-diterbitkan-oleh",
+      "title": "Lisensi K3 Operator Forklift Diterbitkan Oleh Siapa?",
+      "category": "K3",
+      "word_count": 5056,
+      "has_faqs": false,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "ahli-k3-umum-ak3u-syarat-tugas-sertifikasi",
+      "title": "Ahli K3 Umum (AK3U): Syarat, Tugas, Biaya, dan Cara Sertifikasi Kemnaker 2026",
+      "category": "K3",
+      "word_count": 1027,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "ahli-k3-konstruksi-syarat-tugas-sertifikasi",
+      "title": "Ahli K3 Konstruksi: Syarat, Tugas, Jenjang Kompetensi, dan Cara Sertifikasi Kemnaker",
+      "category": "K3",
+      "word_count": 573,
+      "has_faqs": true,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    }
+  ],
+  "services": [
+    {
+      "slug": "ak3u-fresh-graduate",
+      "title": "Cara Menjadi Ahli K3 Umum untuk Fresh Graduate",
+      "word_count": 199,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "ak3u-gratis",
+      "title": "Belajar K3 Gratis — Panduan & Simulasi Soal Ahli K3 Umum",
+      "word_count": 108,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "akomodasi",
+      "title": "Akomodasi",
+      "word_count": 267,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "catering",
+      "title": "Catering",
+      "word_count": 199,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "csms",
+      "title": "Csms",
+      "word_count": 3225,
+      "has_meta": false,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "event-organizer",
+      "title": "Event Organizer",
+      "word_count": 225,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "higiene-industri",
+      "title": "Pelatihan Higiene Industri & Hiperkes — Pengukuran NAB & Sertifikasi Kemnaker RI",
+      "word_count": 293,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "instruktur",
+      "title": "Instruktur K3 Berpengalaman Yogyakarta",
+      "word_count": 123,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "jadwal-pelatihan",
+      "title": "Jadwal Pelatihan",
+      "word_count": 747,
+      "has_meta": false,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "juru-las",
+      "title": "Pelatihan Juru Las (Welder Kelas I, II, III) — Sertifikasi Kemnaker RI",
+      "word_count": 318,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-ketinggian",
+      "title": "Pelatihan K3 Bekerja pada Ketinggian (Tingkat 1, 2 & 3) — Sertifikasi Kemnaker RI",
+      "word_count": 380,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-kimia",
+      "title": "Pelatihan K3 Kimia (Petugas & Ahli K3 Kimia) — Sertifikasi Kemnaker RI",
+      "word_count": 361,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-konstruksi",
+      "title": "Pelatihan K3 Konstruksi (Ahli K3 Muda, Madya & Supervisor) — Sertifikasi Kemnaker RI",
+      "word_count": 362,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-laboratorium",
+      "title": "K3 Laboratorium",
+      "word_count": 164,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "k3-lingkungan",
+      "title": "Pelatihan K3 Lingkungan & AMDAL — Sertifikasi Kemnaker RI & KLHK",
+      "word_count": 344,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-listrik",
+      "title": "Pelatihan K3 Listrik (Teknisi & Ahli K3 Listrik) — Sertifikasi Kemnaker RI",
+      "word_count": 312,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-manufaktur",
+      "title": "K3 Manufaktur",
+      "word_count": 207,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-migas",
+      "title": "Pelatihan K3 Migas (Minyak dan Gas) — Sertifikasi BNSP & Kemnaker RI",
+      "word_count": 393,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-pangan",
+      "title": "K3 Pangan",
+      "word_count": 204,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-perkantoran",
+      "title": "K3 Perkantoran",
+      "word_count": 263,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-pertambangan",
+      "title": "Pelatihan K3 Pertambangan (POP, POM, POU & Juru Ledak) — Sertifikasi BNSP",
+      "word_count": 310,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-pesawat-angkat-angkut",
+      "title": "Pelatihan K3 Pesawat Angkat Angkut (Crane, Forklift, Rigger) — Sertifikasi Kemnaker RI",
+      "word_count": 268,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-pesawat-uap",
+      "title": "Pelatihan K3 Pesawat Uap & Bejana Tekanan (Operator Boiler) — Sertifikasi Kemnaker RI",
+      "word_count": 385,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-psikososial",
+      "title": "K3 Psikososial",
+      "word_count": 194,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "k3-rumah-sakit",
+      "title": "K3 Rumah Sakit",
+      "word_count": 254,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "k3-transportasi",
+      "title": "K3 Transportasi",
+      "word_count": 173,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "k3",
+      "title": "K3",
+      "word_count": 222,
+      "has_meta": false,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "kebijakan-privasi",
+      "title": "Kebijakan Privasi",
+      "word_count": 303,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "keselamatan-kerja",
+      "title": "Keselamatan dan Kesehatan Kerja (K3) — Panduan Lengkap & Program Sertifikasi Yogyakarta",
+      "word_count": 376,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "klien",
+      "title": "Klien & Mitra — 70+ Perusahaan BUMN & Multinasional",
+      "word_count": 97,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "layanan-pemerintah",
+      "title": "Vendor Pelatihan K3 untuk Instansi Pemerintah & BUMN Indonesia",
+      "word_count": 477,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "operator-alat-berat",
+      "title": "Pelatihan Operator Alat Berat (Excavator, Bulldozer, Grader) — SIO Kemnaker RI",
+      "word_count": 313,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "outbound",
+      "title": "Outbound",
+      "word_count": 269,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "p3k",
+      "title": "Pelatihan P3K di Tempat Kerja — Petugas P3K Bersertifikat Kemnaker RI",
+      "word_count": 257,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-iso",
+      "title": "Pelatihan Iso",
+      "word_count": 559,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "pelatihan-kelautan",
+      "title": "Pelatihan Kelautan",
+      "word_count": 152,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "pelatihan-keuangan-daerah",
+      "title": "Pelatihan Keuangan Daerah",
+      "word_count": 215,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-manajemen-sdm",
+      "title": "Pelatihan Manajemen Sdm",
+      "word_count": 202,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-pengadaan-barang-jasa",
+      "title": "Pelatihan Pengadaan Barang Jasa",
+      "word_count": 213,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-satpam",
+      "title": "Pelatihan Satpam",
+      "word_count": 206,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "pelatihan-teknologi-informasi",
+      "title": "Pelatihan Teknologi Informasi",
+      "word_count": 186,
+      "has_meta": true,
+      "status": "1-STAR THIN"
+    },
+    {
+      "slug": "penanggulangan-kebakaran",
+      "title": "Pelatihan Penanggulangan Kebakaran (Kelas A, B, C, D) — Sertifikasi Kemnaker RI",
+      "word_count": 284,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "perpanjangan-skp",
+      "title": "SKP Berlaku Berapa Lama? Perpanjangan SKP & Lisensi K3 Kemnaker",
+      "word_count": 1391,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "perusahaan",
+      "title": "Training K3 Perusahaan — In House Training & Sertifikasi | Wahana Totalita",
+      "word_count": 502,
+      "has_meta": true,
+      "status": "5-STAR RICH"
+    },
+    {
+      "slug": "selam",
+      "title": "Selam",
+      "word_count": 484,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "sertifikasi-bnsp",
+      "title": "Sertifikasi & Uji Kompetensi BNSP di Wahana Totalita Konsultan Yogyakarta",
+      "word_count": 273,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "smk3",
+      "title": "SMK3 & ISO 45001: Pengertian, Penerapan, dan Sertifikasi",
+      "word_count": 303,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    },
+    {
+      "slug": "wisata-karyawan",
+      "title": "Wisata Karyawan",
+      "word_count": 257,
+      "has_meta": true,
+      "status": "3-STAR ADEQUATE"
+    }
+  ],
+  "cities": [],
+  "thin_pages_alert": [
+    {
+      "type": "Article",
+      "slug": "pelatihan-pop-pertambangan-pengawas-operasional",
+      "title": "Pelatihan Pengawas Operasional Pertama (POP) Tambang — Panduan Lengkap",
+      "word_count": 287
+    },
+    {
+      "type": "Article",
+      "slug": "pelatihan-p3k-tempat-kerja-kemnaker",
+      "title": "Pelatihan P3K Tempat Kerja — Sertifikasi Petugas P3K KEMNAKER RI",
+      "word_count": 284
+    },
+    {
+      "type": "Article",
+      "slug": "pelatihan-higiene-industri-bnsp",
+      "title": "Pelatihan Higiene Industri BNSP — Panduan Lengkap Sertifikasi",
+      "word_count": 235
+    },
+    {
+      "type": "Article",
+      "slug": "pelatihan-iso-45001-sistem-manajemen-k3",
+      "title": "Pelatihan ISO 45001 — Sistem Manajemen K3 Internasional",
+      "word_count": 214
+    },
+    {
+      "type": "Article",
+      "slug": "pelatihan-amdal-penyusun-bersertifikat",
+      "title": "Pelatihan AMDAL — Cara Menjadi Penyusun AMDAL Bersertifikat",
+      "word_count": 219
+    },
+    {
+      "type": "Article",
+      "slug": "profesi-k3-bergaji-tinggi-indonesia-2026",
+      "title": "10 Profesi K3 Bergaji Tinggi di Indonesia 2026",
+      "word_count": 275
+    },
+    {
+      "type": "Article",
+      "slug": "pelatihan-k3-online-vs-offline-perbandingan",
+      "title": "Pelatihan K3 Online vs Offline — Mana yang Lebih Baik?",
+      "word_count": 257
+    },
+    {
+      "type": "Article",
+      "slug": "pelatihan-k3-listrik-sertifikasi-kemnaker",
+      "title": "Pelatihan K3 Listrik — Sertifikasi Ahli K3 Listrik KEMNAKER RI",
+      "word_count": 265
+    },
+    {
+      "type": "Article",
+      "slug": "pelatihan-k3-confined-space-ruang-terbatas",
+      "title": "Pelatihan Confined Space — K3 Ruang Terbatas Bersertifikat",
+      "word_count": 245
+    },
+    {
+      "type": "Article",
+      "slug": "rk3k-rencana-k3-kontrak-panduan",
+      "title": "RK3K: Panduan Membuat Rencana K3 Kontrak untuk Proyek Konstruksi",
+      "word_count": 254
+    },
+    {
+      "type": "Service",
+      "slug": "ak3u-fresh-graduate",
+      "title": "Cara Menjadi Ahli K3 Umum untuk Fresh Graduate",
+      "word_count": 199
+    },
+    {
+      "type": "Service",
+      "slug": "ak3u-gratis",
+      "title": "Belajar K3 Gratis — Panduan & Simulasi Soal Ahli K3 Umum",
+      "word_count": 108
+    },
+    {
+      "type": "Service",
+      "slug": "catering",
+      "title": "Catering",
+      "word_count": 199
+    },
+    {
+      "type": "Service",
+      "slug": "instruktur",
+      "title": "Instruktur K3 Berpengalaman Yogyakarta",
+      "word_count": 123
+    },
+    {
+      "type": "Service",
+      "slug": "k3-laboratorium",
+      "title": "K3 Laboratorium",
+      "word_count": 164
+    },
+    {
+      "type": "Service",
+      "slug": "k3-psikososial",
+      "title": "K3 Psikososial",
+      "word_count": 194
+    },
+    {
+      "type": "Service",
+      "slug": "k3-transportasi",
+      "title": "K3 Transportasi",
+      "word_count": 173
+    },
+    {
+      "type": "Service",
+      "slug": "klien",
+      "title": "Klien & Mitra — 70+ Perusahaan BUMN & Multinasional",
+      "word_count": 97
+    },
+    {
+      "type": "Service",
+      "slug": "pelatihan-kelautan",
+      "title": "Pelatihan Kelautan",
+      "word_count": 152
+    },
+    {
+      "type": "Service",
+      "slug": "pelatihan-teknologi-informasi",
+      "title": "Pelatihan Teknologi Informasi",
+      "word_count": 186
+    }
+  ]
+}

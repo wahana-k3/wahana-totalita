@@ -24,12 +24,15 @@ import {
   Download,
   FileText
 } from 'lucide-react';
-import trainingsData from '@/data/trainings.json';
-import articlesData from '@/data/articles.json';
-import safetyTalksData from '@/data/safety_talks.json';
+import { getAllTrainings } from '@/lib/data/trainings';
+import { getAllArticles } from '@/lib/data/articles';
+import { getAllSafetyTalks } from '@/lib/data/tools';
 import { getTrainingPhoto } from '@/lib/trainingImages';
 
 export default function HomePage() {
+  const trainingsData = getAllTrainings();
+  const articlesData = getAllArticles();
+  const safetyTalksData = getAllSafetyTalks();
   // Select 6 flagship popular programs with high-impact verified flyer images
   const flagshipIds = [74, 25, 33, 34, 82, 43];
   const featuredTrainings = trainingsData
