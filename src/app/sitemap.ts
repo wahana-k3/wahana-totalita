@@ -5,6 +5,20 @@ import { getAllCityPelatihanSlugs } from '@/lib/data/cities';
 import { getAllServiceSlugs } from '@/lib/data/services';
 import glossaryData from '@/data/glossary.json';
 import incidentsData from '@/data/incidents.json';
+import noindexPages from '../../noindex-pages.json';
+
+// Pre-build set of paths matching with and without trailing slash
+const noindexSet = new Set<string>();
+for (const rawPath of (noindexPages.paths || [])) {
+  if (!rawPath) continue;
+  noindexSet.add(rawPath);
+  if (rawPath === '/') continue;
+  if (rawPath.endsWith('/')) {
+    noindexSet.add(rawPath.slice(0, -1));
+  } else {
+    noindexSet.add(`${rawPath}/`);
+  }
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.wahanatotalita.com';
@@ -94,7 +108,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [
+  const allRoutes = [
     ...coreRoutes,
     ...serviceRoutes,
     ...trainingRoutes,
@@ -103,4 +117,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...glossaryRoutes,
     ...incidentRoutes,
   ];
+
+  return allRoutes.filter((item) => {
+    try {
+      const pathname = new URL(item.url).pathname;
+      return !noindexSet.has(pathname);
+    } catch {
+      return true;
+    }
+  });
 }

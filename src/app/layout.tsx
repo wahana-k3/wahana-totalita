@@ -64,13 +64,11 @@ export const metadata: Metadata = {
     ],
   },
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
     googleBot: {
-      index: false,
-      follow: false,
-      noarchive: true,
-      nosnippet: true,
+      index: true,
+      follow: true,
     },
   },
 };
